@@ -1,0 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">AI-Augmented logo</title>
+<desc id="desc">A segmented navy hexagon surrounding a centered A.</desc>
+<style>
+
+  .segment2 { fill: #123B66; }
+  .segment1 { fill: #6B46C1; }
+  .letter {
+  fill: #123B66;
+  }
+</style>
+
+  <polygon class="segment1" points="272,55 433,153 386,180 272,109"/>
+  <polygon class="segment1" points="433,153 433,358 386,331 386,179"/>
+  <polygon class="segment1" points="433,358 272,457 272,402 386,330"/>
+
+  <polygon class="segment2" points="239,457 78,358 125,330 239,401"/>
+  <polygon class="segment2" points="78,358 78,153 125,179 125,331"/>
+  <polygon class="segment2" points="78,153 239,55 239,109 125,180"/>
+  <g transform="translate(185, 185)">
+  <!-- A -->
+  <path class="letter" d="M47.29,113.51l-7.97,26.79H0L43.53,2.56h52.25l45.25,137.74h-42.15l-8.36-26.79h-43.23ZM83.44,83.6c-6.47-21.64-11.77-40.88-14.89-54.31h-.55c-3.19,14.84-8.45,34.5-14.04,54.31h29.48Z"/>
+  </g>
+</svg>

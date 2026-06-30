@@ -1,0 +1,13 @@
+{
+  "name": "aiaugmented",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-Augmented movement site generator",
+  "scripts": {
+    "build": "node scripts/generate-learning-stage-pages.mjs",
+    "generate:legacy": "node scripts/generate-lens-stage-pages.mjs",
+    "check:links": "node scripts/check-links.mjs"
+  },
+  "author": "",
+  "license": "ISC"
+}

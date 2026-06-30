@@ -1,0 +1,15 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI-Augmented segmented hex logo</title>
+  <desc id="desc">A segmented navy hexagon surrounding a center dot.</desc>
+  <style>
+    .segment { fill: #ffffff; }
+  </style>
+  <g>
+    <polygon class="segment" points="262.93,55.00 426.61,149.50 367.72,183.50 262.93,123.00"/>
+    <polygon class="segment" points="433.54,161.50 433.54,350.50 374.65,316.50 374.65,195.50"/>
+    <polygon class="segment" points="426.61,362.50 262.93,457.00 262.93,389.00 367.72,328.50"/>
+    <polygon class="segment" points="249.07,457.00 85.39,362.50 144.28,328.50 249.07,389.00"/>
+    <polygon class="segment" points="78.46,350.50 78.46,161.50 137.35,195.50 137.35,316.50"/>
+    <polygon class="segment" points="85.39,149.50 249.07,55.00 249.07,123.00 144.28,183.50"/>
+  </g>
+</svg>

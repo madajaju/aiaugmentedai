@@ -1,0 +1,921 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="13.094in"
+     height="9.25in"
+     viewBox="0 0 3928.2 2775.0"
+     version="1.1">
+    <title>AI-Augmented Teams Full Cover Composition Template</title>
+    <desc>
+        Full wrap SVG composition template for a 6x9 book cover.
+        Includes back cover, spine, and front cover groups, plus image placeholder groups
+        and text overlay groups for title, subtitle, author, back cover copy, and spine text.
+    </desc>
+
+    <defs>
+        <style>
+            .guide {
+            stroke: #64748b;
+            stroke-width: 2;
+            stroke-dasharray: 10 10;
+            opacity: 0.9;
+            }
+            .trim {
+            stroke: #0f172a;
+            stroke-width: 3;
+            fill: none;
+            }
+            .safe {
+            stroke: #94a3b8;
+            stroke-width: 2;
+            stroke-dasharray: 8 8;
+            fill: none;
+            }
+            .panel-label {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            fill: #0f172a;
+            opacity: 0.55;
+            }
+            .series {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 42px;
+            font-weight: 500;
+            letter-spacing: 6px;
+            fill: #D7DEE7;
+            }
+            .title {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 152px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            fill: #FFFFFF;
+            }
+            .subtitle {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 72px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            fill: #F3F4F6;
+            }
+            .subtitle-emphasis {
+            font-weight: 700;
+            }
+            .author {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 64px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            fill: #DCE0E6;
+            }
+            .back-hook {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 44px;
+            font-weight: 700;
+            line-height: 1.2;
+            fill: #FFFFFF;
+            }
+            .back-body {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            fill: #F5F7FA;
+            }
+            .back-head {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            fill: #FFFFFF;
+            }
+            .spine-title {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 84px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            fill: #FFFFFF;
+            }
+            .spine-author {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 42px;
+            font-weight: 500;
+            fill: #E5E7EB;
+            }
+            .pp-mark {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            fill: #FFFFFF;
+            }
+            .placeholder-text {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            fill: rgba(255,255,255,0.75);
+            letter-spacing: 1px;
+            }
+            .cls-1 {
+            stroke: #003456;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 5px;
+            }
+            .cls-font {
+            font-family: Arial, Helvetica, "Liberation Sans", "Nimbus Sans", "Noto Sans", "DejaVu Sans", sans-serif;
+            font-weight: 300;
+            font-size: 250px;
+            fill: #ffffff;
+            letter-spacing: -0.05em;
+            }
+            .cls-1, .cls-2, .cls-3 {
+            fill: #fff;
+            }
+            .cls-3 {
+            fill-rule: evenodd;
+            }
+            .cls-4 { fill: url(#grad-navy); }
+            .gold-light {
+            fill: #82D2F1;
+            }
+            .gold-medium {
+            }
+            .gold-medium2 {
+            fill: url(#grad2);
+            }
+            .gold-medium3 {
+            fill: url(#grad1);
+            }
+            .gold-dark {
+            fill: #3A70AF;
+            }
+        </style>
+
+        <linearGradient id="blueBg" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#183B8C"/>
+            <stop offset="50%" stop-color="#1D4ED8"/>
+            <stop offset="100%" stop-color="#2563EB"/>
+        </linearGradient>
+
+        <linearGradient id="backBg" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#001122"/>
+            <stop offset="50%" stop-color="#123456"/>
+            <stop offset="100%" stop-color="#001122"/>
+        </linearGradient>
+
+        <linearGradient id="spineBg" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#001122"/>
+            <stop offset="50%" stop-color="#123456"/>
+            <stop offset="100%" stop-color="#001122"/>
+        </linearGradient>
+
+        <linearGradient id="grad1" gradientTransform="rotate(90)">
+            <stop offset="5%" stop-color="#66B6DD" />
+            <stop offset="95%" stop-color="#3B76B3" />
+        </linearGradient>
+
+        <linearGradient id="grad2" gradientTransform="rotate(90)">
+            <stop offset="5%" stop-color="#3B76B3" />
+            <stop offset="95%" stop-color="#66B6DD" />
+        </linearGradient>
+
+        <linearGradient id="grad-navy" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#002137"/>
+            <stop offset="100%" stop-color="#335A8C"/>
+        </linearGradient>
+    </defs>
+
+    <!-- BACK COVER GROUP -->
+    <g id="back-cover">
+        <rect x="37.5" y="37.5" width="1800.0" height="2700.0" fill="url(#backBg)"/>
+        <rect x="37.5" y="37.5" width="1800.0" height="2700.0" class="trim"/>
+
+        <!-- Top positioning line -->
+        <g id="back-topline">
+            <text x="937.5" y="320" text-anchor="middle" class="back-head" style="font-size:24px; fill:#C8D4E3;">
+                A practical operating system for making AI work reliably at scale.
+            </text>
+        </g>
+
+        <!-- Main back cover copy -->
+        <g id="back-text">
+            <!-- Hook -->
+            <text x="207.5" y="500" class="back-hook">AI is accelerating how work gets done.</text>
+            <text x="207.5" y="560" class="back-hook">But most teams are using it in ways that make</text>
+            <text x="207.5" y="620" class="back-hook">their results less reliable—not more.</text>
+
+            <!-- Summary -->
+            <text x="207.5" y="770" class="back-body">
+                <tspan x="207.5" dy="0">Organizations are adopting AI faster than they can integrate it.</tspan>
+                <tspan x="207.5" dy="42">Outputs vary. Decisions drift. Teams move quickly—but without</tspan>
+                <tspan x="207.5" dy="42">consistency, trust, or control.</tspan>
+                <tspan x="207.5" dy="60">The result isn’t transformation. It’s instability.</tspan>
+                <tspan x="207.5" dy="60">AI-Augmented Teams introduces a practical operating system</tspan>
+                <tspan x="207.5" dy="42">for reliable AI-driven work.</tspan>
+            </text>
+
+            <!-- What readers get -->
+            <text x="207.5" y="1175" class="back-head">INSIDE YOU'LL LEARN HOW TO:</text>
+            <text x="207.5" y="1245" class="back-body">
+                <tspan x="207.5" dy="0">• Diagnose your team’s AI posture</tspan>
+                <tspan x="207.5" dy="42">• Design workflows that produce consistent results</tspan>
+                <tspan x="207.5" dy="42">• Apply validation and control to AI-assisted work</tspan>
+                <tspan x="207.5" dy="42">• Scale AI without losing accountability</tspan>
+                <tspan x="207.5" dy="42">• Turn AI into a reliable system</tspan>
+            </text>
+
+            <!-- Audience -->
+            <text x="207.5" y="1545" class="back-body">
+                <tspan x="207.5" dy="0">For leaders, architects, and practitioners responsible for making</tspan>
+                <tspan x="207.5" dy="42">AI work in real organizations.</tspan>
+            </text>
+
+            <!-- Bio -->
+            <text x="207.5" y="1760" class="back-head">ABOUT THE AUTHOR</text>
+            <text x="207.5" y="1830" class="back-body">
+                <tspan x="207.5" dy="0">Dr. Darren Pulsipher is a digital transformation leader, author,</tspan>
+                <tspan x="207.5" dy="42">and host of the Embracing Digital Transformation podcast,</tspan>
+                <tspan x="207.5" dy="42">reaching over 200,000 subscribers and more than one million</tspan>
+                <tspan x="207.5" dy="42">monthly listeners.</tspan>
+                <tspan x="207.5" dy="56">He is the creator of the AI-Augmented Operating System (AAOS),</tspan>
+                <tspan x="207.5" dy="42">a framework for turning AI into reliable, scalable work.</tspan>
+            </text>
+        </g>
+
+        <!-- Footer -->
+        <g id="back-footer">
+            <g id="paidar-press-mark" transform="translate(210,2450) scale(0.20, 0.20)">
+                <defs>
+                    <linearGradient id="grad1" gradientTransform="rotate(90)">
+                        <stop offset="5%" stop-color="#fff60D" />
+                        <stop offset="95%"  stop-color="#3B76B3" />
+                    </linearGradient>
+                    <linearGradient id="grad2" gradientTransform="rotate(90)">
+                        <stop offset="5%"  stop-color="#3B76B3" />
+                        <stop offset="95%" stop-color="#66B6DD" />
+                    </linearGradient>
+                    <!-- New dark-blue gradient -->
+                    <linearGradient id="grad-navy" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%"  stop-color="#000008"/>  <!-- very dark at top -->
+                        <stop offset="100%" stop-color="#335A8C"/>  <!-- lighter slate-blue at bottom -->
+                    </linearGradient>
+                    <style>
+                        .cls-1 {
+                        stroke: #003456;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 5px;
+                        }
+                        .cls-4 { fill: url(#grad-navy); }
+                    </style>
+                </defs>
+                <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+                <g transform="translate(50,0)">
+                    <g id="Layer_1">
+                        <polygon class="st0" points="320 105 545 230 545 480 320 605 95 480 95 230 320 105"/>
+                    </g>
+                </g>
+                <defs>
+                    <style>
+                        .st0 {
+                        fill: #fff;
+                        }
+                    </style>
+                </defs>
+                <g transform="translate(-154,-40)">
+                    <path class="cls-4" d="M523.63,500.49c-35.39-31.46-83.54-38.2-129.38-35.33l-.09-176.23c36.57-3.03,71.56-.1,104.15,16.72,9.7,5.01,18.26,10.37,25.29,18.62l.02,176.22Z"/>
+                    <path class="cls-4" d="M582.48,472.64c-18.08,6.14-33.56,14.47-48.27,27.59l.06-176.47c8.04-8.31,16.44-14.13,26.45-19.04,32.25-15.82,66.22-18.73,102.8-15.89v176.05s-42.12.11-42.12.11c-13.22,1.68-25.64,3.82-38.92,7.65Z"/>
+                    <path class="cls-4" d="M516.03,508.19c-3.66.24-7.58-1.48-11.3-3.2-39.91-20.5-87.83-26.01-132.73-25.03l-.09-169.56,11.66-.67.02,164.51c24.85-.67,48.29.62,71.98,5.4,22.02,5.03,42.53,13.05,60.46,28.55Z"/>
+                    <path class="cls-4" d="M557.08,502.55c-5.74,3.27-11.33,5.4-16.92,6.27,11.7-10.36,24.05-17.87,38.2-23.24,31.53-11.32,61.91-11.6,95.63-11.42l-.04-163.61c3.5-.85,7.07-.75,11.2-.04l.04,169.41c-42.16-1.12-90.17,3.36-128.12,22.61Z"/>
+                    <path class="cls-4" d="M694.79,488.95l-42.37,6.57c-29.33,4.54-57.68,9.1-86.22,16.53-10.69,2.78-19.44,7.69-28.43,13.63-7.09,4.68-16.17,2.01-22.85-2.34s-13.25-7.94-21.08-10.06c-25.26-6.83-50.26-11.82-76.21-15.84l-48.6-7.54c-3.16-.49-6.72.42-8.45-3.81,39.21-1.5,77.45,5.18,115.15,16.2,11.58,3.38,21.96,8.75,33.9,10.08,10.68,1.19,21.55.27,32.38.43,7.86.12,14.32-2.53,21.43-5.18,33.41-12.46,67.22-18.92,102.79-21.17,7.69-.49,24.28-.98,30.79.13.51.09-1.63,2.28-2.23,2.37Z"/>
+                    <path class="cls-4" d="M361.74,479.28c0,2.29-1.33,3.86-2.28,3.79-1.41-.1-2.69-1.4-2.69-3.17l-.06-152.17c1.53-.46,3.09-.53,5.05-.21v151.77Z"/>
+                    <path class="cls-4" d="M699.4,481.41c-1.15.26-2.51.24-4.18-.03v-153.02c0-1,2.84-1.79,3.29-1.23s.97,1.74.97,2.95l-.09,151.33Z"/>
+                </g>
+            </g>
+
+            <text x="357.5" y="2527.5" class="back-head">PAIDAR PRESS</text>
+
+            <g id="barcode-zone">
+                <rect x="1162.5" y="2302.5" width="600.0" height="360.0" fill="#FFFFFF" opacity="0.95"/>
+                <text x="1462.5" y="2462.5" text-anchor="middle" class="panel-label">BARCODE</text>
+            </g>
+        </g>
+    </g>
+    <g transform="translate(250,2150)" fill="white">
+        <g transform="scale(2.0,2.0)">
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="5mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="6mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="7mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="8mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="9mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="23mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="24mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="25mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="26mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="27mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="4mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="5mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="5mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="12mm" y="5mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="5mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="5mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="15mm" y="5mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="17mm" y="5mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="5mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="5mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="5mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="5mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="6mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="6mm" y="6mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="7mm" y="6mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="8mm" y="6mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="6mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="12mm" y="6mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="6mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="6mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="6mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="6mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="24mm" y="6mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="25mm" y="6mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="26mm" y="6mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="6mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="6mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="7mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="8mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="12mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="16mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="17mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="24mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="25mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="26mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="7mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="8mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="6mm" y="8mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="7mm" y="8mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="8mm" y="8mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="8mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="8mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="8mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="8mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="24mm" y="8mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="25mm" y="8mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="26mm" y="8mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="8mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="9mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="9mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="9mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="9mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="15mm" y="9mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="16mm" y="9mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="17mm" y="9mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="9mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="9mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="9mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="5mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="6mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="7mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="8mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="9mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="12mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="16mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="23mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="24mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="25mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="26mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="27mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="10mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="12mm" y="11mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="11mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="15mm" y="11mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="12mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="12mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="12mm" y="12mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="12mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="16mm" y="12mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="17mm" y="12mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="12mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="12mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="21mm" y="12mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="12mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="25mm" y="12mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="26mm" y="12mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="27mm" y="12mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="5mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="6mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="9mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="11mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="15mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="17mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="23mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="24mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="25mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="26mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="27mm" y="13mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="5mm" y="14mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="6mm" y="14mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="8mm" y="14mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="14mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="11mm" y="14mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="12mm" y="14mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="14mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="17mm" y="14mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="14mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="14mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="14mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="25mm" y="14mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="27mm" y="14mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="14mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="8mm" y="15mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="9mm" y="15mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="11mm" y="15mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="15mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="15mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="15mm" y="15mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="15mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="15mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="15mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="21mm" y="15mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="15mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="25mm" y="15mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="15mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="5mm" y="16mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="8mm" y="16mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="9mm" y="16mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="16mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="11mm" y="16mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="16mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="16mm" y="16mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="16mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="16mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="16mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="17mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="7mm" y="17mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="8mm" y="17mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="17mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="17mm" y="17mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="17mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="23mm" y="17mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="27mm" y="17mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="7mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="9mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="11mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="12mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="15mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="16mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="17mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="23mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="24mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="25mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="27mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="18mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="19mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="6mm" y="19mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="11mm" y="19mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="12mm" y="19mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="15mm" y="19mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="19mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="19mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="21mm" y="19mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="19mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="23mm" y="19mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="25mm" y="19mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="26mm" y="19mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="19mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="7mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="9mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="15mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="17mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="21mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="23mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="24mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="26mm" y="20mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="12mm" y="21mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="21mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="21mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="16mm" y="21mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="17mm" y="21mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="21mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="21mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="24mm" y="21mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="5mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="6mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="7mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="8mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="9mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="15mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="24mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="22mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="23mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="23mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="23mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="23mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="16mm" y="23mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="23mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="23mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="23mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="24mm" y="23mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="27mm" y="23mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="6mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="7mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="8mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="16mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="17mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="21mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="23mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="24mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="26mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="27mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="24mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="25mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="6mm" y="25mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="7mm" y="25mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="8mm" y="25mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="25mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="13mm" y="25mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="25mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="25mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="25mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="21mm" y="25mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="25mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="27mm" y="25mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="25mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="26mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="6mm" y="26mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="7mm" y="26mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="8mm" y="26mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="26mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="15mm" y="26mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="16mm" y="26mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="17mm" y="26mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="19mm" y="26mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="25mm" y="26mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="26mm" y="26mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="26mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="27mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="27mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="14mm" y="27mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="15mm" y="27mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="27mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="27mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="21mm" y="27mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="27mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="23mm" y="27mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="24mm" y="27mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="27mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="4mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="5mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="6mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="7mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="8mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="9mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="10mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="12mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="16mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="17mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="18mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="20mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="21mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="22mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="25mm" y="28mm" width="1mm" height="1mm"/>
+        <svg:rect xmlns:svg="http://www.w3.org/2000/svg" x="28mm" y="28mm" width="1mm" height="1mm"/>
+        </g>
+    </g>
+
+
+    <!-- SPINE GROUP -->
+    <g id="spine">
+        <rect x="1837.5" y="37.5" width="253.5" height="2700.0" fill="url(#spineBg)"/>
+        <rect x="1837.5" y="37.5" width="253.5" height="2700.0" class="trim"/>
+
+        <text x="700" y="2230" text-anchor="middle" class="spine-title"
+              transform="rotate(90 1964.25 2200)">
+            AI-AUGMENTED TEAMS
+        </text>
+
+        <text x="1550" y="2480" text-anchor="middle" class="spine-author"
+              transform="rotate(90 1964.25 2460)">
+            DR. DARREN PULSIPHER
+        </text>
+
+        <g id="spine-text" transform="translate(1895,2430) scale(0.20, 0.20)">
+            <defs>
+                <linearGradient id="grad1" gradientTransform="rotate(90)">
+                    <stop offset="5%" stop-color="#66B6DD" />
+                    <stop offset="95%"  stop-color="#3B76B3" />
+                </linearGradient>
+                <linearGradient id="grad2" gradientTransform="rotate(90)">
+                    <stop offset="5%"  stop-color="#3B76B3" />
+                    <stop offset="95%" stop-color="#66B6DD" />
+                </linearGradient>
+                <!-- New dark-blue gradient -->
+                <linearGradient id="grad-navy" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%"  stop-color="#002137"/>  <!-- very dark at top -->
+                    <stop offset="100%" stop-color="#335A8C"/>  <!-- lighter slate-blue at bottom -->
+                </linearGradient>
+                <style>
+                    .cls-1 {
+                    stroke: #003456;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 5px;
+                    }
+                    .cls-4 { fill: url(#grad-navy); }
+                </style>
+            </defs>
+            <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+            <g transform="translate(50,0)">
+                <g id="Layer_1">
+                    <polygon class="st0" points="320 105 545 230 545 480 320 605 95 480 95 230 320 105"/>
+                </g>
+            </g>
+            <defs>
+                <style>
+                    .st0 {
+                    fill: #fff;
+                    }
+                </style>
+            </defs>
+            <g transform="translate(-154,-40)">
+                <path class="cls-4" d="M523.63,500.49c-35.39-31.46-83.54-38.2-129.38-35.33l-.09-176.23c36.57-3.03,71.56-.1,104.15,16.72,9.7,5.01,18.26,10.37,25.29,18.62l.02,176.22Z"/>
+                <path class="cls-4" d="M582.48,472.64c-18.08,6.14-33.56,14.47-48.27,27.59l.06-176.47c8.04-8.31,16.44-14.13,26.45-19.04,32.25-15.82,66.22-18.73,102.8-15.89v176.05s-42.12.11-42.12.11c-13.22,1.68-25.64,3.82-38.92,7.65Z"/>
+                <path class="cls-4" d="M516.03,508.19c-3.66.24-7.58-1.48-11.3-3.2-39.91-20.5-87.83-26.01-132.73-25.03l-.09-169.56,11.66-.67.02,164.51c24.85-.67,48.29.62,71.98,5.4,22.02,5.03,42.53,13.05,60.46,28.55Z"/>
+                <path class="cls-4" d="M557.08,502.55c-5.74,3.27-11.33,5.4-16.92,6.27,11.7-10.36,24.05-17.87,38.2-23.24,31.53-11.32,61.91-11.6,95.63-11.42l-.04-163.61c3.5-.85,7.07-.75,11.2-.04l.04,169.41c-42.16-1.12-90.17,3.36-128.12,22.61Z"/>
+                <path class="cls-4" d="M694.79,488.95l-42.37,6.57c-29.33,4.54-57.68,9.1-86.22,16.53-10.69,2.78-19.44,7.69-28.43,13.63-7.09,4.68-16.17,2.01-22.85-2.34s-13.25-7.94-21.08-10.06c-25.26-6.83-50.26-11.82-76.21-15.84l-48.6-7.54c-3.16-.49-6.72.42-8.45-3.81,39.21-1.5,77.45,5.18,115.15,16.2,11.58,3.38,21.96,8.75,33.9,10.08,10.68,1.19,21.55.27,32.38.43,7.86.12,14.32-2.53,21.43-5.18,33.41-12.46,67.22-18.92,102.79-21.17,7.69-.49,24.28-.98,30.79.13.51.09-1.63,2.28-2.23,2.37Z"/>
+                <path class="cls-4" d="M361.74,479.28c0,2.29-1.33,3.86-2.28,3.79-1.41-.1-2.69-1.4-2.69-3.17l-.06-152.17c1.53-.46,3.09-.53,5.05-.21v151.77Z"/>
+                <path class="cls-4" d="M699.4,481.41c-1.15.26-2.51.24-4.18-.03v-153.02c0-1,2.84-1.79,3.29-1.23s.97,1.74.97,2.95l-.09,151.33Z"/>
+            </g>
+        </g>
+    </g>
+
+    <!-- FRONT COVER GROUP -->
+    <g id="front-cover">
+        <rect x="2091.0" y="37.5" width="1800.0" height="2700.0" class="trim"/>
+        <rect x="2091.0" y="37.5" width="1800.0" height="2700.0" fill="url(#backBg)"/>
+
+        <g id="front-text-overlay">
+            <!-- Series -->
+            <text x="2991.0" y="340" text-anchor="middle" class="series"
+                  style="font-size:40px; opacity:0.75;">
+                THE AI-AUGMENTED SERIES
+            </text>
+
+            <!-- Title -->
+            <text x="2991.0" y="740" text-anchor="middle" class="title">
+                <tspan x="2991.0" dy="0">AI-Augmented</tspan>
+                <tspan x="2991.0" dy="170">Teams</tspan>
+            </text>
+
+            <!-- Subtitle -->
+
+            <text x="2991.0" y="1200" text-anchor="middle" class="subtitle">
+                <tspan x="2991.0" dy="0">How Teams Deliver</tspan>
+                <tspan x="2991.0" dy="84" class="subtitle-emphasis">Reliable, Defensible Results</tspan>
+                <tspan x="2991.0" dy="80">with AI</tspan>
+            </text>
+
+            <!-- Author -->
+            <text x="2991.0" y="2540" text-anchor="middle" class="author">
+                Dr. Darren Pulsipher
+            </text>
+        </g>
+
+        <g id="front-graphic" transform="translate(2049.5,850)">
+            <g transform="translate(130, 250) scale(1.3, 1.3)">
+                <defs>
+                    <linearGradient id="hexGrad" x1="400" y1="300" x2="800" y2="800" gradientUnits="userSpaceOnUse">
+                        <stop offset="0%" stop-color="#2F86D1"/>
+                        <stop offset="55%" stop-color="#5AA7DD"/>
+                        <stop offset="100%" stop-color="#C9A05A"/>
+                    </linearGradient>
+                    <linearGradient id="connGrad" x1="350" y1="350" x2="850" y2="850" gradientUnits="userSpaceOnUse">
+                        <stop offset="0%" stop-color="#fff" stop-opacity="0.95"/>
+                        <stop offset="100%" stop-color="#aff" stop-opacity="0.95"/>
+                    </linearGradient>
+                    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+                        <stop offset="0%" stop-color="#365DAA" stop-opacity="0.95"/>
+                        <stop offset="45%" stop-color="#253F63" stop-opacity="0.16"/>
+                        <stop offset="100%" stop-color="#0B1020" stop-opacity="0"/>
+                    </radialGradient>
+                    <radialGradient id="centerFill" cx="50%" cy="48%" r="48%">
+                        <stop offset="0%" stop-color="#E2D2AE" stop-opacity="0.9"/>
+                        <stop offset="55%" stop-color="#ffC93F" stop-opacity="0.2"/>
+                        <stop offset="100%" stop-color="#2A447A" stop-opacity="0.01"/>
+                    </radialGradient>
+                    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+                        <feGaussianBlur stdDeviation="7" result="blur"/>
+                        <feMerge>
+                            <feMergeNode in="blur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                    <filter id="tightGlow" x="0%" y="0%" width="180%" height="180%">
+                        <feGaussianBlur stdDeviation="3.5" result="blur"/>
+                        <feMerge>
+                            <feMergeNode in="blur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                    <filter id="activeGlow" x="-60%" y="-60%" width="220%" height="220%">
+                        <feGaussianBlur stdDeviation="15.5" result="blur"/>
+                        <feMerge>
+                            <feMergeNode in="blur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                    <filter id="activeSoft" x="-60%" y="-60%" width="220%" height="220%">
+                        <feGaussianBlur stdDeviation="2.8" result="blur"/>
+                        <feMerge>
+                            <feMergeNode in="blur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                    <filter id="activeNodeGlow" x="-60%" y="-60%" width="220%" height="220%">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="4.2" result="blur"/>
+                        <feMerge>
+                            <feMergeNode in="blur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+                        <feGaussianBlur in="SourceAlpha" stdDeviation="18" result="blur"/>
+                        <feOffset in="blur" dx="0" dy="12" result="offsetBlur"/>
+                        <feFlood flood-color="#0C1733" flood-opacity="0.5" result="shadowColor"/>
+                        <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+                        <feMerge>
+                            <feMergeNode in="shadow"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                    <style>
+                        .hex { stroke:url(#hexGrad); stroke-width:6.5; stroke-linejoin:round; fill:none; opacity:0.6; }
+                        .hex2 { stroke:url(#hexGrad); stroke-width:2.8; stroke-linejoin:round; fill:none; opacity:0.45; }
+                        .activeHex { stroke:url(#hexGrad); stroke-width:7.0; stroke-linejoin:round; opacity:0.62; fill:url(#centerFill); fill-opacity:0.22; }
+                        .activeHex2 { stroke:url(#hexGrad); stroke-width:3.0; stroke-linejoin:round; opacity:0.44; fill:url(#centerFill); fill-opacity:0.12; }
+                        .centerHex { stroke:url(#hexGrad); stroke-width:9.5; stroke-linejoin:round; fill:none; opacity:1; }
+                        .centerHex2 { stroke:url(#hexGrad); stroke-width:4.1; stroke-linejoin:round; fill:none; opacity:0.95; }
+                        .conn { stroke:url(#connGrad); stroke-width:4; stroke-linecap:round; opacity:0.05; }
+                        .connThin { stroke:url(#connGrad); stroke-width:8.3; stroke-linecap:round; opacity:0.05; }
+                        .activeLineGlow { stroke:url(#connGrad); stroke-width:10.4; stroke-linecap:round; opacity:0.7; filter:url(#softGlow); }
+                        .activeLine { stroke:#D6BC85; stroke-width:5.4; stroke-linecap:round; opacity:0.82; }
+                        .mesh { stroke:#4F8FC7; stroke-width:1.6; stroke-linecap:round; opacity:0.82; }
+                    </style>
+                </defs>
+
+                <ellipse cx="600" cy="630" rx="360" ry="360" fill="url(#coreGlow)"/>
+                <g filter="url(#shadow)">
+                    <path d="M291.648,798.02 Q482.7,552.2 600.0,362.0" class="connThin"/>
+                    <path d="M291.648,798.02 Q586.0,595.8 908.352,441.98" class="connThin"/>
+                    <path d="M376.56,491.0 Q600.0,484.5 908.352,441.98" class="connThin"/>
+                    <path d="M376.56,491.0 Q614.0,595.8 823.44,749.0" class="connThin"/>
+                    <path d="M600.0,362.0 Q717.3,552.2 823.44,749.0" class="connThin"/>
+                    <path d="M600.0,362.0 Q628.0,620.0 600.0,878.0" class="connThin"/>
+                    <path d="M908.352,441.98 Q717.3,687.8 600.0,878.0" class="connThin"/>
+                    <path d="M908.352,441.98 Q614.0,644.2 291.648,798.02" class="connThin"/>
+                    <path d="M823.44,749.0 Q600.0,755.5 291.648,798.02" class="connThin"/>
+                    <path d="M823.44,749.0 Q586.0,644.2 376.56,491.0" class="connThin"/>
+                    <path d="M600.0,878.0 Q482.7,687.8 376.56,491.0" class="connThin"/>
+                    <path d="M600.0,878.0 Q572.0,620.0 600.0,362.0" class="connThin"/>
+                    <path d="M291.648,798.02 Q506.9,566.2 600.0,362.0" class="connThin"/>
+                    <path d="M291.648,798.02 Q600.0,620.0 908.352,441.98" class="connThin"/>
+                    <path d="M376.56,491.0 Q600.0,491.0 908.352,441.98" class="connThin"/>
+                    <path d="M376.56,491.0 Q600.0,620.0 823.44,749.0" class="connThin"/>
+                    <path d="M600.0,362.0 Q693.1,566.2 823.44,749.0" class="connThin"/>
+                    <path d="M600.0,362.0 Q600.0,620.0 600.0,878.0" class="connThin"/>
+                    <path d="M908.352,441.98 Q693.1,673.8 600.0,878.0" class="connThin"/>
+                    <path d="M908.352,441.98 Q600.0,620.0 291.648,798.02" class="connThin"/>
+                    <path d="M823.44,749.0 Q600.0,749.0 291.648,798.02" class="connThin"/>
+                    <path d="M823.44,749.0 Q600.0,620.0 376.56,491.0" class="connThin"/>
+                    <path d="M600.0,878.0 Q506.9,673.8 376.56,491.0" class="connThin"/>
+                    <path d="M600.0,878.0 Q600.0,620.0 600.0,362.0" class="connThin"/>
+                    <path d="M291.648,798.02 Q531.2,580.2 600.0,362.0" class="connThin"/>
+                    <path d="M291.648,798.02 Q614.0,644.2 908.352,441.98" class="connThin"/>
+                    <path d="M376.56,491.0 Q600.0,540.5 908.352,441.98" class="connThin"/>
+                    <path d="M376.56,491.0 Q586.0,644.2 823.44,749.0" class="connThin"/>
+                    <path d="M600.0,362.0 Q668.8,580.2 823.44,749.0" class="connThin"/>
+                    <path d="M600.0,362.0 Q572.0,620.0 600.0,878.0" class="connThin"/>
+                    <path d="M908.352,441.98 Q668.8,659.8 600.0,878.0" class="connThin"/>
+                    <path d="M908.352,441.98 Q586.0,595.8 291.648,798.02" class="connThin"/>
+                    <path d="M823.44,749.0 Q600.0,699.5 291.648,798.02" class="connThin"/>
+                    <path d="M823.44,749.0 Q614.0,595.8 376.56,491.0" class="connThin"/>
+                    <path d="M600.0,878.0 Q531.2,659.8 376.56,491.0" class="connThin"/>
+                    <path d="M600.0,878.0 Q628.0,620.0 600.0,362.0" class="connThin"/>
+                    <g filter="url(#activeNodeGlow)">
+                        <g transform="translate(600.0 620.0) scale(1.12) translate(-600.0 -620.0)" filter="url(#softGlow)">
+                            <polygon points="600.0,494.0 709.1,557.0 709.1,683.0 600.0,746.0 490.9,683.0 490.9,557.0" fill="url(#centerFill)"/>
+                            <polygon points="600.0,494.0 709.1,557.0 709.1,683.0 600.0,746.0 490.9,683.0 490.9,557.0" class="centerHex"/>
+                            <polygon points="600.0,521.7 685.1,570.9 685.1,669.1 600.0,718.3 514.9,669.1 514.9,570.9" class="centerHex2"/>
+                        </g>
+                    </g>
+                    <g transform="translate(600.0 362.0) scale(0.9) translate(-600.0 -405.0)" filter="url(#activeNodeGlow)">
+                        <polygon points="600.0,285.0 703.9,345.0 703.9,465.0 600.0,525.0 496.1,465.0 496.1,345.0" class="activeHex"/>
+                        <polygon points="600.0,311.4 681.1,358.2 681.1,451.8 600.0,498.6 518.9,451.8 518.9,358.2" class="activeHex2"/>
+                    </g>
+                    <g transform="translate(908.352 441.98) scale(0.9) translate(-786.2 -512.5)" filter="url(#activeNodeGlow)">
+                        <polygon points="786.2,392.5 890.1,452.5 890.1,572.5 786.2,632.5 682.3,572.5 682.3,452.5" class="activeHex"/>
+                        <polygon points="786.2,418.9 867.3,465.7 867.3,559.3 786.2,606.1 705.1,559.3 705.1,465.7" class="activeHex2"/>
+                    </g>
+                    <g transform="translate(823.44 749.0) scale(0.9) translate(-786.2 -727.5)">
+                        <polygon points="786.2,607.5 890.1,667.5 890.1,787.5 786.2,847.5 682.3,787.5 682.3,667.5" class="hex"/>
+                        <polygon points="786.2,633.9 867.3,680.7 867.3,774.3 786.2,821.1 705.1,774.3 705.1,680.7" class="hex2"/>
+                    </g>
+                    <g transform="translate(600.0 878.0) scale(0.9) translate(-600.0 -835.0)" filter="url(#activeNodeGlow)">
+                        <polygon points="600.0,715.0 703.9,775.0 703.9,895.0 600.0,955.0 496.1,895.0 496.1,775.0" class="activeHex"/>
+                        <polygon points="600.0,741.4 681.1,788.2 681.1,881.8 600.0,928.6 518.9,881.8 518.9,788.2" class="activeHex2"/>
+                    </g>
+                    <g transform="translate(291.648 798.02) scale(0.9) translate(-413.8 -727.5)">
+                        <polygon points="413.8,607.5 517.7,667.5 517.7,787.5 413.8,847.5 309.9,787.5 309.9,667.5" class="hex"/>
+                        <polygon points="413.8,633.9 494.9,680.7 494.9,774.3 413.8,821.1 332.7,774.3 332.7,680.7" class="hex2"/>
+                    </g>
+                    <g transform="translate(376.56 491.0) scale(0.9) translate(-413.8 -512.5)">
+                        <polygon points="413.8,392.5 517.7,452.5 517.7,572.5 413.8,632.5 309.9,572.5 309.9,452.5" class="hex"/>
+                        <polygon points="413.8,418.9 494.9,465.7 494.9,559.3 413.8,606.1 332.7,559.3 332.7,465.7" class="hex2"/>
+                    </g>
+                    <circle cx="600.0" cy="620.0" r="8" fill="#C9A05A" opacity="0.9" filter="url(#tightGlow)"/>
+                    <circle cx="600.0" cy="362.0" r="8" fill="#C9A05A" opacity="0.9" filter="url(#tightGlow)"/>
+                    <circle cx="600.0" cy="878.0" r="8" fill="#C9A05A" opacity="0.9" filter="url(#tightGlow)"/>
+                    <circle cx="908.352" cy="441.98" r="8" fill="#C9A05A" opacity="0.9" filter="url(#tightGlow)"/>
+                    <line x1="600.0" y1="620.0" x2="908.352" y2="441.98" class="activeLineGlow"/>
+                    <line x1="600.0" y1="620.0" x2="600.0" y2="362.0" class="activeLineGlow"/>
+                    <line x1="600.0" y1="620.0" x2="600.0" y2="878.0" class="activeLineGlow"/>
+                    <line x1="600.0" y1="620.0" x2="908.352" y2="441.98" class="activeLine"/>
+                    <line x1="600.0" y1="620.0" x2="600.0" y2="362.0" class="activeLine"/>
+                    <line x1="600.0" y1="620.0" x2="600.0" y2="878.0" class="activeLine"/>
+                </g>
+            </g>
+        </g>
+    </g>
+
+    <!-- Dimension guides
+    <g id="dimension-guides">
+        <line x1="37.5" y1="0" x2="37.5" y2="2775.0" class="guide"/>
+        <line x1="1837.5" y1="0" x2="1837.5" y2="2775.0" class="guide"/>
+        <line x1="2091.0" y1="0" x2="2091.0" y2="2775.0" class="guide"/>
+        <line x1="3891.0" y1="0" x2="3891.0" y2="2775.0" class="guide"/>
+        <line x1="0" y1="37.5" x2="3928.2" y2="37.5" class="guide"/>
+        <line x1="0" y1="2737.5" x2="3928.2" y2="2737.5" class="guide"/>
+
+        <rect x="56.25" y="75.0" width="1762.5" height="2625.0" class="safe"/>
+        <rect x="2109.75" y="75.0" width="1762.5" height="2625.0" class="safe"/>
+
+        <rect x="75.0" y="75.0" width="1725.0" height="2625.0" class="safe"/>
+        <rect x="2128.5" y="75.0" width="1725.0" height="2625.0" class="safe"/>
+
+        <rect x="1856.25" y="75.0" width="216.0" height="2625.0" class="safe"/>
+
+        <rect x="1856.1" y="56.1" width="216.3" height="2662.8" class="safe"/>
+
+        <rect x="1162.5" y="2302.5" width="600.0" height="360.0" class="safe"/>
+    </g>
+        -->
+</svg>

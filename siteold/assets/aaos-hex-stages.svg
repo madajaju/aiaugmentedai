@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280" role="img" aria-labelledby="title desc">
+  <title id="title">AAOS Six-Stage Model</title>
+  <desc id="desc">Diagram showing the six AAOS stages in sequence: Diagnose, Activate, Controls, Execute, Measure, and Scale.</desc>
+  <defs>
+    <style>
+      .box { fill: #f7f7f7; stroke: #555555; stroke-width: 2; rx: 14; ry: 14; }
+      .stage { font: 700 26px 'Inter', Arial, sans-serif; fill: #123b66; }
+      .sub { font: 500 18px 'Inter', Arial, sans-serif; fill: #475569; }
+      .arrow { stroke: #4a4a4a; stroke-width: 4; fill: none; }
+    </style>
+  </defs>
+
+  <g>
+    <rect class="box" x="20" y="66" width="210" height="148" />
+    <text class="stage" x="125" y="126" text-anchor="middle">Diagnose</text>
+    <text class="sub" x="125" y="158" text-anchor="middle">Posture</text>
+  </g>
+  <g>
+    <rect class="box" x="255" y="66" width="210" height="148" />
+    <text class="stage" x="360" y="126" text-anchor="middle">Activate</text>
+    <text class="sub" x="360" y="158" text-anchor="middle">Capability</text>
+  </g>
+  <g>
+    <rect class="box" x="490" y="66" width="210" height="148" />
+    <text class="stage" x="595" y="126" text-anchor="middle">Controls</text>
+    <text class="sub" x="595" y="158" text-anchor="middle">Governance</text>
+  </g>
+  <g>
+    <rect class="box" x="725" y="66" width="210" height="148" />
+    <text class="stage" x="830" y="126" text-anchor="middle">Execute</text>
+    <text class="sub" x="830" y="158" text-anchor="middle">Workflow</text>
+  </g>
+  <g>
+    <rect class="box" x="960" y="66" width="210" height="148" />
+    <text class="stage" x="1065" y="126" text-anchor="middle">Measure</text>
+    <text class="sub" x="1065" y="158" text-anchor="middle">Evidence</text>
+  </g>
+  <g>
+    <rect class="box" x="1195" y="66" width="210" height="148" />
+    <text class="stage" x="1300" y="126" text-anchor="middle">Scale</text>
+    <text class="sub" x="1300" y="158" text-anchor="middle">Expansion</text>
+  </g>
+
+  <path class="arrow" d="M230 140 H246" />
+  <path class="arrow" d="M465 140 H481" />
+  <path class="arrow" d="M700 140 H716" />
+  <path class="arrow" d="M935 140 H951" />
+  <path class="arrow" d="M1170 140 H1186" />
+  <polygon points="246,132 260,140 246,148" fill="#4a4a4a" />
+  <polygon points="481,132 495,140 481,148" fill="#4a4a4a" />
+  <polygon points="716,132 730,140 716,148" fill="#4a4a4a" />
+  <polygon points="951,132 965,140 951,148" fill="#4a4a4a" />
+  <polygon points="1186,132 1200,140 1186,148" fill="#4a4a4a" />
+</svg>

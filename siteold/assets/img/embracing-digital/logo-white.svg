@@ -1,0 +1,23 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Embracing Digital white logo</title>
+<desc id="desc">A white segmented hexagon surrounding a centered E.</desc>
+<style>
+
+  .segment1 { fill: #ffffff; }
+  .segment2 { fill: #ffffff; }
+  .letter {
+  fill: #ffffff;
+  }
+</style>
+
+  <polygon class="segment1" points="272,55 433,153 386,180 272,109"/>
+  <polygon class="segment1" points="433,153 433,358 386,331 386,179"/>
+  <polygon class="segment1" points="433,358 272,457 272,402 386,330"/>
+
+  <polygon class="segment2" points="239,457 78,358 125,330 239,401"/>
+  <polygon class="segment2" points="78,358 78,153 125,179 125,331"/>
+  <polygon class="segment2" points="78,153 239,55 239,109 125,180"/>
+  <g transform="translate(0, 185)">
+  <path class="letter" d="M302.27,84.56h-62.74v25.83h70.03l-4.5,29.91h-104.38V2.56h104.25v29.91h-65.4v22.17h62.74v29.91Z"/>
+  </g>
+</svg>
