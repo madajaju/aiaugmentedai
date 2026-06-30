@@ -629,7 +629,8 @@ p { margin: 0; color: var(--muted); }
 .stage-detail-grid .card li + li {
   margin-top: 0.35rem;
 }
-.stage-detail-grid .card .stage-links {
+.stage-detail-grid .card .stage-links,
+.stage-detail-grid .card .resource-grid {
   margin-top: 0.5rem;
   grid-template-columns: 1fr;
   gap: 0.4rem;
@@ -788,6 +789,74 @@ p { margin: 0; color: var(--muted); }
   gap: 1rem;
 }
 
+.resource-section {
+  margin-top: 2rem;
+}
+.resource-section h3 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.resource-card {
+  text-decoration: none;
+  color: inherit;
+  display: flex !important;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.25rem !important;
+}
+.resource-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+.resource-card.available .resource-status,
+.resource-card.tools .resource-status {
+  color: var(--secondary);
+}
+.resource-card.available .resource-status::before,
+.resource-card.tools .resource-status::before {
+  content: "✓";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  background: var(--secondary);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 10px;
+}
+.resource-card.coming-soon {
+  background: var(--surface-alt);
+  border-color: var(--border);
+  box-shadow: none;
+}
+.resource-card.coming-soon:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--border);
+}
+.resource-card h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+.resource-card p {
+  font-size: 0.88rem;
+  margin: 0;
+  color: var(--muted);
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -902,6 +971,7 @@ p { margin: 0; color: var(--muted); }
   .three-up,
   .stage-grid,
   .stage-detail-grid,
+  .resource-grid,
   .footer-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -940,6 +1010,7 @@ p { margin: 0; color: var(--muted); }
   .three-up,
   .stage-grid,
   .stage-detail-grid,
+  .resource-grid,
   .footer-grid {
     grid-template-columns: 1fr;
   }

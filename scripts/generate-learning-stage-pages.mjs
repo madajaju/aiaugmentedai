@@ -84,16 +84,20 @@ function renderResourceCards(resources, depth, kind = 'available') {
   if (!items.length) return `<p class="muted">More content will be added here as it is released.</p>`;
   return `<div class="resource-grid ${escapeHtml(kind)}">
 ${items.map((item) => {
-  if (typeof item === 'string') {
-    return `<article class="resource-card"><span class="resource-status">${kind === 'premium' ? 'Locked' : kind === 'coming-soon' ? 'Coming soon' : 'Available'}</span><h3>${escapeHtml(item)}</h3></article>`;
-  }
-  const href = item.href ? localHref(depth, item.href) : '';
-  const external = item.external || /^https?:\/\//i.test(item.href || '');
-  const status = item.status || (kind === 'premium' ? 'Locked' : kind === 'coming-soon' ? 'Coming soon' : 'Available');
-  const content = `<span class="resource-status">${escapeHtml(status)}</span><h3>${escapeHtml(item.label || item.title || 'Resource')}</h3>${item.description ? `<p>${escapeHtml(item.description)}</p>` : ''}`;
+  let label = typeof item === 'string' ? item : (item.label || item.title || 'Resource');
+  let description = typeof item === 'string' ? '' : (item.description || '');
+  let href = typeof item === 'string' ? '' : (item.href ? localHref(depth, item.href) : '');
+  let external = typeof item === 'string' ? false : (item.external || /^https?:\/\//i.test(item.href || ''));
+  let status = typeof item === 'string' 
+    ? (kind === 'premium' ? 'Locked' : kind === 'coming-soon' ? 'Coming soon' : 'Available')
+    : (item.status || (kind === 'premium' ? 'Locked' : kind === 'coming-soon' ? 'Coming soon' : 'Available'));
+
+  const content = `<span class="resource-status">${escapeHtml(status)}</span><h3>${escapeHtml(label)}</h3>${description ? `<p>${escapeHtml(description)}</p>` : ''}`;
+  const classes = `card resource-card ${kind}`;
+  
   return href
-    ? `<a class="resource-card" href="${escapeHtml(href)}"${external ? ' target="_blank" rel="noopener noreferrer"' : ''}>${content}</a>`
-    : `<article class="resource-card">${content}</article>`;
+    ? `<a class="${classes}" href="${escapeHtml(href)}"${external ? ' target="_blank" rel="noopener noreferrer"' : ''}>${content}</a>`
+    : `<article class="${classes}">${content}</article>`;
 }).join('\n')}
 </div>`;
 }
@@ -328,7 +332,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
         <p class="eyebrow">Member path</p>
         <h2>${escapeHtml(stage.memberTitle || 'Unlock the full level experience')}</h2>
         <p>${escapeHtml(stage.memberDescription || 'Free visitors get orientation and a practical next step. Members get the guided transformation path.')}</p>
-        <div class="cta-row"><a class="button" href="${toDirPrefix(depth)}join/">Become AI-Augmented</a><a class="button secondary" href="${aaosLensHref}">Learn about AAOS</a></div>
+        <div class="cta-row"><a class="button" href="${toDirPrefix(depth)}movement/">Become AI-Augmented</a><a class="button secondary" href="${aaosLensHref}">Learn about AAOS</a></div>
       </div>
       <article class="card premium-card">
         <p class="card-kicker">Included for members</p>
