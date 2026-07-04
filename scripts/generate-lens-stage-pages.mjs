@@ -334,6 +334,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage, depth }) {
     </a>
     <nav class="nav" aria-label="Primary">
       <a href="/">Home</a>
+      <a href="/start-here/">Start Here</a>
       <a href="/movement/">The Movement</a>
       <a href="/find-your-path/">Find Your Path</a>
       <a href="/resources/">Resources</a>
@@ -433,6 +434,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage, depth }) {
     <div>
       <strong>Explore</strong>
       <p><a href="/">Home</a></p>
+      <p><a href="/start-here/">Start Here</a></p>
       <p><a href="/movement/">The Movement</a></p>
       <p><a href="/find-your-path/">Find Your Path</a></p>
       <p><a href="/resources/">Resources</a></p>
