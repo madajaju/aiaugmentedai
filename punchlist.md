@@ -18,8 +18,8 @@ Legend: `[ ]` open · `P0` blocker before launch · `P1` should do before launch
 
 - [X] **Fix inconsistent testimonial attribution.**
   File: `index.html`, lines 668–703 (testimonial cards).
-    - Line 675: `JerDezHarris, AI Governance Lead` — reads as an unedited username paired with an invented title. Replace with a real first+last name, or standardize to a handle-safe format like `"Jeremy Harris - Founder of JHarris Advisory LLC"
-    - Lines 680, 685, 690, 695, 700 (`Laura Newey - Educator`, `Anna - Accountant`, `Boyd - Law Student`, `DiAnn Fox - Educator`, `Jayme Bahouth`) — decide on one consistent attribution style for all six cards (either "First Last, Title" everywhere, or "First name, role" everywhere, or "Verified Reader" everywhere). Right now it's a mix, which undercuts trust in the ones that look most polished.
+    - Line 675: `Jeremy Harris, AI Governance Lead` — reads as an unedited username paired with an invented title. Replace with a real first+last name, or standardize to a handle-safe format like `"Jeremy Harris - Founder of JHarris Advisory LLC"
+    - Lines 680, 685, 690, 695, 700 (`Laura Newey - Educator`, `Anna - Accountant`, `Julianne Sombke - Product Manager`, `DiAnn Fox - Educator`, `Jayme Bahouth`) — decide on one consistent attribution style for all six cards (either "First Last, Title" everywhere, or "First name, role" everywhere, or "Verified Reader" everywhere). Right now it's a mix, which undercuts trust in the ones that look most polished.
     - Confirm you have permission/rights to publish each quote and name as attributed.
 
 ---
