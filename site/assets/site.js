@@ -550,7 +550,33 @@
             <p>${escapeHtml(recommendation)}</p>
           </article>
         </div>
-        <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
+        
+        <div class="card panel" style="margin-top: 2rem; border-color: var(--secondary-soft);">
+          <div style="display: grid; gap: 1rem; md:grid-template-columns: 1fr auto;">
+            <div>
+              <p class="card-kicker" style="color: var(--secondary);">Save your results</p>
+              <h3 style="margin-bottom: 0.5rem;">Get your personalized roadmap by email</h3>
+              <p>Join the movement to receive a detailed breakdown of your maturity level, recommended tools, and the next steps for your lens.</p>
+            </div>
+            <form method="POST" action="https://lsfo-zgfl.maillist-manage.com/weboptin.zc" target="_blank" class="form-inline" style="margin-top: 0.5rem;">
+              <input type="hidden" name="zc_trackCode" value="ZCFORMVIEW">
+              <input type="hidden" name="zx" value="13336b6b1">
+              <input type="hidden" name="zcvers" value="3.0">
+              <input type="hidden" name="lD" value="112881a1caeb9ba71">
+              <input type="hidden" name="zcld" value="112881a1caeb9ba71">
+              <input type="hidden" name="zctd" value="112881a1caeb9ba9d">
+              <input type="hidden" name="zc_formIx" value="3z48d34bc44b911e5b1c4025477f34fa57102849dfc54c33fb8876123171441f44">
+              <input type="hidden" name="mode" value="OptinCreateView">
+              <input type="hidden" name="submitType" value="optinCustomView">
+              
+              <input type="email" name="CONTACT_EMAIL" placeholder="your@email.com" required class="input-text">
+              <button type="submit" class="button">Email My Results</button>
+            </form>
+            <p class="form-note">By clicking, you join the AI-Augmented newsletter. We respect your privacy.</p>
+          </div>
+        </div>
+
+        <div style="margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem;">
           <div class="saved-indicator">Result saved to this browser</div>
           <div class="cta-row">
             <a class="button" href="${stageHref}">Open your path</a>

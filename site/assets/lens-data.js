@@ -44,7 +44,41 @@ window.AA_LENS_DATA = {
         "progression": "Identify one high-impact workflow and successfully use AI to draft an initial version.",
         "watchOut": "Do not mistake curiosity for capability or activity for progress.",
         "posture": "Use AI intentionally, validate your outputs, and keep human judgment in the loop.",
-        "example": "Alice hears colleagues talking about AI. She tries ChatGPT once to draft a tricky email to a client, but doesn't yet have a system for when to use it."
+        "example": "Alice hears colleagues talking about AI. She tries ChatGPT once to draft a tricky email to a client, but doesn't yet have a system for when to use it.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 1",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Aware stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "exploring": {
         "label": "Exploring",
@@ -84,7 +118,41 @@ window.AA_LENS_DATA = {
         "progression": "Document three repeatable prompts that consistently produce reliable results for a specific task.",
         "watchOut": "Do not accumulate prompts without deciding what is worth keeping.",
         "posture": "Increase validation and reduce friction by documenting the workflow that actually works.",
-        "example": "Bob starts using AI for all his research tasks. He notices it's great for summaries but sometimes misses technical nuances, so he begins verifying its output against primary sources."
+        "example": "Bob starts using AI for all his research tasks. He notices it's great for summaries but sometimes misses technical nuances, so he begins verifying its output against primary sources.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 2",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Exploring stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "experimenting": {
         "label": "Experimenting",
@@ -110,7 +178,41 @@ window.AA_LENS_DATA = {
         "progression": "Integrate AI into a daily work ritual with a mandatory human-in-the-loop validation step.",
         "watchOut": "Avoid over-trusting outputs or spreading too fast into too many use cases.",
         "posture": "Be more disciplined about checking, source tracing, and deciding where human review is required.",
-        "example": "Charlie creates a folder of 'Gold Standard' prompts for his recurring monthly reports. He uses these prompts every month and refines them when he encounters errors."
+        "example": "Charlie creates a folder of 'Gold Standard' prompts for his recurring monthly reports. He uses these prompts every month and refines them when he encounters errors.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 3",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Experimenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "integrating": {
         "label": "Integrating",
@@ -144,7 +246,41 @@ window.AA_LENS_DATA = {
         "progression": "Create a shared resource (guide, library, or checklist) that helps at least one peer adopt a similar workflow.",
         "watchOut": "Do not let convenience weaken judgment or quality control.",
         "posture": "Maintain clear standards for validation, attribution, and final accountability.",
-        "example": "Dana has AI integrated into her IDE and her email client. She uses it as a real-time partner for coding and communication, with a mandatory 2-minute review block for every AI output."
+        "example": "Dana has AI integrated into her IDE and her email client. She uses it as a real-time partner for coding and communication, with a mandatory 2-minute review block for every AI output.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 4",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Integrating stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "leading": {
         "label": "Leading",
@@ -170,7 +306,41 @@ window.AA_LENS_DATA = {
         "progression": "Redesign a core job function around AI-human partnership, where the outcome is significantly better than either could achieve alone.",
         "watchOut": "Do not assume your workflow will transfer without explanation or support.",
         "posture": "Model responsible use and make the workflow explainable to others.",
-        "example": "Edward develops a 'Prompt Engineering for Analysts' workshop for his department, sharing his versioned templates and validation checklists with 10 team members."
+        "example": "Edward develops a 'Prompt Engineering for Analysts' workshop for his department, sharing his versioned templates and validation checklists with 10 team members.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 5",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Leading stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "augmenting": {
         "label": "Augmenting",
@@ -196,7 +366,41 @@ window.AA_LENS_DATA = {
         "progression": "Regularly audit and refine your personal operating system to maintain high quality as AI models evolve.",
         "watchOut": "Do not confuse system-wide augmentation with tool adoption alone.",
         "posture": "Keep human accountability explicit while using AI to expand capability.",
-        "example": "Fiona's entire workflow is built around an agentic system she co-designed. She focuses on high-level architecture and final judgment, while the system handles data ingestion and initial synthesis."
+        "example": "Fiona's entire workflow is built around an agentic system she co-designed. She focuses on high-level architecture and final judgment, while the system handles data ingestion and initial synthesis.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 6",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Augmenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       }
     },
     "aaosStages": {
@@ -297,7 +501,41 @@ window.AA_LENS_DATA = {
         "progression": "Establish a shared list of AI tools and have one team discussion about their use.",
         "watchOut": "Do not let the team normalize random experimentation without standards.",
         "posture": "Improve posture by defining clear expectations for review and accountability.",
-        "example": "Sarah, a team lead, sees her team using various AI tools. She starts a weekly meeting to discuss AI but hasn't set any rules yet."
+        "example": "Sarah, a team lead, sees her team using various AI tools. She starts a weekly meeting to discuss AI but hasn't set any rules yet.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Teams: Chapter 1",
+              "href": "https://paidar.ai/books/ai-augmented-teams/",
+              "description": "Read the specific guidance for the Aware stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "exploring": {
         "label": "Exploring",
@@ -323,7 +561,41 @@ window.AA_LENS_DATA = {
         "progression": "Agree on one specific team task to be AI-assisted and document the shared prompt.",
         "watchOut": "Do not let experimentation become fragmentation.",
         "posture": "Improve posture by standardizing the basics and documenting what the team learned.",
-        "example": "Mike's team pilots AI for their customer support tickets. They learn that AI is fast but sometimes lacks the brand voice, leading them to start a shared 'Brand Voice' prompt library."
+        "example": "Mike's team pilots AI for their customer support tickets. They learn that AI is fast but sometimes lacks the brand voice, leading them to start a shared 'Brand Voice' prompt library.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Teams: Chapter 2",
+              "href": "https://paidar.ai/books/ai-augmented-teams/",
+              "description": "Read the specific guidance for the Exploring stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "experimenting": {
         "label": "Experimenting",
@@ -349,7 +621,41 @@ window.AA_LENS_DATA = {
         "progression": "Implement a mandatory peer-review step for all AI-generated team outputs.",
         "watchOut": "Do not let good enough become the standard.",
         "posture": "Improve posture by checking assumptions and clarifying ownership.",
-        "example": "Lena's team uses a shared GPT for technical documentation. They notice that the output quality varies by member, so they implement a 'Peer Review Gate' for all AI docs."
+        "example": "Lena's team uses a shared GPT for technical documentation. They notice that the output quality varies by member, so they implement a 'Peer Review Gate' for all AI docs.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Teams: Chapter 3",
+              "href": "https://paidar.ai/books/ai-augmented-teams/",
+              "description": "Read the specific guidance for the Experimenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "integrating": {
         "label": "Integrating",
@@ -375,7 +681,41 @@ window.AA_LENS_DATA = {
         "progression": "Create a team-wide library of \"Gold Standard\" prompt-output pairs.",
         "watchOut": "Do not let speed outrun review.",
         "posture": "Improve posture by defining where human review is required and where AI can accelerate work.",
-        "example": "David's team has a 'Human-in-the-loop' policy for all public-facing content. AI drafts the content, but two humans must sign off on the 'Integrity Packet' before publication."
+        "example": "David's team has a 'Human-in-the-loop' policy for all public-facing content. AI drafts the content, but two humans must sign off on the 'Integrity Packet' before publication.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Teams: Chapter 4",
+              "href": "https://paidar.ai/books/ai-augmented-teams/",
+              "description": "Read the specific guidance for the Integrating stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "leading": {
         "label": "Leading",
@@ -401,7 +741,41 @@ window.AA_LENS_DATA = {
         "progression": "Train another team leader in the organization on your team's AI operating model.",
         "watchOut": "Do not assume the workflow will survive without leadership and reinforcement.",
         "posture": "Improve posture by making accountability visible and repeatable.",
-        "example": "Rachel's team becomes the internal benchmark for AI-augmented design. They publish their 'Validation Ladder' for other teams to use in their own workflows."
+        "example": "Rachel's team becomes the internal benchmark for AI-augmented design. They publish their 'Validation Ladder' for other teams to use in their own workflows.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Teams: Chapter 5",
+              "href": "https://paidar.ai/books/ai-augmented-teams/",
+              "description": "Read the specific guidance for the Leading stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "augmenting": {
         "label": "Augmenting",
@@ -427,7 +801,41 @@ window.AA_LENS_DATA = {
         "progression": "Regularly review team metrics to ensure AI is increasing velocity without sacrificing quality.",
         "watchOut": "Do not let the team confuse novelty with progress.",
         "posture": "Improve posture by maintaining clear ownership and governance.",
-        "example": "Tom's team operates as a high-velocity unit where AI handles 80% of routine synthesis. The team's role has shifted to being 'System Architects' who maintain the reliability of the AI-human loop."
+        "example": "Tom's team operates as a high-velocity unit where AI handles 80% of routine synthesis. The team's role has shifted to being 'System Architects' who maintain the reliability of the AI-human loop.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Teams: Chapter 6",
+              "href": "https://paidar.ai/books/ai-augmented-teams/",
+              "description": "Read the specific guidance for the Augmenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       }
     },
     "aaosStages": {
@@ -528,7 +936,41 @@ window.AA_LENS_DATA = {
         "progression": "Publish a clear AI Acceptable Use Policy that defines high-level risk boundaries.",
         "watchOut": "Do not let disconnected pilots define the orgs future.",
         "posture": "Improve posture by setting clear accountability and risk boundaries.",
-        "example": "The CEO of GTS announces an 'AI-First' initiative. The company starts tracking which departments are using AI, but policies are still in draft."
+        "example": "The CEO of GTS announces an 'AI-First' initiative. The company starts tracking which departments are using AI, but policies are still in draft.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Organizations: Chapter 1",
+              "href": "https://paidar.ai/books/ai-augmented-organizations/",
+              "description": "Read the specific guidance for the Aware stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "exploring": {
         "label": "Exploring",
@@ -561,7 +1003,41 @@ window.AA_LENS_DATA = {
         "progression": "Identify and launch two high-priority cross-functional pilots.",
         "watchOut": "Do not let experimentation outrun governance.",
         "posture": "Improve posture by clarifying where human oversight and control are required.",
-        "example": "An insurance company pilots AI in its claims and marketing departments. They use the 'AI Posture Matrix' to identify which teams are 'AI Fakers' vs 'AI-Augmented'."
+        "example": "An insurance company pilots AI in its claims and marketing departments. They use the 'AI Posture Matrix' to identify which teams are 'AI Fakers' vs 'AI-Augmented'.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Organizations: Chapter 2",
+              "href": "https://paidar.ai/books/ai-augmented-organizations/",
+              "description": "Read the specific guidance for the Exploring stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "experimenting": {
         "label": "Experimenting",
@@ -594,7 +1070,41 @@ window.AA_LENS_DATA = {
         "progression": "Establish a centralized repository for pilot outcomes and lessons learned.",
         "watchOut": "Do not over-favor the loudest pilot over the most durable one.",
         "posture": "Improve posture by tying adoption to documented standards and review.",
-        "example": "A logistics firm establishes its first 'AI Governance Council'. They require all high-consequence AI pilots to use a standard 'Validation Ladder' for reporting."
+        "example": "A logistics firm establishes its first 'AI Governance Council'. They require all high-consequence AI pilots to use a standard 'Validation Ladder' for reporting.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Organizations: Chapter 3",
+              "href": "https://paidar.ai/books/ai-augmented-organizations/",
+              "description": "Read the specific guidance for the Experimenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "integrating": {
         "label": "Integrating",
@@ -627,7 +1137,41 @@ window.AA_LENS_DATA = {
         "progression": "Embed AI governance checks into the standard project approval workflow.",
         "watchOut": "Do not let local success create inconsistent enterprise behavior.",
         "posture": "Improve posture by making governance and accountability visible.",
-        "example": "A retail giant integrates AI into its supply chain decisions. Every automated decision is backed by an 'Integrity Packet' that can be audited by the risk department."
+        "example": "A retail giant integrates AI into its supply chain decisions. Every automated decision is backed by an 'Integrity Packet' that can be audited by the risk department.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Organizations: Chapter 4",
+              "href": "https://paidar.ai/books/ai-augmented-organizations/",
+              "description": "Read the specific guidance for the Integrating stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "leading": {
         "label": "Leading",
@@ -660,7 +1204,41 @@ window.AA_LENS_DATA = {
         "progression": "Host a cross-departmental summit to align AI standards across the entire organization.",
         "watchOut": "Do not let policy exist without practical enablement.",
         "posture": "Improve posture by keeping standards explicit and reviewed.",
-        "example": "A global tech firm standardizes the 'AAOS' across all business units. They use 'Trust Velocity' as a key performance indicator for their digital transformation."
+        "example": "A global tech firm standardizes the 'AAOS' across all business units. They use 'Trust Velocity' as a key performance indicator for their digital transformation.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Organizations: Chapter 5",
+              "href": "https://paidar.ai/books/ai-augmented-organizations/",
+              "description": "Read the specific guidance for the Leading stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "augmenting": {
         "label": "Augmenting",
@@ -693,7 +1271,41 @@ window.AA_LENS_DATA = {
         "progression": "Conduct annual strategic reviews to ensure the AI operating model remains aligned with core values.",
         "watchOut": "Do not let scale erode accountability.",
         "posture": "Improve posture by preserving oversight while expanding capability.",
-        "example": "An AI-native startup operates with a completely augmented workforce. Their 'Talent Architecture' is designed around human-AI partnership, allowing them to scale at 10x the industry average."
+        "example": "An AI-native startup operates with a completely augmented workforce. Their 'Talent Architecture' is designed around human-AI partnership, allowing them to scale at 10x the industry average.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Organizations: Chapter 6",
+              "href": "https://paidar.ai/books/ai-augmented-organizations/",
+              "description": "Read the specific guidance for the Augmenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       }
     },
     "aaosStages": {
@@ -721,7 +1333,7 @@ window.AA_LENS_DATA = {
         "label": "Controls",
         "headline": "Institutionalize governance and trust architectures.",
         "summary": "Hardcode grounding and validation requirements into institutional policies and platforms.",
-        "example": "The board approves a district-wide 'Validation Tier Ladder' to govern all public-facing AI communications.",
+        "example": "The board approves a institution-wide 'Validation Tier Ladder' to govern all public-facing AI communications.",
         "tools": [
           "Institutional Operating Disciplines",
           "Governance Framework"
@@ -800,7 +1412,41 @@ window.AA_LENS_DATA = {
         "progression": "Use AI to explain one complex concept you are struggling to understand.",
         "watchOut": "Do not confuse quick answers with actual skill.",
         "posture": "Improve posture by using AI to learn better and checking your own work.",
-        "example": "Sophie uses ChatGPT to explain a difficult concept in her Physics class. She likes the explanation but isn't sure if it's 100% accurate for her specific curriculum."
+        "example": "Sophie uses ChatGPT to explain a difficult concept in her Physics class. She likes the explanation but isn't sure if it's 100% accurate for her specific curriculum.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 1",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Aware stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "exploring": {
         "label": "Exploring",
@@ -826,7 +1472,41 @@ window.AA_LENS_DATA = {
         "progression": "Use AI to generate a study guide or practice quiz for one of your courses.",
         "watchOut": "Do not outsource learning or skip the thinking part.",
         "posture": "Improve posture by validating facts, sources, and reasoning.",
-        "example": "Liam uses AI to brainstorm essay outlines. He compares what ChatGPT and Claude suggest, noticing that one is better for structure while the other is better for creative hooks."
+        "example": "Liam uses AI to brainstorm essay outlines. He compares what ChatGPT and Claude suggest, noticing that one is better for structure while the other is better for creative hooks.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 2",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Exploring stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "experimenting": {
         "label": "Experimenting",
@@ -848,7 +1528,41 @@ window.AA_LENS_DATA = {
         "progression": "Document how you validated the sources for one AI-assisted research project.",
         "watchOut": "Do not let convenience weaken your judgment or skill building.",
         "posture": "Improve posture by using AI as a practice partner and not a substitute.",
-        "example": "Chloe has a set of prompts for summarizing her lecture transcripts. She always checks the summary against her own notes to ensure no key formulas were hallucinated."
+        "example": "Chloe has a set of prompts for summarizing her lecture transcripts. She always checks the summary against her own notes to ensure no key formulas were hallucinated.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 3",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Experimenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "integrating": {
         "label": "Integrating",
@@ -870,7 +1584,41 @@ window.AA_LENS_DATA = {
         "progression": "Develop a repeatable workflow for note-taking and exam prep using AI.",
         "watchOut": "Do not let speed erode depth or originality.",
         "posture": "Improve posture by keeping your own reasoning visible in the final result.",
-        "example": "Noah uses an AI tutor to practice for his Spanish oral exams. The AI provides feedback on his grammar, and he uses a shared 'Study Integrity' checklist to ensure he's learning, not just copying."
+        "example": "Noah uses an AI tutor to practice for his Spanish oral exams. The AI provides feedback on his grammar, and he uses a shared 'Study Integrity' checklist to ensure he's learning, not just copying.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 4",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Integrating stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "leading": {
         "label": "Leading",
@@ -892,7 +1640,41 @@ window.AA_LENS_DATA = {
         "progression": "Share your AI study workflow and validation checklist with a study group.",
         "watchOut": "Do not assume everyone is starting from the same place.",
         "posture": "Improve posture by being explicit about what AI did and what you did.",
-        "example": "Zoe starts a study group where she teaches other students how to use AI for research without triggering plagiarism detectors, sharing her 'Grounding & Citation' method."
+        "example": "Zoe starts a study group where she teaches other students how to use AI for research without triggering plagiarism detectors, sharing her 'Grounding & Citation' method.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 5",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Leading stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "augmenting": {
         "label": "Augmenting",
@@ -914,7 +1696,41 @@ window.AA_LENS_DATA = {
         "progression": "Regularly review your learning progress to ensure AI is deepening your understanding, not just saving time.",
         "watchOut": "Do not mistake tool fluency for real mastery.",
         "posture": "Improve posture by keeping ownership of the thinking and the final output.",
-        "example": "James uses a personal AI agent to manage his entire learning path. He focuses on deep understanding and critical analysis, while the agent handles resource organization and initial synthesis."
+        "example": "James uses a personal AI agent to manage his entire learning path. He focuses on deep understanding and critical analysis, while the agent handles resource organization and initial synthesis.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 6",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Augmenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       }
     },
     "aaosStages": {
@@ -1015,7 +1831,41 @@ window.AA_LENS_DATA = {
         "progression": "Use AI to draft one lesson plan or assessment rubric and review it for bias.",
         "watchOut": "Do not react only with restriction.",
         "posture": "Improve posture by making expectations clear and human-centered.",
-        "example": "Ms. Adams hears about AI and tries it to draft a permission slip. She sees the potential for saving time but is worried about student cheating."
+        "example": "Ms. Adams hears about AI and tries it to draft a permission slip. She sees the potential for saving time but is worried about student cheating.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Educating the AI-Augmented: Chapter 1",
+              "href": "https://paidar.ai/books/educating-the-ai-augmented/",
+              "description": "Read the specific guidance for the Aware stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "exploring": {
         "label": "Exploring",
@@ -1041,7 +1891,41 @@ window.AA_LENS_DATA = {
         "progression": "Design one assignment that explicitly allows (and guides) student AI use.",
         "watchOut": "Do not let AI blur learning objectives or reduce rigor.",
         "posture": "Improve posture by checking whether the tool supports the learning goal.",
-        "example": "Mr. Bennett uses AI to generate differentiated reading materials for his diverse classroom. He reviews the outputs to ensure the reading levels are appropriate for each group."
+        "example": "Mr. Bennett uses AI to generate differentiated reading materials for his diverse classroom. He reviews the outputs to ensure the reading levels are appropriate for each group.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Educating the AI-Augmented: Chapter 2",
+              "href": "https://paidar.ai/books/educating-the-ai-augmented/",
+              "description": "Read the specific guidance for the Exploring stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "experimenting": {
         "label": "Experimenting",
@@ -1063,7 +1947,41 @@ window.AA_LENS_DATA = {
         "progression": "Create a standard feedback loop where AI drafts initial comments for your review.",
         "watchOut": "Do not use AI in ways that hide student thinking.",
         "posture": "Improve posture by keeping assessment aligned to learning outcomes.",
-        "example": "Mrs. Chen uses a 'Lesson Plan Engine' she built with custom prompts. She runs every plan through a 'Pedagogical Check' to ensure it meets state standards."
+        "example": "Mrs. Chen uses a 'Lesson Plan Engine' she built with custom prompts. She runs every plan through a 'Pedagogical Check' to ensure it meets state standards.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Educating the AI-Augmented: Chapter 3",
+              "href": "https://paidar.ai/books/educating-the-ai-augmented/",
+              "description": "Read the specific guidance for the Experimenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "integrating": {
         "label": "Integrating",
@@ -1085,7 +2003,41 @@ window.AA_LENS_DATA = {
         "progression": "Build a library of AI-integrated lesson plans for your entire curriculum.",
         "watchOut": "Do not let convenience reduce the quality of student engagement.",
         "posture": "Improve posture by keeping the teachers judgment visible in the process.",
-        "example": "Mr. Diaz has a 'Policy of Transparency' in his syllabus. He uses AI to provide initial feedback on student drafts, but he always provides the final grade and personal commentary."
+        "example": "Mr. Diaz has a 'Policy of Transparency' in his syllabus. He uses AI to provide initial feedback on student drafts, but he always provides the final grade and personal commentary.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Educating the AI-Augmented: Chapter 4",
+              "href": "https://paidar.ai/books/educating-the-ai-augmented/",
+              "description": "Read the specific guidance for the Integrating stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "leading": {
         "label": "Leading",
@@ -1107,7 +2059,41 @@ window.AA_LENS_DATA = {
         "progression": "Lead a professional development session for peers on responsible AI integration.",
         "watchOut": "Do not let one teachers practice become the only model.",
         "posture": "Improve posture by making the learning process explicit.",
-        "example": "Ms. Evans leads a workshop for her department on 'AI-Resistant Assessments'. She shares her rubric for evaluating how students use AI in their research projects."
+        "example": "Ms. Evans leads a workshop for her department on 'AI-Resistant Assessments'. She shares her rubric for evaluating how students use AI in their research projects.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Educating the AI-Augmented: Chapter 5",
+              "href": "https://paidar.ai/books/educating-the-ai-augmented/",
+              "description": "Read the specific guidance for the Leading stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "augmenting": {
         "label": "Augmenting",
@@ -1129,7 +2115,41 @@ window.AA_LENS_DATA = {
         "progression": "Regularly audit your assignments to ensure they still measure true student understanding in an AI-rich environment.",
         "watchOut": "Do not let AI obscure student understanding.",
         "posture": "Improve posture by keeping the human learning goal at the center.",
-        "example": "Dr. Foster's entire classroom workflow is augmented. He uses AI to track individual student progress in real-time, allowing him to focus on 1-on-1 mentorship and high-level conceptual coaching."
+        "example": "Dr. Foster's entire classroom workflow is augmented. He uses AI to track individual student progress in real-time, allowing him to focus on 1-on-1 mentorship and high-level conceptual coaching.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "Educating the AI-Augmented: Chapter 6",
+              "href": "https://paidar.ai/books/educating-the-ai-augmented/",
+              "description": "Read the specific guidance for the Augmenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       }
     },
     "aaosStages": {
@@ -1218,7 +2238,41 @@ window.AA_LENS_DATA = {
         "progression": "Form a cross-functional AI task force to draft an institutional guidance document.",
         "watchOut": "Do not let isolated pilots define the institution.",
         "posture": "Improve posture by clarifying responsibility and oversight.",
-        "example": "The Dean of a Liberal Arts college reads about AI's impact on higher ed. She convenes a town hall to discuss the institutional response."
+        "example": "The Dean of a Liberal Arts college reads about AI's impact on higher ed. She convenes a town hall to discuss the institutional response.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Education: Chapter 1",
+              "href": "https://paidar.ai/books/ai-augmented-education/",
+              "description": "Read the specific guidance for the Aware stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "exploring": {
         "label": "Exploring",
@@ -1240,7 +2294,41 @@ window.AA_LENS_DATA = {
         "progression": "Pilot two different AI tools in specific departments to compare effectiveness.",
         "watchOut": "Do not let variation become the norm without oversight.",
         "posture": "Improve posture by making expectations clear across departments.",
-        "example": "A school district superintendent pilots AI in two middle schools. They use the 'AAOS Readiness Criteria' to compare how different schools handle student AI use."
+        "example": "A higher education organization superintendent pilots AI in two middle schools. They use the 'AAOS Readiness Criteria' to compare how different schools handle student AI use.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Education: Chapter 2",
+              "href": "https://paidar.ai/books/ai-augmented-education/",
+              "description": "Read the specific guidance for the Exploring stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "experimenting": {
         "label": "Experimenting",
@@ -1262,7 +2350,41 @@ window.AA_LENS_DATA = {
         "progression": "Publish a set of \"Safe harbor\" guidelines for faculty experimentation.",
         "watchOut": "Do not let promising pilots bypass review or governance.",
         "posture": "Improve posture by tightening review and accountability.",
-        "example": "A university provost establishes an 'AI Ethics Board'. They require all AI pilots in administrative offices to use a 'Validation Ladder' for data privacy."
+        "example": "A university provost establishes an 'AI Ethics Board'. They require all AI pilots in administrative offices to use a 'Validation Ladder' for data privacy.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Education: Chapter 3",
+              "href": "https://paidar.ai/books/ai-augmented-education/",
+              "description": "Read the specific guidance for the Experimenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "integrating": {
         "label": "Integrating",
@@ -1284,7 +2406,41 @@ window.AA_LENS_DATA = {
         "progression": "Standardize AI policy across all academic programs and departments.",
         "watchOut": "Do not let separate teams create incompatible standards.",
         "posture": "Improve posture by aligning governance with actual practice.",
-        "example": "A vocational school integrates AI into its career counseling services. Every student's 'Augmented Career Path' is backed by a verified 'Integrity Packet' of their skills."
+        "example": "A vocational school integrates AI into its career counseling services. Every student's 'Augmented Career Path' is backed by a verified 'Integrity Packet' of their skills.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Education: Chapter 4",
+              "href": "https://paidar.ai/books/ai-augmented-education/",
+              "description": "Read the specific guidance for the Integrating stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "leading": {
         "label": "Leading",
@@ -1306,7 +2462,41 @@ window.AA_LENS_DATA = {
         "progression": "Present the institution's AI maturity model at an educational conference.",
         "watchOut": "Do not let policy remain disconnected from implementation.",
         "posture": "Improve posture by keeping oversight practical and visible.",
-        "example": "The head of a global school network standardizes AI policy across 50 campuses. They use 'Trust Velocity' to measure how quickly faculty adopt safe AI practices."
+        "example": "The head of a global school network standardizes AI policy across 50 campuses. They use 'Trust Velocity' to measure how quickly faculty adopt safe AI practices.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Education: Chapter 5",
+              "href": "https://paidar.ai/books/ai-augmented-education/",
+              "description": "Read the specific guidance for the Leading stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       },
       "augmenting": {
         "label": "Augmenting",
@@ -1328,7 +2518,41 @@ window.AA_LENS_DATA = {
         "progression": "Integrate AI readiness into the institution's long-term strategic plan and budget.",
         "watchOut": "Do not let scale reduce accountability.",
         "posture": "Improve posture by preserving oversight while expanding capability.",
-        "example": "An innovative 'Micro-school' network is built on an augmented operating model. Their entire administration, from admissions to graduation, is designed for human-AI partnership."
+        "example": "An innovative 'Micro-school' network is built on an augmented operating model. Their entire administration, from admissions to graduation, is designed for human-AI partnership.",
+        "resources": {
+          "deepDive": [
+            {
+              "label": "AI-Augmented Education: Chapter 6",
+              "href": "https://paidar.ai/books/ai-augmented-education/",
+              "description": "Read the specific guidance for the Augmenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
+          ]
+        }
       }
     },
     "aaosStages": {
@@ -1345,8 +2569,8 @@ window.AA_LENS_DATA = {
       "activate": {
         "label": "Activate",
         "headline": "Develop systemic capability and faculty readiness.",
-        "summary": "Align faculty and staff capability with the district's long-term AI strategy.",
-        "example": "The district launches a 'Faculty Capability Plan' to ensure every teacher understands AAOS basics.",
+        "summary": "Align faculty and staff capability with the institution's long-term AI strategy.",
+        "example": "the institution launches a 'Faculty Capability Plan' to ensure every teacher understands AAOS basics.",
         "tools": [
           "Institutional Pillar Plan",
           "Professional Development Tracks"
@@ -1366,10 +2590,10 @@ window.AA_LENS_DATA = {
         "label": "Execute",
         "headline": "Roll out a standardized institutional operating model.",
         "summary": "Standardize how AI is used for administration, instructional design, and student feedback.",
-        "example": "The entire district moves to a 'Standardized Operating Model' for all administrative and instructional AI use.",
+        "example": "the entire institution moves to a 'Standardized Operating Model' for all administrative and instructional AI use.",
         "tools": [
           "Institutional Workflow Loop",
-          "District-Wide Policy Framework"
+          "institution-wide Policy Framework"
         ]
       },
       "measure": {
@@ -1386,10 +2610,10 @@ window.AA_LENS_DATA = {
         "label": "Scale",
         "headline": "Govern the expansion of successful AI models.",
         "summary": "Expand successful programs across schools based on control stability and evidence.",
-        "example": "The district scales its 'AAOS Success Model' to include all middle and high schools in the region.",
+        "example": "the institution scales its 'AAOS Success Model' to include all middle and high schools in the region.",
         "tools": [
           "Institutional Scale Plan",
-          "District Expansion Logic"
+          "Institution Expansion Logic"
         ]
       }
     }

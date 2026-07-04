@@ -101,6 +101,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 1",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Aware stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -209,6 +241,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 2",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Exploring stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -306,6 +370,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 3",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Experimenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -408,6 +504,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 4",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Integrating stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -499,6 +627,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 5",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Leading stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -590,6 +750,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 6",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Augmenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -756,6 +948,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Teams: Chapter 1",
+              "href": "https://paidar.ai/books/ai-augmented-teams/",
+              "description": "Read the specific guidance for the Aware stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -847,6 +1071,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Teams: Chapter 2",
+              "href": "https://paidar.ai/books/ai-augmented-teams/",
+              "description": "Read the specific guidance for the Exploring stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -938,6 +1194,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Teams: Chapter 3",
+              "href": "https://paidar.ai/books/ai-augmented-teams/",
+              "description": "Read the specific guidance for the Experimenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -1029,6 +1317,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Teams: Chapter 4",
+              "href": "https://paidar.ai/books/ai-augmented-teams/",
+              "description": "Read the specific guidance for the Integrating stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -1120,6 +1440,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Teams: Chapter 5",
+              "href": "https://paidar.ai/books/ai-augmented-teams/",
+              "description": "Read the specific guidance for the Leading stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -1211,6 +1563,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Teams: Chapter 6",
+              "href": "https://paidar.ai/books/ai-augmented-teams/",
+              "description": "Read the specific guidance for the Augmenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -1377,6 +1761,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Organizations: Chapter 1",
+              "href": "https://paidar.ai/books/ai-augmented-organizations/",
+              "description": "Read the specific guidance for the Aware stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -1475,6 +1891,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Organizations: Chapter 2",
+              "href": "https://paidar.ai/books/ai-augmented-organizations/",
+              "description": "Read the specific guidance for the Exploring stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -1573,6 +2021,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Organizations: Chapter 3",
+              "href": "https://paidar.ai/books/ai-augmented-organizations/",
+              "description": "Read the specific guidance for the Experimenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -1671,6 +2151,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Organizations: Chapter 4",
+              "href": "https://paidar.ai/books/ai-augmented-organizations/",
+              "description": "Read the specific guidance for the Integrating stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -1769,6 +2281,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Organizations: Chapter 5",
+              "href": "https://paidar.ai/books/ai-augmented-organizations/",
+              "description": "Read the specific guidance for the Leading stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -1867,6 +2411,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Organizations: Chapter 6",
+              "href": "https://paidar.ai/books/ai-augmented-organizations/",
+              "description": "Read the specific guidance for the Augmenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -1906,7 +2482,7 @@ window.AA_LENS_DATA = {
         "label": "Controls",
         "headline": "Institutionalize governance and trust architectures.",
         "summary": "Hardcode grounding and validation requirements into institutional policies and platforms.",
-        "example": "The board approves a district-wide 'Validation Tier Ladder' to govern all public-facing AI communications.",
+        "example": "The board approves a institution-wide 'Validation Tier Ladder' to govern all public-facing AI communications.",
         "tools": [
           "Institutional Operating Disciplines",
           "Governance Framework"
@@ -2039,6 +2615,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 1",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Aware stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -2130,6 +2738,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 2",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Exploring stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -2213,6 +2853,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 3",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Experimenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -2296,6 +2968,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 4",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Integrating stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -2379,6 +3083,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 5",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Leading stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -2462,6 +3198,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Becoming AI-Augmented: Chapter 6",
+              "href": "https://paidar.ai/books/becoming-ai-augmented/",
+              "description": "Read the specific guidance for the Augmenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -2628,6 +3396,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Educating the AI-Augmented: Chapter 1",
+              "href": "https://paidar.ai/books/educating-the-ai-augmented/",
+              "description": "Read the specific guidance for the Aware stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -2719,6 +3519,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Educating the AI-Augmented: Chapter 2",
+              "href": "https://paidar.ai/books/educating-the-ai-augmented/",
+              "description": "Read the specific guidance for the Exploring stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -2802,6 +3634,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Educating the AI-Augmented: Chapter 3",
+              "href": "https://paidar.ai/books/educating-the-ai-augmented/",
+              "description": "Read the specific guidance for the Experimenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -2885,6 +3749,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Educating the AI-Augmented: Chapter 4",
+              "href": "https://paidar.ai/books/educating-the-ai-augmented/",
+              "description": "Read the specific guidance for the Integrating stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -2968,6 +3864,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Educating the AI-Augmented: Chapter 5",
+              "href": "https://paidar.ai/books/educating-the-ai-augmented/",
+              "description": "Read the specific guidance for the Leading stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -3051,6 +3979,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "Educating the AI-Augmented: Chapter 6",
+              "href": "https://paidar.ai/books/educating-the-ai-augmented/",
+              "description": "Read the specific guidance for the Augmenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -3201,6 +4161,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Education: Chapter 1",
+              "href": "https://paidar.ai/books/ai-augmented-education/",
+              "description": "Read the specific guidance for the Aware stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -3284,6 +4276,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Education: Chapter 2",
+              "href": "https://paidar.ai/books/ai-augmented-education/",
+              "description": "Read the specific guidance for the Exploring stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -3295,7 +4319,7 @@ window.AA_LENS_DATA = {
         },
         "memberTitle": "Unlock the full stage experience",
         "memberDescription": "The free page gives orientation and one practical step. Membership unlocks the guided transformation path.",
-        "example": "A school district superintendent pilots AI in two middle schools. They use the 'AAOS Readiness Criteria' to compare how different schools handle student AI use."
+        "example": "A higher education organization superintendent pilots AI in two middle schools. They use the 'AAOS Readiness Criteria' to compare how different schools handle student AI use."
       },
       "experimenting": {
         "label": "Experimenting",
@@ -3367,6 +4391,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Education: Chapter 3",
+              "href": "https://paidar.ai/books/ai-augmented-education/",
+              "description": "Read the specific guidance for the Experimenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -3450,6 +4506,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Education: Chapter 4",
+              "href": "https://paidar.ai/books/ai-augmented-education/",
+              "description": "Read the specific guidance for the Integrating stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -3533,6 +4621,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Education: Chapter 5",
+              "href": "https://paidar.ai/books/ai-augmented-education/",
+              "description": "Read the specific guidance for the Leading stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -3616,6 +4736,38 @@ window.AA_LENS_DATA = {
             "Stage assessment and badge",
             "AI coach",
             "Community and office hours"
+          ],
+          "deepDive": [
+            {
+              "label": "AI-Augmented Education: Chapter 6",
+              "href": "https://paidar.ai/books/ai-augmented-education/",
+              "description": "Read the specific guidance for the Augmenting stage in the official handbook.",
+              "external": true
+            },
+            {
+              "label": "Embracing Digital Transformation",
+              "href": "https://embracingdigital.org/",
+              "description": "Listen to Dr. Darren Pulsipher discuss AI-Augmented strategies on the podcast.",
+              "external": true
+            },
+            {
+              "label": "Research & Whitepapers",
+              "href": "https://embracingdigital.org/en/digital-transformation/whitepapers/index.html",
+              "description": "Deep dive into digital transformation research and whitepapers.",
+              "external": true
+            },
+            {
+              "label": "Transformation Articles",
+              "href": "https://embracingdigital.org/en/digital-transformation/articles/index.html",
+              "description": "Read more about digital transformation and AI strategy.",
+              "external": true
+            },
+            {
+              "label": "Expert Lectures",
+              "href": "https://embracingdigital.org/en/lectures/index.html",
+              "description": "Access professional lectures on AI and digital transformation.",
+              "external": true
+            }
           ]
         },
         "readyForNext": [
@@ -3644,8 +4796,8 @@ window.AA_LENS_DATA = {
       "activate": {
         "label": "Activate",
         "headline": "Develop systemic capability and faculty readiness.",
-        "summary": "Align faculty and staff capability with the district's long-term AI strategy.",
-        "example": "The district launches a 'Faculty Capability Plan' to ensure every teacher understands AAOS basics.",
+        "summary": "Align faculty and staff capability with the institution's long-term AI strategy.",
+        "example": "the institution launches a 'Faculty Capability Plan' to ensure every teacher understands AAOS basics.",
         "tools": [
           "Institutional Pillar Plan",
           "Professional Development Tracks"
@@ -3665,10 +4817,10 @@ window.AA_LENS_DATA = {
         "label": "Execute",
         "headline": "Roll out a standardized institutional operating model.",
         "summary": "Standardize how AI is used for administration, instructional design, and student feedback.",
-        "example": "The entire district moves to a 'Standardized Operating Model' for all administrative and instructional AI use.",
+        "example": "the entire institution moves to a 'Standardized Operating Model' for all administrative and instructional AI use.",
         "tools": [
           "Institutional Workflow Loop",
-          "District-Wide Policy Framework"
+          "institution-wide Policy Framework"
         ]
       },
       "measure": {
@@ -3685,10 +4837,10 @@ window.AA_LENS_DATA = {
         "label": "Scale",
         "headline": "Govern the expansion of successful AI models.",
         "summary": "Expand successful programs across schools based on control stability and evidence.",
-        "example": "The district scales its 'AAOS Success Model' to include all middle and high schools in the region.",
+        "example": "the institution scales its 'AAOS Success Model' to include all middle and high schools in the region.",
         "tools": [
           "Institutional Scale Plan",
-          "District Expansion Logic"
+          "Institution Expansion Logic"
         ]
       }
     }

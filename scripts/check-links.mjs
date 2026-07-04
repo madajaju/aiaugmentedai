@@ -63,9 +63,9 @@ async function checkLink(sourceFile, link) {
 
   // Handle external links
   if (link.startsWith('http://') || link.startsWith('https://') || link.startsWith('//')) {
-    if (link.includes('aiaugmented.ai')) {
+    if (link.includes('ai-augmented.ai')) {
         // Treat as internal
-        let internalPath = link.split('aiaugmented.ai')[1];
+        let internalPath = link.split('ai-augmented.ai')[1];
         if (internalPath === '') internalPath = '/';
         return checkLink(sourceFile, internalPath);
     }

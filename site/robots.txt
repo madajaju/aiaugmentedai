@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aiaugmented.ai/sitemap.xml
+Sitemap: https://ai-augmented.ai/sitemap.xml

@@ -49,15 +49,15 @@ function toDirPrefix(depth) {
 }
 
 function stageHref(depth, lensKey, stageKey) {
-  return `${toDirPrefix(depth)}lens/${lensKey}/${stageKey}/`;
+  return `/lens/${lensKey}/${stageKey}/`;
 }
 
 function lensHref(depth, lensKey) {
-  return `${toDirPrefix(depth)}lens/${lensKey}/`;
+  return `/lens/${lensKey}/`;
 }
 
 function assetsPath(depth) {
-  return `${toDirPrefix(depth)}assets`;
+  return `/assets`;
 }
 
 function renderStageTabs(depth, lensKey, lens, activeStage) {
@@ -83,7 +83,8 @@ function renderRichLinks(links, depth) {
     <div class="stage-links">
       ${links.map((link) => {
         const external = link.external || /^https?:\/\//i.test(link.href || '');
-        const href = external ? link.href : `${toDirPrefix(depth)}${String(link.href || '').replace(/^\//, '')}`;
+        const path = external ? link.href : String(link.href || '').replace(/^\//, '');
+        const href = external ? path : `/${path}${path && !path.includes('.') && !path.endsWith('/') ? '/' : ''}`;
         return `
           <a class="stage-link" href="${escapeHtml(href)}"${external ? ' target="_blank" rel="noopener noreferrer"' : ''}>
             <span>${escapeHtml(link.label)}</span>
@@ -97,7 +98,7 @@ function renderRichLinks(links, depth) {
 
 function renderRichImage(image, depth) {
   if (!image || !image.src) return '';
-  const src = /^https?:\/\//i.test(image.src) ? image.src : `${toDirPrefix(depth)}${String(image.src).replace(/^\//, '')}`;
+  const src = /^https?:\/\//i.test(image.src) ? image.src : `/${String(image.src).replace(/^\//, '')}`;
   return `
     <figure class="stage-media">
       <img src="${escapeHtml(src)}" alt="${escapeHtml(image.alt || '')}" loading="lazy">
@@ -150,10 +151,9 @@ function renderRichBlocks(blocks, depth) {
           `;
         }
         if (block.type === 'cta') {
-          const href = /^https?:\/\//i.test(block.href || '')
-            ? block.href
-            : `${toDirPrefix(depth)}${String(block.href || '').replace(/^\//, '')}`;
           const external = block.external || /^https?:\/\//i.test(block.href || '');
+          const path = external ? block.href : String(block.href || '').replace(/^\//, '');
+          const href = external ? path : `/${path}${path && !path.includes('.') && !path.endsWith('/') ? '/' : ''}`;
           return `
             <div class="stage-block stage-block-cta">
               ${block.label ? `<p class="card-kicker">${escapeHtml(block.label)}</p>` : ''}
@@ -214,9 +214,9 @@ function renderStagePage({ lensKey, lens, stageKey, stage, depth }) {
   const description = `AI-Augmented guidance for the ${lensLabel} lens at the ${stage.label} level of AI augmentation maturity. ${stage.summary}`;
   const assets = assetsPath(depth);
   const backHref = lensHref(depth, lensKey);
-  const assessmentHref = `${toDirPrefix(depth)}assessment/`;
-  const aaosHref = `${toDirPrefix(depth)}aaos/`;
-  const aaosLensHref = `${toDirPrefix(depth)}lens/${lensKey}/aaos/`;
+  const assessmentHref = `/assessment/`;
+  const aaosHref = `/aaos/`;
+  const aaosLensHref = `/lens/${lensKey}/aaos/`;
 
   const currentIndex = stageOrder.indexOf(stageKey);
   const nextStageKey = stageOrder[currentIndex + 1];
@@ -230,17 +230,17 @@ function renderStagePage({ lensKey, lens, stageKey, stage, depth }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="${escapeHtml(description)}">
-  <link rel="canonical" href="https://aiaugmented.ai/lens/${lensKey}/${stageKey}/">
+  <link rel="canonical" href="https://ai-augmented.ai/lens/${lensKey}/${stageKey}/">
   <meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(description)}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://aiaugmented.ai/lens/${lensKey}/${stageKey}/">
+  <meta property="og:url" content="https://ai-augmented.ai/lens/${lensKey}/${stageKey}/">
   <meta property="og:site_name" content="AI-Augmented">
-  <meta property="og:image" content="https://aiaugmented.ai/assets/img/aaos.svg">
+  <meta property="og:image" content="https://ai-augmented.ai/assets/img/aaos.svg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeHtml(title)}">
   <meta name="twitter:description" content="${escapeHtml(description)}">
-  <meta name="twitter:image" content="https://aiaugmented.ai/assets/img/aaos.svg">
+  <meta name="twitter:image" content="https://ai-augmented.ai/assets/img/aaos.svg">
   <meta name="theme-color" content="#123B66">
   <link rel="icon" href="${assets}/img/ai-augmented/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="${assets}/site.css">
@@ -251,71 +251,107 @@ function renderStagePage({ lensKey, lens, stageKey, stage, depth }) {
     "@graph": [
       {
         "@type": "BreadcrumbList",
-        "@id": "https://aiaugmented.ai/lens/${lensKey}/${stageKey}/#breadcrumb",
+        "@id": "https://ai-augmented.ai/lens/${lensKey}/${stageKey}/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://aiaugmented.ai/"
+            "item": "https://ai-augmented.ai/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "${escapeHtml(lensLabel)}",
-            "item": "https://aiaugmented.ai/lens/${lensKey}/"
+            "item": "https://ai-augmented.ai/lens/${lensKey}/"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "${escapeHtml(stage.label)}",
-            "item": "https://aiaugmented.ai/lens/${lensKey}/${stageKey}/"
+            "item": "https://ai-augmented.ai/lens/${lensKey}/${stageKey}/"
           }
         ]
       },
       {
-        "@type": "WebPage",
-        "@id": "https://aiaugmented.ai/lens/${lensKey}/${stageKey}/#webpage",
-        "url": "https://aiaugmented.ai/lens/${lensKey}/${stageKey}/",
-        "name": "${escapeHtml(title)}",
-        "isPartOf": {
-          "@id": "https://aiaugmented.ai/#website"
+        "@type": "Organization",
+        "@id": "https://ai-augmented.ai/#organization",
+        "name": "AI-Augmented",
+        "url": "https://ai-augmented.ai/",
+        "description": "A movement site that helps people become AI-Augmented through readiness guidance, augmentation maturity, and role-based learning paths.",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://ai-augmented.ai/assets/img/ai-augmented/logo.svg"
         },
-        "description": "${escapeHtml(description)}",
-        "breadcrumb": {
-          "@id": "https://aiaugmented.ai/lens/${lensKey}/${stageKey}/#breadcrumb"
+        "founder": {
+          "@id": "https://ai-augmented.ai/#drdarren"
         }
-      }
-    ]
-  }
+      },
+    {
+      "@type": "Person",
+      "@id": "https://ai-augmented.ai/#drdarren",
+      "name": "Dr. Darren Pulsipher",
+      "jobTitle": "Founder",
+      "url": "https://drdarrenspeaks.com/",
+      "image": "https://ai-augmented.ai/assets/img/darren-pulsipher.jpg",
+      "sameAs": [
+        "https://www.amazon.com/Becoming-AI-Augmented-Dr-Darren-Pulsipher/dp/B0D1N9N9X6",
+        "https://embracingdigital.org/",
+        "https://paidar.ai/",
+        "https://www.linkedin.com/in/dpulsipher/"
+      ],
+      "description": "Dr. Darren Pulsipher is a digital transformation leader, author of 'Becoming AI-Augmented', host of the 'Embracing Digital Transformation' podcast, and the founder of the AI-Augmented movement.",
+      "knowsAbout": ["AI-Augmented Operating System", "AI Augmentation Maturity", "Digital Transformation", "AI Governance"]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://ai-augmented.ai/lens/${lensKey}/${stageKey}/#webpage",
+      "url": "https://ai-augmented.ai/lens/${lensKey}/${stageKey}/",
+      "name": "${escapeHtml(title)}",
+      "isPartOf": {
+        "@id": "https://ai-augmented.ai/#website"
+      },
+      "author": {
+        "@id": "https://ai-augmented.ai/#drdarren"
+      },
+      "description": "${escapeHtml(description)}",
+      "breadcrumb": {
+        "@id": "https://ai-augmented.ai/lens/${lensKey}/${stageKey}/#breadcrumb"
+      },
+      "dateModified": "2026-07-03"
+    }
+  ]
+}
   </script>
 </head>
 <body data-lens="${escapeHtml(lensKey)}" data-stage="${escapeHtml(stageKey)}">
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="shell header-row">
-    <a class="brand" href="${toDirPrefix(depth)}index.html">
-      <img src="${assets}/img/ai-augmented/logo-dark.svg" alt="" aria-hidden="true">
+    <a class="brand" href="/">
+      <img src="/assets/img/ai-augmented/logo-dark.svg" alt="" aria-hidden="true">
       <span><strong>AI-Augmented</strong><span>Movement site</span></span>
     </a>
     <nav class="nav" aria-label="Primary">
-      <a href="${toDirPrefix(depth)}index.html">Home</a>
-      <a href="${toDirPrefix(depth)}movement/">The Movement</a>
-      <a href="${toDirPrefix(depth)}find-your-path/">Find Your Path</a>
-      <a href="${toDirPrefix(depth)}resources/">Resources</a>
-      <a href="${toDirPrefix(depth)}about/">About</a>
+      <a href="/">Home</a>
+      <a href="/movement/">The Movement</a>
+      <a href="/find-your-path/">Find Your Path</a>
+      <a href="/resources/">Resources</a>
+      <a href="/about/">About</a>
+      <a href="/newsletter/">Newsletter</a>
     </nav>
-    <a class="button nav-cta" href="${assessmentHref}">Take The Assessment</a>
+    <a class="button nav-cta" href="/assessment/">Take The Assessment</a>
   </div>
 </header>
 <main id="main">
   <section class="band hero-band">
     <div class="shell hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow">${escapeHtml(lensLabel)} &middot; ${escapeHtml(stage.label)}</p>
+        <p class="eyebrow">${escapeHtml(lensLabel)} &middot; ${escapeHtml(stage.label)} | v1.2</p>
         <h1>${escapeHtml(stage.headline)}</h1>
         <p class="lede"><strong>${escapeHtml(stage.summary)}</strong></p>
         <p>${escapeHtml(stage.looksLike)}</p>
+        <p class="muted" style="font-size: 0.8rem; margin-bottom: 1.5rem;">Author: Dr. Darren Pulsipher, <em>Becoming AI-Augmented</em> &middot; Last Updated: July 2026</p>
         <div class="cta-row">
           <a class="button" href="${assessmentHref}">Take The Assessment</a>
           <a class="button secondary" href="${backHref}">Back to ${escapeHtml(lensLabel)}</a>
@@ -362,6 +398,23 @@ function renderStagePage({ lensKey, lens, stageKey, stage, depth }) {
         <article class="card"><p class="card-kicker">AI posture</p>${renderGridCardBody(stage.posture, depth)}</article>
       </div>
       ${renderRichImage(stage.image, depth)}
+      ${stage.resources?.deepDive ? `
+      <div style="margin-top: 2.5rem;">
+        <div class="section-title align-left">
+          <p class="eyebrow">Authority Resources</p>
+          <h3>Deep Dive into the ${stage.label} Level</h3>
+        </div>
+        <div class="card-grid two-up">
+          ${stage.resources.deepDive.map(res => `
+            <article class="card">
+              <p class="card-kicker">${res.external ? 'External Resource' : 'Internal Resource'}</p>
+              <h3><a href="${res.href}" ${res.external ? 'target="_blank" rel="noopener noreferrer"' : ''}>${escapeHtml(res.label)}</a></h3>
+              <p>${escapeHtml(res.description)}</p>
+            </article>
+          `).join('')}
+        </div>
+      </div>
+      ` : ''}
       ${renderRichLinks(stage.links, depth)}
       ${renderRichBlocks(stage.blocks, depth)}
       <div class="cta-row" style="margin-top: 1rem;">
@@ -379,23 +432,24 @@ function renderStagePage({ lensKey, lens, stageKey, stage, depth }) {
     </div>
     <div>
       <strong>Explore</strong>
-      <p><a href="${toDirPrefix(depth)}index.html">Home</a></p>
-      <p><a href="${toDirPrefix(depth)}movement/">The Movement</a></p>
-      <p><a href="${toDirPrefix(depth)}find-your-path/">Find Your Path</a></p>
-      <p><a href="${toDirPrefix(depth)}resources/">Resources</a></p>
-      <p><a href="${toDirPrefix(depth)}about/">About</a></p>
+      <p><a href="/">Home</a></p>
+      <p><a href="/movement/">The Movement</a></p>
+      <p><a href="/find-your-path/">Find Your Path</a></p>
+      <p><a href="/resources/">Resources</a></p>
+      <p><a href="/about/">About</a></p>
     </div>
     <div>
       <strong>Paths</strong>
-      <p><a href="${toDirPrefix(depth)}find-your-path/#individual">Individual</a></p>
-      <p><a href="${toDirPrefix(depth)}find-your-path/#team-leader">Team Leader</a></p>
-      <p><a href="${toDirPrefix(depth)}find-your-path/#organization-leader">Organization Leader</a></p>
-      <p><a href="${assessmentHref}">Assessment</a></p>
+      <p><a href="/find-your-path/#individual">Individual</a></p>
+      <p><a href="/find-your-path/#team-leader">Team Leader</a></p>
+      <p><a href="/find-your-path/#organization-leader">Organization Leader</a></p>
+      <p><a href="/assessment/">Assessment</a></p>
     </div>
     <div>
       <strong>More</strong>
-      <p><a href="${toDirPrefix(depth)}books/">Books</a></p>
-      <p><a href="${toDirPrefix(depth)}movement/">Launch</a></p>
+      <p><a href="/books/">Books</a></p>
+      <p><a href="/newsletter/">Newsletter</a></p>
+      <p><a href="/articles/">Articles</a></p>
     </div>
   </div>
 </footer>
@@ -485,3 +539,4 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
