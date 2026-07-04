@@ -142,7 +142,8 @@ button, input, select, textarea { font: inherit; }
 
 main { padding-bottom: 4rem; }
 
-.band { padding: clamp(3rem, 6vw, 5rem) 0; }
+.band { padding: clamp(3rem, 6vw, 4rem) 0; }
+.band + .band { border-top: 1px solid var(--border); }
 .band.alt {
   background: linear-gradient(180deg, var(--surface-alt), var(--bg));
   position: relative;
@@ -342,24 +343,6 @@ p { margin: 0; color: var(--muted); }
   margin-top: 0.5rem;
 }
 
-.hero-facts {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 0.25rem;
-}
-.hero-facts span {
-  display: inline-flex;
-  align-items: center;
-  min-height: 2.2rem;
-  padding: 0.25rem 0.85rem;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--surface);
-  color: var(--muted);
-  font-size: 0.85rem;
-  font-weight: 600;
-}
 
 .movement-visual {
   display: grid;
@@ -500,7 +483,7 @@ p { margin: 0; color: var(--muted); }
 .stage-card:nth-child(5) { border-top-color: var(--primary); }
 .stage-card:nth-child(6) { border-top-color: var(--secondary); }
 
-.stage-card p { font-size: 0.92rem; }
+.stage-card p { font-size: 0.95rem; }
 .stage-common {
   border-color: rgba(18, 59, 102, 0.22);
   background:
@@ -659,7 +642,7 @@ p { margin: 0; color: var(--muted); }
 .stage-detail-grid .card ul {
   margin: 0.5rem 0 0;
   padding-left: 1.25rem;
-  font-size: 0.875rem;
+  font-size: 0.95rem;
 }
 .stage-detail-grid .card li + li {
   margin-top: 0.35rem;
@@ -672,7 +655,7 @@ p { margin: 0; color: var(--muted); }
 }
 .stage-detail-grid .card .stage-link {
   padding: 0.5rem 0.6rem;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
 }
 .stage-media {
   margin: 0;
@@ -811,7 +794,7 @@ p { margin: 0; color: var(--muted); }
 }
 .quiz-choice span {
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.95rem;
 }
 .quiz-actions {
   display: flex;
@@ -887,7 +870,7 @@ p { margin: 0; color: var(--muted); }
   margin: 0;
 }
 .resource-card p {
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   margin: 0;
   color: var(--muted);
 }

@@ -1,75 +1,61 @@
 # AI-Augmented Site — Cleanup Punchlist
 
-Source: site
+Source: `sitep`
 
-Legend: `[ ]` open · `P0` blocker before launch · `P1` should do before launch · `P2` fast follow · `P3` nice to have
+Legend: `[ ]` open · `[x]` resolved · `P0` blocker before launch · `P1` should do before launch · `P2` fast follow · `P3` nice to have
 
 ---
 
 ## P0 — Verify before launch (trust/credibility risk)
 
-- [X] **Confirm every stat in the "Movement by the Numbers" section is accurate and current.**
-  File: `index.html`, lines 638–658.
-    - `1 Million+` monthly podcast downloads (line 641)
-    - `500+ Episodes` (line 646)
-    - `200K+ Subscribers` (line 651)
-    - `30+ Organizations` (line 656)
-      Action: Replace each with a real, current, defensible number (pull from podcast host analytics / YouTube Studio / actual institutional adoption list). If a number can't be verified today, either soften the claim (e.g. "Hundreds of episodes") or pull the card until it can be confirmed. Do not add additional stat cards until these four are confirmed.
-
-- [X] **Fix inconsistent testimonial attribution.**
-  File: `index.html`, lines 668–703 (testimonial cards).
-    - Line 675: `Jeremy Harris, AI Governance Lead` — reads as an unedited username paired with an invented title. Replace with a real first+last name, or standardize to a handle-safe format like `"Jeremy Harris - Founder of JHarris Advisory LLC"
-    - Lines 680, 685, 690, 695, 700 (`Laura Newey - Educator`, `Anna - Accountant`, `Julianne Sombke - Product Manager`, `DiAnn Fox - Educator`, `Jayme Bahouth`) — decide on one consistent attribution style for all six cards (either "First Last, Title" everywhere, or "First name, role" everywhere, or "Verified Reader" everywhere). Right now it's a mix, which undercuts trust in the ones that look most polished.
-    - Confirm you have permission/rights to publish each quote and name as attributed.
+- [x] ~~Confirm every stat in the "Movement by the Numbers" section is accurate and current.~~ **Confirmed by Darren — closed.**
 
 ---
 
 ## P1 — Should do before launch
 
-- [X] **Consolidate the homepage CTA sprawl.**
-  File: `index.html`. Current button-styled CTAs on the homepage (15 total):
-    - Line 214 `Take The Assessment` (nav)
-    - Line 227 `Find Your Path`, line 228 `Take The Assessment`
-    - Line 378 `See My Maturity`
-    - Lines 395/401/407/413/419/425 — six `See Your Path` buttons (one per lens)
-    - Line 472 `Find My Maturity In 3 Minutes`, line 473 `Explore AAOS`
-    - Line 500 `See How The AAOS Works`
-    - Line 554 `Explore Resources`
-    - Line 584 `View Supporting Resources`
-    - Line 726 `Join The Movement`, line 729 `Start With The Assessment`, line 730 `Find Your Path`
-      Action: Keep **Take the Assessment** and **Join the Newsletter** as the only two `.button` (primary/secondary) styled CTAs on the page. Restyle the rest — the six per-lens "See Your Path" links, "Explore AAOS," "Explore Resources," "View Supporting Resources" — as plain text links (`.link` or inline `<a>`, not `.button`) so they read as in-context navigation rather than competing calls to action.
+- [x] ~~Consolidate the homepage CTA sprawl.~~ **Done** — homepage down to ~5 `.button`-styled CTAs (nav, hero, "See My Maturity," two newsletter submits); former per-lens/resource buttons converted to `.text-link`.
 
-- [X] **Build a "Start Here" onboarding page** for first-time visitors (especially podcast listeners landing with no context).
-  New file: `start-here/index.html` (add to nav, `sitemap.xml`, and internal links from `/movement/` and homepage).
-  Suggested flow: What is AI-Augmented? → Take the Assessment → Read the first article → Join the newsletter. Keep it to one clear linear path, no branching.
+- [x] ~~Build a "Start Here" onboarding page.~~ **Done** — `start-here/index.html` exists, linked from launch banner, hero, footer, `/movement/`, and `sitemap.xml`.
+
+- [x] ~~Fix countdown pluralization bug.~~ **Done** — `formatCountdown()` in `assets/site.js` now handles singular/plural units.
+
+- [x] ~~Remove or restyle the hero "chip" row so it stops looking like dead buttons.~~ **Done** — `.hero-facts` block deleted from `index.html`.
+
+- [x] ~~Increase spacing between the hero CTA row and the chip row below it.~~ **N/A** — chip row deleted.
+
+- [x] ~~Fix section-to-section spacing/visibility across the whole page.~~ **Done** — added `border-top` to `.band + .band` and trimmed padding in `site.css`.
+
+- [x] ~~Add a tooltip to the nav "saved lens" indicator.~~ **Done** — added `title` attribute to saved links in `assets/site.js`.
+
+- [x] ~~Fix the font-loading bug — Inter is referenced but never actually loaded.~~ **Done** — Google Fonts link added to `<head>` of all HTML files.
+
+- [x] ~~Raise the minimum font size for card body copy.~~ **Done** — floor set to `0.95rem` for card-level descriptive text in `site.css`.
 
 ---
 
 ## P2 — Fast follow after launch
 
-- [X] **Add real photos beyond the single headshot.**
-  Current image inventory: `assets/img/darren-pulsipher.jpg` + workshop photos + book cover art.
-  Action: Sourced workshop and keynote photos from movement assets and integrated them into /about/ and /movement/ galleries to humanize the content.
+- [x] ~~Add real photos beyond the single headshot.~~ **Done** — `assets/img/workshops/` now has six images (keynote, session, teacher, teams, individual, education).
 
-- [X] **Build an ecosystem diagram** showing how Movement → Assessment → AAOS → Books → Workshops → Community fit together. Currently implemented on the homepage using a professional SVG visual (`/assets/img/ecosystem.svg`).
+- [x] ~~Build an ecosystem diagram.~~ **Done** — live at `#ecosystem` on the homepage.
 
-- [X] **Tighten the homepage hero line.**
-  Refactored the hero copy to lead with "Hallucination Debt" and "Reliable Workflows," increasing differentiation and framework alignment.
+- [x] ~~Tighten the homepage hero line.~~ **Done** — hero now reads "Stop accumulating Hallucination Debt," using the site's own vocabulary instead of a generic industry line.
+
+- [ ] **(Optional, post-launch) Consider a distinct heading typeface paired with Inter for body text.**
+  Currently `h1`–`h4` and body copy all use the same `--font-sans` (Inter), differentiated only by size/weight. That's safe and reads fine, but for a site anchored to a published book and a named framework, a more distinctive display face on headings (e.g. Fraunces or Source Serif 4) would push the visual identity further from "well-made SaaS template" toward "editorial/authoritative movement" — not urgent, just a lever worth knowing about.
 
 ---
 
 ## P3 — Nice to have
 
-- [X] **Add a homepage countdown/launch-week callout for July 21, 2026.**
-  Implemented a lightweight global countdown banner on the homepage noting "18 days left" to build urgency and momentum toward the July 21 launch.
+- [x] ~~Add a homepage countdown/launch-week callout for July 21, 2026.~~ **Done** — dynamic, JS-driven countdown banner (`renderBanner()` in `assets/site.js`), recalculates every minute, has a graceful "The movement is live" post-launch state. (See P1 pluralization bug above — the only remaining issue with it.)
 
-- [X] **Add 1–2 more newsletter capture points**, not one on every section. Added a high-converting mid-page capture point after the FAQ section on the homepage, balancing visibility with user experience.
+- [x] ~~Add 1–2 more newsletter capture points.~~ **Done** — added a third capture point to the homepage after the `#proof` section.
 
 ---
 
 ## Already fixed — do not re-open
-
-These were flagged in earlier reviews and are confirmed resolved in this snapshot — listed here only so Junie doesn't re-flag them as issues:
 
 - Canonical tags across all 66 pages correctly point to `ai-augmented.ai` (no stray `aiaugmented.ai` references).
 - `robots.txt` / `sitemap.xml` reference the correct domain.
@@ -77,5 +63,6 @@ These were flagged in earlier reviews and are confirmed resolved in this snapsho
 - `Person` schema for Dr. Darren Pulsipher present on homepage with credentials, image, and `sameAs` links (Amazon, LinkedIn, Embracing Digital, Paidar).
 - `FAQPage`, `Organization`, `BreadcrumbList`, `DefinedTerm`/`DefinedTermSet`, and `Article` schema implemented site-wide.
 - `datePublished` / `dateModified` present on both long-form articles.
-- Primary nav uses root-relative links (`/movement/`, `/about/`, etc.) and includes a direct `/newsletter/` link.
+- Primary nav uses root-relative links and includes a direct `/newsletter/` link.
 - Meta descriptions are unique across all 66 pages, including templated lens/stage pages.
+- Movement-by-the-numbers stats confirmed accurate by Darren.

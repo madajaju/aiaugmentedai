@@ -104,6 +104,7 @@
         const href = link.getAttribute('href');
         if (href && (href.includes(`lens/${savedLens}`) || href.includes('find-your-path'))) {
            link.classList.add('is-saved');
+           link.setAttribute('title', 'You have a saved path here');
         }
       });
     }
@@ -136,9 +137,10 @@
     const hours = Math.floor((totalMinutes % 1440) / 60);
     const minutes = totalMinutes % 60;
 
+    const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
     return {
       live: false,
-      text: `${days} days, ${hours} hours, ${minutes} minutes`,
+      text: `${plural(days, 'day')}, ${plural(hours, 'hour')}, ${plural(minutes, 'minute')}`,
     };
   }
 
