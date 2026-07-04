@@ -39,6 +39,7 @@ Legend: `[ ]` open · `[x]` resolved · `P0` blocker before launch · `P1` shoul
 - [x] ~~Add real photos beyond the single headshot.~~ **Done** — `assets/img/workshops/` now has six images (keynote, session, teacher, teams, individual, education).
 
 - [x] ~~Build an ecosystem diagram.~~ **Done** — live at `#ecosystem` on the homepage.
+- [x] ~~Fix SVG interactivity (links and hover) for ecosystem and AAOS diagrams.~~ **Done** — Inlined `ecosystem.svg` on homepage; switched `aaos.svg` to `<object>` site-wide.
 
 - [x] ~~Tighten the homepage hero line.~~ **Done** — hero now reads "Stop accumulating Hallucination Debt," using the site's own vocabulary instead of a generic industry line.
 

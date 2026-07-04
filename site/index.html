@@ -507,7 +507,94 @@
         <p>The movement connects discovery, assessment, and framework-driven execution into a single coherent journey.</p>
       </div>
       <div class="ecosystem-visual" style="max-width: 800px; margin: 0 auto;">
-        <img src="/assets/img/ecosystem.svg" alt="Ecosystem diagram showing Assessment leading to AAOS, which branches into Books, Workshops, and Community." style="width: 100%; height: auto;">
+        <svg viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto;" role="img" aria-label="Ecosystem diagram showing Assessment leading to AAOS, which branches into Books, Workshops, and Community.">
+          <style>
+            .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+            .node-bg { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1.5; }
+            .node-accent { fill: #123b66; }
+            .line { stroke: #cbd5e1; stroke-width: 2; stroke-dasharray: 4 4; }
+            .label { font-size: 13px; font-weight: 600; fill: #1e293b; }
+            .sublabel { font-size: 11px; fill: #64748b; }
+        
+            .node-link {
+              cursor: pointer;
+              text-decoration: none;
+            }
+        
+            .node-shape {
+              transition: filter 0.2s ease, stroke 0.2s ease, stroke-width 0.2s ease, fill 0.2s ease;
+              transform-box: fill-box;
+              transform-origin: center;
+            }
+        
+            .node-link:hover .node-shape,
+            .node-link:focus .node-shape,
+            .node-link:focus-visible .node-shape {
+              filter: drop-shadow(0 0 8px rgba(245, 197, 24, 0.9)) drop-shadow(0 0 16px rgba(245, 197, 24, 0.55));
+              stroke: #f5c518;
+              stroke-width: 2.5;
+            }
+        
+            .node-link:hover .node-accent.node-shape,
+            .node-link:focus .node-accent.node-shape,
+            .node-link:focus-visible .node-accent.node-shape {
+              fill: #184a7f;
+              stroke: #f5c518;
+              stroke-width: 2.5;
+            }
+          </style>
+        
+          <rect width="800" height="500" fill="#fcfcfc"/>
+        
+          <!-- Connections -->
+          <path d="M220 250 H330" class="line" />
+          <path d="M470 250 C550 250 550 120 630 120" class="line" />
+          <path d="M470 250 H630" class="line" />
+          <path d="M470 250 C550 250 550 380 630 380" class="line" />
+        
+          <!-- Entry Point: Assessment -->
+          <a href="/start-here/" class="node-link" aria-label="Start Here">
+            <g transform="translate(100, 210)">
+              <rect width="120" height="80" rx="6" class="node-accent node-shape" />
+              <text x="60" y="45" text-anchor="middle" fill="white" class="text" font-size="14" font-weight="600">START HERE</text>
+              <text x="60" y="62" text-anchor="middle" fill="#94a3b8" class="text" font-size="11">Maturity Assessment</text>
+            </g>
+          </a>
+        
+          <!-- Core: AAOS -->
+          <a href="/aaos/" class="node-link" aria-label="AAOS">
+            <g transform="translate(330, 180)">
+              <circle cx="70" cy="70" r="70" class="node-shape" fill="white" stroke="#123b66" stroke-width="3" />
+              <text x="70" y="65" text-anchor="middle" fill="#123b66" class="text" font-size="24" font-weight="800">AAOS</text>
+              <text x="70" y="85" text-anchor="middle" fill="#64748b" class="text" font-size="12">Operating System</text>
+            </g>
+          </a>
+        
+          <!-- Outcomes -->
+          <a href="/books/" class="node-link" aria-label="Books and Research">
+            <g transform="translate(630, 95)">
+              <rect width="140" height="50" rx="6" class="node-bg node-shape" />
+              <text x="70" y="30" text-anchor="middle" class="text label">Books &amp; Research</text>
+            </g>
+          </a>
+        
+          <a href="https://paidar.ai/workshops/" class="node-link" aria-label="Workshops">
+            <g transform="translate(630, 225)">
+              <rect width="140" height="50" rx="6" class="node-bg node-shape" />
+              <text x="70" y="30" text-anchor="middle" class="text label">Workshops</text>
+            </g>
+          </a>
+        
+          <a href="/newsletter/" class="node-link" aria-label="Community Hub">
+            <g transform="translate(630, 355)">
+              <rect width="140" height="50" rx="6" class="node-bg node-shape" />
+              <text x="70" y="30" text-anchor="middle" class="text label">Community Hub</text>
+            </g>
+          </a>
+        
+          <!-- Foundation -->
+          <text x="400" y="470" text-anchor="middle" fill="#94a3b8" class="text" font-size="14" font-weight="600" letter-spacing="0.1em">THE AI-AUGMENTED MOVEMENT</text>
+        </svg>
       </div>
     </div>
   </section>

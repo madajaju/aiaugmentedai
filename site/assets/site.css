@@ -349,8 +349,12 @@ p { margin: 0; color: var(--muted); }
   gap: 0.9rem;
   align-content: start;
 }
-.movement-visual img {
+.movement-visual img,
+.movement-visual svg,
+.movement-visual object {
   width: 100%;
+  height: auto;
+  display: block;
   padding: 0.9rem;
   border: 1px solid var(--border);
   border-radius: var(--radius);
