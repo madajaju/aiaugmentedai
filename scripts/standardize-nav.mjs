@@ -77,12 +77,15 @@ function getFooter(depth) {
       <p><a href="${prefix}find-your-path/#individual">Individual</a></p>
       <p><a href="${prefix}find-your-path/#team-leader">Team Leader</a></p>
       <p><a href="${prefix}find-your-path/#organization-leader">Organization Leader</a></p>
+      <p><a href="${prefix}find-your-path/#student">Student</a></p>
+      <p><a href="${prefix}find-your-path/#teacher">Teacher</a></p>
+      <p><a href="${prefix}find-your-path/#education-administrator">Education Leader</a></p>
       <p><a href="${prefix}assessment/">Assessment</a></p>
     </div>
     <div>
       <strong>More</strong>
       <p><a href="${prefix}books/">Books</a></p>
-      <p><a href="${prefix}movement/">Launch</a></p>
+      <p><a href="${prefix}movement/">Movement</a></p>
       <p><a href="${prefix}articles/">Articles</a></p>
     </div>
   </div>

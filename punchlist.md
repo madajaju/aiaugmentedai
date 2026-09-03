@@ -1,104 +1,182 @@
-# Punchlist — ai-augmented.ai
+P0 — Fix the stale launch language
 
-Source: `site` snapshots reviewed 2026-07-03/07-04. File paths and line numbers refer to the most recent snapshot reviewed — re-check before editing if files have shifted.
+The Movement page is the most obvious issue. It still says things like “Be part of the movement before launch day arrives,” “Launches July 21, 2026,” “before launch,” and describes July 21 as something in the future.
 
-Legend: `[ ]` open · `[x]` resolved · `P0` blocker before launch · `P1` should do before launch · `P2` fast follow · `P3` nice to have
+The Resources page likewise says users can “Preorder the book that supports the launch.”
 
----
+The Books hub repeatedly uses “early-order options,” “Order early,” and refers visitors back to the movement for “launch context.”
 
-## P0
+That needs a systematic post-launch pass. I would change the language from:
 
-- [x] **Finish fixing inconsistent testimonial attribution.**
-  File: `index.html`, testimonial cards (`voices` section).
-  Four of six now have full names (`Jeremy Harris`, `Laura Newey`, `DiAnn Fox`, `Jayme Bahouth`). Two are still first-name-only: `Anna, Accountant` and `Boyd, Product Team Leader should be Julianne Sombke`. Get last names + publishing permission, or intentionally standardize all six to first-name-only.
+Launch → Movement / Adoption / Join
+Preorder / Order early → Buy / Get the book / Learn more
+Before launch → Start now / Join now / Continue the journey
 
-- [x] **Add a copyright/entity line to the footer — currently missing entirely.**
-  File: `index.html`, `<footer class="footer">` (~line 773). There is no `©`/LLC line anywhere in the footer. Since this is the movement/book site tied to Paidar Press, add:
-  ```html
-  <p class="muted">© 2026 Paidar Productions LLC. Paidar Press is an imprint of Paidar Productions LLC.</p>
-  ```
-  (Confirmed entity mapping: Paidar Productions LLC = podcast, speaking, and Paidar Press/books. Paidar Systems LLC = software/consulting — used on paidar.ai instead.)
+This is the biggest credibility issue I see.
 
----
+P0 — Remove public placeholder language
 
-## P1
+This is surprisingly visible deeper in the site.
 
-- [x] **Fix countdown pluralization bug.**
-  File: `assets/site.js`, `formatCountdown()`. Currently renders "17 days, **1 hours**, 4 minutes."
-  ```js
-  function formatCountdown(target) {
-    const now = new Date();
-    const remaining = target.getTime() - now.getTime();
-    if (remaining <= 0) return { live: true, text: 'The movement is live' };
-    const totalMinutes = Math.floor(remaining / 60000);
-    const days = Math.floor(totalMinutes / 1440);
-    const hours = Math.floor((totalMinutes % 1440) / 60);
-    const minutes = totalMinutes % 60;
-    const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
-    return { live: false, text: `${plural(days, 'day')}, ${plural(hours, 'hour')}, ${plural(minutes, 'minute')}` };
-  }
-  ```
+The Individual lens literally tells visitors:
 
-- [x] **Remove or restyle the hero "chip" row** (`.hero-facts`) so it stops looking like dead buttons.
-  File: `index.html` (five spans: "Lens first," "Assessment next," "AAOS by context," "Public standard," "Next step"); `assets/site.css` (`.hero-facts span`, ~line 351). These have border/background/padding identical to a button but no `href`, and duplicate the Journey Map card next to them. Recommended: delete the block. If kept, strip button styling:
-  ```css
-  .hero-facts span { display: inline-flex; align-items: center; padding: 0; border: none; background: none; color: var(--muted); font-size: 0.85rem; font-weight: 600; }
-  .hero-facts span:not(:last-child)::after { content: "·"; margin-left: 0.5rem; color: var(--border); }
-  ```
+“Each level opens its own static page and can grow from placeholder into full curriculum.”
 
-- [x] **Increase spacing between hero CTA row and chip row** (only relevant if chip row is kept).
-  File: `assets/site.css`, `.hero-facts` (~line 349): `margin-top: 1.25rem;` (was `0.25rem`).
+And the maturity pages say:
 
-- [x] **Add a section-break divider and trim excess band padding.**
-  File: `assets/site.css`, `.band` rule (~line 145). Root cause: `padding: clamp(3rem, 6vw, 5rem) 0` on every `.band`, combined with several places where two same-type bands land back to back (`#definition`→`#movement` both plain; `#journey`→`#aaos` both alt; `#ecosystem`→`#proof` both plain) — background doesn't shift at the seam, so ~160px of whitespace reads as a broken gap.
-  ```css
-  .band + .band { border-top: 1px solid var(--border); }
-  .band { padding: clamp(3rem, 6vw, 4rem) 0; }
-  ```
+“This page is designed as a placeholder today and a full learning hub tomorrow.”
 
-- [x] **Fix the font-loading bug — Inter is referenced but never actually loaded.**
-  File: `assets/site.css` (`--font-sans: Inter, ...`, ~line 21); every `.html` `<head>`. No Google Fonts `<link>`/`@font-face`/self-hosted font files exist anywhere, so every visitor is silently seeing their OS default font instead of Inter. Add before the stylesheet link:
-  ```html
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  ```
+That sounds like internal development documentation escaped into production.
 
-- [x] **Raise the minimum font size for card body copy.**
-  File: `assets/site.css` — several rules set card descriptive text at `0.85rem`–`0.92rem` (13.6–15.2px), e.g. Core Principles cards. Set a floor of `0.95rem` (ideally `1rem`) for any card text meant to be read as a sentence; reserve sub-`0.9rem` sizes for true metadata (kickers/labels/timestamps).
+I would remove all language containing concepts such as placeholder, static page, can grow later, more content is being added, unless you intentionally want a beta/dev feel.
 
-- [x] **(Optional) Add a tooltip to the nav "saved lens" indicator.**
-  File: `assets/site.css`, `.nav a.is-saved::after` (~line 584); wiring in `assets/site.js` (`initStagePersistenceControls`). Intentional personalization dot, but has no explanation — add `title="You have a saved path here"`.
+A visitor should simply see what is available now.
 
-- [x] **Homepage should surface the actual AAOS stages, not just the Maturity Model.**
-  Currently the homepage only shows the Maturity Model (Aware → Exploring → Experimenting → Integrating → Leading → Augmenting). The AAOS stages themselves (Diagnose → Activate → Controls → Execute → Measure → Scale, per `/aaos/`) don't appear on the homepage at all. Since AAOS is meant to be the central "operating system of the movement," consider surfacing both on the homepage so a first-time visitor gets the full picture without an extra click.
+P1 — Navigation does not expose all six lenses
 
----
+You correctly define six lenses:
 
-## P2 (post-launch)
+Individual, Team Leader, Organization Leader, Student, Teacher, Education Administrator.
 
-- [ ] **(Optional) Consider a distinct heading typeface paired with Inter for body text.** Currently `h1`–`h4` and body copy share the same font family, differentiated only by size/weight. A more distinctive display face on headings (e.g. Fraunces or Source Serif 4) would push the visual identity further toward "editorial/authoritative movement." Not urgent.
+But the global footer only exposes:
 
-- [x] **Add 1–2 more newsletter capture points**, not one on every section. Currently two (mid-page + final CTA) — good restraint; consider at most one more (e.g. after the FAQ section).
+Individual | Team Leader | Organization Leader | Assessment
 
-- [x] **Fix SVG interactivity (links and hover) for ecosystem and AAOS diagrams.** Inlined `ecosystem.svg` on homepage; switched `aaos.svg` to `<object>` site-wide.
+Student, Teacher and Education Administrator are missing throughout the footer/navigation.
 
----
+That subtly makes education feel secondary despite education being one of the site's three primary audience pillars.
 
-## Already fixed — do not re-open
+I'd either expose all six under Paths, or group them:
 
-- Canonical tags across all 66 pages correctly point to `ai-augmented.ai`.
-- `robots.txt` / `sitemap.xml` reference the correct domain.
-- Assessment result screen has a working email-capture form tied to Zoho Campaigns.
-- `Person` schema for Dr. Darren Pulsipher present with credentials, image, `sameAs` links.
-- `FAQPage`, `Organization`, `BreadcrumbList`, `DefinedTerm`/`DefinedTermSet`, `Article` schema implemented site-wide.
-- `datePublished` / `dateModified` present on both long-form articles.
-- Primary nav uses root-relative links, includes a direct `/newsletter/` link.
-- Meta descriptions unique across all 66 pages.
-- CTA sprawl consolidated (~5 `.button` CTAs vs. former ~15).
-- Start Here page built and linked everywhere.
-- Photos added (`assets/img/workshops/`, six images).
-- Ecosystem diagram live at `#ecosystem`.
-- Hero line rewritten to use site vocabulary ("Hallucination Debt") instead of generic industry phrasing.
-- Dynamic, JS-driven launch countdown banner with graceful post-launch state.
-- Movement-by-the-numbers stats confirmed accurate and current by Darren (July 2026).
+Professional
+Individual · Team Leader · Organization Leader
+
+Education
+Student · Teacher · Education Leader
+
+That would fit your movement architecture better.
+
+P1 — Lens SEO titles are copied incorrectly
+
+This is a concrete metadata problem.
+
+The page titles currently include:
+
+AI-Augmented Team Leader | Personal AI Fluency & Productivity
+AI-Augmented Organization Leader | Personal AI Fluency & Productivity
+AI-Augmented Student | Personal AI Fluency & Productivity
+AI-Augmented Teacher | Personal AI Fluency & Productivity
+
+“Personal AI Fluency & Productivity” obviously belongs to the Individual lens and appears to have been copied across the templates.
+
+I'd make these role-specific, for example:
+
+Team Leader:
+AI-Augmented Team Leader | AI Team Leadership & Reliable Workflows
+
+Organization Leader:
+AI-Augmented Organization Leader | Enterprise AI Governance & Scale
+
+Student:
+AI-Augmented Student | AI Learning, Judgment & Academic Skills
+
+Teacher:
+AI-Augmented Teacher | AI Teaching, Assessment & Learning Design
+
+This matters for both Google and what users see in browser/share previews.
+
+P1 — Education Administrator has a few routing/positioning inconsistencies
+
+This page is much richer than the other lens pages—which I actually like—but it has some unusual behavior.
+
+The CTA labeled “Contact Dr. Darren” appears to point to the site's general About destination rather than an obvious contact destination.
+
+It also shifts terminology from the canonical lens name Education Administrator to Higher Education Leadership. That may be intentional, but throughout the rest of the architecture the lens is called Education Administrator.
+
+I'd settle on one public name. I actually prefer:
+
+Education Leader
+
+It covers administrators without sounding bureaucratic and works across K-12 and higher ed.
+
+P1 — Book state is inconsistent between ai-augmented.ai and paidar.ai
+
+The AI-Augmented books page advertises five books and describes them as having current “early-order options.”
+
+But the current Paidar pages differ materially:
+
+Becoming AI-Augmented and AI-Augmented Teams have actual purchase links.
+
+AI-Augmented Organizations, Educating the AI-Augmented, and AI-Augmented Education currently do not show purchase options; they mostly provide descriptions/consultation/toolkit links.
+
+So AI-Augmented should not label every title “Order early.”
+
+A better state model would be:
+
+Available Now
+Becoming AI-Augmented
+AI-Augmented Teams
+
+Coming Next
+AI-Augmented Organizations
+
+In Development
+Educating the AI-Augmented
+AI-Augmented Education
+
+That would actually help build anticipation instead of making missing purchase buttons look broken.
+
+P1 — Some maturity copy clearly came from generation templates
+
+I found several examples that aren't broken but should be cleaned up before driving more traffic.
+
+For example:
+
+“This stage page helps a individual recognize where they are...”
+
+And some generated-looking bullets such as:
+
+“You are focused on: standardize one workflow.”
+“You are focused on: build your personal os.”
+
+Those should become natural visitor-facing prose.
+
+This suggests doing a global search through the repo for strings like:
+
+placeholder
+coming soon
+a individual
+you are focused on:
+early-order
+preorder
+before launch
+launch day
+July 21
+
+That will probably catch most of this class of issue.
+
+P2 — “Coming Soon” / locked membership creates expectations you may not want yet
+
+The maturity pages advertise a future member experience containing:
+
+complete video curriculum, exercises, prompt library, worksheets, badges, AI coach, community and office hours.
+
+If that membership product is genuinely coming, great.
+
+But if you aren't ready to launch it soon, I would remove the large locked-content section. Right now it makes the site look like a partially implemented SaaS product instead of a strong movement/framework site.
+
+The same goes for the repeated Coming Soon video lesson, worksheet, prompt examples, community discussion, and weekly challenge sections.
+
+I'd rather show 3 excellent things that exist than 8 locked things that don't.
+
+What is working well
+
+The core journey is much clearer than I expected:
+
+Start Here → Find Your Path → Assessment → Lens → Maturity → AAOS.
+
+The Assessment is especially coherent: it distinguishes the six lenses from the six maturity levels, and explicitly explains that AAOS is the operating model rather than confusing AAOS stages with maturity.
+
+The AAOS page also presents all six lenses correctly and describes the six AAOS stages consistently as Diagnose → Activate → Controls → Execute → Measure → Scale.
+
+And unlike the issues we found on embracingdigital.org, I have not found a systemic 404/navigation failure in the primary ai-augmented.ai hierarchy so far. The main pages, all six lenses, assessment, AAOS, books, articles, and sampled maturity pages resolve.

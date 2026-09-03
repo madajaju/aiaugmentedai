@@ -14,7 +14,7 @@ const lensMeta = {
   'organization-leader': { title: 'Organization Leader', overviewFile: path.join(siteDir, 'lens', 'organization-leader', 'index.html') },
   student: { title: 'Student', overviewFile: path.join(siteDir, 'lens', 'student', 'index.html') },
   teacher: { title: 'Teacher', overviewFile: path.join(siteDir, 'lens', 'teacher', 'index.html') },
-  'education-administrator': { title: 'Education Administrator', overviewFile: path.join(siteDir, 'lens', 'education-administrator', 'index.html') },
+  'education-administrator': { title: 'Education Leader', overviewFile: path.join(siteDir, 'lens', 'education-administrator', 'index.html') },
 };
 
 function escapeHtml(value) {
@@ -78,16 +78,25 @@ ${stageOrder.map((key, index) => {
 function renderList(items, className = '') {
   const values = asArray(items);
   if (!values.length) return '';
-  return `<ul${className ? ` class="${className}"` : ''}>${values.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`;
+  return `<ul${className ? ` class="${className}"` : ''}>${values.map((item) => {
+    const text = String(item).replace(/^You are focused on:\s*/i, 'Focus on ');
+    return `<li>${escapeHtml(text)}</li>`;
+  }).join('')}</ul>`;
+}
+
+function cleanVisitorCopy(value) {
+  return String(value ?? '')
+    .replace(/\ba individual\b/gi, 'an individual')
+    .replace(/Education Administrator/g, 'Education Leader');
 }
 
 function renderResourceCards(resources, depth, kind = 'available') {
   const items = asArray(resources);
-  if (!items.length) return `<p class="muted">More content will be added here as it is released.</p>`;
+  if (!items.length) return `<p class="muted">No additional resources are listed for this section.</p>`;
   return `<div class="resource-grid ${escapeHtml(kind)}">
 ${items.map((item) => {
-  let label = typeof item === 'string' ? item : (item.label || item.title || 'Resource');
-  let description = typeof item === 'string' ? '' : (item.description || '');
+  let label = cleanVisitorCopy(typeof item === 'string' ? item : (item.label || item.title || 'Resource'));
+  let description = cleanVisitorCopy(typeof item === 'string' ? '' : (item.description || ''));
   let href = typeof item === 'string' ? '' : (item.href ? localHref(depth, item.href) : '');
   let external = typeof item === 'string' ? false : (item.external || /^https?:\/\//i.test(item.href || ''));
   let status = typeof item === 'string' 
@@ -303,7 +312,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
       <div class="section-title">
         <p class="eyebrow">${escapeHtml(lensLabel)}</p>
         <h2>Choose a level</h2>
-        <p>Each level has its own page now, and more lessons, worksheets, and premium resources can be added over time.</p>
+        <p>Each level has its own guide with practical context, resources, and a clear next step.</p>
       </div>
       ${renderStageTabs(depth, lensKey, lens, stageKey)}
     </div>
@@ -314,7 +323,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
       <div class="section-title align-left">
         <p class="eyebrow">Diagnosis</p>
         <h2>${escapeHtml(stage.diagnosis.title || 'Is this really you?')}</h2>
-        <p>${escapeHtml(stage.diagnosis.description || 'Use this section to help visitors recognize themselves and trust the path.')}</p>
+        <p>${escapeHtml(cleanVisitorCopy(stage.diagnosis.description || 'Use this section to help visitors recognize themselves and trust the path.'))}</p>
       </div>
       <article class="card checklist-card">${renderList(stage.diagnosis.items, 'check-list')}</article>
     </div>
@@ -325,7 +334,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
       <div class="section-title align-left">
         <p class="eyebrow">This week</p>
         <h2>${escapeHtml(stage.mission.title || 'Your mission this week')}</h2>
-        <p>${escapeHtml(stage.mission.description || 'Give the visitor one practical action before they leave.')}</p>
+        <p>${escapeHtml(cleanVisitorCopy(stage.mission.description || 'Give the visitor one practical action before they leave.'))}</p>
       </div>
       <article class="card mission-card">${renderList(stage.mission.steps, 'numbered-list')}</article>
     </div>
@@ -339,7 +348,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
       </div>
       <div class="stage-detail-grid">
         <article class="card"><p class="card-kicker">Recommended tools</p>${renderTools(stage.tools, depth)}</article>
-        <article class="card"><p class="card-kicker">Example Scenario</p><blockquote style="font-style: italic; border-left: 3px solid var(--accent); padding-left: 1rem; margin: 0.5rem 0; font-size: 0.9rem;">"${escapeHtml(stage.example || 'Coming soon...')}"</blockquote></article>
+        <article class="card"><p class="card-kicker">Example Scenario</p><blockquote style="font-style: italic; border-left: 3px solid var(--accent); padding-left: 1rem; margin: 0.5rem 0; font-size: 0.9rem;">"${escapeHtml(stage.example || 'Apply this stage to a real decision or workflow in your context.')}"</blockquote></article>
         <article class="card"><p class="card-kicker">Common mistakes</p>${renderList(stage.mistakes)}</article>
         <article class="card"><p class="card-kicker">AI posture</p><p>${escapeHtml(simpleText(stage.posture || 'Use AI intentionally, validate important outputs, and keep human accountability visible.'))}</p></article>
       </div>
@@ -350,8 +359,8 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
     <div class="shell">
       <div class="section-title">
         <p class="eyebrow">Learning hub</p>
-        <h2>Start now. More content is being added.</h2>
-        <p>This page is designed as a placeholder today and a full learning hub tomorrow.</p>
+        <h2>Start now with practical resources.</h2>
+        <p>Use these resources to build capability, apply the practice, and continue your journey.</p>
       </div>
       <div class="resource-section">
         <h3>Available now</h3>
@@ -363,26 +372,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
         ${renderResourceCards(stage.resources.deepDive, depth, 'deep-dive')}
       </div>
       ` : ''}
-      <div class="resource-section">
-        <h3>Coming soon</h3>
-        ${renderResourceCards(stage.resources.comingSoon, depth, 'coming-soon')}
-      </div>
       ${renderInjectionBlocks(stage.blocks, depth)}
-    </div>
-  </section>
-
-  <section class="band member-band" id="member">
-    <div class="shell split-grid">
-      <div class="section-title align-left">
-        <p class="eyebrow">Member path</p>
-        <h2>${escapeHtml(stage.memberTitle || 'Unlock the full level experience')}</h2>
-        <p>${escapeHtml(stage.memberDescription || 'Free visitors get orientation and a practical next step. Members get the guided transformation path.')}</p>
-        <div class="cta-row"><a class="button" href="${toDirPrefix(depth)}movement/">Become AI-Augmented</a><a class="button secondary" href="${aaosLensHref}">Learn about AAOS</a></div>
-      </div>
-      <article class="card premium-card">
-        <p class="card-kicker">Included for members</p>
-        ${renderResourceCards(stage.resources.premium, depth, 'premium')}
-      </article>
     </div>
   </section>
 
@@ -435,7 +425,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
 }
 
 function renderOverviewStageLinks(depth, lensKey, lens) {
-  return `<section class="band alt"><div class="shell"><div class="section-title"><p class="eyebrow">${escapeHtml(lens.title)}</p><h2>Choose a level</h2><p>Each level opens its own static page and can grow from placeholder into full curriculum.</p></div>${renderStageTabs(depth, lensKey, lens, '')}</div></section>`;
+  return `<section class="band alt"><div class="shell"><div class="section-title"><p class="eyebrow">${escapeHtml(lens.title)}</p><h2>Choose a level</h2><p>Each level has its own guide with practical context, resources, and next steps.</p></div>${renderStageTabs(depth, lensKey, lens, '')}</div></section>`;
 }
 
 async function main() {
@@ -475,4 +465,3 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
-

@@ -15,7 +15,7 @@
     'organization-leader': 'Organization Leader',
     student: 'Student',
     teacher: 'Teacher',
-    'education-administrator': 'Education Administrator',
+    'education-administrator': 'Education Leader',
   };
   const stageLabels = {
     aware: 'Aware',
@@ -155,32 +155,14 @@
     banner.innerHTML = `
       <div class="${shellClass} launch-banner-inner">
         <div class="launch-banner-meta">
-          <span class="launch-banner-label">Movement launch</span>
-          <span class="launch-banner-date">July 21, 2026</span>
+          <span class="launch-banner-label">The movement is live</span>
         </div>
-        <div class="launch-banner-time" aria-live="polite"></div>
         <a class="button secondary launch-banner-cta" href="/movement/">See the movement</a>
       </div>
     `;
 
     header.insertAdjacentElement('afterend', banner);
 
-    const timeNode = banner.querySelector('.launch-banner-time');
-    let timerId = null;
-
-    const update = () => {
-      const state = formatCountdown(launchAt);
-      timeNode.textContent = state.text;
-
-      if (timerId) {
-        clearTimeout(timerId);
-      }
-
-      const delay = 60000 - (Date.now() % 60000);
-      timerId = window.setTimeout(update, delay);
-    };
-
-    update();
   }
 
   function escapeHtml(value) {

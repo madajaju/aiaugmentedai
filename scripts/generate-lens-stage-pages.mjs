@@ -30,7 +30,7 @@ const lensMeta = {
     overviewFile: path.join(siteDir, 'lens', 'teacher', 'index.html'),
   },
   'education-administrator': {
-    title: 'Education Administrator',
+    title: 'Education Leader',
     overviewFile: path.join(siteDir, 'lens', 'education-administrator', 'index.html'),
   },
 };
@@ -541,4 +541,3 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
-

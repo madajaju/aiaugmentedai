@@ -4089,7 +4089,7 @@ window.AA_LENS_DATA = {
     }
   },
   "education-administrator": {
-    "title": "Education Administrator",
+    "title": "Education Leader",
     "stages": {
       "aware": {
         "label": "Aware",
