@@ -410,6 +410,59 @@
     }
   }
 
+  function inferEngagement(href, label) {
+    const value = `${href || ''} ${label || ''}`.toLowerCase();
+    if (value.includes('drdarrenspeaks') || value.includes('workshop') || value.includes('service') || value.includes('conversation') || value.includes('briefing')) return 'augment';
+    if (value.includes('shop.paidar') || value.includes('toolkit') || value.includes('workbook') || value.includes('apply')) return 'apply';
+    if (value.includes('resource') || value.includes('article') || value.includes('assessment') || value.includes('learn') || value.includes('book') || value.includes('newsletter')) return 'learn';
+    return '';
+  }
+
+  function emitMeasurement(name, detail = {}) {
+    const payload = { name, ...detail, path: window.location.pathname, timestamp: new Date().toISOString() };
+    if (Array.isArray(window.dataLayer)) window.dataLayer.push({ event: name, ...payload });
+    window.dispatchEvent(new CustomEvent(name, { detail: payload }));
+  }
+
+  function initMeasurement() {
+    const params = new URLSearchParams(window.location.search);
+    const campaign = {};
+    ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'].forEach((key) => {
+      if (params.has(key)) campaign[key] = params.get(key);
+    });
+    if (Object.keys(campaign).length) {
+      try { window.sessionStorage.setItem('aa-campaign', JSON.stringify(campaign)); } catch (error) { /* storage is optional */ }
+      emitMeasurement('aa_campaign_visit', campaign);
+    }
+
+    document.addEventListener('click', (event) => {
+      const link = event.target.closest('a[href]');
+      if (!link) return;
+      const href = link.getAttribute('href') || '';
+      const label = link.textContent.trim();
+      const engagement = inferEngagement(href, label);
+      if (!engagement && !/^https?:\/\//i.test(href)) return;
+      emitMeasurement('aa_link_click', { engagement, href, label });
+      if (/shop\.paidar\.ai/i.test(href)) emitMeasurement('aa_shop_click', { engagement, href, label });
+      if (/drdarrenspeaks|paidar\.ai\/(services|workshops|educators)/i.test(href)) emitMeasurement('aa_augment_click', { href, label });
+    });
+
+    const assessment = document.querySelector('[data-assessment-form]');
+    if (assessment) {
+      let started = false;
+      assessment.addEventListener('change', () => {
+        if (started) return;
+        started = true;
+        emitMeasurement('aa_assessment_start');
+      });
+      assessment.addEventListener('submit', () => emitMeasurement('aa_assessment_complete'));
+    }
+
+    document.querySelectorAll('form[action*="maillist-manage.com"]').forEach((form) => {
+      form.addEventListener('submit', () => emitMeasurement('aa_newsletter_signup', { form: form.getAttribute('action') }));
+    });
+  }
+
   function initAssessment() {
     const form = document.querySelector('[data-assessment-form]');
     const result = document.querySelector('[data-assessment-result]');
@@ -584,6 +637,7 @@
     document.addEventListener('DOMContentLoaded', initAssessment, { once: true });
     document.addEventListener('DOMContentLoaded', updateSavedIndicators, { once: true });
     document.addEventListener('DOMContentLoaded', initAssessmentPrompt, { once: true });
+    document.addEventListener('DOMContentLoaded', initMeasurement, { once: true });
   } else {
     redirectLensHubToSavedStage();
     persistCurrentStage();
@@ -593,5 +647,6 @@
     initAssessment();
     updateSavedIndicators();
     initAssessmentPrompt();
+    initMeasurement();
   }
 })();

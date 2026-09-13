@@ -23,19 +23,20 @@ function getHeader(depth, activePath) {
   const homeUrl = depth === 0 ? 'index.html' : `${prefix}index.html`;
   
   const navItems = [
-    { label: 'Home', href: homeUrl, match: 'index.html' },
-    { label: 'The Movement', href: `${prefix}movement/`, match: 'movement/' },
-    { label: 'Find Your Path', href: `${prefix}find-your-path/`, match: 'find-your-path/' },
-    { label: 'Resources', href: `${prefix}resources/`, match: 'resources/' },
-    { label: 'About', href: `${prefix}about/`, match: 'about/' }
+    { label: 'Home', href: homeUrl, matches: ['index.html'] },
+    { label: 'The Movement', href: `${prefix}movement/`, matches: ['movement/', 'newsletter/'] },
+    { label: 'Learn, Apply, Augment', href: `${prefix}learn-apply-augment/`, matches: ['learn-apply-augment/', 'education/'] },
+    { label: 'Find Your Path', href: `${prefix}find-your-path/`, matches: ['find-your-path/', 'lens/', 'start-here/'] },
+    { label: 'Resources', href: `${prefix}resources/`, matches: ['resources/', 'articles/', 'books/', 'assessment/', 'aaos/'] },
+    { label: 'About', href: `${prefix}about/`, matches: ['about/'] }
   ];
 
   const navHtml = navItems.map(item => {
     let isCurrent = false;
-    if (item.match === 'index.html') {
+    if (item.matches.includes('index.html')) {
       isCurrent = activePath === 'index.html' || activePath === '';
     } else {
-      isCurrent = activePath.startsWith(item.match);
+      isCurrent = item.matches.some(match => activePath.startsWith(match));
     }
     return `      <a href="${item.href}"${isCurrent ? ' aria-current="page"' : ''}>${item.label}</a>`;
   }).join('\n');
@@ -73,6 +74,13 @@ function getFooter(depth) {
       <p><a href="${prefix}about/">About</a></p>
     </div>
     <div>
+      <strong>Engage</strong>
+      <p><a href="${prefix}learn-apply-augment/">Learn, Apply, Augment</a></p>
+      <p><a href="${prefix}assessment/">Assessment</a></p>
+      <p><a href="${prefix}aaos/">AAOS Framework</a></p>
+      <p><a href="${prefix}books/">Books</a></p>
+    </div>
+    <div>
       <strong>Paths</strong>
       <p><a href="${prefix}find-your-path/#individual">Individual</a></p>
       <p><a href="${prefix}find-your-path/#team-leader">Team Leader</a></p>
@@ -80,7 +88,6 @@ function getFooter(depth) {
       <p><a href="${prefix}find-your-path/#student">Student</a></p>
       <p><a href="${prefix}find-your-path/#teacher">Teacher</a></p>
       <p><a href="${prefix}find-your-path/#education-administrator">Education Leader</a></p>
-      <p><a href="${prefix}assessment/">Assessment</a></p>
     </div>
     <div>
       <strong>More</strong>

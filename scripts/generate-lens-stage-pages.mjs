@@ -392,7 +392,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage, depth }) {
       <div class="stage-detail-grid">
         <article class="card"><p class="card-kicker">What it looks like</p>${renderGridCardBody(stage.looksLike, depth)}</article>
         <article class="card"><p class="card-kicker">Recommended Tools</p>${renderGridCardBody(stage.tools, depth)}</article>
-        <article class="card"><p class="card-kicker">Example Scenario</p><blockquote style="font-style: italic; border-left: 3px solid var(--accent); padding-left: 1rem; margin: 0.5rem 0; font-size: 0.9rem;">"${escapeHtml(stage.example || 'Coming soon...')}"</blockquote></article>
+        <article class="card"><p class="card-kicker">Example Scenario</p><blockquote style="font-style: italic; border-left: 3px solid var(--accent); padding-left: 1rem; margin: 0.5rem 0; font-size: 0.9rem;">"${escapeHtml(stage.example || 'Use this stage to frame a practical example.')}"</blockquote></article>
         <article class="card"><p class="card-kicker">Focus next</p>${renderGridCardBody(stage.focus, depth)}</article>
         <article class="card"><p class="card-kicker">Progression</p>${renderGridCardBody(stage.progression, depth)}</article>
         <article class="card"><p class="card-kicker">Watch out for</p>${renderGridCardBody(stage.watchOut, depth)}</article>

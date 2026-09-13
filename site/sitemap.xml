@@ -36,9 +36,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ai-augmented.ai/education/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://ai-augmented.ai/find-your-path/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-augmented.ai/learn-apply-augment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ai-augmented.ai/</loc>

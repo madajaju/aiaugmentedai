@@ -100,8 +100,8 @@ ${items.map((item) => {
   let href = typeof item === 'string' ? '' : (item.href ? localHref(depth, item.href) : '');
   let external = typeof item === 'string' ? false : (item.external || /^https?:\/\//i.test(item.href || ''));
   let status = typeof item === 'string' 
-    ? (kind === 'premium' ? 'Locked' : kind === 'coming-soon' ? 'Coming soon' : 'Available')
-    : (item.status || (kind === 'premium' ? 'Locked' : kind === 'coming-soon' ? 'Coming soon' : 'Available'));
+    ? (kind === 'premium' ? 'Guided' : kind === 'coming-soon' ? 'Planned' : 'Available')
+    : (item.status || (kind === 'premium' ? 'Guided' : kind === 'coming-soon' ? 'Planned' : 'Available'));
 
   const content = `<span class="resource-status">${escapeHtml(status)}</span><h3>${escapeHtml(label)}</h3>${description ? `<p>${escapeHtml(description)}</p>` : ''}`;
   const classes = `card resource-card ${kind}`;
