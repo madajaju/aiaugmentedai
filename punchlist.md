@@ -102,9 +102,9 @@ These tasks must be completed first.
 
 ---
 
-# P0 â€” CRITICAL BEFORE IUC
+# P0 ? CRITICAL BEFORE IUC
 
-## P0.1 â€” Build `/education` as the canonical education landing page
+## P0.1 ? Build `/education` as the canonical education landing page
 
 ### Objective
 
@@ -278,7 +278,7 @@ A new visitor arriving through the IUC QR code should understand within approxim
 
 ---
 
-## P0.2 â€” Make `/education` visible in primary navigation
+## P0.2 ? Make `/education` visible in primary navigation
 
 Keep Education as a clear top-level navigation path during the IUC campaign so the QR journey remains direct. When additional contexts are ready, replace this permanent category with an **Explore by Context** entry.
 
@@ -297,7 +297,7 @@ If responsive navigation behaves differently on mobile, verify that Education re
 
 ---
 
-## P0.3 â€” Simplify homepage hero messaging
+## P0.3 ? Simplify homepage hero messaging
 
 The homepage must explain the movement before introducing specialized concepts.
 
@@ -335,7 +335,7 @@ It should be presented as a problem AI-Augmented practices help solve.
 
 ---
 
-## P0.4 â€” Add a simple "How It Works" architecture section
+## P0.4 ? Add a simple "How It Works" architecture section
 
 Add a highly visible section to the homepage.
 
@@ -377,7 +377,7 @@ They are different dimensions of the overall system.
 
 ---
 
-## P0.5 â€” Correct all terminology collisions
+## P0.5 ? Correct all terminology collisions
 
 Perform a repository-wide search for terminology involving:
 
@@ -435,7 +435,7 @@ for engagement/support level.
 
 ---
 
-## P0.6 â€” Standardize "Education Leader" terminology
+## P0.6 ? Standardize "Education Leader" terminology
 
 The user-facing terminology should normally be:
 
@@ -463,7 +463,7 @@ If the URL is changed later, create permanent redirects.
 
 ---
 
-## P0.7 â€” Run full editorial cleanup
+## P0.7 ? Run full editorial cleanup
 
 Perform a repository-wide proofreading pass.
 
@@ -482,15 +482,15 @@ Fix:
 
 Known examples that must be checked:
 
-* `Team Empowerement` â†’ `Team Empowerment`
-* `a education administrator` â†’ `an education administrator`
+* `Team Empowerement` ? `Team Empowerment`
+* `a education administrator` ? `an education administrator`
 * duplicate punctuation such as `..`
 
 Also inspect generated stage pages for repeated templating errors.
 
 ---
 
-## P0.8 â€” Verify every QR-code destination used for IUC
+## P0.8 ? Verify every QR-code destination used for IUC
 
 Verify the following URL:
 
@@ -521,7 +521,7 @@ Requirements:
 
 ---
 
-## P0.9 â€” Optimize `/education` for mobile
+## P0.9 ? Optimize `/education` for mobile
 
 Most conference QR traffic will arrive on phones.
 
@@ -542,7 +542,7 @@ Requirements:
 
 ---
 
-## P0.10 â€” Add obvious next actions to education pages
+## P0.10 ? Add obvious next actions to education pages
 
 Every education lens and maturity page should provide a next action.
 
@@ -562,9 +562,9 @@ Avoid dead-end informational pages.
 
 ---
 
-# P1 â€” HIGH PRIORITY BEFORE IUC
+# P1 ? HIGH PRIORITY BEFORE IUC
 
-## P1.1 â€” Reduce homepage length
+## P1.1 ? Reduce homepage length
 
 The homepage currently attempts to explain too much.
 
@@ -589,7 +589,7 @@ Prefer relocating it.
 
 ---
 
-## P1.2 â€” Make "Find Your Path" the dominant conversion action
+## P1.2 ? Make "Find Your Path" the dominant conversion action
 
 Across the site, prioritize contextual next actions over newsletter subscription.
 
@@ -615,7 +615,7 @@ Newsletter subscription should remain available but should not dominate the expe
 
 ---
 
-## P1.3 â€” Improve the Find Your Path page
+## P1.3 ? Improve the Find Your Path page
 
 The page should quickly help visitors choose among six lenses.
 
@@ -645,7 +645,7 @@ This visual grouping reinforces the expanding scope of the movement.
 
 ---
 
-## P1.4 â€” Make Learn / Apply / Augment visible on the homepage
+## P1.4 ? Make Learn / Apply / Augment visible on the homepage
 
 Add a concise version of this model.
 
@@ -671,7 +671,7 @@ Link to the full page.
 
 ---
 
-## P1.5 â€” Keep Augment traffic within the AI-Augmented ecosystem
+## P1.5 ? Keep Augment traffic within the AI-Augmented ecosystem
 
 Avoid sending users directly from the conceptual journey to an unrelated-looking external site without context.
 
@@ -702,7 +702,7 @@ The AI-Augmented site should remain the conceptual front door.
 
 ---
 
-## P1.6 â€” Add stronger Education proof points
+## P1.6 ? Add stronger Education proof points
 
 On `/education/`, include credible evidence where supported.
 
@@ -723,7 +723,7 @@ Only use numbers or institutional claims backed by evidence.
 
 ---
 
-## P1.7 â€” Verify homepage metrics
+## P1.7 ? Verify homepage metrics
 
 Review all prominent metrics.
 
@@ -765,7 +765,7 @@ Do not expose internal source notes publicly unless intentionally desired.
 
 ---
 
-## P1.8 â€” Clarify movement vs. framework vs. operating system
+## P1.8 ? Clarify movement vs. framework vs. operating system
 
 Create canonical definitions that can be reused across pages.
 
@@ -777,7 +777,7 @@ A movement focused on expanding human capability through disciplined partnership
 
 The conceptual model connecting lenses, maturity, methods, and engagement paths.
 
-### AI-Augmented Operating System â€” AAOS
+### AI-Augmented Operating System ? AAOS
 
 The repeatable operating model used to build and scale reliable AI-augmented capability.
 
@@ -789,7 +789,7 @@ Centralize these definitions where feasible.
 
 ---
 
-## P1.9 â€” Improve conference visitor orientation
+## P1.9 ? Improve conference visitor orientation
 
 Add optional query-aware or contextual handling for visitors from IUC.
 
@@ -813,9 +813,9 @@ Keep this subtle and removable.
 
 ---
 
-# P2 â€” SEO / AEO / DISCOVERABILITY
+# P2 ? SEO / AEO / DISCOVERABILITY
 
-## P2.1 â€” Review homepage title tag
+## P2.1 ? Review homepage title tag
 
 The homepage title should represent the movement, not only AI governance and operating models.
 
@@ -831,7 +831,7 @@ Keep title length within reasonable SEO limits.
 
 ---
 
-## P2.2 â€” Optimize `/education` title and description
+## P2.2 ? Optimize `/education` title and description
 
 Suggested title:
 
@@ -845,7 +845,7 @@ Adjust for final character length.
 
 ---
 
-## P2.3 â€” Add structured data
+## P2.3 ? Add structured data
 
 Review and implement appropriate JSON-LD.
 
@@ -866,7 +866,7 @@ Do not misuse schema types simply for SEO.
 
 ---
 
-## P2.4 â€” Preserve FAQ content
+## P2.4 ? Preserve FAQ content
 
 The existing FAQ-style content is valuable for answer engines.
 
@@ -887,7 +887,7 @@ Keep answers concise and explicit.
 
 ---
 
-## P2.5 â€” Improve internal linking
+## P2.5 ? Improve internal linking
 
 Each major page should link semantically to related concepts.
 
@@ -919,7 +919,7 @@ Teacher pages should link to:
 
 ---
 
-## P2.6 â€” Generate and validate sitemap
+## P2.6 ? Generate and validate sitemap
 
 Ensure the sitemap contains all canonical public pages.
 
@@ -935,7 +935,7 @@ Submit or verify the sitemap through the appropriate search tooling outside the 
 
 ---
 
-## P2.7 â€” Check robots directives
+## P2.7 ? Check robots directives
 
 Verify:
 
@@ -946,7 +946,7 @@ Verify:
 
 ---
 
-## P2.8 â€” Audit canonical links
+## P2.8 ? Audit canonical links
 
 Every page should point to its preferred URL.
 
@@ -962,7 +962,7 @@ Pay special attention to:
 
 ---
 
-# P3 â€” UX AND INFORMATION ARCHITECTURE
+# P3 ? UX AND INFORMATION ARCHITECTURE
 
 ## P3.1 — Establish primary site taxonomy
 
@@ -1005,7 +1005,7 @@ HOW                 AAOS: Diagnose, Activate, Controls, Execute, Measure, Scale
 LEVEL OF SUPPORT    Learn, Apply, Augment
 CONTEXT             Education, Healthcare, Legal, Government, and future domains
 ```
-## P3.2 â€” Add breadcrumbs to deeper pages
+## P3.2 ? Add breadcrumbs to deeper pages
 
 For example:
 
@@ -1024,11 +1024,11 @@ Breadcrumbs should:
 
 ---
 
-## P3.3 â€” Improve maturity page progression
+## P3.3 ? Improve maturity page progression
 
 Each maturity page should clearly show:
 
-**Previous Stage â† Current Stage â†’ Next Stage**
+**Previous Stage ? Current Stage ? Next Stage**
 
 Also show:
 
@@ -1048,7 +1048,7 @@ This is already present in parts of the site; standardize it.
 
 ---
 
-## P3.4 â€” Create consistent CTA system
+## P3.4 ? Create consistent CTA system
 
 Define button styles and semantic purposes.
 
@@ -1068,7 +1068,7 @@ Avoid pages with three or four equally prominent actions.
 
 ---
 
-## P3.5 â€” Add site-wide footer taxonomy
+## P3.5 ? Add site-wide footer taxonomy
 
 Footer should provide clear access to:
 
@@ -1110,9 +1110,9 @@ Footer should provide clear access to:
 
 ---
 
-# P4 â€” BRAND AND AUTHORITY
+# P4 ? BRAND AND AUTHORITY
 
-## P4.1 â€” Define brand ontology in the repository
+## P4.1 ? Define brand ontology in the repository
 
 Create a reusable source of truth.
 
@@ -1138,7 +1138,7 @@ Codex should use this document when generating new site content.
 
 ---
 
-## P4.2 â€” Keep product brands subordinate to the movement
+## P4.2 ? Keep product brands subordinate to the movement
 
 The AI-Augmented website should primarily own:
 
@@ -1172,7 +1172,7 @@ Do not turn the AI-Augmented homepage into a directory of companies.
 
 ---
 
-## P4.3 â€” Improve author/founder attribution
+## P4.3 ? Improve author/founder attribution
 
 Ensure visitors can understand who created the framework without making the site feel like a personal promotional site.
 
@@ -1188,9 +1188,9 @@ Avoid excessive founder promotion on the homepage.
 
 ---
 
-# P5 â€” PERFORMANCE AND TECHNICAL QUALITY
+# P5 ? PERFORMANCE AND TECHNICAL QUALITY
 
-## P5.1 â€” Run broken-link audit
+## P5.1 ? Run broken-link audit
 
 Check all internal links.
 
@@ -1211,7 +1211,7 @@ Generate a report.
 
 ---
 
-## P5.2 â€” Run orphan-page audit
+## P5.2 ? Run orphan-page audit
 
 Identify pages that:
 
@@ -1229,7 +1229,7 @@ Determine whether each should be:
 
 ---
 
-## P5.3 â€” Check image optimization
+## P5.3 ? Check image optimization
 
 For each image:
 
@@ -1243,7 +1243,7 @@ For each image:
 
 ---
 
-## P5.4 â€” Check Core Web Vitals fundamentals
+## P5.4 ? Check Core Web Vitals fundamentals
 
 Focus on obvious causes of poor experience:
 
@@ -1261,7 +1261,7 @@ Fix high-impact problems first.
 
 ---
 
-## P5.5 â€” Validate responsive layouts
+## P5.5 ? Validate responsive layouts
 
 Test:
 
@@ -1285,7 +1285,7 @@ Pay particular attention to:
 
 ---
 
-## P5.6 â€” Run accessibility baseline
+## P5.6 ? Run accessibility baseline
 
 Check:
 
@@ -1305,9 +1305,9 @@ Target WCAG 2.2 AA where reasonably achievable.
 
 ---
 
-# P6 â€” CONTENT SYSTEM IMPROVEMENTS
+# P6 ? CONTENT SYSTEM IMPROVEMENTS
 
-## P6.1 â€” Centralize stage definitions
+## P6.1 ? Centralize stage definitions
 
 Create structured data for maturity stages.
 
@@ -1331,7 +1331,7 @@ Generate repeated UI from this source where appropriate.
 
 ---
 
-## P6.2 â€” Centralize AAOS definitions
+## P6.2 ? Centralize AAOS definitions
 
 Create:
 
@@ -1359,7 +1359,7 @@ Avoid hardcoding multiple inconsistent definitions.
 
 ---
 
-## P6.3 â€” Centralize lens definitions
+## P6.3 ? Centralize lens definitions
 
 Create:
 
@@ -1384,7 +1384,7 @@ Example category values:
 
 ---
 
-## P6.4 â€” Centralize Learn / Apply / Augment content
+## P6.4 ? Centralize Learn / Apply / Augment content
 
 Create:
 
@@ -1401,11 +1401,11 @@ Each level should include:
 
 ---
 
-# P7 â€” POST-IUC STRATEGIC IMPROVEMENTS
+# P7 ? POST-IUC STRATEGIC IMPROVEMENTS
 
 These items should not block conference readiness.
 
-## P7.1 â€” Evaluate canonical URL migration
+## P7.1 ? Evaluate canonical URL migration
 
 Consider replacing:
 
@@ -1419,7 +1419,7 @@ Only do this with permanent redirects and canonical updates.
 
 ---
 
-## P7.2 â€” Build dedicated Augment marketplace/engagement page
+## P7.2 ? Build dedicated Augment marketplace/engagement page
 
 Allow visitors to discover services by need rather than company.
 
@@ -1437,7 +1437,7 @@ Examples:
 
 ---
 
-## P7.3 â€” Build Apply catalog
+## P7.3 ? Build Apply catalog
 
 Create a structured page for self-service assets.
 
@@ -1463,7 +1463,7 @@ Each asset should indicate:
 
 ---
 
-## P7.4 â€” Build stronger movement/community experience
+## P7.4 ? Build stronger movement/community experience
 
 Possible future capabilities:
 
@@ -1485,20 +1485,20 @@ They should support adoption of the AI-Augmented framework.
 
 ---
 
-## P7.5 â€” Build institutional education journey
+## P7.5 ? Build institutional education journey
 
 Create a guided institutional journey such as:
 
 ```text
 Discover
-â†’ Assess
-â†’ Diagnose
-â†’ Prioritize
-â†’ Pilot
-â†’ Govern
-â†’ Measure
-â†’ Scale
-â†’ Augment
+? Assess
+? Diagnose
+? Prioritize
+? Pilot
+? Govern
+? Measure
+? Scale
+? Augment
 ```
 
 This may eventually become a commercial or credentialed institutional program.
@@ -1570,11 +1570,11 @@ Create or update:
 
 ```text
 docs/
-â”œâ”€â”€ brand-ontology.md
-â”œâ”€â”€ information-architecture.md
-â”œâ”€â”€ seo-guidelines.md
-â”œâ”€â”€ content-guidelines.md
-â””â”€â”€ iuc-readiness.md
+├── brand-ontology.md
+├── information-architecture.md
+├── seo-guidelines.md
+├── content-guidelines.md
+└── iuc-readiness.md
 ```
 
 ---
@@ -1669,7 +1669,7 @@ Include:
 
 Before declaring the work complete, perform the following journey manually.
 
-## Journey 1 â€” CIO
+## Journey 1 ? CIO
 
 1. Open `/education`.
 2. Understand the proposition.
@@ -1679,7 +1679,7 @@ Before declaring the work complete, perform the following journey manually.
 6. Find an institutional next step.
 7. Find a way to engage.
 
-## Journey 2 â€” Provost
+## Journey 2 ? Provost
 
 1. Open `/education`.
 2. Identify relevance to academics.
@@ -1688,7 +1688,7 @@ Before declaring the work complete, perform the following journey manually.
 5. Find institutional actions.
 6. Reach an Apply or Augment path.
 
-## Journey 3 â€” Faculty Member
+## Journey 3 ? Faculty Member
 
 1. Open `/education`.
 2. Select Teacher.
@@ -1697,7 +1697,7 @@ Before declaring the work complete, perform the following journey manually.
 5. Identify their current maturity.
 6. Get a concrete next action.
 
-## Journey 4 â€” Student
+## Journey 4 ? Student
 
 1. Open `/education`.
 2. Select Student.
@@ -1706,7 +1706,7 @@ Before declaring the work complete, perform the following journey manually.
 5. Identify current maturity.
 6. Find a next action.
 
-## Journey 5 â€” Conference Attendee with 30 seconds
+## Journey 5 ? Conference Attendee with 30 seconds
 
 1. Scan QR.
 2. Page loads quickly.
@@ -1787,6 +1787,7 @@ Preserve the core idea:
 > AI augmentation expands human capability through disciplined partnership with AI while preserving human judgment, agency, and responsibility.
 
 The AI-Augmented website should be the canonical home of that idea.
+
 
 
 

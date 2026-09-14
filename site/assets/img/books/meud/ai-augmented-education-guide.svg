@@ -207,7 +207,7 @@
         <g id="back-text">
             <!-- Hook -->
             <text x="207.5" y="500" class="back-hook">AI is not just changing how students write.</text>
-            <text x="207.5" y="560" class="back-hook">It is changing how they learn�and how we must</text>
+            <text x="207.5" y="560" class="back-hook">It is changing how they learn?and how we must</text>
             <text x="207.5" y="620" class="back-hook">verify their knowledge.</text>
 
             <!-- Summary -->
@@ -223,11 +223,11 @@
             <!-- What readers get -->
             <text x="207.5" y="1175" class="back-head">INSIDE YOU'LL DISCOVER HOW TO:</text>
             <text x="207.5" y="1245" class="back-body">
-                <tspan x="207.5" dy="0">� Map the 4 Student Postures and identify 'The Ghost'</tspan>
-                <tspan x="207.5" dy="42">� Implement Individual Integrity Packets (IIPs)</tspan>
-                <tspan x="207.5" dy="42">� Shift from grading outputs to auditing reasoning trails</tspan>
-                <tspan x="207.5" dy="42">� Solve the 'Verification Debt' in automated assignments</tspan>
-                <tspan x="207.5" dy="42">� Build a Glass Box Classroom that scales with AI</tspan>
+                <tspan x="207.5" dy="0">? Map the 4 Student Postures and identify 'The Ghost'</tspan>
+                <tspan x="207.5" dy="42">? Implement Individual Integrity Packets (IIPs)</tspan>
+                <tspan x="207.5" dy="42">? Shift from grading outputs to auditing reasoning trails</tspan>
+                <tspan x="207.5" dy="42">? Solve the 'Verification Debt' in automated assignments</tspan>
+                <tspan x="207.5" dy="42">? Build a Glass Box Classroom that scales with AI</tspan>
             </text>
 
             <!-- Audience -->
