@@ -87,7 +87,7 @@ function renderList(items, className = '') {
 function cleanVisitorCopy(value) {
   return String(value ?? '')
     .replace(/\ba individual\b/gi, 'an individual')
-    .replace(/Education Administrator/g, 'Education Leader');
+    .replace(/Education Leader/g, 'Education Leader');
 }
 
 function renderResourceCards(resources, depth, kind = 'available') {
@@ -159,6 +159,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
   const backHref = lensHref(depth, lensKey);
   const aaosHref = `${toDirPrefix(depth)}aaos/`;
   const aaosLensHref = `${toDirPrefix(depth)}lens/${lensKey}/aaos/`;
+  const resourcesHref = `${toDirPrefix(depth)}resources/`;
   const nextStageKey = stageOrder[stageOrder.indexOf(stageKey) + 1];
   const nextStage = stage.nextStage || (nextStageKey ? lens.stages[nextStageKey] : { label: 'Sustained Augmentation', description: 'Keep improving your AI-Augmented operating model.' });
 
@@ -293,7 +294,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
         <p>${escapeHtml(stage.heroText || simpleText(stage.looksLike || stage.diagnosis?.items?.[0] || 'This stage helps you move from awareness to action.'))}</p>
         <p class="muted" style="font-size: 0.8rem; margin-bottom: 1.5rem;">Author: Dr. Darren Pulsipher, <em>Becoming AI-Augmented</em> &middot; Last Updated: July 2026</p>
         <div class="cta-row">
-          <a class="button" href="${assessmentHref}">Take The Assessment</a>
+          <a class="button" href="${assessmentHref}">Take the Assessment</a>
           <a class="button secondary" href="#mission">Start This Stage</a>
         </div>
       </div>
@@ -385,7 +386,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
       </div>
       <article class="card checklist-card">
         ${renderList(stage.readyForNext, 'check-list')}
-        <div class="cta-row" style="margin-top:1rem;"><a class="button" href="${nextStageKey ? stageHref(depth, lensKey, nextStageKey) : aaosLensHref}">Continue the Journey</a><a class="button secondary" href="${backHref}">Back to ${escapeHtml(lensLabel)}</a></div>
+        <div class="cta-row" style="margin-top:1rem;"><a class="button" href="${nextStageKey ? stageHref(depth, lensKey, nextStageKey) : aaosLensHref}">Continue Your Path</a><a class="button secondary" href="${resourcesHref}">Explore Resources</a><a class="button secondary" href="${assessmentHref}">Take the Assessment</a></div>
       </article>
     </div>
   </section>

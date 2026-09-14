@@ -135,6 +135,11 @@
     });
   }
 
+  function showIucWelcome() {
+    const welcome = document.querySelector('[data-iuc-welcome]');
+    if (welcome && new URLSearchParams(window.location.search).get('src')?.toLowerCase() === 'iuc') welcome.hidden = false;
+  }
+
   function escapeHtml(value) {
     return String(value ?? '')
       .replace(/&/g, '&amp;')
@@ -600,6 +605,7 @@
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', setupNavDropdowns, { once: true });
+    document.addEventListener('DOMContentLoaded', showIucWelcome, { once: true });
     document.addEventListener('DOMContentLoaded', redirectLensHubToSavedStage, { once: true });
     document.addEventListener('DOMContentLoaded', persistCurrentStage, { once: true });
     document.addEventListener('DOMContentLoaded', renderLensStages, { once: true });
@@ -610,6 +616,7 @@
     document.addEventListener('DOMContentLoaded', initMeasurement, { once: true });
   } else {
     setupNavDropdowns();
+    showIucWelcome();
     redirectLensHubToSavedStage();
     persistCurrentStage();
     renderLensStages();

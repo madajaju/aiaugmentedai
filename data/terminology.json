@@ -1,0 +1,18 @@
+{
+  "aiAugmentedMovement": {
+    "label": "AI-Augmented Movement",
+    "definition": "A movement focused on expanding human capability through disciplined partnership with AI."
+  },
+  "aiAugmentedFramework": {
+    "label": "AI-Augmented Framework",
+    "definition": "The conceptual model connecting lenses, maturity, methods, and engagement paths."
+  },
+  "aaos": {
+    "label": "AI-Augmented Operating System (AAOS)",
+    "definition": "The repeatable operating model used to build and scale reliable AI-Augmented capability."
+  },
+  "aiAugmentedMaturity": {
+    "label": "AI-Augmented Maturity",
+    "definition": "A progression describing how deeply AI is integrated into judgment, workflows, teams, or institutions."
+  }
+}

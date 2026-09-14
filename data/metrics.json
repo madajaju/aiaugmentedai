@@ -1,0 +1,30 @@
+{
+  "podcastMonthlyDownloads": {
+    "display": "1 Million+",
+    "description": "Monthly podcast downloads across the Embracing Digital network.",
+    "source": "Internal claim; verify against current podcast analytics before publication.",
+    "lastVerified": null,
+    "verified": false
+  },
+  "podcastEpisodes": {
+    "display": "500+ Episodes",
+    "description": "Episodes covering digital transformation and AI leadership.",
+    "source": "Embracing Digital archive; verify current count before publication.",
+    "lastVerified": null,
+    "verified": false
+  },
+  "youtubeSubscribers": {
+    "display": "200K+ Subscribers",
+    "description": "Subscribers engaging with the movement through YouTube and educational channels.",
+    "source": "YouTube; verify current channel totals before publication.",
+    "lastVerified": null,
+    "verified": false
+  },
+  "organizations": {
+    "display": "30+ Organizations",
+    "description": "Higher-education institutions and organizations engaged with the AI-Augmented framework.",
+    "source": "Internal engagement records; verify before publication.",
+    "lastVerified": null,
+    "verified": false
+  }
+}

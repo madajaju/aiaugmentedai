@@ -63,7 +63,7 @@ function assetsPath(depth) {
 function renderStageTabs(depth, lensKey, lens, activeStage) {
   return `
     <div class="stage-tabs">
-      <nav class="stage-tablist" aria-label="${escapeHtml(lens.title)} maturity stages">
+      <nav class="stage-tablist" aria-label="${escapeHtml(lens.title)} maturity levels">
         ${stageOrder.map((stageKey) => {
           const item = lens.stages[stageKey];
           const active = stageKey === activeStage;
@@ -217,6 +217,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage, depth }) {
   const assessmentHref = `/assessment/`;
   const aaosHref = `/aaos/`;
   const aaosLensHref = `/lens/${lensKey}/aaos/`;
+  const resourcesHref = `/resources/`;
 
   const currentIndex = stageOrder.indexOf(stageKey);
   const nextStageKey = stageOrder[currentIndex + 1];
@@ -354,8 +355,9 @@ function renderStagePage({ lensKey, lens, stageKey, stage, depth }) {
         <p>${escapeHtml(stage.looksLike)}</p>
         <p class="muted" style="font-size: 0.8rem; margin-bottom: 1.5rem;">Author: Dr. Darren Pulsipher, <em>Becoming AI-Augmented</em> &middot; Last Updated: July 2026</p>
         <div class="cta-row">
-          <a class="button" href="${assessmentHref}">Take The Assessment</a>
-          <a class="button secondary" href="${backHref}">Back to ${escapeHtml(lensLabel)}</a>
+          <a class="button" href="${assessmentHref}">Take the Assessment</a>
+          <a class="button secondary" href="${backHref}">Continue Your Path</a>
+          <a class="text-link" href="${resourcesHref}">Explore Resources</a>
         </div>
       </div>
       <aside class="hero-visual panel">
@@ -470,7 +472,7 @@ function renderOverviewStageLinks(depth, lensKey, lens) {
           <p>Each stage opens its own static page so the lens can behave like tabs without hiding the content from search engines or AI tools.</p>
         </div>
         <div class="stage-tabs">
-          <nav class="stage-tablist" aria-label="${escapeHtml(lens.title)} maturity stages">
+          <nav class="stage-tablist" aria-label="${escapeHtml(lens.title)} maturity levels">
             ${stageOrder.map((stageKey) => {
               const item = lens.stages[stageKey];
               return `

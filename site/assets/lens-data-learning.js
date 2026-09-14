@@ -4117,7 +4117,7 @@ window.AA_LENS_DATA = {
         "nextMilestone": "Form a cross-functional AI task force to draft an institutional guidance document.",
         "diagnosis": {
           "title": "Is this really you?",
-          "description": "This stage page helps a education administrator recognize where they are before asking them to take the next step.",
+          "description": "This stage page helps an education leader recognize where they are before asking them to take the next step.",
           "items": [
             "Different departments are moving in different directions and the institution lacks a shared path.",
             "You are focused on: set the institutional frame before you scale use.."
@@ -4141,14 +4141,14 @@ window.AA_LENS_DATA = {
               "description": "Confirm the stage and lens before choosing the next action."
             },
             {
-              "label": "Explore Education Administrator Roadmap",
+              "label": "Explore Education Leader Roadmap",
               "href": "/lens/education-administrator/aaos/",
               "description": "See how this stage fits into the full AI-Augmented operating system."
             }
           ],
           "comingSoon": [
             "Aware stage video lesson",
-            "Education Administrator guided worksheet",
+            "Education Leader guided worksheet",
             "Prompt examples for this stage",
             "Community discussion thread",
             "Weekly challenge"
@@ -4232,7 +4232,7 @@ window.AA_LENS_DATA = {
         "nextMilestone": "Pilot two different AI tools in specific departments to compare effectiveness.",
         "diagnosis": {
           "title": "Is this really you?",
-          "description": "This stage page helps a education administrator recognize where they are before asking them to take the next step.",
+          "description": "This stage page helps an education leader recognize where they are before asking them to take the next step.",
           "items": [
             "You are gathering examples from faculty, staff, and students and comparing what should scale.",
             "You are focused on: choose what should be standardized across the institution.."
@@ -4256,14 +4256,14 @@ window.AA_LENS_DATA = {
               "description": "Confirm the stage and lens before choosing the next action."
             },
             {
-              "label": "Explore Education Administrator Roadmap",
+              "label": "Explore Education Leader Roadmap",
               "href": "/lens/education-administrator/aaos/",
               "description": "See how this stage fits into the full AI-Augmented operating system."
             }
           ],
           "comingSoon": [
             "Exploring stage video lesson",
-            "Education Administrator guided worksheet",
+            "Education Leader guided worksheet",
             "Prompt examples for this stage",
             "Community discussion thread",
             "Weekly challenge"
@@ -4347,7 +4347,7 @@ window.AA_LENS_DATA = {
         "nextMilestone": "Publish a set of \"Safe harbor\" guidelines for faculty experimentation.",
         "diagnosis": {
           "title": "Is this really you?",
-          "description": "This stage page helps a education administrator recognize where they are before asking them to take the next step.",
+          "description": "This stage page helps an education leader recognize where they are before asking them to take the next step.",
           "items": [
             "You have examples of AI use that can be reviewed, compared, and refined.",
             "You are focused on: identify which pilots should become standard practice.."
@@ -4371,14 +4371,14 @@ window.AA_LENS_DATA = {
               "description": "Confirm the stage and lens before choosing the next action."
             },
             {
-              "label": "Explore Education Administrator Roadmap",
+              "label": "Explore Education Leader Roadmap",
               "href": "/lens/education-administrator/aaos/",
               "description": "See how this stage fits into the full AI-Augmented operating system."
             }
           ],
           "comingSoon": [
             "Experimenting stage video lesson",
-            "Education Administrator guided worksheet",
+            "Education Leader guided worksheet",
             "Prompt examples for this stage",
             "Community discussion thread",
             "Weekly challenge"
@@ -4462,7 +4462,7 @@ window.AA_LENS_DATA = {
         "nextMilestone": "Standardize AI policy across all academic programs and departments.",
         "diagnosis": {
           "title": "Is this really you?",
-          "description": "This stage page helps a education administrator recognize where they are before asking them to take the next step.",
+          "description": "This stage page helps an education leader recognize where they are before asking them to take the next step.",
           "items": [
             "AI is influencing teaching, administration, and student support in defined ways.",
             "You are focused on: scale with consistency and clear expectations.."
@@ -4486,14 +4486,14 @@ window.AA_LENS_DATA = {
               "description": "Confirm the stage and lens before choosing the next action."
             },
             {
-              "label": "Explore Education Administrator Roadmap",
+              "label": "Explore Education Leader Roadmap",
               "href": "/lens/education-administrator/aaos/",
               "description": "See how this stage fits into the full AI-Augmented operating system."
             }
           ],
           "comingSoon": [
             "Integrating stage video lesson",
-            "Education Administrator guided worksheet",
+            "Education Leader guided worksheet",
             "Prompt examples for this stage",
             "Community discussion thread",
             "Weekly challenge"
@@ -4577,7 +4577,7 @@ window.AA_LENS_DATA = {
         "nextMilestone": "Present the institution's AI maturity model at an educational conference.",
         "diagnosis": {
           "title": "Is this really you?",
-          "description": "This stage page helps a education administrator recognize where they are before asking them to take the next step.",
+          "description": "This stage page helps an education leader recognize where they are before asking them to take the next step.",
           "items": [
             "Leaders can explain the standard and others can follow it.",
             "You are focused on: teach the standard and support adoption across the institution.."
@@ -4601,14 +4601,14 @@ window.AA_LENS_DATA = {
               "description": "Confirm the stage and lens before choosing the next action."
             },
             {
-              "label": "Explore Education Administrator Roadmap",
+              "label": "Explore Education Leader Roadmap",
               "href": "/lens/education-administrator/aaos/",
               "description": "See how this stage fits into the full AI-Augmented operating system."
             }
           ],
           "comingSoon": [
             "Leading stage video lesson",
-            "Education Administrator guided worksheet",
+            "Education Leader guided worksheet",
             "Prompt examples for this stage",
             "Community discussion thread",
             "Weekly challenge"
@@ -4692,7 +4692,7 @@ window.AA_LENS_DATA = {
         "nextMilestone": "Integrate AI readiness into the institution's long-term strategic plan and budget.",
         "diagnosis": {
           "title": "Is this really you?",
-          "description": "This stage page helps a education administrator recognize where they are before asking them to take the next step.",
+          "description": "This stage page helps an education leader recognize where they are before asking them to take the next step.",
           "items": [
             "Policies, learning, administration, and student outcomes are shaped by a durable AI operating model.",
             "You are focused on: keep the transformation understandable, measurable, and human-centered.."
@@ -4716,14 +4716,14 @@ window.AA_LENS_DATA = {
               "description": "Confirm the stage and lens before choosing the next action."
             },
             {
-              "label": "Explore Education Administrator Roadmap",
+              "label": "Explore Education Leader Roadmap",
               "href": "/lens/education-administrator/aaos/",
               "description": "See how this stage fits into the full AI-Augmented operating system."
             }
           ],
           "comingSoon": [
             "Augmenting stage video lesson",
-            "Education Administrator guided worksheet",
+            "Education Leader guided worksheet",
             "Prompt examples for this stage",
             "Community discussion thread",
             "Weekly challenge"

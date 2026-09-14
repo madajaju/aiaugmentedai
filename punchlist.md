@@ -1,528 +1,1766 @@
-# Learn → Apply → Augment implementation plan
+# AI-Augmented.ai Website Punch List
 
-This plan moves the AI-Augmented site from a framework and resource architecture into a clear engagement and product architecture.
+## Purpose
 
-## Strategy to preserve
+This punch list prepares **ai-augmented.ai** for the IUC conference and establishes a cleaner long-term information architecture for the AI-Augmented Movement.
 
-- **AI-Augmented** is the movement and overall brand.
-- **AAOS** is the operating framework and maturity model.
-- **Learn → Apply → Augment** describes how visitors engage with the system and the level of support they receive.
-- The **shop** is the delivery and transaction destination for free Learn assets and paid Apply assets.
-- **Augment** contains higher-touch services such as workshops, assessments, briefings, keynotes, and institutional engagements.
-- The six AAOS maturity stages remain **Aware → Exploring → Experimenting → Integrating → Leading → Augmenting**.
-- Learn → Apply → Augment must not be presented as a replacement for the AAOS maturity stages. The two models answer different questions.
+The immediate goal is not to redesign the entire site.
 
-## Product taxonomy
+The priority is to make the site:
 
-Use these definitions consistently in page copy, product cards, metadata, navigation, shop collections, email links, and QR code destinations.
+1. Immediately understandable to first-time IUC visitors.
+2. Ready for traffic arriving through the `/education` QR code.
+3. Consistent in terminology and navigation.
+4. Effective at moving visitors toward a useful next action.
+5. Credible enough for CIOs, provosts, faculty, administrators, students, and institutional leaders.
+6. Architecturally clean enough to support future content, assessments, products, workshops, credentials, and services.
+
+---
+
+# Guiding Architecture
+
+The site should consistently communicate four separate concepts.
+
+## 1. Lens = WHO
+
+A lens identifies the role or context of the visitor.
+
+Current lenses:
+
+* Individual
+* Team Leader
+* Organization Leader
+* Student
+* Teacher
+* Education Leader
+
+## 2. Maturity = WHERE
+
+Maturity describes the visitor's current level of AI augmentation.
+
+Current maturity stages:
+
+1. Aware
+2. Exploring
+3. Experimenting
+4. Integrating
+5. Leading
+6. Augmenting
+
+Do not refer to these as AAOS stages.
+
+## 3. AAOS = HOW
+
+The AI-Augmented Operating System provides the method for advancing capability.
+
+Current AAOS stages:
+
+1. Diagnose
+2. Activate
+3. Controls
+4. Execute
+5. Measure
+6. Scale
+
+Do not refer to maturity stages as AAOS stages.
+
+## 4. Learn / Apply / Augment = LEVEL OF SUPPORT
+
+This is the engagement model.
 
 ### Learn
 
-Free educational assets delivered through the shop, usually through a $0 checkout or account flow.
-
-Examples: keynote and breakout guides, Quick Start Guides, articles, videos, assessments, introductory checklists, foundational chapters, and role-specific explainers.
-
-Primary promise: **Understand the principles, language, and frameworks behind reliable AI-Augmented work.**
-
-Preferred CTAs: **Start Learning**, **Browse Free Learning Assets**, **Get the Free Guide**, **Explore the Learn Collection**.
+Understand the concepts through free educational material.
 
 ### Apply
 
-Paid practical assets that help an individual, team, or organization apply the framework to real work.
-
-Examples: workbooks, workflow templates, Reliable and Defensible Work kits, team toolkits, facilitation guides, role-specific implementation plans, and department or campus playbooks.
-
-Primary promise: **Apply the framework to a real workflow, team, or institutional challenge.**
-
-Preferred CTAs: **Browse Application Toolkits**, **Apply the Framework**, **Choose a Workflow Kit**, **Start a Team Implementation**.
+Use tools, frameworks, assessments, playbooks, workbooks, templates, and other assets to apply the concepts.
 
 ### Augment
 
-Paid, higher-touch support delivered through Darren or the AI-Augmented practice.
-
-Examples: executive briefings, leadership workshops, AI readiness assessments, team facilitation, organizational capability assessments, keynotes, and institutional transformation engagements.
-
-Primary promise: **Augment your people, teams, and organization with guided implementation and expert support.**
-
-Preferred CTAs: **Explore Augmentation Services**, **Plan an Organizational Engagement**, **Bring Darren to Your Organization**, **Book a Conversation**.
-
-## Task 1 — Define and document the final product taxonomy
-
-### Goal
-
-Create the authoritative inventory that assigns every current and planned asset to Learn, Apply, or Augment before changing navigation or copy.
-
-### Work
-
-- Inventory all current assets linked from `site/`, including resources, articles, books, assessments, lens pages, maturity pages, AAOS pages, workshops, newsletters, and external Paidar.ai destinations.
-- Add each planned IUC asset and new release to the inventory.
-- Assign each item an engagement category: Learn, Apply, or Augment.
-- Record whether the item is free, paid, or inquiry based.
-- Record the intended audience or scope: Individual, Team, Organization, Student, Teacher, or Education Leader.
-- Record the canonical destination URL and the expected CTA.
-- Identify assets that currently have ambiguous labels such as “Explore,” “Resources,” “Toolkit,” or “Framework.”
-- Identify duplicate or overlapping products that should be combined, renamed, or redirected.
-
-### Source-of-truth inventory
-
-The inventory below is the working classification from the current `site/` tree and the planned IUC assets. “Current path” identifies the existing public route. “Destination” identifies the expected canonical delivery or conversion path after the strategy is implemented. A `TBD` value is an implementation blocker that must be resolved before a CTA is published.
-
-| Asset or destination | Current path | Category | Price state | Audience / scope | Destination | CTA | Status / decision |
-|---|---|---|---|---|---|---|---|
-| Start Here onboarding | `/start-here/` | Learn | Free | All / Individual entry | Site page, then Assessment or Learn collection | Start Here | Keep as onboarding; add Learn framing and route to the strategy page |
-| AI-Augmented Movement | `/movement/` | Learn | Free | All / Movement | Site page | Join the Movement | Keep as brand and context page; add Learn → Apply → Augment explanation |
-| Find Your Path | `/find-your-path/` | Learn | Free | All / Role selection | Lens hub | Find Your Path | Keep as role-selection route; do not classify the lenses themselves as products |
-| AI Readiness Assessment | `/assessment/` | Learn | Free | All / Individual, Team, Organization, Education | Site assessment flow | Take the Assessment | Keep free; classify as Learn and connect results to Apply and Augment recommendations |
-| AAOS framework | `/aaos/` | Learn | Free | All / Framework | Site framework page | Explore AAOS | Keep as the public framework; explain that AAOS supports all three engagement levels |
-| Foundational AAOS article | `/articles/ai-adoption-framework-aaos/` | Learn | Free | All / Framework | Site article | Read the AAOS Framework | Keep as free learning content |
-| AI maturity article | `/articles/understanding-ai-maturity-model/` | Learn | Free | All / Framework | Site article | Understand AI Maturity | Keep as free learning content |
-| Articles hub | `/articles/` | Learn | Free | All / General learning | Site article collection | Read the Articles | Keep as Learn collection |
-| General resources hub | `/resources/` | Learn | Free / mixed today | All / General learning | New Learn collection and shop | Start Learning | Reclassify page as Learn gateway; separate paid Apply items from free content |
-| Newsletter | `/newsletter/` | Learn | Free | All / Community | Newsletter signup | Join the Newsletter | Keep as Learn/community relationship; document email provider and consent behavior |
-| Books hub | `/books/` | Learn foundation | Paid books / availability varies | All / Individual, Team, Organization, Education | Paidar.ai book pages or shop | Explore the Series / Get the Books | Keep separate from the three offer categories; explain that books support Learn, Apply, and Augment |
-| Becoming AI-Augmented book | Paidar.ai book page | Learn foundation | Paid book | Individual | Paidar.ai or shop | Get the Book | Verify current purchase URL and availability |
-| AI-Augmented Teams book | Paidar.ai book page | Apply foundation | Paid book | Team / Team Leader | Paidar.ai or shop | Get the Book | Treat as intellectual foundation for Apply; do not label the book itself as the Team Toolkit |
-| AI-Augmented Organizations book | Paidar.ai book page | Apply foundation | Paid book / release state to verify | Organization / Organization Leader | Paidar.ai or shop | Get the Book / Learn More | Verify release and purchase state before publishing availability claims |
-| Educating the AI-Augmented book | Paidar.ai book page | Learn foundation | Availability to verify | Student, Teacher, Education Leader | Paidar.ai or shop | Learn More / Get the Book | Verify current product state |
-| AI-Augmented Education book | Paidar.ai book page | Apply foundation | Availability to verify | Education / Institution | Paidar.ai or shop | Learn More / Get the Book | Verify current product state |
-| IUC keynote Quick Start Guide | Planned asset, linked from `/education/` | Learn | Free through shop | IUC attendee / Individual | Shop Learn collection or product page | Get the Free Keynote Guide | Create product and stable URL; do not link to generic Resources once available |
-| IUC Reliable and Defensible AI Workflow Guide | Planned asset, linked from `/education/` | Apply | Paid through shop | IUC attendee / Individual or Team | Shop Apply product page | Apply the Workflow | Create product, price, fulfillment, and canonical URL |
-| AI Execution Starter Toolkit for Individuals | Existing shop product | Apply | $49 listed; currently marked sold out | Individual / Individual | `https://shop.paidar.ai/products/ai-starter-toolkit` | View full details | Use as a known Apply product once inventory status is resolved |
-| Educator's AI-Augmented Toolkit: Classroom Starter | Existing shop product | Apply | $49 listed | Teacher, Education Leader / Education | `https://shop.paidar.ai/products/educators-ai-augmented-toolkit-classroom-starter` | View full details | Use as a known education Apply product; verify checkout and fulfillment |
-| AI-Augmented Team Toolkit | Planned asset, currently routed to `/lens/team-leader/` | Apply | Paid through shop | Team Leader / Team | Shop Apply product page | Explore the Team Toolkit | Replace lens-only destination when product exists; keep lens as supporting context |
-| AI-Augmented Organization Framework | Planned asset, currently routed to `/lens/organization-leader/` | Apply | Paid through shop or inquiry, to verify | Organization Leader / Organization | Shop Apply product or Augment inquiry | Explore the Organization Framework | Decide whether self-serve toolkit or guided service; document the decision before linking |
-| Executive Briefing | Described on `/education/` | Augment | Paid inquiry | Executive Leadership / Organization | Darren speaking or inquiry destination | Book a Conversation | Need canonical service URL and inquiry form |
-| AI-Augmented Leadership Workshop | Described on `/education/`; workshop links also appear on lens pages | Augment | Paid inquiry | Team Leader, Organization Leader / Team or Organization | Darren or Paidar workshop destination | Explore Workshops | Verify canonical service page and whether shop booking is supported |
-| AI Readiness / AI-Augmented Organization Assessment | Assessment exists at `/assessment/`; institutional version is planned | Augment | Paid inquiry or paid service | Organization Leader, Education Leader / Organization | Service inquiry or assessment product | Plan an Assessment | Separate the free public assessment from the paid institutional assessment |
-| Keynotes and workshops | Described on `/education/` and lens pages | Augment | Paid inquiry | Organizations / Institution | `https://drdarrenspeaks.com/` or canonical service page | Bring Darren to Your Organization | Confirm canonical booking destination and tracking parameters |
-| AI-Augmented University | `/education/` section | Augment framework | Free overview; offerings paid | Higher education / Institution | Education strategy page plus Learn, Apply, and Augment routes | Explore AI-Augmented Education | Keep overview free; route products and services by category |
-| Student lens | `/lens/student/` plus maturity and AAOS pages | Learn context | Free site content | Student / Individual | Student Learn collection | Start Learning | Lens is context, not a product category |
-| Teacher lens | `/lens/teacher/` plus maturity and AAOS pages | Learn context | Free site content | Teacher / Individual | Teacher Learn and Apply collections | Start Learning | Add role-specific Apply and Augment links later |
-| Education Leader lens | `/lens/education-administrator/` plus maturity and AAOS pages | Learn context | Free site content | Education Leader / Organization | Education Learn, Apply, and Augment routes | Explore Your Path | Keep public label “Education Leader” consistently |
-| Individual lens | `/lens/individual/` plus maturity and AAOS pages | Learn context | Free site content | Individual | Individual Learn and Apply collections | Explore Your Path | Add category labels to linked products |
-| Team Leader lens | `/lens/team-leader/` plus maturity and AAOS pages | Apply context | Free site content | Team Leader / Team | Team Apply collection and Augment services | Apply with Your Team | Add explicit Learn, Apply, and Augment next steps |
-| Organization Leader lens | `/lens/organization-leader/` plus maturity and AAOS pages | Augment context | Free site content | Organization Leader / Organization | Organization Apply collection and Augment services | Build at Scale | Add explicit Learn, Apply, and Augment next steps |
-| Lens data resources | `site/assets/lens-data.js` | Mixed | State to verify per item | Six lenses / Six stages | Existing article, book, resources, assessment, or service destination | Item-specific | Audit generated resource links; add category and price metadata rather than classifying the whole data file |
-| Video / YouTube | External destination linked from movement or education content | Learn | Free | All | YouTube channel | Watch | Confirm canonical channel URL and add to Learn collection |
-| Podcast / Embracing Digital Transformation | `https://embracingdigital.org/` | Learn | Free | All | Podcast site | Listen | Keep as free learning channel |
-
-### Inventory blockers to resolve before implementation
-
-- The live shop domain is confirmed as `https://shop.paidar.ai/`. Confirm stable collection URLs for Learn and Apply before replacing the shop homepage links.
-- Confirm whether free Learn products require a customer account, email address, or $0 checkout.
-- Confirm whether paid Apply products are digital downloads, physical products, courses, or bundles.
-- Decide whether AI-Augmented Organizations is an Apply product, an Augment service, or both with separate SKUs.
-- Decide whether the institutional assessment is a product with a fixed price or a service requiring an inquiry.
-- Confirm the canonical booking destination for Executive Briefing, Leadership Workshop, Assessment, and Keynotes.
-- Confirm current release and purchase status for all five book titles.
-- Add product IDs or canonical URLs once the shop inventory exists.
-- Add a status field such as Draft, Ready, Live, or Retire to the inventory during implementation.
-
-### Task 4 completion status
-
-Completed locally:
-
-- Confirmed the live shop domain as `https://shop.paidar.ai/`.
-- Updated the new Learn → Apply → Augment page and the Resources page to send shop CTAs to `shop.paidar.ai` instead of the generic Paidar.ai home page.
-- Added two observed Apply products to the inventory, including current price and availability notes.
-
-Blocked outside this repository:
-
-- Learn collection URL is not confirmed; the shop homepage currently exposes the entry point but does not provide a stable Learn collection URL in the public page content.
-- Apply collection URL is not confirmed; the shop homepage exposes “Explore Toolkits,” but a stable collection URL must be supplied before the site can link directly to it.
-- The two observed shop products need an explicit live/sold-out status and verified fulfillment behavior.
-- No external shop mutations were made from this workflow.
-
-### Deliverable and acceptance criteria
-
-- Keep the inventory above as the source of truth, updating it when new assets or shop products are created.
-- Every public resource has exactly one primary category.
-- Every product has a known transaction or inquiry path.
-- Free Learn assets explicitly identify the shop as their delivery destination.
-- Apply products have a paid shop destination or a documented blocker.
-- Augment offerings have a conversation or inquiry destination.
-- The taxonomy does not use “Augmenting” as a synonym for the Augment offer category.
-- No asset remains categorized only as “Resources,” “Explore,” “Toolkit,” or “Framework” without a Learn, Apply, or Augment classification.
-- The inventory distinguishes a content foundation, such as a book or AAOS page, from a product or service that belongs in the offer ladder.
+Work directly with experts through workshops, advisory services, organizational engagements, speaking, coaching, or facilitated transformation.
 
-## Task 2 — Create the Learn → Apply → Augment strategy landing page
+---
 
-### Goal
+# IUC Readiness Priorities
 
-Give visitors one page that explains the engagement model before they encounter a large collection of products.
+These tasks must be completed first.
 
-### Recommended route
-
-Use `/learn-apply-augment/` unless an existing route is selected during implementation. Preserve `/education/` for the IUC and higher education page.
-
-### Work
-
-- Create `site/learn-apply-augment/index.html` using the existing shared layout and styles in `site/assets/site.css`.
-- Add a hero statement such as: “Learn the ideas. Apply them to the work. Augment the people, teams, and organization.”
-- Explain the difference between the three engagement levels.
-- State that Learn assets are free but delivered through the shop.
-- State that Apply assets are paid implementation products.
-- State that Augment is higher-touch support and services.
-- Explain the relationship between the engagement model and AAOS.
-- Explain the relationship between the engagement model and the six lenses.
-- Provide routes to Learn, Apply, Augment, Find Your Path, Assessment, and AAOS.
-- Include a compact comparison table or three-column card layout with audience, format, price state, and next action.
-- Add canonical, Open Graph, Twitter, and structured metadata appropriate to the page.
-- Add the route to the sitemap if the sitemap is maintained manually.
-
-### Acceptance criteria
-
-- A first-time visitor can explain the difference between Learn, Apply, and Augment after reading the page.
-- The page clearly states what is free, what is paid, and what requires a conversation.
-- The page does not imply that AAOS stages have been replaced.
-- Every CTA resolves to an existing route or documented external destination.
-- The page works at mobile and desktop widths using the existing visual system.
-
-## Task 3 — Rebuild the Resources page as the Learn gateway
-
-### Files
+---
 
-- `site/resources/index.html`
-- `site/assets/site.css` if shared styling is required
-
-### Work
-
-- Change the title, description, hero eyebrow, and hero copy so the page is clearly about Learn.
-- Replace “Support the movement with practical tools” with a Learn focused promise.
-- Explain that free Learn assets are delivered through the shop.
-- Group existing resources into Foundations, Assessment, Articles, Video, and Role-Based Learning where appropriate.
-- Add a Learn collection CTA that points to the shop.
-- Add “Continue to Apply” and “Continue to Augment” paths below the free resources.
-- Mark every resource card with `Learn · Free` where appropriate.
-- Preserve useful movement, assessment, articles, books, and newsletter routes.
-- Add links to the new strategy landing page.
-
-### Acceptance criteria
-
-- The page reads as a free learning hub rather than a miscellaneous resource index.
-- Free assets visibly state that they are free and accessed through the shop.
-- Paid Apply products are not presented as free resources.
-- Visitors can reach Apply and Augment without returning to the main navigation.
-- Existing useful resource URLs remain valid or receive redirects.
-
-## Task 4 — Establish the shop collection and transaction model
-
-### Scope
-
-This task covers the external shop or Paidar.ai destination and the links from the website. Use the available shop platform capabilities; do not assume ai-augmented.ai will process transactions.
-
-### Work
-
-- Create or confirm three shop collections: Learn, Apply, and Augment.
-- Configure Learn products as free products with a $0 checkout, download, or account flow. The current shop homepage presents Individuals, Teams, and Organizations but does not yet expose a confirmed Learn collection URL.
-- Configure Apply products as paid products with price, purchase CTA, product description, and fulfillment information.
-- Configure Augment products as inquiry or booking products rather than self-serve downloads.
-- Add consistent product metadata: category, audience, scope, format, price state, and related AAOS stage or lens.
-- Create naming conventions that distinguish a free guide from a paid toolkit on a similar subject.
-- Ensure every product page explains what the buyer receives, who it is for, and the next step.
-- Add cross-links from Learn products to related Apply products.
-- Add cross-links from Apply products to related Augment services.
-- Use UTM parameters or another agreed campaign convention for IUC, QR code, email, and website links.
-- Confirm free products do not unexpectedly require a paid subscription or hidden payment step.
-- Confirm paid products do not use labels such as “free,” “download,” or “resource” without qualification.
-
-### Acceptance criteria
-
-- A user can obtain a Learn asset through the shop without being charged.
-- A user can identify the price and fulfillment method of every Apply product before checkout.
-- A user can identify how to inquire about every Augment offering.
-- The shop uses the same terminology as ai-augmented.ai.
-- Website links point to the correct shop collection or product page.
-
-## Task 5 — Reframe the IUC page around the new strategy
-
-### File
-
-- `site/education/index.html`
-
-### Work
-
-- Keep the event context, keynote, breakout, Darren image, and book series.
-- Add a “Continue from IUC” section with three choices:
-  - Learn — get free keynote and breakout assets through the shop.
-  - Apply — use paid workflow and team toolkits with real work.
-  - Augment — bring the framework to a university or institution.
-- Change resource cards so each has a visible category label and price state.
-- Replace generic CTA labels with Learn, Apply, or Augment actions.
-- Keep Individual → Team → Organization as a second navigation dimension below the engagement model.
-- Explain that engagement level and scope are separate dimensions.
-- Connect the keynote to Learn assets and the breakout to Apply assets.
-- Connect institutional workshops, assessments, and briefings to Augment.
-- Add a direct link to the strategy landing page.
-- Map higher education audience tiles to the relevant Learn, Apply, or Augment path.
-- State that free resources are delivered through the shop.
-- Use “Book a Conversation” for the primary institutional conversion CTA.
-
-### Acceptance criteria
-
-- An IUC attendee can identify the free next step within five seconds.
-- The paid Apply path is visible without making the page feel like a sales page.
-- The institutional Augment path is separated from self-serve Learn and Apply products.
-- The page explains how Learn → Apply → Augment relates to Individual → Team → Organization.
-- Current local asset references remain valid.
-
-### Task 5 completion status
-
-Completed in `site/education/index.html`:
-
-- Added the explicit “Continue from IUC” Learn, Apply, and Augment section.
-- Kept Individual → Team → Organization as the separate scope dimension.
-- Added visible free, paid, and guided access labels to the IUC follow-up cards.
-- Routed Learn and Apply follow-up CTAs to the confirmed shop domain.
-- Connected the institutional path to the Augment services section.
-- Added a direct link to the central Learn → Apply → Augment strategy page.
-
-## Task 6 — Add the taxonomy to books and lens pages
-
-### Files
-
-- `site/books/index.html`
-- `site/lens/individual/index.html`
-- `site/lens/team-leader/index.html`
-- `site/lens/organization-leader/index.html`
-- `site/lens/student/index.html`
-- `site/lens/teacher/index.html`
-- `site/lens/education-administrator/index.html`
-- Their maturity, AAOS, and stage pages where product links appear
-
-### Work
-
-- Add a short Learn → Apply → Augment explanation to the books page.
-- Position books as the intellectual foundation supporting all three engagement levels.
-- Add category labels to book-related resources when they are actually Learn, Apply, or Augment products.
-- On each lens hub, add a “For your role” block with:
-  - Learn the role-specific principles.
-  - Apply them with role-specific tools.
-  - Augment your team or organization with guided support.
-- Route each step to an actual destination, not a placeholder or generic page.
-- Replace generic “Go further” copy with the appropriate Apply or Augment destination.
-- Add related product links to maturity pages where they help visitors progress.
-- Keep the six lens names consistent, especially “Education Leader” for the public-facing education administrator lens.
-- Preserve the distinction between role lens, maturity stage, and engagement level.
-- Correct stale book availability, preorder, early-order, or launch language encountered during this pass.
-
-### Acceptance criteria
-
-- A visitor on any major lens page can find Learn, Apply, and Augment next steps for that role.
-- Book pages do not imply that every book is itself a paid Apply product.
-- Each new CTA points to a real product, service, or framework destination.
-- No public page uses placeholder or development language.
-- The lens and AAOS structures remain intact.
-
-### Task 6 completion status
-
-Completed in the current pass:
-
-- Added the Learn → Apply → Augment explanation to `site/books/index.html`.
-- Positioned the books as the foundation supporting the engagement model rather than as a replacement for it.
-- Added role-specific Learn, Apply, and Augment next-step sections to the Individual, Team Leader, Organization Leader, Student, Teacher, and Education Leader hubs.
-- Replaced generic “Go further” language on the five standard lens hubs with role-aware next-step copy.
-- Added education-specific learning, toolkit, and guided-support paths to the Education Leader hub.
-- Preserved the existing AAOS and maturity routes.
-
-Follow-up still required when product URLs are available:
-
-- Add specific Learn and Apply product links to maturity and stage pages currently generated from `site/assets/lens-data.js` and `site/assets/lens-data-learning.js`.
-- Replace generic shop homepage links on those generated pages with stable collection or product URLs.
-- Add explicit category and price metadata to generated resource records.
-
-## Task 7 — Rework global navigation and footer pathways
-
-### Files
-
-- All shared page headers and footers under `site/`
-- `site/assets/site.css` if navigation styling changes
-
-### Work
-
-- Decide whether the primary navigation directly exposes Learn, Apply, and Augment or exposes one Journey page containing the three paths.
-- Default recommendation: Home, Learn, Apply, Augment, Find Your Path, About.
-- Keep The Movement, Resources, Books, and Assessment available through relevant landing pages or secondary navigation.
-- Add the strategy page to the footer.
-- Keep all six lenses available in the footer under:
-  - Professional: Individual, Team Leader, Organization Leader
-  - Education: Student, Teacher, Education Leader
-- Add separate Learn, Apply, and Augment footer links where supported.
-- Ensure active page state uses `aria-current="page"` correctly.
-- Update relative links consistently for root and nested pages.
-- Do not add navigation links to destinations that do not exist yet.
-
-### Acceptance criteria
-
-- A visitor can reach each engagement category from every major page.
-- All six lenses remain discoverable.
-- Navigation labels match the taxonomy exactly.
-- Mobile navigation remains usable and does not overflow.
-- No existing primary route becomes orphaned.
-
-### Task 7 completion status
-
-Completed through `scripts/standardize-nav.mjs`:
-
-- Added `Learn, Apply, Augment` to the primary navigation on every HTML page.
-- Added an `Engage` footer group linking to the strategy page, Assessment, AAOS Framework, and Books.
-- Preserved all six lenses in the footer, grouped under the existing Paths area.
-- Regenerated headers and footers across the root, education, articles, books, assessment, newsletter, movement, and all lens maturity/stage pages.
-- Kept active-page detection in the standardization script so future runs preserve `aria-current="page"`.
-
-The standardization script is now the source template for future navigation changes. Do not hand-edit individual generated headers or footers without updating `scripts/standardize-nav.mjs` first.
-
-## Task 8 — Align copy, CTA, SEO, and structured metadata
-
-### Work
-
-- Search all public HTML, JavaScript, and data files for generic or misleading terms:
-  - Resources, Explore, Learn more, Download, Free, Toolkit, Workshop
-  - Coming soon, Preorder, Order early, Before launch, Launch day, July 21
-  - Placeholder
-- Replace each occurrence according to the actual product category and availability.
-- Use `Learn · Free`, `Apply · Paid`, and `Augment · Guided` as consistent visible labels where appropriate.
-- Keep “Explore” only when it accurately describes browsing a framework or collection.
-- Use action-specific CTAs for transactions and inquiries.
-- Update page titles and descriptions so they describe the page’s actual role.
-- Add or update Open Graph title, description, URL, and image metadata on new or changed pages.
-- Add BreadcrumbList, WebPage, Product, Service, or ItemList structured data only where the content supports it.
-- Do not add Product schema to an Augment inquiry page unless it has genuine pricing and offer data.
-- Update `site/sitemap.xml` and `site/robots.txt` if necessary.
-
-### Acceptance criteria
-
-- Site-wide search finds no stale launch language or public placeholder language.
-- A user can tell whether a CTA leads to free learning, a paid product, or an inquiry.
-- Page titles and descriptions no longer use copied role-inappropriate language.
-- Structured data matches visible content.
-- No metadata claims a product is available, free, or purchasable when it is not.
-
-### Task 8 completion status
-
-Completed in the current pass:
-
-- Updated the Individual lens title and structured page name to describe personal judgment and reliable workflows.
-- Updated the Education Leader title, Open Graph title, structured page name, and visible heading to use the canonical public role name.
-- Replaced generic book CTAs labeled “Learn more” with “Learn about the book.”
-- Updated the learning-stage generator so public fallback status is `Planned` or `Guided` instead of `Coming soon` or `Locked`.
-- Updated the legacy stage generator fallback so missing examples do not publish “Coming soon...” copy.
-- Regenerated learning-stage pages and re-standardized their navigation and footers.
-
-Remaining copy cleanup for the next content pass:
-
-- Audit generic “Explore” and “Resources” wording where it does not identify a real action or collection.
-- Add Learn, Apply, and Augment metadata to generated resource records once shop product URLs are confirmed.
-- Review all live product availability claims against the external shop before publishing.
-
-## Task 9 — Implement measurement, campaign, and QR-code pathways
-
-### Work
-
-- Define events for Learn collection clicks, free checkout start and completion, Apply product clicks, paid checkout start and completion, Augment service clicks, Book a Conversation clicks, assessment start and completion, and IUC keynote and breakout resource clicks.
-- Add campaign parameters for QR codes, IUC handouts, keynote slides, breakout slides, email, LinkedIn, and partner referrals.
-- Create distinct URLs or parameters for keynote and breakout resources.
-- Ensure tracking works across ai-augmented.ai and the shop where the analytics platform permits it.
-- Document event names and expected properties.
-- Avoid collecting unnecessary personal information from free Learn users.
-- Confirm that free Learn checkout is not reported as revenue.
-
-### Acceptance criteria
-
-- The IUC QR code has a stable destination and campaign identifier.
-- Learn, Apply, and Augment conversions can be distinguished in reporting.
-- Key funnel events are documented and testable.
-- A free checkout is not reported as revenue.
-- Measurement respects the existing privacy policy and consent model.
-
-### Task 9 completion status
-
-Completed in the current pass:
-
-- Added provider-neutral measurement events to `site/assets/site.js`.
-- Events emit to `window.dataLayer` when an analytics provider supplies one and always dispatch browser `CustomEvent` signals for local integration or testing.
-- Added campaign parameter capture for `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, and `utm_term` using session storage only.
-- Added link, shop, Augment, assessment start, assessment completion, and newsletter signup events.
-- Added distinct IUC campaign URLs for the keynote guide, breakout workflow, Learn overview, and Apply overview.
-- Kept measurement free of additional personal data collection.
-
-Remaining integration work:
-
-- Connect the emitted events to the selected analytics provider once one is approved and installed.
-- Verify the shop preserves or accepts the IUC UTM parameters through checkout.
-- Replace generic IUC shop destinations with stable keynote and breakout product URLs when those products are created.
-- Confirm the final QR-code URL and campaign naming before printing collateral.
-
-## Task 10 — Validate the full experience and publish the rollout
-
-### Work
-
-- Test from a clean browser session:
-  - IUC QR code → free keynote guide → shop checkout
-  - IUC QR code → free breakout guide → shop checkout
-  - Learn → Apply product
-  - Apply product → Augment service
-  - Individual → lens → maturity → related resource
-  - Team Leader → lens → team toolkit
-  - Organization Leader → lens → institutional conversation
-  - Student, Teacher, and Education Leader → role-specific Learn path
-  - Assessment → result → lens and next engagement step
-- Check every internal link and every external shop or service link.
-- Validate mobile and desktop layouts.
-- Test keyboard navigation, focus states, skip links, form labels, alt text, heading order, and color contrast.
-- Validate HTML structure and metadata.
-- Check that all images load and have useful alternative text.
-- Check that stale launch or placeholder text is absent.
-- Check that free, paid, and inquiry labels match actual transaction behavior.
-- Update the sitemap and deployment documentation.
-- Record unresolved external dependencies such as missing shop products, missing purchase URLs, or unavailable analytics events.
-
-### Acceptance criteria
-
-- All intended visitor journeys reach a valid next step.
-- No critical internal links return 404 errors.
-- Learn assets can be obtained free through the shop.
-- Apply products expose a working paid path.
-- Augment offerings expose a working inquiry path.
-- The site is usable with keyboard and screen reader basics.
-- The strategy is understandable without reading the entire site.
-- The implementation is ready for controlled release and post-release measurement.
-
-### Task 10 completion status
-
-Completed validation:
-
-- Audited all 69 public HTML pages in `site/`.
-- Confirmed every page has a title, meta description, and site-wide Learn, Apply, Augment navigation link.
-- Confirmed all internal relative routes resolve and no internal route is missing.
-- Confirmed balanced `a`, `section`, `div`, `main`, and `footer` markup across all pages.
-- Confirmed `site/assets/site.js`, `scripts/standardize-nav.mjs`, `scripts/generate-learning-stage-pages.mjs`, and `scripts/generate-lens-stage-pages.mjs` pass Node syntax checks.
-- Confirmed the IUC campaign URLs distinguish Learn overview, Apply overview, keynote guide, and breakout workflow.
-- Confirmed the sitemap includes `/learn-apply-augment/` and `robots.txt` points to the sitemap.
-- Ran `node scripts/check-links.mjs`; its only reported failures were repeated HEAD checks for Google Fonts hosts. Internal links passed the direct repository audit. The checker should be updated to ignore or GET-check font hosts before using it as a release gate.
-
-External dependencies before public release:
-
-- Create stable Learn and Apply collection URLs in the shop and replace current shop-home fallback links.
-- Publish the planned IUC keynote guide and breakout workflow products with confirmed free or paid behavior.
-- Confirm shop checkout preserves campaign parameters.
-- Connect `aa_*` measurement events to the selected analytics provider.
-- Confirm final QR-code URL and campaign naming before printing or distributing event collateral.
-- Verify current availability and fulfillment for each external book and toolkit product.
-
-The repository is ready for a controlled release after the external dependencies above are confirmed. No deployment or external shop mutation was performed by this workflow.
-
-## Implementation order and dependencies
-
-1. Task 1 — taxonomy and inventory
-2. Task 4 — shop collections and transaction model
-3. Task 2 — strategy landing page
-4. Task 3 — Resources as Learn gateway
-5. Task 5 — IUC page
-6. Task 6 — books and lens pages
-7. Task 7 — navigation and footer
-8. Task 8 — copy and metadata pass
-9. Task 9 — measurement and campaign paths
-10. Task 10 — validation and release
-
-Do not begin site-wide navigation changes until the strategy landing page and shop destinations exist. Do not label a product as Learn, Apply, or Augment until its price and fulfillment path are known.
+# P0 — CRITICAL BEFORE IUC
+
+## P0.1 — Build `/education` as the canonical education landing page
+
+### Objective
+
+The IUC keynote, breakout, cards, slides, and QR codes are directing visitors to:
+
+`https://ai-augmented.ai/education`
+
+This URL must provide an excellent first experience.
+
+### Requirements
+
+Create or update:
+
+`/education/`
+
+The page should not simply redirect directly to the Education Leader lens.
+
+It should function as the main gateway for AI-Augmented Education.
+
+### Hero
+
+Use messaging approximately equivalent to:
+
+**AI-Augmented Education**
+
+**Preparing students, educators, and institutions for an AI-shaped future.**
+
+Supporting copy should communicate that AI-Augmented Education helps institutions expand human capability while preserving judgment, integrity, agency, and responsible use of AI.
+
+Primary CTA:
+
+`Find Your Path`
+
+Secondary CTA:
+
+`Explore AI-Augmented Education`
+
+### Role Selection
+
+Immediately below the hero provide three clear paths.
+
+#### Student
+
+Headline:
+
+**Learn, think, create, and work effectively with AI.**
+
+CTA:
+
+`Explore the Student Path`
+
+Link to:
+
+`/lens/student/`
+
+#### Teacher
+
+Headline:
+
+**Design learning experiences that build capability instead of dependency.**
+
+CTA:
+
+`Explore the Teacher Path`
+
+Link to the canonical teacher lens.
+
+#### Education Leader
+
+Headline:
+
+**Build institutional AI capability across academics, operations, governance, research, and student success.**
+
+CTA:
+
+`Explore the Education Leader Path`
+
+Link to:
+
+`/lens/education-administrator/`
+
+or the canonical renamed path if changed.
+
+### Learn / Apply / Augment Section
+
+Add a section showing how education visitors can engage.
+
+#### Learn
+
+Examples:
+
+* Articles
+* Podcasts
+* Videos
+* Guides
+* Frameworks
+* Case studies
+
+#### Apply
+
+Examples:
+
+* Assessments
+* Workbooks
+* Playbooks
+* Templates
+* Toolkits
+* Institutional planning resources
+
+#### Augment
+
+Examples:
+
+* Workshops
+* Executive briefings
+* Faculty development
+* Institutional assessments
+* AI strategy engagements
+* Keynotes
+* Advisory services
+
+### Education Domains
+
+For institutional leaders show major application domains:
+
+* Executive Leadership
+* Academic Affairs
+* Teaching and Learning
+* Student Success
+* Research
+* Administration and Operations
+* Workforce Development
+* Governance
+* Risk and Responsible AI
+
+### IUC Context
+
+Do not make the page dependent on IUC.
+
+However, it is acceptable to add a temporary section such as:
+
+**Joining us from IUC? Start here.**
+
+Provide three choices:
+
+* Student
+* Educator
+* Institutional Leader
+
+This section should be removable after the conference without changing the overall page architecture.
+
+### Metadata
+
+Ensure:
+
+* canonical URL points to `/education/`
+* page title includes AI-Augmented Education
+* meta description mentions students, educators, institutions, and responsible AI capability
+* OpenGraph metadata exists
+* Twitter/X metadata exists
+* structured data is valid
+
+### Acceptance Criteria
+
+A new visitor arriving through the IUC QR code should understand within approximately five seconds:
+
+1. What AI-Augmented Education is.
+2. That it applies to them.
+3. Which path they should select.
+4. What they can do next.
+
+---
+
+## P0.2 — Make `/education` visible in primary navigation
+
+Add a clear top-level navigation path for Education.
+
+Recommended navigation structure:
+
+* Home
+* Find Your Path
+* Education
+* Framework
+* Resources
+* About
+
+Avoid overloading the top navigation with product or book-specific links.
+
+If responsive navigation behaves differently on mobile, verify that Education remains directly accessible.
+
+---
+
+## P0.3 — Simplify homepage hero messaging
+
+The homepage must explain the movement before introducing specialized concepts.
+
+Current specialized concepts such as Hallucination Debt should not carry the primary burden of explaining the movement.
+
+### Replace the primary proposition with something close to:
+
+**The AI-Augmented Movement**
+
+**Expand human capability in the age of AI.**
+
+Supporting copy:
+
+AI-Augmented helps individuals, teams, organizations, students, educators, and institutions build reliable AI capability while preserving human judgment, agency, and responsibility.
+
+### Primary CTA
+
+`Find Your Path`
+
+### Secondary CTA
+
+`Take the Assessment`
+
+or
+
+`Explore the Framework`
+
+depending on what currently exists and works correctly.
+
+### Hallucination Debt
+
+Retain Hallucination Debt as an important concept, but move it below the primary orientation content.
+
+It should be presented as a problem AI-Augmented practices help solve.
+
+---
+
+## P0.4 — Add a simple "How It Works" architecture section
+
+Add a highly visible section to the homepage.
+
+Headline:
+
+**How AI-Augmented Works**
+
+Show four steps.
+
+### 1. Choose Your Lens
+
+**Who are you?**
+
+Individual, Team Leader, Organization Leader, Student, Teacher, or Education Leader.
+
+### 2. Understand Your Maturity
+
+**Where are you today?**
+
+Determine whether you are Aware, Exploring, Experimenting, Integrating, Leading, or Augmenting.
+
+### 3. Use AAOS
+
+**How do you improve?**
+
+Use Diagnose, Activate, Controls, Execute, Measure, and Scale to build reliable capability.
+
+### 4. Choose Your Level of Support
+
+**How much help do you want?**
+
+Learn, Apply, or Augment.
+
+### Important
+
+Do not visually imply that these are four different maturity frameworks.
+
+They are different dimensions of the overall system.
+
+---
+
+## P0.5 — Correct all terminology collisions
+
+Perform a repository-wide search for terminology involving:
+
+* maturity
+* stages
+* AAOS
+* framework
+* operating system
+* lens
+* Learn
+* Apply
+* Augment
+
+Correct places where maturity stages are described as AAOS stages.
+
+### Canonical language
+
+Use:
+
+**AI-Augmented Maturity**
+
+for:
+
+* Aware
+* Exploring
+* Experimenting
+* Integrating
+* Leading
+* Augmenting
+
+Use:
+
+**AAOS stages**
+
+for:
+
+* Diagnose
+* Activate
+* Controls
+* Execute
+* Measure
+* Scale
+
+Use:
+
+**Lens**
+
+for role/context.
+
+Use:
+
+**Learn / Apply / Augment**
+
+for engagement/support level.
+
+---
+
+## P0.6 — Standardize "Education Leader" terminology
+
+The user-facing terminology should normally be:
+
+**Education Leader**
+
+Avoid unnecessary switching among:
+
+* Education Administrator
+* Higher Education Administrator
+* Education Executive
+* Institution Leader
+* Education Leader
+
+The internal URL may remain:
+
+`/lens/education-administrator/`
+
+if changing it creates migration risk before IUC.
+
+However, all visitor-facing labels should use:
+
+**Education Leader**
+
+If the URL is changed later, create permanent redirects.
+
+---
+
+## P0.7 — Run full editorial cleanup
+
+Perform a repository-wide proofreading pass.
+
+Fix:
+
+* spelling errors
+* grammar errors
+* duplicate punctuation
+* inconsistent capitalization
+* incomplete sentences
+* incorrect articles
+* inconsistent singular/plural usage
+* inconsistent hyphenation of AI-Augmented
+* inconsistent AAOS capitalization
+* inconsistent stage names
+
+Known examples that must be checked:
+
+* `Team Empowerement` → `Team Empowerment`
+* `a education administrator` → `an education administrator`
+* duplicate punctuation such as `..`
+
+Also inspect generated stage pages for repeated templating errors.
+
+---
+
+## P0.8 — Verify every QR-code destination used for IUC
+
+Verify the following URL:
+
+`https://ai-augmented.ai/education`
+
+Also inspect all URLs currently used in:
+
+* keynote slides
+* breakout slides
+* pass-along cards
+* posters
+* conference handouts
+* book inserts if applicable
+* business cards if applicable
+
+Requirements:
+
+* HTTP 200
+* HTTPS works
+* no redirect loops
+* page loads on mobile
+* no broken assets
+* no horizontal scrolling
+* CTA buttons work
+* no development placeholders
+* no temporary copy
+* no missing images
+
+---
+
+## P0.9 — Optimize `/education` for mobile
+
+Most conference QR traffic will arrive on phones.
+
+Test at common mobile widths.
+
+Requirements:
+
+* hero readable without zooming
+* role cards stack correctly
+* no clipped text
+* no overly large hero image
+* buttons are finger-friendly
+* no overlapping navigation
+* no tiny labels
+* adequate spacing
+* reasonable initial page weight
+* important CTA appears before excessive scrolling
+
+---
+
+## P0.10 — Add obvious next actions to education pages
+
+Every education lens and maturity page should provide a next action.
+
+At minimum include:
+
+* `Continue Your Path`
+* `Explore Resources`
+* `Take the Assessment`
+
+Where relevant also include:
+
+* `Learn`
+* `Apply`
+* `Augment`
+
+Avoid dead-end informational pages.
+
+---
+
+# P1 — HIGH PRIORITY BEFORE IUC
+
+## P1.1 — Reduce homepage length
+
+The homepage currently attempts to explain too much.
+
+Refactor into a simpler sequence.
+
+Recommended structure:
+
+1. Hero
+2. Choose Your Lens
+3. How AI-Augmented Works
+4. Why AI-Augmented
+5. Learn / Apply / Augment
+6. Proof / Reach / Testimonials
+7. Featured Resources
+8. Join the Movement
+
+Move detailed explanations to secondary pages.
+
+Do not delete valuable content unless duplicated.
+
+Prefer relocating it.
+
+---
+
+## P1.2 — Make "Find Your Path" the dominant conversion action
+
+Across the site, prioritize contextual next actions over newsletter subscription.
+
+Recommended CTA hierarchy:
+
+### Primary
+
+`Find Your Path`
+
+### Secondary
+
+`Take the Assessment`
+
+### Tertiary
+
+`Explore Resources`
+
+### Supporting
+
+`Join the Movement`
+
+Newsletter subscription should remain available but should not dominate the experience.
+
+---
+
+## P1.3 — Improve the Find Your Path page
+
+The page should quickly help visitors choose among six lenses.
+
+Each lens card should answer:
+
+* Who is this for?
+* What outcome will I get?
+* Where will this take me?
+
+Keep descriptions short.
+
+Suggested lens ordering:
+
+### Work and Leadership
+
+* Individual
+* Team Leader
+* Organization Leader
+
+### Education
+
+* Student
+* Teacher
+* Education Leader
+
+This visual grouping reinforces the expanding scope of the movement.
+
+---
+
+## P1.4 — Make Learn / Apply / Augment visible on the homepage
+
+Add a concise version of this model.
+
+### Learn
+
+**Build understanding.**
+
+Free education and foundational resources.
+
+### Apply
+
+**Put the framework to work.**
+
+Assessments, playbooks, templates, workbooks, and toolkits.
+
+### Augment
+
+**Accelerate with expert support.**
+
+Workshops, advisory services, speaking, and organizational engagements.
+
+Link to the full page.
+
+---
+
+## P1.5 — Keep Augment traffic within the AI-Augmented ecosystem
+
+Avoid sending users directly from the conceptual journey to an unrelated-looking external site without context.
+
+Create:
+
+`/augment/`
+
+or equivalent.
+
+This page should describe ways visitors can receive expert assistance.
+
+Possible sections:
+
+* Executive Briefings
+* Keynotes
+* Workshops
+* Team Enablement
+* Organizational Assessments
+* AI Readiness
+* Education Transformation
+* Advisory Services
+* Faculty Development
+* Strategic Planning
+
+From there, booking or commercial CTAs may route to Paidar Systems or DrDarrenSpeaks as appropriate.
+
+The AI-Augmented site should remain the conceptual front door.
+
+---
+
+## P1.6 — Add stronger Education proof points
+
+On `/education/`, include credible evidence where supported.
+
+Possible categories:
+
+* universities engaged
+* faculty workshops
+* student programs
+* higher-education leadership sessions
+* AI workforce development
+* institutional AI strategy engagements
+* keynote experience
+* relevant research or published work
+
+Do not invent metrics.
+
+Only use numbers or institutional claims backed by evidence.
+
+---
+
+## P1.7 — Verify homepage metrics
+
+Review all prominent metrics.
+
+Examples currently or previously used include:
+
+* podcast downloads
+* podcast episodes
+* YouTube subscribers
+* organizations or institutions engaged
+
+Confirm each against an authoritative source.
+
+Add a lightweight data mechanism so these numbers can be updated centrally rather than embedded in multiple pages.
+
+Recommended implementation:
+
+`data/metrics.json`
+
+or equivalent.
+
+Example:
+
+```json
+{
+  "podcastMonthlyDownloads": {
+    "display": "1M+",
+    "source": "internal",
+    "lastVerified": "YYYY-MM-DD"
+  },
+  "youtubeSubscribers": {
+    "display": "200K+",
+    "source": "YouTube",
+    "lastVerified": "YYYY-MM-DD"
+  }
+}
+```
+
+Do not expose internal source notes publicly unless intentionally desired.
+
+---
+
+## P1.8 — Clarify movement vs. framework vs. operating system
+
+Create canonical definitions that can be reused across pages.
+
+### AI-Augmented Movement
+
+A movement focused on expanding human capability through disciplined partnership with AI.
+
+### AI-Augmented Framework
+
+The conceptual model connecting lenses, maturity, methods, and engagement paths.
+
+### AI-Augmented Operating System — AAOS
+
+The repeatable operating model used to build and scale reliable AI-augmented capability.
+
+### AI-Augmented Maturity
+
+A progression describing how deeply AI is integrated into judgment, workflows, teams, or institutions.
+
+Centralize these definitions where feasible.
+
+---
+
+## P1.9 — Improve conference visitor orientation
+
+Add optional query-aware or contextual handling for visitors from IUC.
+
+Possible campaign URL:
+
+`/education/?src=iuc`
+
+or:
+
+`/education/?utm_source=iuc`
+
+Do not require this for the page to work.
+
+Potential temporary callout:
+
+**Welcome, IUC attendees**
+
+Explore the AI-Augmented Education framework, select your role, and continue the work from today's keynote.
+
+Keep this subtle and removable.
+
+---
+
+# P2 — SEO / AEO / DISCOVERABILITY
+
+## P2.1 — Review homepage title tag
+
+The homepage title should represent the movement, not only AI governance and operating models.
+
+Evaluate options such as:
+
+**The AI-Augmented Movement | Human Capability in the Age of AI**
+
+or:
+
+**AI-Augmented | Human Capability, Leadership & Education**
+
+Keep title length within reasonable SEO limits.
+
+---
+
+## P2.2 — Optimize `/education` title and description
+
+Suggested title:
+
+**AI-Augmented Education | Students, Educators & Institutions**
+
+Suggested description:
+
+**Build responsible AI capability across students, educators, academic leadership, research, operations, governance, and institutional transformation with the AI-Augmented framework.**
+
+Adjust for final character length.
+
+---
+
+## P2.3 — Add structured data
+
+Review and implement appropriate JSON-LD.
+
+Possible schema types:
+
+* Organization
+* WebSite
+* WebPage
+* BreadcrumbList
+* FAQPage
+* Article
+* Person where appropriate
+* Book where appropriate
+* Event when applicable
+* Course only if pages truly meet course semantics
+
+Do not misuse schema types simply for SEO.
+
+---
+
+## P2.4 — Preserve FAQ content
+
+The existing FAQ-style content is valuable for answer engines.
+
+Ensure the homepage or framework pages clearly answer questions such as:
+
+* What does AI-Augmented mean?
+* What is AAOS?
+* What is AI-Augmented maturity?
+* What is an AI-Augmented team?
+* What is AI-Augmented education?
+* How should students use AI responsibly?
+* How should teachers adapt to AI?
+* How should universities govern AI?
+* What is Hallucination Debt?
+* How is AI-Augmented different from simply using AI tools?
+
+Keep answers concise and explicit.
+
+---
+
+## P2.5 — Improve internal linking
+
+Each major page should link semantically to related concepts.
+
+Example:
+
+Education Leader page should link to:
+
+* education hub
+* institutional maturity
+* AAOS
+* assessment
+* governance resources
+* workshops
+* relevant books/resources
+
+Student pages should link to:
+
+* student maturity
+* responsible use
+* study workflows
+* learning resources
+
+Teacher pages should link to:
+
+* teaching resources
+* academic integrity
+* classroom AI practices
+* faculty development
+
+---
+
+## P2.6 — Generate and validate sitemap
+
+Ensure the sitemap contains all canonical public pages.
+
+Exclude:
+
+* development pages
+* duplicate test pages
+* obsolete URLs
+* temporary build artifacts
+* alternate generated URLs that should not be indexed
+
+Submit or verify the sitemap through the appropriate search tooling outside the repository as needed.
+
+---
+
+## P2.7 — Check robots directives
+
+Verify:
+
+* production pages are indexable
+* staging or development paths are excluded
+* canonical pages are not accidentally blocked
+* assets needed for rendering are accessible
+
+---
+
+## P2.8 — Audit canonical links
+
+Every page should point to its preferred URL.
+
+Pay special attention to:
+
+* trailing slash consistency
+* `www` vs non-`www`
+* HTTP vs HTTPS
+* renamed lenses
+* generated maturity pages
+* `/education`
+* query-string campaign URLs
+
+---
+
+# P3 — UX AND INFORMATION ARCHITECTURE
+
+## P3.1 — Establish primary site taxonomy
+
+Use a coherent site-level hierarchy.
+
+Recommended conceptual structure:
+
+```text
+/
+├── education/
+├── paths/
+│   ├── individual/
+│   ├── team-leader/
+│   ├── organization-leader/
+│   ├── student/
+│   ├── teacher/
+│   └── education-leader/
+├── framework/
+│   ├── maturity/
+│   ├── aaos/
+│   └── learn-apply-augment/
+├── resources/
+├── assessments/
+├── augment/
+└── about/
+```
+
+Do not perform risky URL migrations immediately before IUC unless necessary.
+
+This is the target architecture, not necessarily a mandatory immediate migration.
+
+---
+
+## P3.2 — Add breadcrumbs to deeper pages
+
+For example:
+
+`Education > Education Leader > Exploring`
+
+or:
+
+`Find Your Path > Student > Experimenting`
+
+Breadcrumbs should:
+
+* be visually unobtrusive
+* help orientation
+* use structured data
+* link back to meaningful parent pages
+
+---
+
+## P3.3 — Improve maturity page progression
+
+Each maturity page should clearly show:
+
+**Previous Stage ← Current Stage → Next Stage**
+
+Also show:
+
+**Your goal at this stage**
+
+**What good looks like**
+
+**What to do next**
+
+**What not to do**
+
+**Recommended resources**
+
+**Exit criteria**
+
+This is already present in parts of the site; standardize it.
+
+---
+
+## P3.4 — Create consistent CTA system
+
+Define button styles and semantic purposes.
+
+### Primary CTA
+
+Used for the most important next action.
+
+### Secondary CTA
+
+Used for exploration.
+
+### Tertiary text link
+
+Used for supporting navigation.
+
+Avoid pages with three or four equally prominent actions.
+
+---
+
+## P3.5 — Add site-wide footer taxonomy
+
+Footer should provide clear access to:
+
+### Movement
+
+* About
+* Framework
+* Find Your Path
+* Education
+
+### Paths
+
+* Individual
+* Team Leader
+* Organization Leader
+* Student
+* Teacher
+* Education Leader
+
+### Resources
+
+* Resources
+* Assessments
+* Books
+* Podcast
+* Videos
+
+### Engage
+
+* Learn
+* Apply
+* Augment
+
+### Legal
+
+* Privacy
+* Terms
+* Copyright
+
+---
+
+# P4 — BRAND AND AUTHORITY
+
+## P4.1 — Define brand ontology in the repository
+
+Create a reusable source of truth.
+
+Recommended file:
+
+`docs/brand-ontology.md`
+
+Include definitions for:
+
+* AI-Augmented
+* AI-Augmented Movement
+* AAOS
+* AI-Augmented Maturity
+* Lens
+* Learn
+* Apply
+* Augment
+* AI-Augmented Education
+* AI-Augmented Institute if used
+* Hallucination Debt
+
+Codex should use this document when generating new site content.
+
+---
+
+## P4.2 — Keep product brands subordinate to the movement
+
+The AI-Augmented website should primarily own:
+
+* the idea
+* the framework
+* education
+* assessments
+* progression
+* resources
+* movement/community
+
+Other entities can handle commercial execution.
+
+### Paidar Systems
+
+Implementation, consulting, workshops, organizational transformation.
+
+### Paidar Press
+
+Books, publishing, intellectual property products.
+
+### DrDarrenSpeaks
+
+Speaking and personal brand.
+
+### AI-Augmented Institute
+
+Research, education, stewardship, credentials, and standards if/when formally established.
+
+Do not turn the AI-Augmented homepage into a directory of companies.
+
+---
+
+## P4.3 — Improve author/founder attribution
+
+Ensure visitors can understand who created the framework without making the site feel like a personal promotional site.
+
+Use language such as:
+
+**Developed by Dr. Darren Pulsipher and the AI-Augmented community**
+
+only if that matches the intended governance model.
+
+Provide clear links to biography and credibility.
+
+Avoid excessive founder promotion on the homepage.
+
+---
+
+# P5 — PERFORMANCE AND TECHNICAL QUALITY
+
+## P5.1 — Run broken-link audit
+
+Check all internal links.
+
+Check all external links.
+
+Flag:
+
+* 404
+* 403
+* redirect chains
+* redirect loops
+* malformed anchors
+* links to old domains
+* missing images
+* relative path failures
+
+Generate a report.
+
+---
+
+## P5.2 — Run orphan-page audit
+
+Identify pages that:
+
+* exist in the repository
+* are publicly deployable
+* have no meaningful internal links
+
+Determine whether each should be:
+
+* linked
+* redirected
+* archived
+* removed from deployment
+* intentionally retained but excluded from indexing
+
+---
+
+## P5.3 — Check image optimization
+
+For each image:
+
+* ensure appropriate dimensions
+* use modern format where reasonable
+* compress without visible degradation
+* set width and height
+* add meaningful alt text
+* lazy load non-critical images
+* avoid loading oversized hero images on mobile
+
+---
+
+## P5.4 — Check Core Web Vitals fundamentals
+
+Focus on obvious causes of poor experience:
+
+* excessive JavaScript
+* render-blocking CSS
+* font loading
+* oversized hero assets
+* layout shift
+* slow external scripts
+* large embedded videos
+
+Do not over-engineer performance immediately before IUC.
+
+Fix high-impact problems first.
+
+---
+
+## P5.5 — Validate responsive layouts
+
+Test:
+
+* 320px
+* 375px
+* 390px
+* 430px
+* 768px
+* 1024px
+* desktop widescreen
+
+Pay particular attention to:
+
+* navigation
+* lens cards
+* maturity diagrams
+* Learn / Apply / Augment blocks
+* tables
+* CTA groups
+* QR-related landing pages
+
+---
+
+## P5.6 — Run accessibility baseline
+
+Check:
+
+* keyboard navigation
+* focus indicators
+* semantic heading order
+* form labels
+* image alt attributes
+* contrast
+* button names
+* link names
+* skip navigation
+* landmark elements
+* form error states
+
+Target WCAG 2.2 AA where reasonably achievable.
+
+---
+
+# P6 — CONTENT SYSTEM IMPROVEMENTS
+
+## P6.1 — Centralize stage definitions
+
+Create structured data for maturity stages.
+
+Example:
+
+`data/maturity.json`
+
+Each stage should contain:
+
+* id
+* name
+* shortDescription
+* longDescription
+* objective
+* commonBehaviors
+* risks
+* milestone
+* exitCriteria
+
+Generate repeated UI from this source where appropriate.
+
+---
+
+## P6.2 — Centralize AAOS definitions
+
+Create:
+
+`data/aaos.json`
+
+Include:
+
+* Diagnose
+* Activate
+* Controls
+* Execute
+* Measure
+* Scale
+
+Each should include:
+
+* purpose
+* inputs
+* activities
+* outputs
+* exit gate
+* example
+
+Avoid hardcoding multiple inconsistent definitions.
+
+---
+
+## P6.3 — Centralize lens definitions
+
+Create:
+
+`data/lenses.json`
+
+Include:
+
+* id
+* publicName
+* shortDescription
+* audience
+* outcome
+* route
+* icon
+* category
+
+Example category values:
+
+* personal
+* leadership
+* education
+
+---
+
+## P6.4 — Centralize Learn / Apply / Augment content
+
+Create:
+
+`data/engagement.json`
+
+Each level should include:
+
+* name
+* description
+* audience
+* typical assets
+* CTA
+* route
+
+---
+
+# P7 — POST-IUC STRATEGIC IMPROVEMENTS
+
+These items should not block conference readiness.
+
+## P7.1 — Evaluate canonical URL migration
+
+Consider replacing:
+
+`/lens/education-administrator/`
+
+with:
+
+`/lens/education-leader/`
+
+Only do this with permanent redirects and canonical updates.
+
+---
+
+## P7.2 — Build dedicated Augment marketplace/engagement page
+
+Allow visitors to discover services by need rather than company.
+
+Examples:
+
+* AI Readiness
+* Leadership Workshop
+* Faculty Development
+* Team Enablement
+* Organizational Transformation
+* Governance
+* Education Strategy
+* Executive Briefing
+* Keynote
+
+---
+
+## P7.3 — Build Apply catalog
+
+Create a structured page for self-service assets.
+
+Examples:
+
+* assessments
+* playbooks
+* workbooks
+* decision guides
+* templates
+* maturity tools
+* workshop materials
+* educational resources
+
+Each asset should indicate:
+
+* audience
+* maturity level
+* lens
+* relevant AAOS stage
+* free/paid
+* expected outcome
+
+---
+
+## P7.4 — Build stronger movement/community experience
+
+Possible future capabilities:
+
+* newsletter
+* community
+* events
+* research
+* contributors
+* stories
+* institutional partners
+* certifications
+* credentials
+* chapters
+* ambassador program
+
+Do not implement these merely to add features.
+
+They should support adoption of the AI-Augmented framework.
+
+---
+
+## P7.5 — Build institutional education journey
+
+Create a guided institutional journey such as:
+
+```text
+Discover
+→ Assess
+→ Diagnose
+→ Prioritize
+→ Pilot
+→ Govern
+→ Measure
+→ Scale
+→ Augment
+```
+
+This may eventually become a commercial or credentialed institutional program.
+
+Ensure it remains conceptually compatible with AAOS.
+
+---
+
+# Automated Checks Codex Should Add
+
+Where practical, create automated validation.
+
+## Link Check
+
+Detect broken internal links during CI.
+
+## Content Lint
+
+Check for prohibited or incorrect terminology patterns.
+
+Examples:
+
+Flag:
+
+`AAOS maturity stages`
+
+when referring to Aware through Augmenting.
+
+Flag:
+
+`Education Administrator`
+
+in public-facing navigation if Education Leader is canonical.
+
+Flag misspellings such as:
+
+`Empowerement`
+
+## Metadata Check
+
+Validate:
+
+* title
+* description
+* canonical
+* OpenGraph title
+* OpenGraph description
+* OpenGraph image
+
+for major pages.
+
+## Heading Check
+
+Verify there is one primary H1 per page.
+
+## Image Check
+
+Detect images without alt text.
+
+## Sitemap Check
+
+Verify public canonical pages appear in the sitemap.
+
+---
+
+# Repository Documentation
+
+Create or update:
+
+```text
+docs/
+├── brand-ontology.md
+├── information-architecture.md
+├── seo-guidelines.md
+├── content-guidelines.md
+└── iuc-readiness.md
+```
+
+---
+
+# `docs/brand-ontology.md`
+
+Must define:
+
+* AI-Augmented
+* AI-Augmented Movement
+* Lens
+* Maturity
+* AAOS
+* Learn / Apply / Augment
+* Hallucination Debt
+* AI-Augmented Education
+
+---
+
+# `docs/information-architecture.md`
+
+Document:
+
+```text
+WHO
+Lens
+
+WHERE
+Maturity
+
+HOW
+AAOS
+
+LEVEL OF SUPPORT
+Learn / Apply / Augment
+```
+
+All future pages should fit into this architecture.
+
+---
+
+# `docs/content-guidelines.md`
+
+Include:
+
+## Voice
+
+* practical
+* clear
+* optimistic
+* evidence-oriented
+* human-centered
+* non-hyped
+
+Avoid:
+
+* excessive AI hype
+* fear-driven messaging
+* vague transformational claims
+* unnecessary technical jargon
+* unverified performance claims
+
+## Core Principle
+
+AI augmentation should be described as increasing human capability rather than replacing human responsibility.
+
+---
+
+# `docs/iuc-readiness.md`
+
+Create a final checklist that can be manually verified immediately before IUC.
+
+Include:
+
+* `/education` works
+* QR tested from physical print
+* mobile tested
+* navigation tested
+* all education role links tested
+* forms tested
+* assessment tested
+* analytics working
+* no placeholder copy
+* no obvious spelling errors
+* hero correct
+* conference CTA correct
+* canonical URLs correct
+
+---
+
+# Final IUC Smoke Test
+
+Before declaring the work complete, perform the following journey manually.
+
+## Journey 1 — CIO
+
+1. Open `/education`.
+2. Understand the proposition.
+3. Choose Education Leader.
+4. Understand current maturity.
+5. Understand AAOS.
+6. Find an institutional next step.
+7. Find a way to engage.
+
+## Journey 2 — Provost
+
+1. Open `/education`.
+2. Identify relevance to academics.
+3. Find teacher/faculty implications.
+4. Find governance implications.
+5. Find institutional actions.
+6. Reach an Apply or Augment path.
+
+## Journey 3 — Faculty Member
+
+1. Open `/education`.
+2. Select Teacher.
+3. Understand what AI augmentation means for teaching.
+4. Find practical resources.
+5. Identify their current maturity.
+6. Get a concrete next action.
+
+## Journey 4 — Student
+
+1. Open `/education`.
+2. Select Student.
+3. Understand that the message is about capability rather than shortcutting work.
+4. Find practical learning guidance.
+5. Identify current maturity.
+6. Find a next action.
+
+## Journey 5 — Conference Attendee with 30 seconds
+
+1. Scan QR.
+2. Page loads quickly.
+3. Understand AI-Augmented Education.
+4. See the three education roles.
+5. Choose one.
+6. Save or continue exploring.
+
+If this journey fails, simplify the landing page further.
+
+---
+
+# Definition of Done for IUC
+
+The website is considered IUC-ready when all P0 tasks are complete and the following are true:
+
+* `https://ai-augmented.ai/education` is the canonical education gateway.
+* The page works exceptionally well on mobile.
+* Student, Teacher, and Education Leader journeys are obvious.
+* The homepage clearly communicates the AI-Augmented Movement.
+* Lens, Maturity, AAOS, and Learn / Apply / Augment are not conflated.
+* Education Leader terminology is consistent.
+* All conference QR destinations work.
+* No obvious spelling or grammar errors remain.
+* Every major education page has a meaningful next action.
+* Users can move from learning to applying to engaging expert help.
+* The movement remains the primary brand rather than becoming a book, consulting, or personal speaking site.
+
+---
+
+# Recommended Execution Order
+
+Codex should implement changes in this exact sequence unless repository dependencies require a minor adjustment:
+
+1. Build/fix `/education`.
+2. Verify `/education` mobile experience.
+3. Add Education to primary navigation.
+4. Simplify homepage hero.
+5. Add homepage "How AI-Augmented Works" section.
+6. Correct Maturity vs AAOS terminology.
+7. Standardize Education Leader terminology.
+8. Run editorial cleanup.
+9. Verify IUC links and QR destinations.
+10. Improve education CTAs.
+11. Improve Find Your Path.
+12. Surface Learn / Apply / Augment on homepage.
+13. Reduce homepage duplication/length.
+14. Verify metrics and authority claims.
+15. Improve metadata and canonical tags.
+16. Run broken-link audit.
+17. Run responsive/accessibility checks.
+18. Add structured data validation.
+19. Centralize framework content in structured data.
+20. Complete post-IUC architectural cleanup.
+
+---
+
+# Important Constraints
+
+Do not:
+
+* invent institutional adoption numbers
+* invent testimonials
+* invent customer names
+* invent research citations
+* rename URLs immediately before IUC if redirects cannot be guaranteed
+* remove useful content merely to shorten pages
+* change the six maturity stages
+* change the six AAOS stages
+* merge maturity and AAOS
+* redefine Learn / Apply / Augment as maturity
+* turn the homepage into a consulting sales page
+* turn the homepage into a book sales page
+* make the website dependent on Darren's personal brand
+
+Preserve the core idea:
+
+> AI augmentation expands human capability through disciplined partnership with AI while preserving human judgment, agency, and responsibility.
+
+The AI-Augmented website should be the canonical home of that idea.
