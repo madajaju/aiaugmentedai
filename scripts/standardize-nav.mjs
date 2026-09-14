@@ -23,7 +23,6 @@ function getHeader(depth, activePath) {
   const homeUrl = depth === 0 ? 'index.html' : `${prefix}index.html`;
   
   const navItems = [
-    { label: 'Home', href: homeUrl, matches: ['index.html'] },
     { label: 'The Movement', href: `${prefix}movement/`, matches: ['movement/', 'newsletter/'] },
     { label: 'How It Works', href: `${prefix}learn-apply-augment/`, matches: ['learn-apply-augment/', 'augment/'], submenu: [
       { label: 'Learn', href: `${prefix}resources/` },
@@ -37,8 +36,7 @@ function getHeader(depth, activePath) {
       { label: 'Medical', href: `${prefix}contexts/#medical` }
     ] },
     { label: 'Find Your Path', href: `${prefix}find-your-path/`, matches: ['find-your-path/', 'lens/', 'start-here/'] },
-    { label: 'Resources', href: `${prefix}resources/`, matches: ['resources/', 'articles/', 'books/', 'assessment/', 'aaos/'] },
-    { label: 'About', href: `${prefix}about/`, matches: ['about/'] }
+    { label: 'Resources', href: `${prefix}resources/`, matches: ['resources/', 'articles/', 'books/', 'assessment/', 'aaos/'] }
   ];
 
   const navHtml = navItems.map(item => {
