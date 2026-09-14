@@ -5,7 +5,6 @@
   }
 
   const launchAt = new Date(config.movementLaunchAt);
-  const shellClass = 'shell';
   const journeyStorageKey = 'aa-journey-state';
   const lensOrder = ['individual', 'team-leader', 'organization-leader', 'student', 'teacher', 'education-administrator'];
   const stageOrder = ['aware', 'exploring', 'experimenting', 'integrating', 'leading', 'augmenting'];
@@ -121,48 +120,19 @@
     }
   }
 
-  function formatCountdown(target) {
-    const now = new Date();
-    const remaining = target.getTime() - now.getTime();
-
-    if (remaining <= 0) {
-      return {
-        live: true,
-        text: 'The movement is live',
-      };
-    }
-
-    const totalMinutes = Math.floor(remaining / 60000);
-    const days = Math.floor(totalMinutes / 1440);
-    const hours = Math.floor((totalMinutes % 1440) / 60);
-    const minutes = totalMinutes % 60;
-
-    const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
-    return {
-      live: false,
-      text: `${plural(days, 'day')}, ${plural(hours, 'hour')}, ${plural(minutes, 'minute')}`,
-    };
-  }
-
-  function renderBanner() {
-    const header = document.querySelector('.site-header');
-    if (!header || document.querySelector('[data-launch-banner]')) return;
-
-    const banner = document.createElement('section');
-    banner.className = 'launch-banner';
-    banner.setAttribute('data-launch-banner', 'true');
-
-    banner.innerHTML = `
-      <div class="${shellClass} launch-banner-inner">
-        <div class="launch-banner-meta">
-          <span class="launch-banner-label">The movement is live</span>
-        </div>
-        <a class="button secondary launch-banner-cta" href="/movement/">See the movement</a>
-      </div>
-    `;
-
-    header.insertAdjacentElement('afterend', banner);
-
+  function setupNavDropdowns() {
+    document.querySelectorAll('.nav-dropdown').forEach(dropdown => {
+      const button = dropdown.querySelector('button');
+      if (!button) return;
+      const close = () => { dropdown.classList.remove('is-open'); button.setAttribute('aria-expanded', 'false'); };
+      button.addEventListener('click', () => {
+        const open = !dropdown.classList.contains('is-open');
+        document.querySelectorAll('.nav-dropdown.is-open').forEach(other => { if (other !== dropdown) { other.classList.remove('is-open'); other.querySelector('button')?.setAttribute('aria-expanded', 'false'); } });
+        dropdown.classList.toggle('is-open', open); button.setAttribute('aria-expanded', String(open));
+      });
+      dropdown.addEventListener('focusout', event => { if (!dropdown.contains(event.relatedTarget)) close(); });
+      dropdown.addEventListener('keydown', event => { if (event.key === 'Escape') { close(); button.focus(); } });
+    });
   }
 
   function escapeHtml(value) {
@@ -629,9 +599,9 @@
   }
 
   if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupNavDropdowns, { once: true });
     document.addEventListener('DOMContentLoaded', redirectLensHubToSavedStage, { once: true });
     document.addEventListener('DOMContentLoaded', persistCurrentStage, { once: true });
-    document.addEventListener('DOMContentLoaded', renderBanner, { once: true });
     document.addEventListener('DOMContentLoaded', renderLensStages, { once: true });
     document.addEventListener('DOMContentLoaded', initStagePersistenceControls, { once: true });
     document.addEventListener('DOMContentLoaded', initAssessment, { once: true });
@@ -639,9 +609,9 @@
     document.addEventListener('DOMContentLoaded', initAssessmentPrompt, { once: true });
     document.addEventListener('DOMContentLoaded', initMeasurement, { once: true });
   } else {
+    setupNavDropdowns();
     redirectLensHubToSavedStage();
     persistCurrentStage();
-    renderBanner();
     renderLensStages();
     initStagePersistenceControls();
     initAssessment();

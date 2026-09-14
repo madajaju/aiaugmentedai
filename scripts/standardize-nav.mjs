@@ -25,7 +25,11 @@ function getHeader(depth, activePath) {
   const navItems = [
     { label: 'Home', href: homeUrl, matches: ['index.html'] },
     { label: 'The Movement', href: `${prefix}movement/`, matches: ['movement/', 'newsletter/'] },
-    { label: 'Learn, Apply, Augment', href: `${prefix}learn-apply-augment/`, matches: ['learn-apply-augment/', 'education/'] },
+    { label: 'How It Works', href: `${prefix}learn-apply-augment/`, matches: ['learn-apply-augment/', 'education/'], submenu: [
+      { label: 'Learn', href: `${prefix}resources/` },
+      { label: 'Apply', href: `${prefix}learn-apply-augment/#apply` },
+      { label: 'Augment', href: `${prefix}learn-apply-augment/#augment` }
+    ] },
     { label: 'Find Your Path', href: `${prefix}find-your-path/`, matches: ['find-your-path/', 'lens/', 'start-here/'] },
     { label: 'Resources', href: `${prefix}resources/`, matches: ['resources/', 'articles/', 'books/', 'assessment/', 'aaos/'] },
     { label: 'About', href: `${prefix}about/`, matches: ['about/'] }
@@ -37,6 +41,15 @@ function getHeader(depth, activePath) {
       isCurrent = activePath === 'index.html' || activePath === '';
     } else {
       isCurrent = item.matches.some(match => activePath.startsWith(match));
+    }
+    if (item.submenu) {
+      const submenuHtml = item.submenu.map(sub => `        <a href="${sub.href}">${sub.label}</a>`).join('\n');
+      return `      <div class="nav-dropdown${isCurrent ? ' is-current' : ''}">
+        <button type="button" aria-expanded="false" aria-haspopup="true">${item.label}<span aria-hidden="true">⌄</span></button>
+        <div class="nav-submenu" role="menu">
+${submenuHtml}
+        </div>
+      </div>`;
     }
     return `      <a href="${item.href}"${isCurrent ? ' aria-current="page"' : ''}>${item.label}</a>`;
   }).join('\n');

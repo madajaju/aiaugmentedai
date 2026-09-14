@@ -86,7 +86,14 @@
     <nav class="nav" aria-label="Primary">
       <a href="../index.html">Home</a>
       <a href="../movement/">The Movement</a>
-      <a href="../learn-apply-augment/" aria-current="page">Learn, Apply, Augment</a>
+      <div class="nav-dropdown is-current">
+        <button type="button" aria-expanded="false" aria-haspopup="true">How It Works<span aria-hidden="true">⌄</span></button>
+        <div class="nav-submenu" role="menu">
+        <a href="../resources/">Learn</a>
+        <a href="../learn-apply-augment/#apply">Apply</a>
+        <a href="../learn-apply-augment/#augment">Augment</a>
+        </div>
+      </div>
       <a href="../find-your-path/">Find Your Path</a>
       <a href="../resources/">Resources</a>
       <a href="../about/">About</a>
@@ -119,8 +126,8 @@
       <div class="section-title"><p class="eyebrow">Choose your level</p><h2>Where do you want to start?</h2><p>Start with free learning, move into practical application, or bring guided support to the work that matters most.</p></div>
       <div class="card-grid three-up">
         <article class="card path-card"><p class="card-kicker">01 · Learn</p><h3>Build understanding</h3><p class="price-state">Free educational assets · Delivered through the shop</p><p>Learn the language, principles, and frameworks behind reliable AI-Augmented work.</p><ul><li>Articles and videos</li><li>Quick Start Guides</li><li>Assessment and role-based explainers</li></ul><a class="button secondary small" href="https://shop.paidar.ai/" target="_blank" rel="noopener noreferrer">Browse Free Learning Assets</a></article>
-        <article class="card path-card apply"><p class="card-kicker">02 · Apply</p><h3>Put it into practice</h3><p class="price-state">Paid practical assets · Self-serve through the shop</p><p>Apply the framework to a real workflow, team, department, or institutional challenge.</p><ul><li>Workbooks and workflow kits</li><li>Team toolkits and playbooks</li><li>Implementation guides and templates</li></ul><a class="button small" href="https://shop.paidar.ai/" target="_blank" rel="noopener noreferrer">Browse Application Toolkits</a></article>
-        <article class="card path-card augment"><p class="card-kicker">03 · Augment</p><h3>Build with guided support</h3><p class="price-state">Paid services · Start a conversation</p><p>Augment your people, teams, and organization with expert facilitation, assessment, and implementation support.</p><ul><li>Executive briefings</li><li>Leadership workshops</li><li>Readiness assessments and keynotes</li></ul><a class="button secondary small" href="https://drdarrenspeaks.com/" target="_blank" rel="noopener noreferrer">Explore Augmentation Services</a></article>
+        <article id="apply" class="card path-card apply"><p class="card-kicker">02 · Apply</p><h3>Put it into practice</h3><p class="price-state">Paid practical assets · Self-serve through the shop</p><p>Apply the framework to a real workflow, team, department, or institutional challenge.</p><ul><li>Workbooks and workflow kits</li><li>Team toolkits and playbooks</li><li>Implementation guides and templates</li></ul><a class="button small" href="https://shop.paidar.ai/" target="_blank" rel="noopener noreferrer">Browse Application Toolkits</a></article>
+        <article id="augment" class="card path-card augment"><p class="card-kicker">03 · Augment</p><h3>Build with guided support</h3><p class="price-state">Paid services · Start a conversation</p><p>Augment your people, teams, and organization with expert facilitation, assessment, and implementation support.</p><ul><li>Executive briefings</li><li>Leadership workshops</li><li>Readiness assessments and keynotes</li></ul><a class="button secondary small" href="https://drdarrenspeaks.com/" target="_blank" rel="noopener noreferrer">Explore Augmentation Services</a></article>
       </div>
       <p class="model-note"><strong>How the models fit together:</strong> Learn, Apply, and Augment describe how you engage with the work. AAOS describes the operating model and maturity stages that help you move from Aware to Augmenting with reliable, defensible practice.</p>
     </div>
