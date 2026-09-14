@@ -50,7 +50,7 @@ function getHeader(depth, activePath) {
     <nav class="nav" aria-label="Primary">
 ${navHtml}
     </nav>
-    <a class="button nav-cta" href="${prefix}assessment/">Take The Assessment</a>
+    <a class="button nav-cta" href="${prefix}assessment/">Take the AI Assessment</a>
   </div>
 </header>`;
 }
