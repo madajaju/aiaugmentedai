@@ -1,0 +1,67 @@
+﻿{
+  "model": "AI-Augmented Operating System",
+  "shortName": "AAOS",
+  "description": "A repeatable operating method for building and scaling reliable AI-Augmented capability.",
+  "stages": [
+    {
+      "id": "diagnose",
+      "name": "Diagnose",
+      "purpose": "Understand the current work, capability, risks, and desired human outcome.",
+      "inputs": ["Mission or business outcome", "Current workflow", "People and roles", "Known constraints and risks"],
+      "activities": ["Map the workflow", "Identify decisions and handoffs", "Assess current maturity", "Name the problem worth solving"],
+      "outputs": ["Current-state view", "Priority opportunity", "Initial risk and ownership view"],
+      "exitGate": "The team can explain the problem, desired outcome, affected people, and material risks.",
+      "example": "A university maps how a student advising request moves from intake to decision and identifies where AI could improve preparation without replacing advisor judgment."
+    },
+    {
+      "id": "activate",
+      "name": "Activate",
+      "purpose": "Create the shared intent, capability, and conditions needed to begin responsible change.",
+      "inputs": ["Diagnosed opportunity", "Stakeholder commitments", "Available capability", "Success measures"],
+      "activities": ["Align leaders and practitioners", "Define the intended human-AI partnership", "Build foundational skills", "Select a bounded starting point"],
+      "outputs": ["Shared direction", "Named owners", "Initial use case or experiment", "Capability plan"],
+      "exitGate": "The people doing the work understand the intended outcome, their responsibilities, and the first safe action.",
+      "example": "A finance team agrees on a bounded drafting use case, assigns a reviewer, and defines what information must remain protected."
+    },
+    {
+      "id": "controls",
+      "name": "Controls",
+      "purpose": "Set the safeguards, review practices, and accountability needed for reliable work.",
+      "inputs": ["Workflow and use case", "Risk profile", "Data and privacy requirements", "Organizational policies"],
+      "activities": ["Classify risk", "Define review depth", "Set data boundaries", "Document approval and escalation paths"],
+      "outputs": ["Controls plan", "Review standard", "Data handling rules", "Accountability and escalation model"],
+      "exitGate": "The workflow has proportionate controls and a named human owner for consequential decisions.",
+      "example": "A legal team defines which draft sections require source verification and attorney approval before client delivery."
+    },
+    {
+      "id": "execute",
+      "name": "Execute",
+      "purpose": "Put the AI-supported workflow into practice and learn from real work.",
+      "inputs": ["Approved workflow", "Tools and resources", "Trained participants", "Controls and review criteria"],
+      "activities": ["Run the workflow", "Capture inputs and outputs", "Apply human review", "Record exceptions and lessons"],
+      "outputs": ["Completed work", "Review evidence", "Observed results", "Improvement opportunities"],
+      "exitGate": "The workflow can be performed consistently with the required review and ownership visible.",
+      "example": "A teacher uses an AI-supported rubric drafting workflow, checks the result against learning goals, and edits it before sharing it with students."
+    },
+    {
+      "id": "measure",
+      "name": "Measure",
+      "purpose": "Evaluate whether the AI-supported work improves outcomes and preserves trust.",
+      "inputs": ["Workflow evidence", "Outcome measures", "Quality and review data", "Participant feedback"],
+      "activities": ["Compare results with the intended outcome", "Track quality and rework", "Review errors and near misses", "Gather user and stakeholder feedback"],
+      "outputs": ["Outcome assessment", "Quality findings", "Risk findings", "Decision to improve, pause, or expand"],
+      "exitGate": "The team has evidence about value, quality, risk, and the changes required before expansion.",
+      "example": "An operations group compares turnaround time and correction rates before and after introducing an AI-supported intake workflow."
+    },
+    {
+      "id": "scale",
+      "name": "Scale",
+      "purpose": "Extend proven capability while adapting governance, training, and support to the new scope.",
+      "inputs": ["Measured results", "Proven workflow", "Expansion plan", "Resources and governance capacity"],
+      "activities": ["Prioritize expansion", "Standardize reusable practices", "Train additional participants", "Monitor outcomes and emerging risks"],
+      "outputs": ["Scaled operating model", "Reusable standards", "Capability investment plan", "Continuous improvement loop"],
+      "exitGate": "The capability can expand without losing outcome quality, contextual judgment, ownership, or trust.",
+      "example": "A university extends a reviewed AI workflow from one advising team to multiple campuses with shared standards and local accountability."
+    }
+  ]
+}

@@ -61,6 +61,11 @@ async function checkLink(sourceFile, link) {
     return;
   }
 
+  // Preconnect origins are resource hints, not navigable links. Some reject HEAD.
+  if (link === 'https://fonts.googleapis.com' || link === 'https://fonts.gstatic.com') {
+    return;
+  }
+
   // Handle external links
   if (link.startsWith('http://') || link.startsWith('https://') || link.startsWith('//')) {
     if (link.includes('ai-augmented.ai')) {

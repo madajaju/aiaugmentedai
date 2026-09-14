@@ -1,0 +1,67 @@
+﻿{
+  "model": "AI-Augmented lenses",
+  "description": "Role-based entry points that help visitors apply the framework to the work they are responsible for.",
+  "lenses": [
+    {
+      "id": "individual",
+      "publicName": "Individual",
+      "shortDescription": "Build personal judgment, fluency, and repeatable AI-supported workflows.",
+      "audience": "People improving their own work, learning, or professional practice.",
+      "outcome": "A reliable personal workflow that expands capability while preserving judgment.",
+      "route": "/lens/individual/",
+      "icon": "person",
+      "category": "personal"
+    },
+    {
+      "id": "team-leader",
+      "publicName": "Team Leader",
+      "shortDescription": "Help teams establish shared standards, reliable handoffs, and clear ownership.",
+      "audience": "Managers, supervisors, project leads, and team facilitators.",
+      "outcome": "A team practice for using, reviewing, and improving AI-supported work.",
+      "route": "/lens/team-leader/",
+      "icon": "people",
+      "category": "leadership"
+    },
+    {
+      "id": "organization-leader",
+      "publicName": "Organization Leader",
+      "shortDescription": "Connect AI strategy, governance, people, process, and technology.",
+      "audience": "Executives and leaders responsible for organizational capability and outcomes.",
+      "outcome": "A practical path from AI experimentation to institution-wide capability.",
+      "route": "/lens/organization-leader/",
+      "icon": "building",
+      "category": "leadership"
+    },
+    {
+      "id": "student",
+      "publicName": "Student",
+      "shortDescription": "Use AI to deepen understanding without skipping the learning.",
+      "audience": "Students developing responsible AI-supported study and project practices.",
+      "outcome": "Learning workflows that strengthen understanding, verification, and academic integrity.",
+      "route": "/lens/student/",
+      "icon": "book",
+      "category": "education"
+    },
+    {
+      "id": "teacher",
+      "publicName": "Teacher",
+      "shortDescription": "Design learning, assessment, and classroom practice with clarity and rigor.",
+      "audience": "Teachers, faculty, instructors, and learning designers.",
+      "outcome": "Clear AI-era teaching and assessment practices that keep learning and responsibility visible.",
+      "route": "/lens/teacher/",
+      "icon": "chalkboard",
+      "category": "education"
+    },
+    {
+      "id": "education-leader",
+      "publicName": "Education Leader",
+      "shortDescription": "Guide policy, planning, governance, and institutional change coherently.",
+      "audience": "Academic, administrative, technology, and executive leaders in education.",
+      "outcome": "Institutional AI capability aligned with mission, trust, risk, and responsibility.",
+      "route": "/lens/education-administrator/",
+      "icon": "university",
+      "category": "education",
+      "internalRouteNote": "The public name is Education Leader; the existing education-administrator route remains stable until a redirect-backed migration is planned."
+    }
+  ]
+}

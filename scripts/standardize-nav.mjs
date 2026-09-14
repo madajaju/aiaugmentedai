@@ -25,12 +25,17 @@ function getHeader(depth, activePath) {
   const navItems = [
     { label: 'Home', href: homeUrl, matches: ['index.html'] },
     { label: 'The Movement', href: `${prefix}movement/`, matches: ['movement/', 'newsletter/'] },
-    { label: 'How It Works', href: `${prefix}learn-apply-augment/`, matches: ['learn-apply-augment/', 'education/', 'augment/'], submenu: [
+    { label: 'How It Works', href: `${prefix}learn-apply-augment/`, matches: ['learn-apply-augment/', 'augment/'], submenu: [
       { label: 'Learn', href: `${prefix}resources/` },
       { label: 'Apply', href: `${prefix}learn-apply-augment/#apply` },
       { label: 'Augment', href: `${prefix}learn-apply-augment/#augment` }
     ] },
-    { label: 'Education', href: `${prefix}education/`, matches: ['education/'] },
+    { label: 'Contexts', href: `${prefix}contexts/`, matches: ['contexts/', 'education/'], submenu: [
+      { label: 'Business', href: `${prefix}contexts/#business` },
+      { label: 'Education', href: `${prefix}education/` },
+      { label: 'Legal', href: `${prefix}contexts/#legal` },
+      { label: 'Medical', href: `${prefix}contexts/#medical` }
+    ] },
     { label: 'Find Your Path', href: `${prefix}find-your-path/`, matches: ['find-your-path/', 'lens/', 'start-here/'] },
     { label: 'Resources', href: `${prefix}resources/`, matches: ['resources/', 'articles/', 'books/', 'assessment/', 'aaos/'] },
     { label: 'About', href: `${prefix}about/`, matches: ['about/'] }
@@ -58,7 +63,7 @@ ${submenuHtml}
   return `<header class="site-header">
   <div class="shell header-row">
     <a class="brand" href="${homeUrl}">
-      <img src="${prefix}assets/img/ai-augmented/logo-dark.svg" alt="" aria-hidden="true">
+      <img src="${prefix}assets/img/ai-augmented/logo-dark.svg" alt="" aria-hidden="true" width="40" height="40">
       <span><strong>AI-Augmented</strong><span>Movement site</span></span>
     </a>
     <nav class="nav" aria-label="Primary">
@@ -80,19 +85,27 @@ function getFooter(depth) {
       <p class="muted">A movement site for people building practical capability with AI.</p>
     </div>
     <div>
-      <strong>Explore</strong>
+      <strong>Movement</strong>
       <p><a href="${homeUrl}">Home</a></p>
       <p><a href="${prefix}movement/">The Movement</a></p>
       <p><a href="${prefix}find-your-path/">Find Your Path</a></p>
-      <p><a href="${prefix}resources/">Resources</a></p>
+      <p><a href="${prefix}contexts/">Explore by Context</a></p>
       <p><a href="${prefix}about/">About</a></p>
+    </div>
+    <div>
+      <strong>Resources</strong>
+      <p><a href="${prefix}resources/">Learning Resources</a></p>
+      <p><a href="${prefix}assessment/">Assessments</a></p>
+      <p><a href="${prefix}books/">Books</a></p>
+      <p><a href="${prefix}articles/">Articles</a></p>
+      <p><a href="${prefix}newsletter/">Newsletter</a></p>
     </div>
     <div>
       <strong>Engage</strong>
       <p><a href="${prefix}learn-apply-augment/">Learn, Apply, Augment</a></p>
-      <p><a href="${prefix}assessment/">Assessment</a></p>
       <p><a href="${prefix}aaos/">AAOS Framework</a></p>
-      <p><a href="${prefix}books/">Books</a></p>
+      <p><a href="${prefix}augment/">Augment with Support</a></p>
+      <p><a href="${prefix}about/#action">Contact</a></p>
     </div>
     <div>
       <strong>Paths</strong>
@@ -104,13 +117,37 @@ function getFooter(depth) {
       <p><a href="${prefix}find-your-path/#education-administrator">Education Leader</a></p>
     </div>
     <div>
-      <strong>More</strong>
-      <p><a href="${prefix}books/">Books</a></p>
-      <p><a href="${prefix}movement/">Movement</a></p>
-      <p><a href="${prefix}articles/">Articles</a></p>
+      <strong>Legal</strong>
+      <p class="muted">Privacy and terms pages will be added before public collection or account features.</p>
+      <p class="muted">© ${new Date().getFullYear()} AI-Augmented Movement</p>
     </div>
   </div>
 </footer>`;
+}
+
+function getBreadcrumb(depth, activePath) {
+  if (depth === 0) return '';
+  const prefix = '../'.repeat(depth);
+  const parts = activePath.split('/').filter(part => part && part !== 'index.html');
+  const titleCase = value => value.replace(/-/g, ' ').replace(/\b\w/g, letter => letter.toUpperCase());
+  const links = [{ label: 'Home', href: depth === 0 ? 'index.html' : `${prefix}index.html` }];
+  if (parts[0] === 'lens') {
+    links.push({ label: 'Find Your Path', href: `${prefix}find-your-path/` });
+    if (parts[1]) links.push({ label: parts[1] === 'education-administrator' ? 'Education Leader' : titleCase(parts[1]), href: `${prefix}lens/${parts[1]}/` });
+    if (parts[2]) links.push({ label: titleCase(parts[2]), href: `${prefix}lens/${parts[1]}/${parts[2]}/` });
+  } else if (parts[0] === 'education') {
+    links.push({ label: 'Contexts', href: `${prefix}contexts/` });
+    links.push({ label: 'Education', href: `${prefix}education/` });
+  } else if (parts[0] === 'contexts') {
+    links.push({ label: 'Contexts', href: `${prefix}contexts/` });
+    if (parts[1]) links.push({ label: titleCase(parts[1]), href: `${prefix}contexts/${parts[1]}/` });
+  } else {
+    links.push({ label: titleCase(parts[0]), href: `${prefix}${parts[0]}/` });
+  }
+  const html = links.map((link, index) => index === links.length - 1
+    ? `<span aria-current="page">${link.label}</span>`
+    : `<a href="${link.href}">${link.label}</a>`).join('<span aria-hidden="true">/</span>');
+  return `<nav class="breadcrumbs shell" aria-label="Breadcrumb">${html}</nav>`;
 }
 
 async function standardize() {
@@ -122,10 +159,13 @@ async function standardize() {
 
     let updated = content;
 
+    // Replace generated breadcrumbs cleanly when the generator is run again.
+    updated = updated.replace(/<nav class="breadcrumbs shell"[\s\S]*?<\/nav>/g, '');
+
     // Standardize Header
     const headerRegex = /<header class="site-header">[\s\S]*?<\/header>/;
     if (headerRegex.test(updated)) {
-      updated = updated.replace(headerRegex, getHeader(depth, relativePath));
+      updated = updated.replace(headerRegex, `${getHeader(depth, relativePath)}${getBreadcrumb(depth, relativePath)}`);
     }
 
     // Standardize Footer

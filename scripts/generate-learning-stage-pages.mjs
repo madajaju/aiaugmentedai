@@ -161,7 +161,9 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
   const aaosLensHref = `${toDirPrefix(depth)}lens/${lensKey}/aaos/`;
   const resourcesHref = `${toDirPrefix(depth)}resources/`;
   const nextStageKey = stageOrder[stageOrder.indexOf(stageKey) + 1];
+  const previousStageKey = stageOrder[stageOrder.indexOf(stageKey) - 1];
   const nextStage = stage.nextStage || (nextStageKey ? lens.stages[nextStageKey] : { label: 'Sustained Augmentation', description: 'Keep improving your AI-Augmented operating model.' });
+  const stageNavigation = `<nav class="stage-navigation" aria-label="Maturity stage navigation">${previousStageKey ? `<a href="${stageHref(depth, lensKey, previousStageKey)}">← ${escapeHtml(lens.stages[previousStageKey].label)}</a>` : '<span></span>'}<strong aria-current="page">${escapeHtml(stage.label)}</strong>${nextStageKey ? `<a href="${stageHref(depth, lensKey, nextStageKey)}">${escapeHtml(lens.stages[nextStageKey].label)} →</a>` : '<span></span>'}</nav>`;
 
   return `<!doctype html>
 <html lang="en">
@@ -306,6 +308,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
         ${renderJourneyProgress(depth, lensKey, lens, stageKey)}
       </aside>
     </div>
+    ${stageNavigation}
   </section>
 
   <section class="band alt">
@@ -322,7 +325,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
   <section class="band" id="diagnosis">
     <div class="shell split-grid">
       <div class="section-title align-left">
-        <p class="eyebrow">Diagnosis</p>
+        <p class="eyebrow">What good looks like</p>
         <h2>${escapeHtml(stage.diagnosis.title || 'Is this really you?')}</h2>
         <p>${escapeHtml(cleanVisitorCopy(stage.diagnosis.description || 'Use this section to help visitors recognize themselves and trust the path.'))}</p>
       </div>
@@ -333,7 +336,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
   <section class="band alt" id="mission">
     <div class="shell split-grid">
       <div class="section-title align-left">
-        <p class="eyebrow">This week</p>
+        <p class="eyebrow">Your goal at this stage</p>
         <h2>${escapeHtml(stage.mission.title || 'Your mission this week')}</h2>
         <p>${escapeHtml(cleanVisitorCopy(stage.mission.description || 'Give the visitor one practical action before they leave.'))}</p>
       </div>
@@ -348,9 +351,9 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
         <h2>Use these tools and avoid these traps</h2>
       </div>
       <div class="stage-detail-grid">
-        <article class="card"><p class="card-kicker">Recommended tools</p>${renderTools(stage.tools, depth)}</article>
+        <article class="card"><p class="card-kicker">Recommended resources</p>${renderTools(stage.tools, depth)}</article>
         <article class="card"><p class="card-kicker">Example Scenario</p><blockquote style="font-style: italic; border-left: 3px solid var(--accent); padding-left: 1rem; margin: 0.5rem 0; font-size: 0.9rem;">"${escapeHtml(stage.example || 'Apply this stage to a real decision or workflow in your context.')}"</blockquote></article>
-        <article class="card"><p class="card-kicker">Common mistakes</p>${renderList(stage.mistakes)}</article>
+        <article class="card"><p class="card-kicker">What not to do</p>${renderList(stage.mistakes)}</article>
         <article class="card"><p class="card-kicker">AI posture</p><p>${escapeHtml(simpleText(stage.posture || 'Use AI intentionally, validate important outputs, and keep human accountability visible.'))}</p></article>
       </div>
     </div>
@@ -380,8 +383,8 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
   <section class="band" id="ready">
     <div class="shell split-grid">
       <div class="section-title align-left">
-        <p class="eyebrow">Progression</p>
-        <h2>Ready for ${escapeHtml(nextStage.label || 'the next level')}?</h2>
+        <p class="eyebrow">Exit criteria</p>
+        <h2>What to do next: ${escapeHtml(nextStage.label || 'the next level')}</h2>
         <p>${escapeHtml(nextStage.description || 'Move forward when the evidence below is true.')}</p>
       </div>
       <article class="card checklist-card">

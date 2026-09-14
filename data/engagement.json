@@ -1,0 +1,36 @@
+﻿{
+  "model": "Learn / Apply / Augment",
+  "description": "The three levels of support available to people, teams, and organizations building AI-Augmented capability.",
+  "levels": [
+    {
+      "id": "learn",
+      "name": "Learn",
+      "description": "Build understanding before changing the work through free educational material.",
+      "audience": "Anyone beginning or strengthening their AI-Augmented practice.",
+      "typicalAssets": ["Articles", "Podcasts", "Videos", "Quick Start Guides", "Definitions", "Readiness Assessment"],
+      "cta": "Browse Free Learning Assets",
+      "route": "/resources/",
+      "access": "Free; learning assets may use the shop's $0 access flow."
+    },
+    {
+      "id": "apply",
+      "name": "Apply",
+      "description": "Use practical assets to apply the framework to a real workflow, team, department, or institutional challenge.",
+      "audience": "Practitioners and leaders ready to put the concepts into practice.",
+      "typicalAssets": ["Workbooks", "Workflow Kits", "Team Toolkits", "Playbooks", "Templates", "Decision Guides"],
+      "cta": "Browse Application Toolkits",
+      "route": "https://shop.paidar.ai/",
+      "access": "Paid; self-service assets are delivered through the shop."
+    },
+    {
+      "id": "augment",
+      "name": "Augment",
+      "description": "Work with experts through guided support that expands capability across people, teams, and organizations.",
+      "audience": "Leaders and institutions facing work that needs facilitation, assessment, or sustained support.",
+      "typicalAssets": ["Executive Briefings", "Leadership Workshops", "Readiness Assessments", "Keynotes", "Advisory Services", "Facilitated Transformation"],
+      "cta": "Book a Conversation",
+      "route": "/augment/",
+      "access": "Paid; guided support begins with a conversation about context and need."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+﻿{
+  "model": "AI-Augmented Maturity",
+  "description": "A progression describing how deeply AI is integrated into human judgment, workflows, teams, and institutions.",
+  "stages": [
+    {
+      "id": "aware",
+      "name": "Aware",
+      "shortDescription": "Recognize where AI may affect work and learning.",
+      "longDescription": "People and leaders understand the opportunity, limitations, risks, and responsibilities associated with AI.",
+      "objective": "Build shared understanding and identify a meaningful starting point.",
+      "commonBehaviors": ["Learning AI concepts", "Noticing useful use cases", "Naming risks and questions"],
+      "risks": ["Treating AI as either magic or a threat", "Starting with tools before defining the problem"],
+      "milestone": "A clear opportunity and responsible use question are identified.",
+      "exitCriteria": ["Can explain the intended human outcome", "Can identify basic risks and review needs", "Has selected a practical next experiment"]
+    },
+    {
+      "id": "exploring",
+      "name": "Exploring",
+      "shortDescription": "Test how AI can support a real task.",
+      "longDescription": "People try AI on bounded tasks, compare results, and begin developing judgment about when it helps or distracts.",
+      "objective": "Find useful applications while keeping human judgment visible.",
+      "commonBehaviors": ["Trying bounded tasks", "Comparing outputs", "Asking follow-up questions", "Checking important claims"],
+      "risks": ["Over-relying on plausible output", "Using sensitive information without clear safeguards"],
+      "milestone": "One repeatable task has a clear, useful AI-supported pattern.",
+      "exitCriteria": ["Can describe when AI helps", "Can verify important output", "Can repeat the task with a consistent review step"]
+    },
+    {
+      "id": "experimenting",
+      "name": "Experimenting",
+      "shortDescription": "Run deliberate experiments with AI-supported workflows.",
+      "longDescription": "People and teams compare approaches, document results, and learn which AI-supported practices improve the work.",
+      "objective": "Turn isolated trials into evidence about a better way to work.",
+      "commonBehaviors": ["Defining an experiment", "Comparing methods", "Recording lessons", "Reviewing outputs against evidence"],
+      "risks": ["Scaling an untested workflow", "Measuring activity instead of outcomes"],
+      "milestone": "An experiment produces evidence for a repeatable workflow decision.",
+      "exitCriteria": ["Has a defined outcome measure", "Has documented review and ownership", "Can explain what should be adopted or changed"]
+    },
+    {
+      "id": "integrating",
+      "name": "Integrating",
+      "shortDescription": "Make reliable AI practices part of normal work.",
+      "longDescription": "AI-supported workflows are incorporated into regular practice with clear roles, controls, handoffs, and review expectations.",
+      "objective": "Create dependable workflows that improve outcomes over time.",
+      "commonBehaviors": ["Using repeatable workflows", "Assigning ownership", "Applying proportionate review", "Sharing working practices"],
+      "risks": ["Hidden process changes", "Unclear accountability", "Inconsistent review quality"],
+      "milestone": "AI-supported work operates reliably within an established workflow.",
+      "exitCriteria": ["Workflow roles are clear", "Review depth matches the stakes", "Outcomes are monitored and improved"]
+    },
+    {
+      "id": "leading",
+      "name": "Leading",
+      "shortDescription": "Guide others in responsible AI-supported work.",
+      "longDescription": "Leaders shape shared standards, coach people, manage risk, and connect AI-supported practice to team or institutional outcomes.",
+      "objective": "Make reliable AI capability a shared leadership practice.",
+      "commonBehaviors": ["Setting expectations", "Coaching teams", "Managing tradeoffs", "Using evidence to prioritize improvement"],
+      "risks": ["Mandating tools without capability building", "Confusing adoption with value", "Allowing responsibility to become ambiguous"],
+      "milestone": "People can use shared standards to make sound AI-supported decisions.",
+      "exitCriteria": ["Standards and ownership are visible", "Teams can learn from outcomes", "Leaders can prioritize capability investments"]
+    },
+    {
+      "id": "augmenting",
+      "name": "Augmenting",
+      "shortDescription": "Expand human capability through mature AI partnership.",
+      "longDescription": "AI is embedded in a continuously improving operating model that expands human capability while preserving agency, judgment, and accountability.",
+      "objective": "Sustain responsible improvement as people, workflows, and technology change.",
+      "commonBehaviors": ["Improving the operating model", "Scaling proven practices", "Anticipating new risks", "Investing in human capability"],
+      "risks": ["Complacency", "Scaling controls without context", "Letting automation obscure human responsibility"],
+      "milestone": "AI-supported capability improves continuously at the appropriate level of scale.",
+      "exitCriteria": ["Capability is measured over time", "The operating model adapts to change", "Human accountability remains explicit"]
+    }
+  ]
+}

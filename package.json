@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node scripts/generate-learning-stage-pages.mjs",
     "generate:legacy": "node scripts/generate-lens-stage-pages.mjs",
-    "check:links": "node scripts/check-links.mjs"
+    "check:links": "node scripts/check-links.mjs",
+    "check:site": "node scripts/check-site.mjs"
   },
   "author": "",
   "license": "ISC"
