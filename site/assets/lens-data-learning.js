@@ -193,7 +193,7 @@ window.AA_LENS_DATA = {
         "nextMilestone": "Document three repeatable prompts that consistently produce reliable results for a specific task.",
         "diagnosis": {
           "title": "Is this really you?",
-          "description": "This stage page helps a individual recognize where they are before asking them to take the next step.",
+          "description": "This stage page helps an individual recognize where they are before asking them to take the next step.",
           "items": [
             "You have a few prompts that work, you are comparing tools, and you are starting to notice where AI saves time or adds quality.",
             "You are focused on: standardize one workflow.",
@@ -456,7 +456,7 @@ window.AA_LENS_DATA = {
         "nextMilestone": "Create a shared resource (guide, library, or checklist) that helps at least one peer adopt a similar workflow.",
         "diagnosis": {
           "title": "Is this really you?",
-          "description": "This stage page helps a individual recognize where they are before asking them to take the next step.",
+          "description": "This stage page helps an individual recognize where they are before asking them to take the next step.",
           "items": [
             "You can move from idea to draft to review faster, and AI is now part of your regular work rhythm.",
             "You are focused on: build your personal os.",
@@ -579,7 +579,7 @@ window.AA_LENS_DATA = {
         "nextMilestone": "Redesign a core job function around AI-human partnership, where the outcome is significantly better than either could achieve alone.",
         "diagnosis": {
           "title": "Is this really you?",
-          "description": "This stage page helps a individual recognize where they are before asking them to take the next step.",
+          "description": "This stage page helps an individual recognize where they are before asking them to take the next step.",
           "items": [
             "Peers ask how you use AI, you document good practice, and your workflow becomes a model others can follow.",
             "You are focused on: teach patterns, not just tools.",
@@ -702,7 +702,7 @@ window.AA_LENS_DATA = {
         "nextMilestone": "Regularly audit and refine your personal operating system to maintain high quality as AI models evolve.",
         "diagnosis": {
           "title": "Is this really you?",
-          "description": "This stage page helps a individual recognize where they are before asking them to take the next step.",
+          "description": "This stage page helps an individual recognize where they are before asking them to take the next step.",
           "items": [
             "Your work, decisions, and outputs are materially different because AI is woven into how you operate.",
             "You are focused on: keep standards durable at scale.",

@@ -99,13 +99,13 @@ ${items.map((item) => {
   let description = cleanVisitorCopy(typeof item === 'string' ? '' : (item.description || ''));
   let href = typeof item === 'string' ? '' : (item.href ? localHref(depth, item.href) : '');
   let external = typeof item === 'string' ? false : (item.external || /^https?:\/\//i.test(item.href || ''));
-  let status = typeof item === 'string' 
+  let status = typeof item === 'string'
     ? (kind === 'premium' ? 'Guided' : kind === 'coming-soon' ? 'Planned' : 'Available')
     : (item.status || (kind === 'premium' ? 'Guided' : kind === 'coming-soon' ? 'Planned' : 'Available'));
 
   const content = `<span class="resource-status">${escapeHtml(status)}</span><h3>${escapeHtml(label)}</h3>${description ? `<p>${escapeHtml(description)}</p>` : ''}`;
   const classes = `card resource-card ${kind}`;
-  
+
   return href
     ? `<a class="${classes}" href="${escapeHtml(href)}"${external ? ' target="_blank" rel="noopener noreferrer"' : ''}>${content}</a>`
     : `<article class="${classes}">${content}</article>`;
@@ -185,6 +185,9 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
   <meta name="twitter:image" content="https://ai-augmented.ai/assets/img/aaos.svg">
   <meta name="theme-color" content="#123B66">
   <link rel="icon" href="${assets}/img/ai-augmented/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="${assets}/site.css">
   <script src="${assets}/site.js" defer></script>
   <script type="application/ld+json">
@@ -297,7 +300,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
         <p class="muted" style="font-size: 0.8rem; margin-bottom: 1.5rem;">Author: Dr. Darren Pulsipher, <em>Becoming AI-Augmented</em> &middot; Last Updated: July 2026</p>
         <div class="cta-row">
           <a class="button" href="${assessmentHref}">Take the Assessment</a>
-          <a class="button secondary" href="#mission">Start This Stage</a>
+          <a class="button secondary" href="#next-move">Start This Stage</a>
         </div>
       </div>
       <aside class="hero-visual panel">
@@ -313,6 +316,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
 
   <section class="band alt">
     <div class="shell">
+      <p class="journey-transition">Now that you’ve chosen the context that matters most to you, the next question is where you are today.</p>
       <div class="section-title">
         <p class="eyebrow">${escapeHtml(lensLabel)}</p>
         <h2>Choose a level</h2>
@@ -322,52 +326,84 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
     </div>
   </section>
 
-  <section class="band" id="diagnosis">
+  <section class="band" id="you-are-here">
     <div class="shell split-grid">
       <div class="section-title align-left">
-        <p class="eyebrow">What good looks like</p>
-        <h2>${escapeHtml(stage.diagnosis.title || 'Is this really you?')}</h2>
+        <p class="eyebrow">You are here</p>
+        <h2>${escapeHtml(stage.label)}: ${escapeHtml(stage.headline || 'Recognize your current practice')}</h2>
         <p>${escapeHtml(cleanVisitorCopy(stage.diagnosis.description || 'Use this section to help visitors recognize themselves and trust the path.'))}</p>
       </div>
       <article class="card checklist-card">${renderList(stage.diagnosis.items, 'check-list')}</article>
     </div>
   </section>
 
-  <section class="band alt" id="mission">
+  <section class="band alt" id="matters-most">
     <div class="shell split-grid">
       <div class="section-title align-left">
-        <p class="eyebrow">Your goal at this stage</p>
-        <h2>${escapeHtml(stage.mission.title || 'Your mission this week')}</h2>
+        <p class="eyebrow">Focus now</p>
+        <h2>What Matters Most Right Now</h2>
         <p>${escapeHtml(cleanVisitorCopy(stage.mission.description || 'Give the visitor one practical action before they leave.'))}</p>
+      </div>
+      <article class="card"><p>Knowing your stage tells you where to focus. The next step is changing the way the work actually gets done.</p></article>
+    </div>
+  </section>
+
+  <section class="band" id="next-move">
+    <div class="shell">
+      <div class="section-title">
+        <p class="eyebrow">One practical action</p>
+        <h2>Your Next Move</h2>
+        <p>Choose one behavior and repeat it until it becomes visible progress.</p>
       </div>
       <article class="card mission-card">${renderList(stage.mission.steps, 'numbered-list')}</article>
     </div>
   </section>
 
-  <section class="band">
-    <div class="shell">
-      <div class="section-title">
-        <p class="eyebrow">Practical help</p>
-        <h2>Use these tools and avoid these traps</h2>
+  <section class="band alt" id="avoid-this">
+    <div class="shell split-grid">
+      <div class="section-title align-left">
+        <p class="eyebrow">Common trap</p>
+        <h2>Avoid This</h2>
+        <p>Keep this mistake from slowing your progress at the current stage.</p>
       </div>
-      <div class="stage-detail-grid">
-        <article class="card"><p class="card-kicker">Recommended resources</p>${renderTools(stage.tools, depth)}</article>
-        <article class="card"><p class="card-kicker">Example Scenario</p><blockquote style="font-style: italic; border-left: 3px solid var(--accent); padding-left: 1rem; margin: 0.5rem 0; font-size: 0.9rem;">"${escapeHtml(stage.example || 'Apply this stage to a real decision or workflow in your context.')}"</blockquote></article>
-        <article class="card"><p class="card-kicker">What not to do</p>${renderList(stage.mistakes)}</article>
-        <article class="card"><p class="card-kicker">AI posture</p><p>${escapeHtml(simpleText(stage.posture || 'Use AI intentionally, validate important outputs, and keep human accountability visible.'))}</p></article>
-      </div>
+      <article class="card checklist-card">${renderList(stage.mistakes)}</article>
     </div>
   </section>
 
-  <section class="band alt" id="resources">
+  <section class="band" id="what-good-looks-like">
+    <div class="shell split-grid">
+      <div class="section-title align-left">
+        <p class="eyebrow">Evidence of progress</p>
+        <h2>What Good Looks Like</h2>
+        <p>${escapeHtml(cleanVisitorCopy(stage.diagnosis.title || 'Use these signals to recognize useful progress.'))}</p>
+      </div>
+      <article class="card checklist-card">${renderList(stage.diagnosis.items, 'check-list')}</article>
+    </div>
+  </section>
+
+  <section class="band alt" id="ready">
+    <div class="shell split-grid">
+      <div class="section-title align-left">
+        <p class="eyebrow">Progress milestone</p>
+        <h2>Ready to Advance When...</h2>
+        <p>${escapeHtml(nextStage.description || 'Move forward when the evidence below is true.')}</p>
+      </div>
+      <article class="card checklist-card">
+        ${renderList(stage.readyForNext, 'check-list')}
+        <div class="cta-row" style="margin-top:1rem;"><a class="button" href="${nextStageKey ? stageHref(depth, lensKey, nextStageKey) : aaosLensHref}">Continue Your Path</a></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="band" id="need-help">
     <div class="shell">
       <div class="section-title">
-        <p class="eyebrow">Learning hub</p>
-        <h2>Start now with practical resources.</h2>
-        <p>Use these resources to build capability, apply the practice, and continue your journey.</p>
+        <p class="eyebrow">Need help?</p>
+        <h2>Use the support that fits your stage.</h2>
+        <p>You can apply these practices on your own, use structured tools, or work with someone to accelerate the process.</p>
       </div>
       <div class="resource-section">
-        <h3>Available now</h3>
+        <h3>Recommended resources</h3>
         ${renderResourceCards(stage.resources.available, depth, 'available')}
       </div>
       ${stage.resources.deepDive ? `
@@ -380,19 +416,6 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
     </div>
   </section>
 
-  <section class="band" id="ready">
-    <div class="shell split-grid">
-      <div class="section-title align-left">
-        <p class="eyebrow">Exit criteria</p>
-        <h2>What to do next: ${escapeHtml(nextStage.label || 'the next level')}</h2>
-        <p>${escapeHtml(nextStage.description || 'Move forward when the evidence below is true.')}</p>
-      </div>
-      <article class="card checklist-card">
-        ${renderList(stage.readyForNext, 'check-list')}
-        <div class="cta-row" style="margin-top:1rem;"><a class="button" href="${nextStageKey ? stageHref(depth, lensKey, nextStageKey) : aaosLensHref}">Continue Your Path</a><a class="button secondary" href="${resourcesHref}">Explore Resources</a><a class="button secondary" href="${assessmentHref}">Take the Assessment</a></div>
-      </article>
-    </div>
-  </section>
 </main>
 <footer class="footer">
   <div class="shell footer-grid">

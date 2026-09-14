@@ -21,22 +21,14 @@ async function getFiles(dir) {
 function getHeader(depth, activePath) {
   const prefix = '../'.repeat(depth);
   const homeUrl = depth === 0 ? 'index.html' : `${prefix}index.html`;
-  
+
   const navItems = [
-    { label: 'The Movement', href: `${prefix}movement/`, matches: ['movement/', 'newsletter/'] },
-    { label: 'How It Works', href: `${prefix}learn-apply-augment/`, matches: ['learn-apply-augment/', 'augment/'], submenu: [
-      { label: 'Learn', href: `${prefix}resources/` },
-      { label: 'Apply', href: `${prefix}learn-apply-augment/#apply` },
-      { label: 'Augment', href: `${prefix}learn-apply-augment/#augment` }
-    ] },
-    { label: 'Contexts', href: `${prefix}contexts/`, matches: ['contexts/', 'education/'], submenu: [
-      { label: 'Business', href: `${prefix}contexts/#business` },
-      { label: 'Education', href: `${prefix}education/` },
-      { label: 'Legal', href: `${prefix}contexts/#legal` },
-      { label: 'Medical', href: `${prefix}contexts/#medical` }
-    ] },
+    { label: 'Movement', href: `${prefix}movement/`, matches: ['movement/', 'newsletter/'] },
     { label: 'Find Your Path', href: `${prefix}find-your-path/`, matches: ['find-your-path/', 'lens/', 'start-here/'] },
-    { label: 'Resources', href: `${prefix}resources/`, matches: ['resources/', 'articles/', 'books/', 'assessment/', 'aaos/'] }
+    { label: 'Framework', href: `${prefix}aaos/`, matches: ['aaos/', 'learn-apply-augment/', 'augment/', 'apply/'] },
+    { label: 'Education', href: `${prefix}education/`, matches: ['education/'] },
+    { label: 'Resources', href: `${prefix}resources/`, matches: ['resources/', 'articles/', 'books/'] },
+    { label: 'Assessment', href: `${prefix}assessment/`, matches: ['assessment/'] }
   ];
 
   const navHtml = navItems.map(item => {
@@ -67,7 +59,6 @@ ${submenuHtml}
     <nav class="nav" aria-label="Primary">
 ${navHtml}
     </nav>
-    <a class="button nav-cta" href="${prefix}assessment/">Take the AI Assessment</a>
   </div>
 </header>`;
 }
@@ -134,7 +125,6 @@ function getBreadcrumb(depth, activePath) {
     if (parts[1]) links.push({ label: parts[1] === 'education-administrator' ? 'Education Leader' : titleCase(parts[1]), href: `${prefix}lens/${parts[1]}/` });
     if (parts[2]) links.push({ label: titleCase(parts[2]), href: `${prefix}lens/${parts[1]}/${parts[2]}/` });
   } else if (parts[0] === 'education') {
-    links.push({ label: 'Contexts', href: `${prefix}contexts/` });
     links.push({ label: 'Education', href: `${prefix}education/` });
   } else if (parts[0] === 'contexts') {
     links.push({ label: 'Contexts', href: `${prefix}contexts/` });
@@ -156,6 +146,13 @@ async function standardize() {
     const content = await fs.readFile(file, 'utf8');
 
     let updated = content;
+
+    if (!relativePath.startsWith('education/') && !updated.includes('fonts.googleapis.com/css2?family=Inter')) {
+      updated = updated.replace(
+        /(\s*<link rel="stylesheet" href="[^"]*assets\/site\.css">)/,
+        '\n  <link rel="preconnect" href="https://fonts.googleapis.com">\n  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">$1',
+      );
+    }
 
     // Replace generated breadcrumbs cleanly when the generator is run again.
     updated = updated.replace(/<nav class="breadcrumbs shell"[\s\S]*?<\/nav>/g, '');

@@ -1,10 +1,4 @@
 (() => {
-  const config = window.AA_SITE_CONFIG || (window.AA_SITE_CONFIG = {});
-  if (!config.movementLaunchAt) {
-    config.movementLaunchAt = '2026-07-21T00:00:00-07:00';
-  }
-
-  const launchAt = new Date(config.movementLaunchAt);
   const journeyStorageKey = 'aa-journey-state';
   const lensOrder = ['individual', 'team-leader', 'organization-leader', 'student', 'teacher', 'education-administrator'];
   const stageOrder = ['aware', 'exploring', 'experimenting', 'integrating', 'leading', 'augmenting'];
@@ -74,6 +68,11 @@
     const stageKey = document.body.getAttribute('data-stage');
     if (!stageKey || !isKnownStage(stageKey)) return;
 
+    const previous = readJourneyState();
+    if (previous.stage && stageOrder.indexOf(stageKey) > stageOrder.indexOf(previous.stage)) {
+      emitMeasurement('aa_return_later_stage', { lens: lensKey, previousStage: previous.stage, stage: stageKey });
+    }
+
     writeJourneyState({
       stage: stageKey,
       lens: lensKey || undefined,
@@ -118,6 +117,88 @@
         }
       });
     }
+  }
+
+  function initJourneyContinuity() {
+    if (document.querySelector('[data-journey-continuity]')) return;
+    const state = readJourneyState();
+    if (!state.lens || !isKnownStage(state.stage)) return;
+
+    const lens = lensLabels[state.lens] || state.lens;
+    const stage = stageLabels[state.stage] || state.stage;
+    const stageIndex = stageOrder.indexOf(state.stage);
+    const nextStage = stageOrder[stageIndex + 1];
+    const nextStageLink = nextStage
+      ? `<a href="/lens/${state.lens}/${nextStage}/">Continue to ${stageLabels[nextStage]}</a>`
+      : `<a href="/aaos/">Review the AAOS framework</a>`;
+    const roleProgression = {
+      individual: [['Team Leader', '/lens/team-leader/'], ['Organization Leader', '/lens/organization-leader/']],
+      'team-leader': [['Organization Leader', '/lens/organization-leader/']],
+      student: [['Teacher', '/lens/teacher/'], ['Education Leader', '/lens/education-administrator/']],
+      teacher: [['Education Leader', '/lens/education-administrator/']],
+    };
+    const related = (roleProgression[state.lens] || []).map(([label, href]) => `<a href="${href}">${label}</a>`).join('');
+    const applyLabels = {
+      individual: 'Use individual workbooks',
+      'team-leader': 'Use team workflow kits',
+      'organization-leader': 'Use organization playbooks',
+      student: 'Use student practice guides',
+      teacher: 'Use teaching toolkits',
+      'education-administrator': 'Use education leadership tools',
+    };
+    const augmentLabels = {
+      individual: 'Get help with your workflow',
+      'team-leader': 'Get team enablement',
+      'organization-leader': 'Get organizational support',
+      student: 'Get learning support',
+      teacher: 'Get faculty development support',
+      'education-administrator': 'Get institutional support',
+    };
+    const bar = document.createElement('aside');
+    bar.className = 'journey-continuity shell';
+    bar.setAttribute('data-journey-continuity', '');
+    bar.setAttribute('aria-label', 'Saved journey');
+    bar.innerHTML = `
+      <div class="journey-continuity-summary">
+        <p class="card-kicker">Your saved path</p>
+        <strong>${escapeHtml(lens)} · ${escapeHtml(stage)}</strong>
+        <span>Saved in this browser</span>
+      </div>
+      <nav class="journey-continuity-links" aria-label="Continue your journey">
+        ${nextStageLink}
+        <a href="/resources/">Deeper learning</a>
+        <a href="/learn-apply-augment/#apply">${applyLabels[state.lens] || 'Apply tools'}</a>
+        <a href="/learn-apply-augment/#augment">${augmentLabels[state.lens] || 'Augment support'}</a>
+        <a href="/education/">Education resources</a>
+        <a href="/newsletter/">Community and newsletter</a>
+        ${related ? `<span class="journey-related-label">Related paths:</span>${related}` : ''}
+      </nav>`;
+    const breadcrumbs = document.querySelector('.breadcrumbs');
+    const header = document.querySelector('.site-header');
+    (breadcrumbs || header)?.after(bar);
+  }
+
+  function initResourceRecommendations() {
+    const root = document.querySelector('[data-resource-recommendation]');
+    const cardsRoot = root && root.querySelector('[data-resource-recommendation-cards]');
+    if (!root || !cardsRoot) return;
+    const state = readJourneyState();
+    if (!state.lens || !state.stage) return;
+
+    const cards = Array.from(document.querySelectorAll('.resource-card[data-resource-type]'));
+    const selected = cards.filter((card) => {
+      const lens = card.dataset.lens;
+      const maturity = card.dataset.maturity;
+      return (lens === 'all' || lens === state.lens) && (maturity === 'all' || maturity === state.stage);
+    }).slice(0, 3);
+    if (!selected.length) return;
+
+    const lens = lensLabels[state.lens] || state.lens;
+    const stage = stageLabels[state.stage] || state.stage;
+    root.querySelector('[data-resource-recommendation-heading]').textContent = `Because you are a ${lens} at the ${stage} stage, start with these resources.`;
+    root.querySelector('[data-resource-recommendation-copy]').textContent = 'These recommendations use your saved path. You can still browse the full catalog below.';
+    selected.forEach((card) => cardsRoot.appendChild(card.cloneNode(true)));
+    root.hidden = false;
   }
 
   function setupNavDropdowns() {
@@ -375,6 +456,18 @@
     return recommendations[stage] || 'Use the lens page first, then continue into AAOS with your augmentation maturity in mind.';
   }
 
+  function getLensRecommendation(lens) {
+    const recommendations = {
+      individual: 'Choose one recurring task and use a workbook to make the workflow repeatable.',
+      'team-leader': 'Choose one shared workflow and use a team toolkit to make review and handoffs visible.',
+      'organization-leader': 'Choose one strategic workflow and use a playbook to align governance, ownership, and adoption.',
+      student: 'Choose one learning task and use a practice guide while keeping ownership of your thinking.',
+      teacher: 'Choose one learning or assessment workflow and use a toolkit to strengthen clarity and feedback.',
+      'education-administrator': 'Choose one institutional priority and use a leadership tool to clarify ownership, risk, and next action.',
+    };
+    return recommendations[lens] || 'Choose one real workflow and make the next practice visible.';
+  }
+
   function initAssessmentPrompt() {
     const prompt = document.querySelector('[data-assessment-prompt]');
     if (!prompt) return;
@@ -418,6 +511,17 @@
       const engagement = inferEngagement(href, label);
       if (!engagement && !/^https?:\/\//i.test(href)) return;
       emitMeasurement('aa_link_click', { engagement, href, label });
+      if (window.location.pathname === '/' && /find-your-path/.test(href)) emitMeasurement('aa_home_find_path', { href, label });
+      if (/\/lens\//.test(href)) emitMeasurement('aa_lens_selected', { href, label });
+      if (link.closest('[data-assessment-result]') || /do this next|open your coaching page/i.test(label)) {
+        emitMeasurement('aa_recommended_action_click', { href, label });
+      }
+      if (/learn-apply-augment\/#[^/]*apply/i.test(href) && /resources|learn/i.test(window.location.pathname)) {
+        emitMeasurement('aa_learn_to_apply', { href, label });
+      }
+      if (/augment/.test(href) && /\/apply\//.test(window.location.pathname)) {
+        emitMeasurement('aa_apply_to_augment', { href, label });
+      }
       if (/shop\.paidar\.ai/i.test(href)) emitMeasurement('aa_shop_click', { engagement, href, label });
       if (/drdarrenspeaks|paidar\.ai\/(services|workshops|educators)/i.test(href)) emitMeasurement('aa_augment_click', { href, label });
     });
@@ -541,28 +645,45 @@
       result.hidden = false;
       result.innerHTML = `
         <div class="section-title">
-          <p class="eyebrow">Your result</p>
-          <h2 id="assessment-result-heading" tabindex="-1">${escapeHtml(lensLabels[lens] || lens)} - ${escapeHtml(stageLabels[maturity] || maturity)}</h2>
-          <p>You can use this as your starting point. The lens tells you which path fits; the augmentation maturity level tells you where you are today.</p>
+          <p class="eyebrow">Your guidance</p>
+          <h2 id="assessment-result-heading" tabindex="-1">Start here: ${escapeHtml(lensLabels[lens] || lens)} · ${escapeHtml(stageLabels[maturity] || maturity)}</h2>
+          <p>You do not need to master everything at once. Start by understanding where you are today, then take one practical next step.</p>
         </div>
         <div class="card-grid three-up">
           <article class="card">
-            <p class="card-kicker">Lens</p>
-            <h3>${escapeHtml(lensLabels[lens] || lens)}</h3>
-            <p>This is the most likely path for you based on the answers so far.</p>
-          </article>
-          <article class="card">
-            <p class="card-kicker">Augmentation maturity</p>
+            <p class="card-kicker">Where You Are</p>
             <h3>${escapeHtml(stageLabels[maturity] || maturity)}</h3>
-            <p>This is the maturity level that best matches your current practice.</p>
+            <p>Your current augmentation maturity best matches this stage.</p>
           </article>
           <article class="card">
-            <p class="card-kicker">Next step</p>
-            <h3>Explore the matching path</h3>
+            <p class="card-kicker">What Matters Now</p>
+            <h3>${escapeHtml(lensLabels[lens] || lens)} context</h3>
+            <p>${escapeHtml(getLensRecommendation(lens))}</p>
+          </article>
+          <article class="card">
+            <p class="card-kicker">Do This Next</p>
+            <h3>Open your coaching page</h3>
             <p>${escapeHtml(recommendation)}</p>
           </article>
         </div>
-        
+        <div class="card-grid three-up" style="margin-top: 1rem;">
+          <article class="card">
+            <p class="card-kicker">Avoid This</p>
+            <h3>Do not skip the practice</h3>
+            <p>Do not jump ahead to tools or advanced workflows before the current stage is repeatable.</p>
+          </article>
+          <article class="card">
+            <p class="card-kicker">Know You’re Ready to Progress When</p>
+            <h3>Your current behavior is repeatable</h3>
+            <p>You can explain what you do, review the result, and apply the practice in a real workflow.</p>
+          </article>
+          <article class="card">
+            <p class="card-kicker">Optional Deeper Resource</p>
+            <h3>Explore the AAOS framework</h3>
+            <p>Use the framework when you want the underlying system behind your recommended path.</p>
+          </article>
+        </div>
+
         <div class="card panel" style="margin-top: 2rem; border-color: var(--secondary-soft);">
           <div style="display: grid; gap: 1rem; md:grid-template-columns: 1fr auto;">
             <div>
@@ -580,8 +701,9 @@
               <input type="hidden" name="zc_formIx" value="3z48d34bc44b911e5b1c4025477f34fa57102849dfc54c33fb8876123171441f44">
               <input type="hidden" name="mode" value="OptinCreateView">
               <input type="hidden" name="submitType" value="optinCustomView">
-              
-              <input type="email" name="CONTACT_EMAIL" placeholder="your@email.com" required class="input-text">
+
+              <label class="form-label" for="assessment-email">Email address</label>
+              <input id="assessment-email" type="email" name="CONTACT_EMAIL" placeholder="your@email.com" required class="input-text">
               <button type="submit" class="button">Email My Results</button>
             </form>
             <p class="form-note">By clicking, you join the AI-Augmented newsletter. We respect your privacy.</p>
@@ -591,7 +713,7 @@
         <div style="margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem;">
           <div class="saved-indicator">Result saved to this browser</div>
           <div class="cta-row">
-            <a class="button" href="${stageHref}">Open your path</a>
+            <a class="button" href="${stageHref}">Do This Next</a>
             <a class="button secondary" href="${lensHref}">Explore lens</a>
             <a class="button secondary" href="${aaosHref}">What is AAOS?</a>
           </div>
@@ -612,6 +734,8 @@
     document.addEventListener('DOMContentLoaded', initStagePersistenceControls, { once: true });
     document.addEventListener('DOMContentLoaded', initAssessment, { once: true });
     document.addEventListener('DOMContentLoaded', updateSavedIndicators, { once: true });
+    document.addEventListener('DOMContentLoaded', initResourceRecommendations, { once: true });
+    document.addEventListener('DOMContentLoaded', initJourneyContinuity, { once: true });
     document.addEventListener('DOMContentLoaded', initAssessmentPrompt, { once: true });
     document.addEventListener('DOMContentLoaded', initMeasurement, { once: true });
   } else {
@@ -623,6 +747,8 @@
     initStagePersistenceControls();
     initAssessment();
     updateSavedIndicators();
+    initResourceRecommendations();
+    initJourneyContinuity();
     initAssessmentPrompt();
     initMeasurement();
   }

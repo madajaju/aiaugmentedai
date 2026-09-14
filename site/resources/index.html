@@ -56,28 +56,13 @@
       <span><strong>AI-Augmented</strong><span>Movement site</span></span>
     </a>
     <nav class="nav" aria-label="Primary">
-      <a href="../movement/">The Movement</a>
-      <div class="nav-dropdown">
-        <button type="button" aria-expanded="false" aria-haspopup="true">How It Works<span aria-hidden="true">⌄</span></button>
-        <div class="nav-submenu" role="menu">
-        <a href="../resources/">Learn</a>
-        <a href="../learn-apply-augment/#apply">Apply</a>
-        <a href="../learn-apply-augment/#augment">Augment</a>
-        </div>
-      </div>
-      <div class="nav-dropdown">
-        <button type="button" aria-expanded="false" aria-haspopup="true">Contexts<span aria-hidden="true">⌄</span></button>
-        <div class="nav-submenu" role="menu">
-        <a href="../contexts/#business">Business</a>
-        <a href="../education/">Education</a>
-        <a href="../contexts/#legal">Legal</a>
-        <a href="../contexts/#medical">Medical</a>
-        </div>
-      </div>
+      <a href="../movement/">Movement</a>
       <a href="../find-your-path/">Find Your Path</a>
+      <a href="../aaos/">Framework</a>
+      <a href="../education/">Education</a>
       <a href="../resources/" aria-current="page">Resources</a>
+      <a href="../assessment/">Assessment</a>
     </nav>
-    <a class="button nav-cta" href="../assessment/">Take the AI Assessment</a>
   </div>
 </header><nav class="breadcrumbs shell" aria-label="Breadcrumb"><a href="../index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Resources</span></nav>
 <main id="main">
@@ -89,13 +74,24 @@
     <section class="band answer-section" aria-labelledby="resources-answer">
     <div class="shell"><div class="section-title"><p class="eyebrow">Answer</p><h2 id="resources-answer">Where should I start with AI-Augmented?</h2><p>Start with a free Learn asset to understand the principles, use the assessment to identify your current stage, and then choose paid Apply tools or guided Augment support when you are ready.</p><p><strong>Next step:</strong> Browse the free learning resources or choose your role to find a more specific path.</p></div></div>
   </section>
+  <section class="band" data-resource-recommendation hidden>
+    <div class="shell">
+      <div class="section-title">
+        <p class="eyebrow">Recommended for your saved path</p>
+        <h2 data-resource-recommendation-heading>Start with these resources.</h2>
+        <p data-resource-recommendation-copy>These recommendations use the lens and maturity stage saved in this browser.</p>
+      </div>
+      <div class="card-grid three-up" data-resource-recommendation-cards></div>
+    </div>
+  </section>
+
   <section class="band alt"><div class="shell"><div class="section-title"><p class="eyebrow">Start here</p><h2>Free learning that moves you forward</h2><p>Choose the resource that answers your question now. Each one gives you a practical next step.</p></div><div class="card-grid three-up">
-    <article id="res-movement" class="card resource-card"><span class="resource-status">Learn · Free</span><p class="card-kicker">Movement</p><h3>Understand the public standard</h3><p>Start with why AI-Augmented exists and the commitments behind the movement.</p><a class="button secondary small" href="../movement/">Read the Movement</a></article>
-    <article id="res-assessment" class="card resource-card"><span class="resource-status">Learn · Free</span><p class="card-kicker">Assessment</p><h3>Find your current stage</h3><p>Identify the lens that fits your role and the maturity level that best describes your practice.</p><a class="button secondary small" href="../assessment/">Take the Assessment</a></article>
-    <article id="res-articles" class="card resource-card"><span class="resource-status">Learn · Free</span><p class="card-kicker">Articles</p><h3>Build your foundation</h3><p>Read long-form guidance on AI adoption, maturity, and the AI-Augmented Operating System.</p><a class="button secondary small" href="../articles/">Read the Articles</a></article>
-    <article id="res-aaos" class="card resource-card"><span class="resource-status">Learn · Free</span><p class="card-kicker">Framework</p><h3>Explore AAOS</h3><p>Understand the operating model that connects capability, controls, workflow, and reliable decisions.</p><a class="button secondary small" href="../aaos/">Explore AAOS</a></article>
-    <article id="res-books" class="card resource-card"><span class="resource-status">Learn foundation</span><p class="card-kicker">Books</p><h3>Go deeper with the series</h3><p>Use the books to explore individual, team, organization, and education contexts in more depth.</p><a class="button secondary small" href="../books/">Explore the Books</a></article>
-    <article id="res-newsletter" class="card resource-card"><span class="resource-status">Learn · Free</span><p class="card-kicker">Newsletter</p><h3>Stay connected</h3><p>Receive practical guidance, research, and new AI-Augmented learning resources by email.</p><a class="button secondary small" href="../newsletter/">Join the Newsletter</a></article>
+    <article id="res-movement" class="card resource-card" data-lens="all" data-context="all" data-maturity="aware" data-aaos-stage="diagnose" data-topic="foundation" data-resource-type="article" data-support-level="learn"><span class="resource-status">Learn · Free</span><p class="card-kicker">Movement</p><h3>Understand the public standard</h3><p>Start with why AI-Augmented exists and the commitments behind the movement.</p><a class="button secondary small" href="../movement/">Read the Movement</a></article>
+    <article id="res-assessment" class="card resource-card" data-lens="all" data-context="all" data-maturity="all" data-aaos-stage="diagnose" data-topic="readiness" data-resource-type="assessment" data-support-level="learn"><span class="resource-status">Learn · Free</span><p class="card-kicker">Assessment</p><h3>Find your current stage</h3><p>Identify the lens that fits your role and the maturity level that best describes your practice.</p><a class="button secondary small" href="../assessment/">Take the Assessment</a></article>
+    <article id="res-articles" class="card resource-card" data-lens="all" data-context="all" data-maturity="all" data-aaos-stage="diagnose" data-topic="foundation" data-resource-type="article" data-support-level="learn"><span class="resource-status">Learn · Free</span><p class="card-kicker">Articles</p><h3>Build your foundation</h3><p>Read long-form guidance on AI adoption, maturity, and the AI-Augmented Operating System.</p><a class="button secondary small" href="../articles/">Read the Articles</a></article>
+    <article id="res-aaos" class="card resource-card" data-lens="all" data-context="all" data-maturity="integrating" data-aaos-stage="execute" data-topic="framework" data-resource-type="framework" data-support-level="learn"><span class="resource-status">Learn · Free</span><p class="card-kicker">Framework</p><h3>Explore AAOS</h3><p>Understand the operating model that connects capability, controls, workflow, and reliable decisions.</p><a class="button secondary small" href="../aaos/">Explore AAOS</a></article>
+    <article id="res-books" class="card resource-card" data-lens="all" data-context="all" data-maturity="all" data-aaos-stage="all" data-topic="books" data-resource-type="book" data-support-level="learn"><span class="resource-status">Learn foundation</span><p class="card-kicker">Books</p><h3>Go deeper with the series</h3><p>Use the books to explore individual, team, organization, and education contexts in more depth.</p><a class="button secondary small" href="../books/">Explore the Books</a></article>
+    <article id="res-newsletter" class="card resource-card" data-lens="all" data-context="all" data-maturity="all" data-aaos-stage="all" data-topic="community" data-resource-type="newsletter" data-support-level="learn"><span class="resource-status">Learn · Free</span><p class="card-kicker">Newsletter</p><h3>Stay connected</h3><p>Receive practical guidance, research, and new AI-Augmented learning resources by email.</p><a class="button secondary small" href="../newsletter/">Join the Newsletter</a></article>
   </div></div></section>
 
   <section class="band"><div class="shell"><div class="section-title"><p class="eyebrow">Choose your role</p><h2>Learn in the context of your work</h2><p>The framework becomes useful when it connects to the people, decisions, and workflows you are responsible for.</p></div><div class="card-grid three-up"><a class="card" href="../lens/individual/"><p class="card-kicker">Professional</p><h3>Individual</h3><p>Build personal judgment, fluency, and repeatable workflows.</p><span class="text-link">Learn for your role →</span></a><a class="card" href="../lens/team-leader/"><p class="card-kicker">Professional</p><h3>Team Leader</h3><p>Help people build shared standards and reliable handoffs.</p><span class="text-link">Learn for your role →</span></a><a class="card" href="../lens/organization-leader/"><p class="card-kicker">Professional</p><h3>Organization Leader</h3><p>Connect strategy, governance, people, process, and technology.</p><span class="text-link">Learn for your role →</span></a><a class="card" href="../lens/student/"><p class="card-kicker">Education</p><h3>Student</h3><p>Use AI to deepen understanding without skipping the learning.</p><span class="text-link">Learn for your role →</span></a><a class="card" href="../lens/teacher/"><p class="card-kicker">Education</p><h3>Teacher</h3><p>Design learning and assessment with clarity and rigor.</p><span class="text-link">Learn for your role →</span></a><a class="card" href="../lens/education-administrator/"><p class="card-kicker">Education</p><h3>Education Leader</h3><p>Guide policy, planning, and institutional change coherently.</p><span class="text-link">Learn for your role →</span></a></div></div></section>
