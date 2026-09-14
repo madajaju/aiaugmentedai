@@ -70,7 +70,7 @@ ${stageOrder.map((key, index) => {
   const stage = lens.stages[key];
   const active = key === activeStage;
   const complete = index < stageOrder.indexOf(activeStage);
-  return `<a class="stage-progress-item${active ? ' is-active' : ''}${complete ? ' is-complete' : ''}" href="${stageHref(depth, lensKey, key)}"><span>${complete ? '✓' : active ? '●' : '○'}</span>${escapeHtml(stage.label)}</a>`;
+  return `<a class="stage-progress-item${active ? ' is-active' : ''}${complete ? ' is-complete' : ''}" href="${stageHref(depth, lensKey, key)}"><span>${complete ? '&#10003;' : active ? '&#9679;' : '&#9675;'}</span>${escapeHtml(stage.label)}</a>`;
 }).join('\n')}
 </div>`;
 }
@@ -79,7 +79,7 @@ function renderList(items, className = '') {
   const values = asArray(items);
   if (!values.length) return '';
   return `<ul${className ? ` class="${className}"` : ''}>${values.map((item) => {
-    const text = String(item).replace(/^You are focused on:\s*/i, 'Focus on ');
+    const text = cleanVisitorCopy(String(item).replace(/^You are focused on:\s*/i, ''));
     return `<li>${escapeHtml(text)}</li>`;
   }).join('')}</ul>`;
 }
@@ -87,11 +87,17 @@ function renderList(items, className = '') {
 function cleanVisitorCopy(value) {
   return String(value ?? '')
     .replace(/\ba individual\b/gi, 'an individual')
-    .replace(/Education Leader/g, 'Education Leader');
+    .replace(/\ba education administrator\b/gi, 'an education administrator')
+    .replace(/\bai\b/g, 'AI')
+    .replace(/\.\.+/g, '.')
+    .replace(/^Focus on\s+([a-z])/i, (_, first) => first.toUpperCase())
+    .replace(/^([a-z])/, (_, first) => first.toUpperCase())
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 function renderResourceCards(resources, depth, kind = 'available') {
-  const items = asArray(resources);
+  const items = asArray(resources).slice(0, kind === 'available' ? 2 : 3);
   if (!items.length) return `<p class="muted">No additional resources are listed for this section.</p>`;
   return `<div class="resource-grid ${escapeHtml(kind)}">
 ${items.map((item) => {
@@ -139,7 +145,7 @@ function normalizeStage(stage, stageKey) {
   return {
     ...stage,
     stageNumber: stage.stageNumber || stageNumber(stageKey),
-    duration: stage.duration || '2–4 weeks',
+    duration: stage.duration || '2-4 weeks',
     summary: stage.summary || 'Build practical capability for this stage.',
     diagnosis: stage.diagnosis || { title: 'Is this really you?', items: asArray(stage.looksLike) },
     mission: stage.mission || { title: 'Your mission this week', description: simpleText(stage.summary), steps: asArray(stage.focus) },
@@ -162,8 +168,8 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
   const resourcesHref = `${toDirPrefix(depth)}resources/`;
   const nextStageKey = stageOrder[stageOrder.indexOf(stageKey) + 1];
   const previousStageKey = stageOrder[stageOrder.indexOf(stageKey) - 1];
-  const nextStage = stage.nextStage || (nextStageKey ? lens.stages[nextStageKey] : { label: 'Sustained Augmentation', description: 'Keep improving your AI-Augmented operating model.' });
-  const stageNavigation = `<nav class="stage-navigation" aria-label="Maturity stage navigation">${previousStageKey ? `<a href="${stageHref(depth, lensKey, previousStageKey)}">← ${escapeHtml(lens.stages[previousStageKey].label)}</a>` : '<span></span>'}<strong aria-current="page">${escapeHtml(stage.label)}</strong>${nextStageKey ? `<a href="${stageHref(depth, lensKey, nextStageKey)}">${escapeHtml(lens.stages[nextStageKey].label)} →</a>` : '<span></span>'}</nav>`;
+  const nextStage = stage.nextStage || (nextStageKey ? lens.stages[nextStageKey] : { label: 'Sustained Augmentation', description: 'Keep improving your AI-Augmented operating system.' });
+  const stageNavigation = `<nav class="stage-navigation" aria-label="Maturity stage navigation">${previousStageKey ? `<a href="${stageHref(depth, lensKey, previousStageKey)}">&larr; ${escapeHtml(lens.stages[previousStageKey].label)}</a>` : '<span></span>'}<strong aria-current="page">${escapeHtml(stage.label)}</strong>${nextStageKey ? `<a href="${stageHref(depth, lensKey, nextStageKey)}">${escapeHtml(lens.stages[nextStageKey].label)} &rarr;</a>` : '<span></span>'}</nav>`;
 
   return `<!doctype html>
 <html lang="en">
@@ -278,15 +284,14 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
       <span><strong>AI-Augmented</strong><span>Movement site</span></span>
     </a>
     <nav class="nav" aria-label="Primary">
-      <a href="/">Home</a>
-      <a href="/start-here/">Start Here</a>
-      <a href="/movement/">The Movement</a>
+      <a href="/movement/">Movement</a>
       <a href="/find-your-path/">Find Your Path</a>
+      <a href="/aaos/">Framework</a>
+      <a href="/education/">Education</a>
       <a href="/resources/">Resources</a>
-      <a href="/about/">About</a>
-      <a href="/newsletter/">Newsletter</a>
+      <a href="/assessment/">Assessment</a>
     </nav>
-    <a class="button nav-cta" href="/assessment/">Take The Assessment</a>
+    <a class="button nav-cta" href="/assessment/">Take the Assessment</a>
   </div>
 </header>
 <main id="main">
@@ -316,7 +321,7 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
 
   <section class="band alt">
     <div class="shell">
-      <p class="journey-transition">Now that you’ve chosen the context that matters most to you, the next question is where you are today.</p>
+      <p class="journey-transition">Now that you've chosen the context that matters most to you, the next question is where you are today.</p>
       <div class="section-title">
         <p class="eyebrow">${escapeHtml(lensLabel)}</p>
         <h2>Choose a level</h2>
@@ -398,9 +403,9 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
   <section class="band" id="need-help">
     <div class="shell">
       <div class="section-title">
-        <p class="eyebrow">Need help?</p>
-        <h2>Use the support that fits your stage.</h2>
-        <p>You can apply these practices on your own, use structured tools, or work with someone to accelerate the process.</p>
+        <p class="eyebrow">Need more help?</p>
+        <h2>Need More Help?</h2>
+        <p>Learn the principles, apply them with practical tools, or augment your work with guided support.</p>
       </div>
       <div class="resource-section">
         <h3>Recommended resources</h3>
@@ -425,12 +430,12 @@ function renderStagePage({ lensKey, lens, stageKey, stage: rawStage, depth }) {
     </div>
     <div>
       <strong>Explore</strong>
-      <p><a href="/">Home</a></p>
-      <p><a href="/start-here/">Start Here</a></p>
-      <p><a href="/movement/">The Movement</a></p>
+      <p><a href="/movement/">Movement</a></p>
       <p><a href="/find-your-path/">Find Your Path</a></p>
+      <p><a href="/aaos/">Framework</a></p>
+      <p><a href="/education/">Education</a></p>
       <p><a href="/resources/">Resources</a></p>
-      <p><a href="/about/">About</a></p>
+      <p><a href="/assessment/">Assessment</a></p>
     </div>
     <div>
       <strong>Paths</strong>
@@ -483,7 +488,7 @@ async function main() {
       if (!stage) throw new Error(`Missing stage ${stageKey} for lens ${lensKey}`);
       const stageDir = path.join(siteDir, 'lens', lensKey, stageKey);
       await fs.mkdir(stageDir, { recursive: true });
-      await fs.writeFile(path.join(stageDir, 'index.html'), renderStagePage({ lensKey, lens, stageKey, stage, depth: 3 }), 'utf8');
+      await fs.writeFile(path.join(stageDir, 'index.html'), renderStagePage({ lensKey, lens, stageKey, stage, depth: 3 }).replace(/[ \t]+$/gm, ''), 'utf8');
     }
   }
 }

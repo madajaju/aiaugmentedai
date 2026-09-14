@@ -42,7 +42,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not mistake curiosity for capability or activity for progress.",
         "posture": "Use AI intentionally, validate your outputs, and keep human judgment in the loop.",
         "stageNumber": 1,
-        "duration": "1–3 weeks",
+        "duration": "1-3 weeks",
         "heroText": "You read about AI, try a few prompts, and can see that your work is changing but have not settled into a repeatable habit yet.",
         "nextMilestone": "Identify one high-impact workflow and successfully use AI to draft an initial version.",
         "diagnosis": {
@@ -188,7 +188,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not accumulate prompts without deciding what is worth keeping.",
         "posture": "Increase validation and reduce friction by documenting the workflow that actually works.",
         "stageNumber": 2,
-        "duration": "2–4 weeks",
+        "duration": "2-4 weeks",
         "heroText": "You have a few prompts that work, you are comparing tools, and you are starting to notice where AI saves time or adds quality.",
         "nextMilestone": "Document three repeatable prompts that consistently produce reliable results for a specific task.",
         "diagnosis": {
@@ -311,7 +311,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Avoid over-trusting outputs or spreading too fast into too many use cases.",
         "posture": "Be more disciplined about checking, source tracing, and deciding where human review is required.",
         "stageNumber": 3,
-        "duration": "3–6 weeks",
+        "duration": "3-6 weeks",
         "heroText": "You reuse prompts, compare outputs, and are beginning to notice which tasks AI should and should not touch.",
         "nextMilestone": "Integrate AI into a daily work ritual with a mandatory human-in-the-loop validation step.",
         "diagnosis": {
@@ -451,7 +451,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let convenience weaken judgment or quality control.",
         "posture": "Maintain clear standards for validation, attribution, and final accountability.",
         "stageNumber": 4,
-        "duration": "4–8 weeks",
+        "duration": "4-8 weeks",
         "heroText": "You can move from idea to draft to review faster, and AI is now part of your regular work rhythm.",
         "nextMilestone": "Create a shared resource (guide, library, or checklist) that helps at least one peer adopt a similar workflow.",
         "diagnosis": {
@@ -895,7 +895,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let the team normalize random experimentation without standards.",
         "posture": "Improve posture by defining clear expectations for review and accountability.",
         "stageNumber": 1,
-        "duration": "1–3 weeks",
+        "duration": "1-3 weeks",
         "heroText": "Different people use different tools and there is no shared way to judge quality yet.",
         "nextMilestone": "Establish a shared list of AI tools and have one team discussion about their use.",
         "diagnosis": {
@@ -1018,7 +1018,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let experimentation become fragmentation.",
         "posture": "Improve posture by standardizing the basics and documenting what the team learned.",
         "stageNumber": 2,
-        "duration": "2–4 weeks",
+        "duration": "2-4 weeks",
         "heroText": "People share prompts and compare results, but workflows are still personal.",
         "nextMilestone": "Agree on one specific team task to be AI-assisted and document the shared prompt.",
         "diagnosis": {
@@ -1141,7 +1141,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let good enough become the standard.",
         "posture": "Improve posture by checking assumptions and clarifying ownership.",
         "stageNumber": 3,
-        "duration": "3–6 weeks",
+        "duration": "3-6 weeks",
         "heroText": "The team reuses prompts and starts to compare output quality across people.",
         "nextMilestone": "Implement a mandatory peer-review step for all AI-generated team outputs.",
         "diagnosis": {
@@ -1264,7 +1264,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let speed outrun review.",
         "posture": "Improve posture by defining where human review is required and where AI can accelerate work.",
         "stageNumber": 4,
-        "duration": "4–8 weeks",
+        "duration": "4-8 weeks",
         "heroText": "The team uses AI for defined tasks and gets better output with less friction.",
         "nextMilestone": "Create a team-wide library of \"Gold Standard\" prompt-output pairs.",
         "diagnosis": {
@@ -1383,13 +1383,13 @@ window.AA_LENS_DATA = {
             "Model responsible use"
           ]
         },
-        "progression": "Train another team leader in the organization on your team's AI operating model.",
+        "progression": "Train another team leader in the organization on your team's AI operating system.",
         "watchOut": "Do not assume the workflow will survive without leadership and reinforcement.",
         "posture": "Improve posture by making accountability visible and repeatable.",
         "stageNumber": 5,
         "duration": "ongoing",
         "heroText": "The team can explain its AI workflow and onboard new members more quickly.",
-        "nextMilestone": "Train another team leader in the organization on your team's AI operating model.",
+        "nextMilestone": "Train another team leader in the organization on your team's AI operating system.",
         "diagnosis": {
           "title": "Is this really you?",
           "description": "This stage page helps a team leader recognize where they are before asking them to take the next step.",
@@ -1475,7 +1475,7 @@ window.AA_LENS_DATA = {
           ]
         },
         "readyForNext": [
-          "Train another team leader in the organization on your team's AI operating model."
+          "Train another team leader in the organization on your team's AI operating system."
         ],
         "nextStage": {
           "label": "Augmenting",
@@ -1487,7 +1487,7 @@ window.AA_LENS_DATA = {
       },
       "augmenting": {
         "label": "Augmenting",
-        "headline": "The teams operating model is materially different.",
+        "headline": "The team's way of working is materially different.",
         "summary": "Sustain augmentation without losing human-centered judgment.",
         "looksLike": "AI is built into how the team delivers results, collaborates, and measures quality.",
         "tools": {
@@ -1708,7 +1708,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let disconnected pilots define the orgs future.",
         "posture": "Improve posture by setting clear accountability and risk boundaries.",
         "stageNumber": 1,
-        "duration": "1–3 weeks",
+        "duration": "1-3 weeks",
         "heroText": "Different teams are using AI differently and there is no shared definition of success.",
         "nextMilestone": "Publish a clear AI Acceptable Use Policy that defines high-level risk boundaries.",
         "diagnosis": {
@@ -1838,7 +1838,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let experimentation outrun governance.",
         "posture": "Improve posture by clarifying where human oversight and control are required.",
         "stageNumber": 2,
-        "duration": "2–4 weeks",
+        "duration": "2-4 weeks",
         "heroText": "A few teams are trying AI and leadership is gathering examples of value and risk.",
         "nextMilestone": "Identify and launch two high-priority cross-functional pilots.",
         "diagnosis": {
@@ -1968,7 +1968,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not over-favor the loudest pilot over the most durable one.",
         "posture": "Improve posture by tying adoption to documented standards and review.",
         "stageNumber": 3,
-        "duration": "3–6 weeks",
+        "duration": "3-6 weeks",
         "heroText": "Teams are producing examples that can be compared and refined.",
         "nextMilestone": "Establish a centralized repository for pilot outcomes and lessons learned.",
         "diagnosis": {
@@ -2068,7 +2068,7 @@ window.AA_LENS_DATA = {
       },
       "integrating": {
         "label": "Integrating",
-        "headline": "AI is now part of the operating model.",
+        "headline": "AI is now part of the operating system.",
         "summary": "Make AI part of a dependable workflow.",
         "looksLike": "Teams are using AI within clear guidelines and quality expectations.",
         "tools": {
@@ -2098,7 +2098,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let local success create inconsistent enterprise behavior.",
         "posture": "Improve posture by making governance and accountability visible.",
         "stageNumber": 4,
-        "duration": "4–8 weeks",
+        "duration": "4-8 weeks",
         "heroText": "Teams are using AI within clear guidelines and quality expectations.",
         "nextMilestone": "Embed AI governance checks into the standard project approval workflow.",
         "diagnosis": {
@@ -2198,7 +2198,7 @@ window.AA_LENS_DATA = {
       },
       "leading": {
         "label": "Leading",
-        "headline": "The organization is aligning around a shared standard.",
+        "headline": "The organization is aligning around a shared way of working.",
         "summary": "Make adoption durable across functions.",
         "looksLike": "Leaders can explain the standard, and teams have a common expectation for use.",
         "tools": {
@@ -2224,13 +2224,13 @@ window.AA_LENS_DATA = {
             "Maintain explicit review points"
           ]
         },
-        "progression": "Host a cross-departmental summit to align AI standards across the entire organization.",
+        "progression": "Multiple departments can apply shared AI standards independently while maintaining consistent governance and outcomes.",
         "watchOut": "Do not let policy exist without practical enablement.",
         "posture": "Improve posture by keeping standards explicit and reviewed.",
         "stageNumber": 5,
         "duration": "ongoing",
         "heroText": "Leaders can explain the standard, and teams have a common expectation for use.",
-        "nextMilestone": "Host a cross-departmental summit to align AI standards across the entire organization.",
+        "nextMilestone": "Multiple departments can apply shared AI standards independently while maintaining consistent governance and outcomes.",
         "diagnosis": {
           "title": "Is this really you?",
           "description": "This stage page helps a organization leader recognize where they are before asking them to take the next step.",
@@ -2316,7 +2316,7 @@ window.AA_LENS_DATA = {
           ]
         },
         "readyForNext": [
-          "Host a cross-departmental summit to align AI standards across the entire organization."
+          "Multiple departments can apply shared AI standards independently while maintaining consistent governance and outcomes."
         ],
         "nextStage": {
           "label": "Augmenting",
@@ -2354,13 +2354,13 @@ window.AA_LENS_DATA = {
             "Preserve oversight at scale"
           ]
         },
-        "progression": "Conduct annual strategic reviews to ensure the AI operating model remains aligned with core values.",
+        "progression": "Conduct annual strategic reviews to ensure the AI operating system remains aligned with core values.",
         "watchOut": "Do not let scale erode accountability.",
         "posture": "Improve posture by preserving oversight while expanding capability.",
         "stageNumber": 6,
         "duration": "ongoing",
         "heroText": "The organizations work, performance, and decision-making are changing because AI is embedded in the model.",
-        "nextMilestone": "Conduct annual strategic reviews to ensure the AI operating model remains aligned with core values.",
+        "nextMilestone": "Conduct annual strategic reviews to ensure the AI operating system remains aligned with core values.",
         "diagnosis": {
           "title": "Is this really you?",
           "description": "This stage page helps a organization leader recognize where they are before asking them to take the next step.",
@@ -2446,7 +2446,7 @@ window.AA_LENS_DATA = {
           ]
         },
         "readyForNext": [
-          "Conduct annual strategic reviews to ensure the AI operating model remains aligned with core values."
+          "Conduct annual strategic reviews to ensure the AI operating system remains aligned with core values."
         ],
         "nextStage": {
           "label": "Sustained Augmentation",
@@ -2490,9 +2490,9 @@ window.AA_LENS_DATA = {
       },
       "execute": {
         "label": "Execute",
-        "headline": "Standardize the enterprise operating model.",
+        "headline": "Standardize the enterprise operating system.",
         "summary": "Ensure the six-stage loop is the default for all consequential AI-assisted work.",
-        "example": "The whole enterprise transitions to the AAOS operating model, standardizing how AI-assisted work is transferred.",
+        "example": "The whole enterprise transitions to the AAOS operating system, standardizing how AI-assisted work is transferred.",
         "tools": [
           "Enterprise Workflow Integration",
           "Integrity Packet Policy"
@@ -2562,7 +2562,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not confuse quick answers with actual skill.",
         "posture": "Improve posture by using AI to learn better and checking your own work.",
         "stageNumber": 1,
-        "duration": "1–3 weeks",
+        "duration": "1-3 weeks",
         "heroText": "You have tried AI a few times and are starting to think about how it changes study, writing, and future work.",
         "nextMilestone": "Use AI to explain one complex concept you are struggling to understand.",
         "diagnosis": {
@@ -2685,7 +2685,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not outsource learning or skip the thinking part.",
         "posture": "Improve posture by validating facts, sources, and reasoning.",
         "stageNumber": 2,
-        "duration": "2–4 weeks",
+        "duration": "2-4 weeks",
         "heroText": "You compare outputs, ask follow-up questions, and start to notice when AI is helpful versus distracting.",
         "nextMilestone": "Use AI to generate a study guide or practice quiz for one of your courses.",
         "diagnosis": {
@@ -2804,7 +2804,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let convenience weaken your judgment or skill building.",
         "posture": "Improve posture by using AI as a practice partner and not a substitute.",
         "stageNumber": 3,
-        "duration": "3–6 weeks",
+        "duration": "3-6 weeks",
         "heroText": "You have workflows for notes, drafts, research, or practice questions that you reuse.",
         "nextMilestone": "Document how you validated the sources for one AI-assisted research project.",
         "diagnosis": {
@@ -2919,7 +2919,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let speed erode depth or originality.",
         "posture": "Improve posture by keeping your own reasoning visible in the final result.",
         "stageNumber": 4,
-        "duration": "4–8 weeks",
+        "duration": "4-8 weeks",
         "heroText": "You move from idea to draft to revision faster and more confidently.",
         "nextMilestone": "Develop a repeatable workflow for note-taking and exam prep using AI.",
         "diagnosis": {
@@ -3343,7 +3343,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not react only with restriction.",
         "posture": "Improve posture by making expectations clear and human-centered.",
         "stageNumber": 1,
-        "duration": "1–3 weeks",
+        "duration": "1-3 weeks",
         "heroText": "You are seeing student use of AI and wondering how it should change your classroom.",
         "nextMilestone": "Use AI to draft one lesson plan or assessment rubric and review it for bias.",
         "diagnosis": {
@@ -3466,7 +3466,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let AI blur learning objectives or reduce rigor.",
         "posture": "Improve posture by checking whether the tool supports the learning goal.",
         "stageNumber": 2,
-        "duration": "2–4 weeks",
+        "duration": "2-4 weeks",
         "heroText": "You try AI for lesson planning, feedback ideas, and assignment redesign.",
         "nextMilestone": "Design one assignment that explicitly allows (and guides) student AI use.",
         "diagnosis": {
@@ -3585,7 +3585,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not use AI in ways that hide student thinking.",
         "posture": "Improve posture by keeping assessment aligned to learning outcomes.",
         "stageNumber": 3,
-        "duration": "3–6 weeks",
+        "duration": "3-6 weeks",
         "heroText": "You have a few repeatable ways to use AI for planning, feedback, or classroom design.",
         "nextMilestone": "Create a standard feedback loop where AI drafts initial comments for your review.",
         "diagnosis": {
@@ -3700,7 +3700,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let convenience reduce the quality of student engagement.",
         "posture": "Improve posture by keeping the teachers judgment visible in the process.",
         "stageNumber": 4,
-        "duration": "4–8 weeks",
+        "duration": "4-8 weeks",
         "heroText": "You have a clear workflow for using AI in planning, feedback, and communication.",
         "nextMilestone": "Build a library of AI-integrated lesson plans for your entire curriculum.",
         "diagnosis": {
@@ -4112,7 +4112,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let isolated pilots define the institution.",
         "posture": "Improve posture by clarifying responsibility and oversight.",
         "stageNumber": 1,
-        "duration": "1–3 weeks",
+        "duration": "1-3 weeks",
         "heroText": "Different departments are moving in different directions and the institution lacks a shared path.",
         "nextMilestone": "Form a cross-functional AI task force to draft an institutional guidance document.",
         "diagnosis": {
@@ -4223,13 +4223,13 @@ window.AA_LENS_DATA = {
             "Choose what should be standardized across the institution."
           ]
         },
-        "progression": "Pilot two different AI tools in specific departments to compare effectiveness.",
+        "progression": "Departments can compare AI pilots using shared measures and make evidence-based adoption decisions.",
         "watchOut": "Do not let variation become the norm without oversight.",
         "posture": "Improve posture by making expectations clear across departments.",
         "stageNumber": 2,
-        "duration": "2–4 weeks",
+        "duration": "2-4 weeks",
         "heroText": "You are gathering examples from faculty, staff, and students and comparing what should scale.",
-        "nextMilestone": "Pilot two different AI tools in specific departments to compare effectiveness.",
+        "nextMilestone": "Departments can compare AI pilots using shared measures and make evidence-based adoption decisions.",
         "diagnosis": {
           "title": "Is this really you?",
           "description": "This stage page helps an education leader recognize where they are before asking them to take the next step.",
@@ -4311,7 +4311,7 @@ window.AA_LENS_DATA = {
           ]
         },
         "readyForNext": [
-          "Pilot two different AI tools in specific departments to compare effectiveness."
+          "Departments can compare AI pilots using shared measures and make evidence-based adoption decisions."
         ],
         "nextStage": {
           "label": "Experimenting",
@@ -4323,7 +4323,7 @@ window.AA_LENS_DATA = {
       },
       "experimenting": {
         "label": "Experimenting",
-        "headline": "There are pilots, but not yet a stable operating model.",
+        "headline": "There are pilots, but not yet a stable operating system.",
         "summary": "Turn experiments into a repeatable institutional path.",
         "looksLike": "You have examples of AI use that can be reviewed, compared, and refined.",
         "tools": {
@@ -4342,7 +4342,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let promising pilots bypass review or governance.",
         "posture": "Improve posture by tightening review and accountability.",
         "stageNumber": 3,
-        "duration": "3–6 weeks",
+        "duration": "3-6 weeks",
         "heroText": "You have examples of AI use that can be reviewed, compared, and refined.",
         "nextMilestone": "Publish a set of \"Safe harbor\" guidelines for faculty experimentation.",
         "diagnosis": {
@@ -4457,7 +4457,7 @@ window.AA_LENS_DATA = {
         "watchOut": "Do not let separate teams create incompatible standards.",
         "posture": "Improve posture by aligning governance with actual practice.",
         "stageNumber": 4,
-        "duration": "4–8 weeks",
+        "duration": "4-8 weeks",
         "heroText": "AI is influencing teaching, administration, and student support in defined ways.",
         "nextMilestone": "Standardize AI policy across all academic programs and departments.",
         "diagnosis": {
@@ -4553,13 +4553,13 @@ window.AA_LENS_DATA = {
       },
       "leading": {
         "label": "Leading",
-        "headline": "The institution is aligning around a shared standard.",
+        "headline": "The institution is aligning around a shared way of working.",
         "summary": "Make the path durable across programs and roles.",
         "looksLike": "Leaders can explain the standard and others can follow it.",
         "tools": {
           "type": "list",
           "items": [
-            "Operating model documents, training, and governance processes are central."
+            "Operating system documents, training, and governance processes are central."
           ]
         },
         "focus": {
@@ -4568,13 +4568,13 @@ window.AA_LENS_DATA = {
             "Teach the standard and support adoption across the institution."
           ]
         },
-        "progression": "Present the institution's AI maturity model at an educational conference.",
+        "progression": "The institution can teach its AI maturity model to leaders and teams who apply it consistently across campus.",
         "watchOut": "Do not let policy remain disconnected from implementation.",
         "posture": "Improve posture by keeping oversight practical and visible.",
         "stageNumber": 5,
         "duration": "ongoing",
         "heroText": "Leaders can explain the standard and others can follow it.",
-        "nextMilestone": "Present the institution's AI maturity model at an educational conference.",
+        "nextMilestone": "The institution can teach its AI maturity model to leaders and teams who apply it consistently across campus.",
         "diagnosis": {
           "title": "Is this really you?",
           "description": "This stage page helps an education leader recognize where they are before asking them to take the next step.",
@@ -4656,7 +4656,7 @@ window.AA_LENS_DATA = {
           ]
         },
         "readyForNext": [
-          "Present the institution's AI maturity model at an educational conference."
+          "The institution can teach its AI maturity model to leaders and teams who apply it consistently across campus."
         ],
         "nextStage": {
           "label": "Augmenting",
@@ -4670,7 +4670,7 @@ window.AA_LENS_DATA = {
         "label": "Augmenting",
         "headline": "The institution is materially different because of AI.",
         "summary": "Sustain augmentation without losing human-centered judgment.",
-        "looksLike": "Policies, learning, administration, and student outcomes are shaped by a durable AI operating model.",
+        "looksLike": "Policies, learning, administration, and student outcomes are shaped by a durable AI operating system.",
         "tools": {
           "type": "list",
           "items": [
@@ -4688,13 +4688,13 @@ window.AA_LENS_DATA = {
         "posture": "Improve posture by preserving oversight while expanding capability.",
         "stageNumber": 6,
         "duration": "ongoing",
-        "heroText": "Policies, learning, administration, and student outcomes are shaped by a durable AI operating model.",
+        "heroText": "Policies, learning, administration, and student outcomes are shaped by a durable AI operating system.",
         "nextMilestone": "Integrate AI readiness into the institution's long-term strategic plan and budget.",
         "diagnosis": {
           "title": "Is this really you?",
           "description": "This stage page helps an education leader recognize where they are before asking them to take the next step.",
           "items": [
-            "Policies, learning, administration, and student outcomes are shaped by a durable AI operating model.",
+            "Policies, learning, administration, and student outcomes are shaped by a durable AI operating system.",
             "You are focused on: keep the transformation understandable, measurable, and human-centered.."
           ]
         },
@@ -4779,7 +4779,7 @@ window.AA_LENS_DATA = {
         },
         "memberTitle": "Unlock the full stage experience",
         "memberDescription": "The free page gives orientation and one practical step. Membership unlocks the guided transformation path.",
-        "example": "An innovative 'Micro-school' network is built on an augmented operating model. Their entire administration, from admissions to graduation, is designed for human-AI partnership."
+        "example": "An innovative 'Micro-school' network is built on an augmented operating system. Their entire administration, from admissions to graduation, is designed for human-AI partnership."
       }
     },
     "aaosStages": {
@@ -4815,7 +4815,7 @@ window.AA_LENS_DATA = {
       },
       "execute": {
         "label": "Execute",
-        "headline": "Roll out a standardized institutional operating model.",
+        "headline": "Roll out a standardized institutional operating system.",
         "summary": "Standardize how AI is used for administration, instructional design, and student feedback.",
         "example": "the entire institution moves to a 'Standardized Operating Model' for all administrative and instructional AI use.",
         "tools": [

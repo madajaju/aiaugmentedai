@@ -738,7 +738,7 @@ window.AA_LENS_DATA = {
             "Model responsible use"
           ]
         },
-        "progression": "Train another team leader in the organization on your team's AI operating model.",
+        "progression": "Train another team leader in the organization on your team's AI operating system.",
         "watchOut": "Do not assume the workflow will survive without leadership and reinforcement.",
         "posture": "Improve posture by making accountability visible and repeatable.",
         "example": "Rachel's team becomes the internal benchmark for AI-augmented design. They publish their 'Validation Ladder' for other teams to use in their own workflows.",
@@ -779,7 +779,7 @@ window.AA_LENS_DATA = {
       },
       "augmenting": {
         "label": "Augmenting",
-        "headline": "The teams operating model is materially different.",
+        "headline": "The team's way of working is materially different.",
         "summary": "The goal is to sustain augmentation without losing human-centered judgment.",
         "looksLike": "AI is built into how the team delivers results, collaborates, and measures quality.",
         "tools": {
@@ -1108,7 +1108,7 @@ window.AA_LENS_DATA = {
       },
       "integrating": {
         "label": "Integrating",
-        "headline": "AI is now part of the operating model.",
+        "headline": "AI is now part of the operating system.",
         "summary": "The goal is to make AI part of a dependable workflow.",
         "looksLike": "Teams are using AI within clear guidelines and quality expectations.",
         "tools": {
@@ -1175,7 +1175,7 @@ window.AA_LENS_DATA = {
       },
       "leading": {
         "label": "Leading",
-        "headline": "The organization is aligning around a shared standard.",
+        "headline": "The organization is aligning around a shared way of working.",
         "summary": "The goal is to make adoption durable across functions.",
         "looksLike": "Leaders can explain the standard, and teams have a common expectation for use.",
         "tools": {
@@ -1268,7 +1268,7 @@ window.AA_LENS_DATA = {
             "Preserve oversight at scale"
           ]
         },
-        "progression": "Conduct annual strategic reviews to ensure the AI operating model remains aligned with core values.",
+        "progression": "Conduct annual strategic reviews to ensure the AI operating system remains aligned with core values.",
         "watchOut": "Do not let scale erode accountability.",
         "posture": "Improve posture by preserving oversight while expanding capability.",
         "example": "An AI-native startup operates with a completely augmented workforce. Their 'Talent Architecture' is designed around human-AI partnership, allowing them to scale at 10x the industry average.",
@@ -1341,9 +1341,9 @@ window.AA_LENS_DATA = {
       },
       "execute": {
         "label": "Execute",
-        "headline": "Standardize the enterprise operating model.",
+        "headline": "Standardize the enterprise operating system.",
         "summary": "Ensure the six-stage loop is the default for all consequential AI-assisted work.",
-        "example": "The whole enterprise transitions to the AAOS operating model, standardizing how AI-assisted work is transferred.",
+        "example": "The whole enterprise transitions to the AAOS operating system, standardizing how AI-assisted work is transferred.",
         "tools": [
           "Enterprise Workflow Integration",
           "Integrity Packet Policy"
@@ -2332,7 +2332,7 @@ window.AA_LENS_DATA = {
       },
       "experimenting": {
         "label": "Experimenting",
-        "headline": "There are pilots, but not yet a stable operating model.",
+        "headline": "There are pilots, but not yet a stable operating system.",
         "summary": "The goal is to turn experiments into a repeatable institutional path.",
         "looksLike": "You have examples of AI use that can be reviewed, compared, and refined.",
         "tools": {
@@ -2444,13 +2444,13 @@ window.AA_LENS_DATA = {
       },
       "leading": {
         "label": "Leading",
-        "headline": "The institution is aligning around a shared standard.",
+        "headline": "The institution is aligning around a shared way of working.",
         "summary": "The goal is to make the path durable across programs and roles.",
         "looksLike": "Leaders can explain the standard and others can follow it.",
         "tools": {
           "type": "list",
           "items": [
-            "Operating model documents, training, and governance processes are central."
+            "Operating system documents, training, and governance processes are central."
           ]
         },
         "focus": {
@@ -2502,7 +2502,7 @@ window.AA_LENS_DATA = {
         "label": "Augmenting",
         "headline": "The institution is materially different because of AI.",
         "summary": "The goal is to sustain augmentation without losing human-centered judgment.",
-        "looksLike": "Policies, learning, administration, and student outcomes are shaped by a durable AI operating model.",
+        "looksLike": "Policies, learning, administration, and student outcomes are shaped by a durable AI operating system.",
         "tools": {
           "type": "list",
           "items": [
@@ -2518,7 +2518,7 @@ window.AA_LENS_DATA = {
         "progression": "Integrate AI readiness into the institution's long-term strategic plan and budget.",
         "watchOut": "Do not let scale reduce accountability.",
         "posture": "Improve posture by preserving oversight while expanding capability.",
-        "example": "An innovative 'Micro-school' network is built on an augmented operating model. Their entire administration, from admissions to graduation, is designed for human-AI partnership.",
+        "example": "An innovative 'Micro-school' network is built on an augmented operating system. Their entire administration, from admissions to graduation, is designed for human-AI partnership.",
         "resources": {
           "deepDive": [
             {
@@ -2588,7 +2588,7 @@ window.AA_LENS_DATA = {
       },
       "execute": {
         "label": "Execute",
-        "headline": "Roll out a standardized institutional operating model.",
+        "headline": "Roll out a standardized institutional operating system.",
         "summary": "Standardize how AI is used for administration, instructional design, and student feedback.",
         "example": "the entire institution moves to a 'Standardized Operating Model' for all administrative and instructional AI use.",
         "tools": [

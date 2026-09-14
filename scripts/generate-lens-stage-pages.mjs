@@ -337,15 +337,14 @@ function renderStagePage({ lensKey, lens, stageKey, stage, depth }) {
       <span><strong>AI-Augmented</strong><span>Movement site</span></span>
     </a>
     <nav class="nav" aria-label="Primary">
-      <a href="/">Home</a>
-      <a href="/start-here/">Start Here</a>
-      <a href="/movement/">The Movement</a>
+      <a href="/movement/">Movement</a>
       <a href="/find-your-path/">Find Your Path</a>
+      <a href="/aaos/">Framework</a>
+      <a href="/education/">Education</a>
       <a href="/resources/">Resources</a>
-      <a href="/about/">About</a>
-      <a href="/newsletter/">Newsletter</a>
+      <a href="/assessment/">Assessment</a>
     </nav>
-    <a class="button nav-cta" href="/assessment/">Take The Assessment</a>
+    <a class="button nav-cta" href="/assessment/">Take the Assessment</a>
   </div>
 </header>
 <main id="main">
@@ -438,12 +437,12 @@ function renderStagePage({ lensKey, lens, stageKey, stage, depth }) {
     </div>
     <div>
       <strong>Explore</strong>
-      <p><a href="/">Home</a></p>
-      <p><a href="/start-here/">Start Here</a></p>
-      <p><a href="/movement/">The Movement</a></p>
+      <p><a href="/movement/">Movement</a></p>
       <p><a href="/find-your-path/">Find Your Path</a></p>
+      <p><a href="/aaos/">Framework</a></p>
+      <p><a href="/education/">Education</a></p>
       <p><a href="/resources/">Resources</a></p>
-      <p><a href="/about/">About</a></p>
+      <p><a href="/assessment/">Assessment</a></p>
     </div>
     <div>
       <strong>Paths</strong>

@@ -161,7 +161,7 @@
     bar.innerHTML = `
       <div class="journey-continuity-summary">
         <p class="card-kicker">Your saved path</p>
-        <strong>${escapeHtml(lens)} · ${escapeHtml(stage)}</strong>
+        <strong>${escapeHtml(lens)} &middot; ${escapeHtml(stage)}</strong>
         <span>Saved in this browser</span>
       </div>
       <nav class="journey-continuity-links" aria-label="Continue your journey">
@@ -186,11 +186,32 @@
     if (!state.lens || !state.stage) return;
 
     const cards = Array.from(document.querySelectorAll('.resource-card[data-resource-type]'));
-    const selected = cards.filter((card) => {
-      const lens = card.dataset.lens;
-      const maturity = card.dataset.maturity;
-      return (lens === 'all' || lens === state.lens) && (maturity === 'all' || maturity === state.stage);
-    }).slice(0, 3);
+    const aaosStage = {
+      aware: 'diagnose',
+      exploring: 'activate',
+      experimenting: 'activate',
+      integrating: 'execute',
+      leading: 'measure',
+      augmenting: 'scale',
+    }[state.stage];
+    const selected = cards
+      .filter((card) => {
+        const lens = card.dataset.lens;
+        const maturity = card.dataset.maturity;
+        return (lens === 'all' || lens === state.lens) && (maturity === 'all' || maturity === state.stage);
+      })
+      .map((card, index) => {
+        let score = 0;
+        if (card.dataset.lens === state.lens) score += 4;
+        if (card.dataset.maturity === state.stage) score += 4;
+        if (card.dataset.aaosStage === aaosStage) score += 3;
+        if (card.dataset.engagement === (state.engagement || 'learn')) score += 1;
+        if (state.topic && card.dataset.topic?.split(/\s+/).includes(state.topic)) score += 1;
+        return { card, score, index };
+      })
+      .sort((a, b) => b.score - a.score || a.index - b.index)
+      .slice(0, 3)
+      .map(({ card }) => card);
     if (!selected.length) return;
 
     const lens = lensLabels[state.lens] || state.lens;
@@ -377,11 +398,11 @@
     root.innerHTML = `
       <div class="section-title">
         <p class="eyebrow">${title}</p>
-        <h2>Explore the AAOS stages</h2>
+        <h2>Explore your maturity stages</h2>
         <p>Select a stage to see what it looks like, what tools are available, what to focus on next, what to watch out for, and how to improve your AI posture.</p>
       </div>
         <div class="stage-tabs" data-stage-tabs data-default-stage="${defaultKey}">
-        <div class="stage-tablist" role="tablist" aria-label="${title} AAOS stages">
+        <div class="stage-tablist" role="tablist" aria-label="${title} maturity stages">
           ${stageOrder.map((stage) => `
             <button type="button" class="stage-tab" data-stage-tab="${stage}" role="tab" aria-selected="false">${stages[stage].label}</button>
           `).join('')}
@@ -451,7 +472,7 @@
       experimenting: 'Focus on one workflow and strengthen validation before you widen use.',
       integrating: 'Make the workflow dependable, then tighten review and handoff rules.',
       leading: 'Teach the pattern to others and use the AAOS path to standardize the next step.',
-      augmenting: 'Keep the operating model clear, then preserve human judgment as the system scales.',
+      augmenting: 'Keep the operating system clear, then preserve human judgment as the system scales.',
     };
     return recommendations[stage] || 'Use the lens page first, then continue into AAOS with your augmentation maturity in mind.';
   }
@@ -646,7 +667,7 @@
       result.innerHTML = `
         <div class="section-title">
           <p class="eyebrow">Your guidance</p>
-          <h2 id="assessment-result-heading" tabindex="-1">Start here: ${escapeHtml(lensLabels[lens] || lens)} · ${escapeHtml(stageLabels[maturity] || maturity)}</h2>
+          <h2 id="assessment-result-heading" tabindex="-1">Start here: ${escapeHtml(lensLabels[lens] || lens)} &middot; ${escapeHtml(stageLabels[maturity] || maturity)}</h2>
           <p>You do not need to master everything at once. Start by understanding where you are today, then take one practical next step.</p>
         </div>
         <div class="card-grid three-up">
@@ -673,7 +694,7 @@
             <p>Do not jump ahead to tools or advanced workflows before the current stage is repeatable.</p>
           </article>
           <article class="card">
-            <p class="card-kicker">Know You’re Ready to Progress When</p>
+            <p class="card-kicker">Know You're Ready to Progress When</p>
             <h3>Your current behavior is repeatable</h3>
             <p>You can explain what you do, review the result, and apply the practice in a real workflow.</p>
           </article>
