@@ -5,11 +5,16 @@
   "description": "AI-Augmented movement site generator",
   "scripts": {
     "build": "node scripts/generate-learning-stage-pages.mjs",
+    "postbuild": "node scripts/clean-mojibake.mjs",
     "generate:legacy": "node scripts/generate-lens-stage-pages.mjs",
+    "postgenerate:legacy": "node scripts/clean-mojibake.mjs",
+    "clean:mojibake": "node scripts/clean-mojibake.mjs",
     "generate:ux-review": "node scripts/generate-ux-review.mjs",
     "check:ux": "node scripts/check-ux-journeys.mjs",
     "check:links": "node scripts/check-links.mjs",
-    "check:site": "node scripts/check-site.mjs"
+    "check:site": "node scripts/check-site.mjs",
+    "check:plan": "node scripts/audit-site-plan.mjs",
+    "check:content": "node scripts/audit-content-sufficiency.mjs"
   },
   "author": "",
   "license": "ISC"

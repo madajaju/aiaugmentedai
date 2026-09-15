@@ -63,3 +63,5 @@ nav a { text-decoration:none; }
   .domain-bar .container { align-items: flex-start; flex-direction: column; padding-top: .25rem; }
   .domain-tabs { width: 100%; overflow-x: auto; flex-wrap: nowrap; padding-top: .15rem; }
 }
+
+:where(a, button, input):focus-visible { outline: 3px solid #f59e0b; outline-offset: 3px; }
