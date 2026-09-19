@@ -35,16 +35,18 @@ a { color: var(--accent); }
 .domain-tab[aria-current="page"] { position: relative; z-index: 1; margin-bottom: -1px; border-color: #c8d0da; border-bottom-color: white; background: white; color: var(--accent); font-weight: 700; }
 .site-header { border-bottom: var(--border); background: white; }
 .site-header .container { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:.7rem 0; flex-wrap:wrap; }
-.brand { font-weight: 700; text-decoration: none; color: var(--text); }
+.brand { display:inline-flex; align-items:center; gap:.55rem; font-weight:700; text-decoration:none; color:var(--text); }
+.brand::before { content:""; display:block; width:2.25rem; height:2.25rem; flex:0 0 2.25rem; background:url('../img/ai-augmented/logo.svg') center / contain no-repeat; }
 nav { display:flex; gap:1rem; flex-wrap:wrap; }
 nav a { text-decoration:none; }
-.hero { padding: var(--space-6) 0 var(--space-5); }
-.hero h1 { font-size: clamp(2.2rem, 6vw, 4.6rem); line-height: 1.05; margin: 0 0 1rem; letter-spacing:-.03em; }
+.hero { padding: var(--space-4) 0 var(--space-5); }
+.hero h1 { font-size: clamp(2rem, 4.5vw, 3.5rem); line-height: 1.08; margin: 0 0 1rem; letter-spacing:-.03em; }
 .hero p { font-size: 1.2rem; color: var(--muted); max-width: 780px; }
-.section { padding: var(--space-5) 0; }
-.section h2 { font-size: clamp(1.6rem, 3vw, 2.5rem); line-height: 1.15; margin-top:0; }
+.section { padding: var(--space-4) 0; }
+.section h2 { font-size: clamp(1.6rem, 3vw, 2.5rem); line-height: 1.15; margin:0 0 .75rem; }
 .grid-3 { display:grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap:1rem; }
 .grid-4 { display:grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap:1rem; }
+.grid-3 .card h2 { font-size:1.45rem; line-height:1.2; margin:0 0 .65rem; }
 .integrity-fields-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
 .card { border:var(--border); border-radius:var(--radius); padding:1.25rem; background:white; }
 .card h3 { margin-top:0; }
@@ -64,7 +66,7 @@ nav a { text-decoration:none; }
 .site-footer a { display:block; margin:.25rem 0; text-decoration:none; }
 @media (max-width: 800px) {
   .grid-3,.grid-4,.integrity-fields-grid,.asset-list,.site-footer .cols { grid-template-columns:1fr; }
-  .hero { padding-top:3rem; }
+  .hero { padding-top:2rem; }
   .domain-bar .container { align-items: flex-start; flex-direction: column; padding-top: .25rem; }
   .domain-tabs { width: 100%; overflow-x: auto; flex-wrap: nowrap; padding-top: .15rem; }
 }
