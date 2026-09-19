@@ -1,0 +1,72 @@
+:root {
+  --max-page: 1200px;
+  --max-prose: 760px;
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 5rem;
+  --radius: 14px;
+  --border: 1px solid #d9dde3;
+  --text: #1e2430;
+  --muted: #667085;
+  --bg: #ffffff;
+  --surface: #f7f8fa;
+  --accent: #123b66;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+a { color: var(--accent); }
+.container { width: min(calc(100% - 2rem), var(--max-page)); margin-inline: auto; }
+.prose { width: min(100%, var(--max-prose)); margin-inline: auto; }
+.domain-bar { background: #eef2f6; border-bottom: var(--border); font-size: .95rem; }
+.domain-bar .container { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; padding: .35rem 0 0; }
+.domain-tabs { display: flex; gap: .2rem; align-items: flex-end; flex-wrap: wrap; }
+.domain-tab { display: inline-flex; align-items: center; min-height: 2.45rem; padding: .4rem .9rem; border: 1px solid #c8d0da; border-bottom-color: #c8d0da; border-radius: 8px 8px 0 0; background: #e3e8ee; color: var(--text); text-decoration: none; white-space: nowrap; }
+.domain-tab:hover, .domain-tab:focus-visible { background: #f7f9fb; color: var(--accent); }
+.domain-tab[aria-current="page"] { position: relative; z-index: 1; margin-bottom: -1px; border-color: #c8d0da; border-bottom-color: white; background: white; color: var(--accent); font-weight: 700; }
+.site-header { border-bottom: var(--border); background: white; }
+.site-header .container { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:.7rem 0; flex-wrap:wrap; }
+.brand { font-weight: 700; text-decoration: none; color: var(--text); }
+nav { display:flex; gap:1rem; flex-wrap:wrap; }
+nav a { text-decoration:none; }
+.hero { padding: var(--space-6) 0 var(--space-5); }
+.hero h1 { font-size: clamp(2.2rem, 6vw, 4.6rem); line-height: 1.05; margin: 0 0 1rem; letter-spacing:-.03em; }
+.hero p { font-size: 1.2rem; color: var(--muted); max-width: 780px; }
+.section { padding: var(--space-5) 0; }
+.section h2 { font-size: clamp(1.6rem, 3vw, 2.5rem); line-height: 1.15; margin-top:0; }
+.grid-3 { display:grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap:1rem; }
+.grid-4 { display:grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap:1rem; }
+.integrity-fields-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+.card { border:var(--border); border-radius:var(--radius); padding:1.25rem; background:white; }
+.card h3 { margin-top:0; }
+.actions { display:flex; gap:.75rem; flex-wrap:wrap; margin-top:1.5rem; }
+.button { display:inline-block; padding:.8rem 1rem; border-radius:10px; border:1px solid var(--accent); text-decoration:none; }
+.button.primary { background:var(--accent); color:white; }
+.surface { background:var(--surface); }
+.breadcrumb { font-size:.9rem; color:var(--muted); margin:1rem 0 0; }
+.meta { padding:1rem; background:var(--surface); border-radius:var(--radius); }
+.asset-list-section[hidden] { display:none; }
+.asset-list { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+.asset-card h3 { margin-top:0; }
+.asset-card h3 a { text-decoration:none; }
+.site-footer { border-top:var(--border); margin-top:var(--space-6); padding:var(--space-5) 0; background:#fafafa; }
+.site-footer .cols { display:grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap:1.5rem; }
+.site-footer h4 { margin-bottom:.4rem; }
+.site-footer a { display:block; margin:.25rem 0; text-decoration:none; }
+@media (max-width: 800px) {
+  .grid-3,.grid-4,.integrity-fields-grid,.asset-list,.site-footer .cols { grid-template-columns:1fr; }
+  .hero { padding-top:3rem; }
+  .domain-bar .container { align-items: flex-start; flex-direction: column; padding-top: .25rem; }
+  .domain-tabs { width: 100%; overflow-x: auto; flex-wrap: nowrap; padding-top: .15rem; }
+}
+
+:where(a, button, input):focus-visible { outline: 3px solid #f59e0b; outline-offset: 3px; }

@@ -53,4 +53,4 @@ The corpus establishes these distinctions:
 
 ## Source authority for migration
 
-Use the corpus for framework definitions, distinctions, and named models. Use the current site for useful prose, examples, testimonials, book references, resource descriptions, images, and CTAs only after checking them against the corpus and evidence available in the repository. Use `sitenew/docs/` for route hierarchy and layout constraints. When sources disagree, record the disagreement in the migration notes and resolve it before rewriting.
+Use the corpus for framework definitions, distinctions, and named models. Use the current site for useful prose, examples, testimonials, book references, resource descriptions, images, and CTAs only after checking them against the corpus and evidence available in the repository. Use `../site` for route hierarchy and layout constraints. When sources disagree, record the disagreement in the migration notes and resolve it before rewriting.

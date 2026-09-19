@@ -1,0 +1,665 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The AI-Augmented Movement | Human Capability in the Age of AI</title>
+  <meta name="description" content="Discover the AI-Augmented Operating System (AAOS) framework by Dr. Darren Pulsipher. Assess your AI maturity and optimize human-AI workflows.">
+  <link rel="canonical" href="https://ai-augmented.ai/">
+  <meta property="og:title" content="The AI-Augmented Movement | Human Capability in the Age of AI">
+  <meta property="og:description" content="Discover the AI-Augmented Operating System (AAOS) framework by Dr. Darren Pulsipher. Assess your AI maturity and optimize human-AI workflows.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ai-augmented.ai/">
+  <meta property="og:site_name" content="AI-Augmented">
+  <meta property="og:image" content="https://ai-augmented.ai/assets/img/aaos.svg">
+  <meta property="og:image:alt" content="AAOS six-stage model illustration">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@darrenpulsipher">
+  <meta name="twitter:creator" content="@darrenpulsipher">
+  <meta name="twitter:title" content="The AI-Augmented Movement | Human Capability in the Age of AI">
+  <meta name="twitter:description" content="Discover the AI-Augmented Operating System (AAOS) framework by Dr. Darren Pulsipher. Assess your AI maturity and optimize human-AI workflows.">
+  <meta name="twitter:image" content="https://ai-augmented.ai/assets/img/aaos.svg">
+  <meta name="theme-color" content="#123B66">
+  <link rel="icon" href="/assets/img/ai-augmented/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/site.css">
+  <script src="./assets/site.js" defer></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the AI-Augmented Operating System (AAOS)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The AI-Augmented Operating System (AAOS) is a structured framework created by Dr. Darren Pulsipher designed to help individuals, teams, and enterprises systematically integrate artificial intelligence into their daily workflows. Rather than treating AI as a replacement for human intellect, AAOS treats AI as an augmenting force to amplify human capability, creativity, and productivity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the 6 stages of AI Augmentation Maturity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI-Augmented Maturity describes six levels: Aware, Exploring, Experimenting, Integrating, Leading, and Augmenting. Each level represents a shift in how AI is used, reviewed, and integrated into work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is \"Hallucination Debt\" in AI adoption?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hallucination Debt refers to the hidden operational cost and risk incurred when organizations rely on unverified AI output without proper human review or guardrails. Over time, uncorrected AI inaccuracies compound into downstream data corruption, strategic errors, and loss of organizational trust."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I start becoming AI-augmented as an individual or organization?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To transition into an AI-augmented workflow: 1. Take the AI Maturity Assessment to baseline your current usage. 2. Identify high-friction tasks where AI can serve as a copilot. 3. Implement human-in-the-loop guardrails to verify accuracy. 4. Follow the AAOS Framework to build repeatable AI habits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the AAOS framework apply to leaders and enterprise teams?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For enterprise leaders and team managers, AAOS provides a roadmap for governance, upskilling, and integration. It helps executives establish clear AI policies, mitigate security risks, and transition employee roles from task execution to AI orchestration."
+          }
+        }
+      ]
+    }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://ai-augmented.ai/"
+          }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://ai-augmented.ai/#organization",
+        "name": "AI-Augmented",
+        "url": "https://ai-augmented.ai/",
+        "description": "A movement site that helps people become AI-Augmented through readiness guidance, augmentation maturity, and role-based learning paths.",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://ai-augmented.ai/assets/img/ai-augmented/logo.svg"
+        },
+        "founder": {
+          "@id": "https://ai-augmented.ai/#drdarren"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://ai-augmented.ai/#website",
+        "url": "https://ai-augmented.ai/",
+        "name": "AI-Augmented",
+        "description": "A movement site that helps people choose their lens, assess their augmentation maturity, understand the AI-Augmented Operating System, and take the next step.",
+        "publisher": {
+          "@id": "https://ai-augmented.ai/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://ai-augmented.ai/#webpage",
+        "url": "https://ai-augmented.ai/",
+        "name": "AI-Augmented: AI Readiness, AAOS Stages, and Next-Step Guidance",
+        "isPartOf": {
+          "@id": "https://ai-augmented.ai/#website"
+        },
+        "about": {
+          "@id": "https://ai-augmented.ai/#organization"
+        },
+        "description": "The AI-Augmented homepage for lens selection, readiness guidance, augmentation maturity, AAOS exploration, and next-step learning."
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://ai-augmented.ai/#stages",
+        "name": "AI-Augmented maturity stages",
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "numberOfItems": 6,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Aware"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Exploring"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Experimenting"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Integrating"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Leading"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Augmenting"
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://ai-augmented.ai/#drdarren",
+        "name": "Dr. Darren Pulsipher",
+        "jobTitle": "Founder",
+        "url": "https://drdarrenspeaks.com/",
+        "image": "https://ai-augmented.ai/assets/img/darren-pulsipher.jpg",
+        "sameAs": [
+          "https://www.amazon.com/Becoming-AI-Augmented-Dr-Darren-Pulsipher/dp/B0D1N9N9X6",
+          "https://embracingdigital.org/",
+          "https://paidar.ai/",
+          "https://www.linkedin.com/in/dpulsipher/"
+        ],
+        "description": "Dr. Darren Pulsipher is a digital transformation leader, author of 'Becoming AI-Augmented', host of the 'Embracing Digital Transformation' podcast, and the founder of the AI-Augmented movement.",
+        "knowsAbout": ["AI-Augmented Operating System", "AI Augmentation Maturity", "Digital Transformation", "AI Governance"]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://ai-augmented.ai/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What does AI-Augmented mean?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI-Augmented means developing the habits, judgment, and workflows to use AI reliably, responsibly, and effectively."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the AI-Augmented Operating System?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The AI-Augmented Operating System is the six-stage framework on this site that helps people and organizations move from awareness to practical AI capability."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who is AI-Augmented for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AI-Augmented is for individuals, team leaders, organization leaders, students, teachers, and education leaders who want a practical path for working with AI."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I know my current AI stage?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start with the readiness assessment. It helps you identify your current augmentation maturity level and gives you the next step from there."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is AI-Augmented different from just using AI tools?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Using AI tools is only part of the story. Being AI-Augmented means building the habits, judgment, and workflows that make AI use effective over time. It is about disciplined partnership between humans and technology."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the stages of AI-Augmentation maturity?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The AI-Augmented maturity model defines six stages: Aware, Exploring, Experimenting, Integrating, Leading, and Augmenting. Each stage represents a shift in how AI is used and validated in professional work."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body data-page="home">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="shell header-row">
+    <a class="brand" href="index.html">
+      <img src="assets/img/ai-augmented/logo-dark.svg" alt="" aria-hidden="true" width="40" height="40">
+      <span><strong>AI-Augmented</strong><span>Movement site</span></span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="movement/">Movement</a>
+      <a href="find-your-path/">Find Your Path</a>
+      <a href="aaos/">Framework</a>
+      <a href="education/">Education</a>
+      <a href="resources/">Resources</a>
+      <a href="assessment/">Assessment</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="band hero-band">
+    <div class="shell hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">The AI-Augmented Movement</p>
+        <h1>Expand human capability in the age of AI.</h1>
+        <p class="lede"><strong>Work, lead, teach, learn, and operate with AI while preserving human judgment, responsibility, and agency.</strong></p>
+        <p>AI-Augmented helps individuals, teams, organizations, students, educators, and institutions build reliable AI capability while preserving human judgment, agency, and responsibility.</p>
+        <div class="cta-row">
+          <a class="button" href="/find-your-path/">Find Your Path</a>
+          <a class="button secondary" href="/assessment/">Take the Assessment</a>
+        </div>
+      </div>
+
+      <aside class="hero-visual panel" aria-label="What you will find here">
+        <p class="card-kicker">Start with what matters to you</p>
+        <h2>One system. Four questions.</h2>
+        <ul class="check-list">
+          <li><strong>Who am I?</strong> Choose your lens.</li>
+          <li><strong>Where am I?</strong> Understand your maturity.</li>
+          <li><strong>How do I improve?</strong> Use AAOS.</li>
+          <li><strong>How much support do I need?</strong> Learn, Apply, or Augment.</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+<section class="band" id="movement">
+    <div class="shell">
+      <div class="section-title">
+        <p class="eyebrow">Why this matters now</p>
+        <h2>Why this matters now</h2>
+        <p>AI is already changing how people work, learn, teach, decide, and lead. The challenge is no longer access to AI. The challenge is learning how to use it without weakening judgment, responsibility, or human capability.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+<section class="band" id="lens">
+    <div class="shell">
+      <div class="section-title">
+        <p class="eyebrow">Choose your lens</p>
+        <h2>Where does AI show up in your world?</h2>
+        <p>The destination stays the same. The route changes by role and responsibility. Choose the path closest to your work to find the right next step.</p>
+      </div>
+      <div class="lens-groups">
+        <section class="lens-group" aria-labelledby="lens-work-heading">
+          <h3 id="lens-work-heading">Work and Leadership</h3>
+          <div class="card-grid lens-group-grid">
+            <article class="card lens-card">
+              <p class="card-kicker">Individual</p>
+              <h3>Build personal leverage.</h3>
+              <p class="lens-fit">This is for professionals and students who want practical AI capability in daily work.</p>
+              <a class="text-link" href="/lens/individual/">Explore Individual Resources</a>
+            </article>
+            <article class="card lens-card">
+              <p class="card-kicker">Team Leader</p>
+              <h3>Help your team work the same way.</h3>
+              <p class="lens-fit">This is for leaders who need shared language, workflow, and review.</p>
+              <a class="text-link" href="/lens/team-leader/">Strengthen Your Team</a>
+            </article>
+            <article class="card lens-card">
+              <p class="card-kicker">Organization Leader</p>
+              <h3>Build capability at scale.</h3>
+              <p class="lens-fit">This is for leaders accountable for governance, adoption, and transformation.</p>
+              <a class="text-link" href="/lens/organization-leader/">Build Organizational Capability</a>
+            </article>
+          </div>
+        </section>
+        <section class="lens-group" aria-labelledby="lens-education-heading">
+          <h3 id="lens-education-heading">Education</h3>
+          <div class="card-grid lens-group-grid">
+            <article class="card lens-card">
+              <p class="card-kicker">Student</p>
+              <h3>Prepare for an AI-shaped future.</h3>
+              <p class="lens-fit">This is for learners who need practical capability and better judgment.</p>
+              <a class="text-link" href="/lens/student/">Explore Student Resources</a>
+            </article>
+            <article class="card lens-card">
+              <p class="card-kicker">Teacher</p>
+              <h3>Redesign learning with clarity.</h3>
+              <p class="lens-fit">This is for educators shaping assignment design and responsible use.</p>
+              <a class="text-link" href="/lens/teacher/">Improve Your Teaching Practice</a>
+            </article>
+            <article class="card lens-card">
+              <p class="card-kicker">Education Leader</p>
+              <h3>Support transformation across the institution.</h3>
+              <p class="lens-fit">This is for leaders setting policy, strategy, and adoption paths.</p>
+              <a class="text-link" href="/lens/education-administrator/">Assess Your Institution</a>
+            </article>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+
+
+<section class="band alt" id="journey">
+    <div class="shell">
+      <p class="journey-transition">Now that you've chosen the context that matters most to you, the next question is where you are today.</p>
+      <div class="section-title">
+        <p class="eyebrow">Understand where you are today</p>
+        <h2>Assessment comes after lens selection</h2>
+        <p>You do not need to master everything at once. Start by understanding where you are today. The assessment helps you choose the next useful step.</p>
+      </div>
+      <div class="stage-grid">
+        <article class="stage-card">
+          <span class="stage-index">1</span>
+          <h3>Aware</h3>
+          <p>You know AI matters.</p>
+        </article>
+        <article class="stage-card stage-common">
+          <span class="stage-index">2</span>
+          <h3>Exploring</h3>
+          <p>You are learning what is possible.</p>
+          <p class="stage-flag">Most people start here</p>
+        </article>
+        <article class="stage-card">
+          <span class="stage-index">3</span>
+          <h3>Experimenting</h3>
+          <p>You are testing tools and practices.</p>
+        </article>
+        <article class="stage-card">
+          <span class="stage-index">4</span>
+          <h3>Integrating</h3>
+          <p>AI is becoming part of your work.</p>
+        </article>
+        <article class="stage-card">
+          <span class="stage-index">5</span>
+          <h3>Leading</h3>
+          <p>You are helping others adopt AI.</p>
+        </article>
+        <article class="stage-card">
+          <span class="stage-index">6</span>
+          <h3>Augmenting</h3>
+          <p>You are changing systems, teams, and organizations.</p>
+        </article>
+      </div>
+      <div class="cta-row">
+        <a class="text-link" href="assessment/">Take the Assessment</a>
+      </div>
+    </div>
+  </section>
+
+
+
+<section class="band alt" id="aaos">
+    <div class="shell">
+      <p class="journey-transition">Knowing your stage tells you where to focus. The next step is changing the way the work actually gets done.</p>
+      <div class="section-title">
+        <p class="eyebrow">Build a better way of working with AI</p>
+        <h2>The AI-Augmented Operating System</h2>
+        <p>Once you know where you are, the next step is improving how the work gets done. AAOS provides a repeatable way to diagnose the work, activate AI where it adds value, establish controls, execute reliably, measure results, and scale what works.</p>
+      </div>
+      <div class="stage-grid aaos-stage-grid" style="margin-bottom: 3rem;">
+        <article class="stage-card">
+          <span class="stage-index">1</span>
+          <h3>Diagnose</h3>
+          <p>Identify the real posture before acting.</p>
+        </article>
+        <article class="stage-card">
+          <span class="stage-index">2</span>
+          <h3>Activate</h3>
+          <p>Enable the first reliable loops for AI use.</p>
+        </article>
+        <article class="stage-card">
+          <span class="stage-index">3</span>
+          <h3>Controls</h3>
+          <p>Embed trust and accountability through shared disciplines.</p>
+        </article>
+        <article class="stage-card">
+          <span class="stage-index">4</span>
+          <h3>Execute</h3>
+          <p>Standardize the integrated loop for AI-assisted work.</p>
+        </article>
+        <article class="stage-card">
+          <span class="stage-index">5</span>
+          <h3>Measure</h3>
+          <p>Track reliability and control stability across the system.</p>
+        </article>
+        <article class="stage-card">
+          <span class="stage-index">6</span>
+          <h3>Scale</h3>
+          <p>Expand adoption based on proven evidence of trust.</p>
+        </article>
+      </div>
+      <div class="cta-row">
+        <a class="text-link" href="aaos/">See How The AAOS Works</a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<section class="band" id="engagement-levels">
+    <div class="shell">
+      <p class="journey-transition">You can apply these practices on your own, use structured tools, or work with someone to accelerate the process.</p>
+      <div class="section-title"><p class="eyebrow">Choose your level of support</p><h2>Learn, Apply, Augment</h2><p>Use the same AI-Augmented system at the level that fits your current need.</p></div>
+      <div class="card-grid three-up">
+        <article class="card"><p class="card-kicker">Learn · Free</p><h3>Build understanding.</h3><p>Free education and foundational resources help you understand the principles behind reliable AI-Augmented work.</p><a class="text-link" href="/resources/">Explore Learn Resources</a></article>
+        <article class="card"><p class="card-kicker">Apply · Paid</p><h3>Put the framework to work.</h3><p>Assessments, playbooks, templates, workbooks, and toolkits help you apply the framework to real work.</p><a class="text-link" href="/learn-apply-augment/#apply">Explore Apply Tools</a></article>
+        <article class="card"><p class="card-kicker">Augment · Guided</p><h3>Accelerate with expert support.</h3><p>Workshops, advisory services, speaking, and organizational engagements help teams build capability faster.</p><a class="text-link" href="/learn-apply-augment/#augment">Plan Guided Support</a></article>
+      </div>
+      <div class="cta-row"><a class="button secondary" href="/learn-apply-augment/">See the full engagement model</a></div>
+    </div>
+  </section>
+
+
+
+  <section class="band" id="proof">
+    <div class="shell">
+      <div class="section-title">
+        <p class="eyebrow">Why it helps</p>
+        <h2>What this helps you do</h2>
+        <p>The framework gives people a shared language for AI readiness, a clearer way to talk about AAOS process stages and AI-Augmented maturity, and a practical path for the next step.</p>
+      </div>
+      <div class="card-grid three-up">
+        <article class="card">
+          <p class="card-kicker">Shared language</p>
+          <h3>Teams and classrooms can talk about AI progress using the same six stages.</h3>
+        </article>
+        <article class="card">
+          <p class="card-kicker">Practical guidance</p>
+          <h3>People can identify their current augmentation maturity and know what to do next.</h3>
+        </article>
+        <article class="card">
+          <p class="card-kicker">Role fit</p>
+          <h3>Different lenses make the path relevant for individuals, leaders, students, and educators.</h3>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<section class="band alt" id="faq">
+    <div class="shell">
+      <div class="section-title">
+        <p class="eyebrow">FAQ</p>
+        <h2>Questions People Ask First</h2>
+        <p>These are the shortest answers to the questions this site is designed to solve.</p>
+      </div>
+      <div class="card-grid faq-grid">
+        <article class="card faq-card">
+          <h3>What does AI-Augmented mean?</h3>
+          <p>It means developing the habits, judgment, and workflows to use AI reliably, responsibly, and effectively.</p>
+        </article>
+        <article class="card faq-card">
+          <h3>What is AAOS?</h3>
+          <p>AAOS is the AI-Augmented Operating System, the six-stage framework used throughout this site.</p>
+        </article>
+        <article class="card faq-card">
+          <h3>Who is this for?</h3>
+          <p>Individuals, team leaders, organization leaders, students, teachers, and education leaders.</p>
+        </article>
+        <article class="card faq-card">
+          <h3>How do I know my stage?</h3>
+          <p>Start with the readiness assessment. It identifies your current augmentation maturity level and gives you the next step.</p>
+        </article>
+        <article class="card faq-card">
+          <h3>What should I do first?</h3>
+          <p>Choose your lens, take the assessment, then follow the AAOS path that matches your role.</p>
+        </article>
+        <article class="card faq-card">
+          <h3>How is this different from just using AI tools?</h3>
+          <p>Tool use is only the beginning. AI-Augmented means building repeatable capability that improves outcomes over time.</p>
+        </article>
+              </div>
+    </div>
+  </section>
+
+
+
+
+<section class="band alt" aria-labelledby="voices">
+    <div class="shell">
+      <div class="section-title">
+        <p class="eyebrow">Voices from the Movement</p>
+        <h2 id="voices">What Practitioners Are Saying</h2>
+        <p>Evidence-backed insights from leaders, teams, and readers of <em>Becoming AI-Augmented</em>.</p>
+      </div>
+      <div class="card-grid three-up">
+        <article class="card">
+          <p class="card-kicker">Governance & Reliability</p>
+          <p>"AI adoption is not the success condition, decision reliability is. Pulsipher names that gap, Hallucination Debt, and fixes it with controls that scale review depth to the stakes."</p>
+          <p class="muted"><strong>Jeremy Harris</strong>, AI Governance Lead</p>
+        </article>
+        <article class="card">
+          <p class="card-kicker">Strategic Leadership</p>
+          <p>"Dr. Pulsipher is a big picture thinker... he gives in-depth, practical solutions for efficient AI checks in the workflow. This is a readable book due to the use cases and plain language."</p>
+          <p class="muted"><strong>Laura Newey</strong>, Educator</p>
+        </article>
+        <article class="card">
+          <p class="card-kicker">Accountability</p>
+          <p>"The book focuses on something I think a lot of people are quietly noticing: AI is making work faster, but not always better. It offers a clear way to use AI without losing accountability."</p>
+          <p class="muted"><strong>Anna Pulsipher</strong>, Accountant</p>
+        </article>
+        <article class="card">
+          <p class="card-kicker">Team Empowerment</p>
+          <p>"I manage a product team and this was a great read! I got some excellent insights for my team and really felt empowered to lead my team successfully in adopting and effectively scaling with AI."</p>
+          <p class="muted"><strong>Julianne Sombke</strong>, Product Team Leader</p>
+        </article>
+        <article class="card">
+          <p class="card-kicker">Practical Insight</p>
+          <p>"One of the most practical and insightful books I've read on applying AI in a real-world team environment. It provides clear strategies for using AI while keeping humans at the center."</p>
+          <p class="muted"><strong>DiAnn Fox</strong>, Educator</p>
+        </article>
+        <article class="card">
+          <p class="card-kicker">Beyond The Hype</p>
+          <p>"Most books about AI focus on tools. This one focuses on people, teams, and how work actually gets done. If you're a leader trying to move beyond AI hype, this book is worth your time."</p>
+          <p class="muted"><strong>Jayme Bahouth</strong>, Business Leader</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+
+<section class="band final-band">
+    <div class="shell final-cta">
+      <div>
+        <p class="eyebrow">Join the movement</p>
+        <h2>The Best Time To Become AI-Augmented Is Now</h2>
+        <p>Joining means committing to better thinking, better work, and better outcomes. Get the newsletter for launch notes and practical AAOS updates.</p>
+      </div>
+      <div class="cta-column">
+        <form method="POST" action="https://lsfo-zgfl.maillist-manage.com/weboptin.zc" target="_blank" class="form-inline">
+          <input type="hidden" name="zc_trackCode" value="ZCFORMVIEW">
+          <input type="hidden" name="zx" value="13336b6b1">
+          <input type="hidden" name="zcvers" value="3.0">
+          <input type="hidden" name="lD" value="112881a1caeb9ba71">
+          <input type="hidden" name="zcld" value="112881a1caeb9ba71">
+          <input type="hidden" name="zctd" value="112881a1caeb9ba9d">
+          <input type="hidden" name="zc_formIx" value="3z48d34bc44b911e5b1c4025477f34fa57102849dfc54c33fb8876123171441f44">
+          <input type="hidden" name="mode" value="OptinCreateView">
+          <input type="hidden" name="submitType" value="optinCustomView">
+
+          <label class="form-label" for="newsletter-email">Email address</label>
+          <input id="newsletter-email" type="email" name="CONTACT_EMAIL" placeholder="your@email.com" required class="input-text">
+          <button type="submit" class="button">Join The Movement</button>
+        </form>
+        <p class="form-note" data-external-form-note>Submission opens the newsletter provider in a new tab; confirmation appears there.</p>
+        <div class="cta-row" style="margin-top: 1rem;">
+          <a class="text-link" href="assessment/">Start With The Assessment</a>
+          <a class="text-link" href="find-your-path/">Find Your Path</a>
+        </div>
+        <p class="form-note">Stay human-centered. Stay capable. Stay augmented.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="shell footer-grid">
+    <div>
+      <strong>AI-Augmented</strong>
+      <p class="muted">A movement site for people building practical capability with AI.</p>
+    </div>
+    <div>
+      <strong>Movement</strong>
+      <p><a href="index.html">Home</a></p>
+      <p><a href="movement/">The Movement</a></p>
+      <p><a href="find-your-path/">Find Your Path</a></p>
+      <p><a href="contexts/">Explore by Context</a></p>
+      <p><a href="about/">About</a></p>
+    </div>
+    <div>
+      <strong>Resources</strong>
+      <p><a href="resources/">Learning Resources</a></p>
+      <p><a href="assessment/">Assessments</a></p>
+      <p><a href="books/">Books</a></p>
+      <p><a href="articles/">Articles</a></p>
+      <p><a href="newsletter/">Newsletter</a></p>
+    </div>
+    <div>
+      <strong>Engage</strong>
+      <p><a href="learn-apply-augment/">Learn, Apply, Augment</a></p>
+      <p><a href="aaos/">AAOS Framework</a></p>
+      <p><a href="augment/">Augment with Support</a></p>
+      <p><a href="about/#action">Contact</a></p>
+    </div>
+    <div>
+      <strong>Paths</strong>
+      <p><a href="find-your-path/#individual">Individual</a></p>
+      <p><a href="find-your-path/#team-leader">Team Leader</a></p>
+      <p><a href="find-your-path/#organization-leader">Organization Leader</a></p>
+      <p><a href="find-your-path/#student">Student</a></p>
+      <p><a href="find-your-path/#teacher">Teacher</a></p>
+      <p><a href="find-your-path/#education-administrator">Education Leader</a></p>
+    </div>
+    <div>
+      <strong>Legal</strong>
+      <p class="muted">Privacy and terms pages will be added before public collection or account features.</p>
+      <p class="muted">© 2026 AI-Augmented Movement</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

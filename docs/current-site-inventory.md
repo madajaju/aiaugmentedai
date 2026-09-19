@@ -1,6 +1,6 @@
 # Current Site Inventory
 
-Inventory of the current `site/` tree used as migration source material. The inventory covers all **72 HTML pages** and excludes only non-HTML assets from the page count. Titles, headings, links, and image references are extracted from the files; audience and action classifications are planning labels based on route and visible copy.
+Inventory of the current `../site2026q2` tree used as migration source material. The inventory covers all **72 HTML pages** and excludes only non-HTML assets from the page count. Titles, headings, links, and image references are extracted from the files; audience and action classifications are planning labels based on route and visible copy.
 
 | Current URL | Title | Purpose / audience | Important content blocks | CTAs / useful links | Assets | Migration notes |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -87,4 +87,4 @@ Inventory of the current `site/` tree used as migration source material. The inv
 - Current role-stage pages are structurally useful but generated and should be treated as source material for coaching/support content, not copied as new URL hierarchy.
 - The event page at `/education/` contains time-sensitive IUC 2026 content, books, education role routing, and institutional messaging. Keep it isolated from the general migration decision until the event is complete.
 - The current site has an existing static SEO baseline: titles, descriptions, canonical tags, OpenGraph tags, structured data on major pages, one-H1 checks, and sitemap coverage. These must be revalidated after each destination is created.
-- Current technical assets include 50 files under `site/assets/`, including brand marks, AAOS and ecosystem SVGs, book covers, workshop photography, author photography, and shared data/CSS/JavaScript. Asset reuse requires alt text and path review.
+- Current technical assets include 50 files under `../site2026q2`, including brand marks, AAOS and ecosystem SVGs, book covers, workshop photography, author photography, and shared data/CSS/JavaScript. Asset reuse requires alt text and path review.

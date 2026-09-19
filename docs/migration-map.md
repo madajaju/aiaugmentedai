@@ -1,6 +1,6 @@
 # Migration Map
 
-This map covers the 72 current HTML pages under `site/`. The new wireframe has 79 physical `index.html` routes under `sitenew/`. No migration is performed by this document.
+This map covers the 72 current HTML pages under `../site2026q2`. The new wireframe has 79 physical `index.html` routes under `../site`. No migration is performed by this document.
 
 | Current URL / content | Purpose | New destination | Action | Source authority | Rewrite needed? | Notes |
 | --- | --- | --- | --- | --- | --- | --- |

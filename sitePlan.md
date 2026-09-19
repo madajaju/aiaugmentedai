@@ -1,11 +1,11 @@
 # AI-Augmented Static Site Plan
 
-This plan covers every physical `index.html` route under `sitenew`. It identifies the closest current `site/` material and the canonical corpus material to use when expanding or revising each page. The page itself remains the destination; source references are inputs, not redirects.
+This plan covers every physical `index.html` route under `sitenew`. It identifies the closest current `site2026q2` material and the canonical corpus material to use when expanding or revising each page. The page itself remains the destination; source references are inputs, not redirects.
 
 ## Authority and working rules
 
 1. Use the canonical corpus for framework definitions, controlled vocabulary, AAOS stages, maturity levels, and named models.
-2. Use current `site/` pages for audience language, examples, assets, CTAs, and event material after checking claims.
+2. Use current `site2026q2` pages for audience language, examples, assets, CTAs, and event material after checking claims.
 3. Preserve the Domain → Role → Support hierarchy. Maturity and AAOS remain conceptual or framework dimensions.
 4. Keep one primary next action per page. Use Learn for explanation, Apply for practical tools, and Augment for guided support.
 5. Do not copy unsupported proof, testimonials, counts, institution names, or customer outcomes.
@@ -118,4 +118,4 @@ This plan covers every physical `index.html` route under `sitenew`. It identifie
 
 ## Validation checklist
 
-For each page, confirm the selected source material supports the visible claim, the page has one clear audience and next action, internal links resolve, title and description are unique, canonical uses `https://ai-augmented.ai/`, and no source placeholder or mojibake remains. Rebuild the sitemap after route changes and keep redirects in `sitenew/_redirects`.
+For each page, confirm the selected source material supports the visible claim, the page has one clear audience and next action, internal links resolve, title and description are unique, canonical uses `https://ai-augmented.ai/`, and no source placeholder or mojibake remains. Rebuild the sitemap after route changes and keep redirects in `site`.
