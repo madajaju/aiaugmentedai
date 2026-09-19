@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1448 1086" role="img" aria-labelledby="title desc">
+  <title id="title">AI-Augmented Human Capability Network</title>
+  <desc id="desc">A central human capability hexagon connected to six surrounding hexagons representing judgment, context, systems, collaboration, and augmentation.</desc>
+
+  <defs>
+    <linearGradient id="purpleStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6D4AFF"/>
+      <stop offset="1" stop-color="#8F7BFF"/>
+    </linearGradient>
+    <linearGradient id="blueStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2979D9"/>
+      <stop offset="1" stop-color="#6BA6F2"/>
+    </linearGradient>
+    <linearGradient id="goldStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C99724"/>
+      <stop offset="1" stop-color="#E3B84B"/>
+    </linearGradient>
+    <linearGradient id="centerFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBFAFF"/>
+      <stop offset="1" stop-color="#F1EDFF"/>
+    </linearGradient>
+    <linearGradient id="personFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6D4AFF"/>
+      <stop offset="1" stop-color="#9E8EFF"/>
+    </linearGradient>
+    <linearGradient id="personFillLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#AAA0FF"/>
+      <stop offset="1" stop-color="#D4CEFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#6D4AFF" flood-opacity="0.10"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#1E2430" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .wire { fill:none; stroke:#BFC8D8; stroke-width:2; opacity:.55; }
+      .wire-purple { fill:none; stroke:#6D4AFF; stroke-width:2.5; opacity:.62; }
+      .wire-blue { fill:none; stroke:#2979D9; stroke-width:2.5; opacity:.56; }
+      .wire-gold { fill:none; stroke:#C99724; stroke-width:2.5; opacity:.56; }
+      .node-purple { fill:#6D4AFF; }
+      .node-blue { fill:#2979D9; }
+      .node-gold { fill:#C99724; }
+      .bghex { fill:#F7F6FF; opacity:.72; }
+      .hex-white { fill:#FFFFFF; }
+      .outline-purple { stroke:url(#purpleStroke); stroke-width:5; }
+      .outline-blue { stroke:url(#blueStroke); stroke-width:5; }
+      .outline-gold { stroke:url(#goldStroke); stroke-width:5; }
+      .thin-purple { stroke:#9F8CFF; stroke-width:2; fill:none; opacity:.72; }
+      .thin-blue { stroke:#77A9E8; stroke-width:2; fill:none; opacity:.72; }
+      .thin-gold { stroke:#E2BD62; stroke-width:2; fill:none; opacity:.72; }
+    </style>
+  </defs>
+
+  <g opacity="0.95">
+    <path class="bghex" d="M374 134 500 207 500 352 374 425 248 352 248 207Z"/>
+    <path class="bghex" d="M1074 134 1200 207 1200 352 1074 425 948 352 948 207Z"/>
+    <path class="bghex" d="M320 620 446 693 446 838 320 911 194 838 194 693Z"/>
+    <path class="bghex" d="M1128 620 1254 693 1254 838 1128 911 1002 838 1002 693Z"/>
+    <path class="bghex" d="M724 728 850 801 850 946 724 1019 598 946 598 801Z"/>
+  </g>
+
+  <path d="M210 542 A514 430 0 0 1 1238 542" fill="none" stroke="#7B69FF" stroke-width="2" stroke-dasharray="4 10" opacity=".72"/>
+  <path d="M1238 542 A514 430 0 0 1 210 542" fill="none" stroke="#4F89E7" stroke-width="2" stroke-dasharray="4 10" opacity=".58"/>
+  <circle cx="210" cy="542" r="7" class="node-gold"/>
+  <circle cx="1238" cy="542" r="7" class="node-purple"/>
+  <circle cx="724" cy="106" r="7" class="node-gold"/>
+  <circle cx="724" cy="978" r="7" class="node-purple"/>
+
+  <g>
+    <path class="wire" d="M724 543 L724 293"/>
+    <path class="wire" d="M724 543 L407 357"/>
+    <path class="wire" d="M724 543 L1041 357"/>
+    <path class="wire" d="M724 543 L407 729"/>
+    <path class="wire" d="M724 543 L1041 729"/>
+    <path class="wire" d="M724 543 L724 858"/>
+
+    <path class="wire-purple" d="M724 543 L556 444 L490 444"/>
+    <path class="wire-blue" d="M724 543 L892 444 L958 444"/>
+    <path class="wire-blue" d="M724 543 L555 642 L490 642"/>
+    <path class="wire-gold" d="M724 543 L893 642 L958 642"/>
+
+    <path class="wire" d="M407 357 L407 525 L490 573"/>
+    <path class="wire" d="M1041 357 L1041 525 L958 573"/>
+    <path class="wire" d="M407 729 L407 561 L490 513"/>
+    <path class="wire" d="M1041 729 L1041 561 L958 513"/>
+  </g>
+
+  <g>
+    <circle cx="724" cy="293" r="8" class="node-gold"/>
+    <circle cx="556" cy="444" r="8" class="node-purple"/>
+    <circle cx="892" cy="444" r="8" class="node-blue"/>
+    <circle cx="555" cy="642" r="8" class="node-blue"/>
+    <circle cx="893" cy="642" r="8" class="node-gold"/>
+    <circle cx="724" cy="858" r="8" class="node-purple"/>
+    <circle cx="490" cy="444" r="9" class="node-purple"/>
+    <circle cx="958" cy="444" r="9" class="node-blue"/>
+    <circle cx="490" cy="642" r="9" class="node-blue"/>
+    <circle cx="958" cy="642" r="9" class="node-gold"/>
+  </g>
+
+  <g filter="url(#softShadow)" transform="translate(0, -30)">
+    <path d="M724 142 835 206v128L724 398 613 334V206Z" class="hex-white outline-gold"/>
+    <path d="M724 130 847 201v142L724 414 601 343V201Z" class="thin-gold" opacity=".45"/>
+    <g transform="translate(724 270)">
+      <circle cx="0" cy="-26" r="38" fill="#E9C86B" opacity=".55"/>
+      <circle cx="-34" cy="14" r="38" fill="#D7A322" opacity=".58"/>
+      <circle cx="34" cy="14" r="38" fill="#C99724" opacity=".58"/>
+    </g>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M407 250 518 314v128L407 506 296 442V314Z" class="hex-white outline-purple"/>
+    <path d="M407 238 530 309v142L407 522 284 451V309Z" class="thin-purple" opacity=".5"/>
+    <g transform="translate(407 378)">
+      <polygon points="0,-66 64,-30 0,6 -64,-30" fill="#D8D0FF"/>
+      <polygon points="0,-32 64,4 0,40 -64,4" fill="#B6A8FF" opacity=".88"/>
+      <polygon points="0,2 64,38 0,74 -64,38" fill="#6D4AFF" opacity=".74"/>
+    </g>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M1041 250 1152 314v128l-111 64-111-64V314Z" class="hex-white outline-blue"/>
+    <path d="M1041 238 1164 309v142l-123 71-123-71V309Z" class="thin-blue" opacity=".5"/>
+    <g transform="translate(1041 378)">
+      <rect x="-58" y="-42" width="72" height="72" rx="4" fill="#2979D9" opacity=".72"/>
+      <rect x="-10" y="-6" width="72" height="72" rx="4" fill="#4F8FE2" opacity=".66"/>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M724 386 872 472v171L724 729 576 643V472Z" fill="url(#centerFill)" stroke="url(#purpleStroke)" stroke-width="7"/>
+    <path d="M724 373 885 466v184L724 743 563 650V466Z" class="thin-purple" opacity=".34"/>
+    <g transform="translate(724 553)">
+      <path d="M-104 84v-14c0-56 46-102 102-102h4c56 0 102 46 102 102v14" fill="none" stroke="#D9D2FF" stroke-width="14" stroke-linecap="round" opacity=".44"/>
+      <circle cx="0" cy="-48" r="36" fill="url(#personFill)"/>
+      <path d="M-84 84v-10c0-41 33-74 74-74h20c41 0 74 33 74 74v10Z" fill="url(#personFill)"/>
+      <path d="M-56 84v-6c0-26 21-47 47-47h18c26 0 47 21 47 47v6Z" fill="#BFB4FF" opacity=".50"/>
+    </g>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M407 580 518 644v128l-111 64-111-64V644Z" class="hex-white outline-blue"/>
+    <path d="M407 568 530 639v142l-123 71-123-71V639Z" class="thin-blue" opacity=".5"/>
+    <g transform="translate(407 708)">
+      <g stroke="#5B92DF" stroke-width="3" fill="none">
+        <path d="M0 0 -45 -25M0 0 45 -25M0 0v-54M0 0 -45 28M0 0 45 28"/>
+      </g>
+      <circle cx="0" cy="0" r="20" fill="#2979D9"/>
+      <circle cx="-45" cy="-25" r="12" fill="#5C98E6"/>
+      <circle cx="45" cy="-25" r="12" fill="#77A9E8"/>
+      <circle cx="0" cy="-54" r="12" fill="#5C98E6"/>
+      <circle cx="-45" cy="28" r="12" fill="#AFCDF4"/>
+      <circle cx="45" cy="28" r="12" fill="#3F82DA"/>
+    </g>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M1041 580 1152 644v128l-111 64-111-64V644Z" class="hex-white outline-gold"/>
+    <path d="M1041 568 1164 639v142l-123 71-123-71V639Z" class="thin-gold" opacity=".5"/>
+    <g transform="translate(1041 660)">
+      <path d="M0 -46 38 -24v44L0 42l-38-22v-44Z" fill="#E6C35F"/>
+      <path d="M-39 22 -1 44v44l-38 22-38-22V44Z" fill="#D9A51C"/>
+      <path d="M39 22 77 44v44l-38 22-38-22V44Z" fill="#E3B84B"/>
+    </g>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M724 734 835 798v128l-111 64-111-64V798Z" class="hex-white outline-purple"/>
+    <path d="M724 722 847 793v142l-123 71-123-71V793Z" class="thin-purple" opacity=".5"/>
+    <g transform="translate(724 861)">
+      <circle cx="-30" cy="0" r="38" fill="#6D4AFF" opacity=".82"/>
+      <circle cx="30" cy="0" r="38" fill="#B8AEFF" opacity=".72"/>
+    </g>
+  </g>
+
+  <g opacity=".95">
+    <circle cx="508" cy="221" r="8" class="node-purple"/>
+    <circle cx="565" cy="258" r="7" class="node-blue"/>
+    <circle cx="940" cy="221" r="8" class="node-gold"/>
+    <circle cx="883" cy="258" r="7" class="node-blue"/>
+    <circle cx="485" cy="540" r="8" class="node-gold"/>
+    <circle cx="963" cy="540" r="8" class="node-gold"/>
+    <circle cx="480" cy="847" r="7" class="node-blue"/>
+    <circle cx="968" cy="847" r="7" class="node-gold"/>
+  </g>
+</svg>

@@ -7,12 +7,24 @@ const normalizePath = (path) => {
   return sitePath.replace(/index\.html$/, '').replace(/\/$/, '') || '/';
 };
 const currentPath = normalizePath(window.location.pathname);
-domainTabs.forEach((tab) => {
+const exactTab = [...domainTabs].find((tab) => {
   const tabPath = normalizePath(new URL(tab.href, window.location.href).pathname);
-  if (tabPath === currentPath) {
-    tab.setAttribute('aria-current', 'page');
-  }
+  return tabPath === currentPath;
 });
+const domainTab = exactTab || [...domainTabs]
+  .filter((tab) => normalizePath(new URL(tab.href, window.location.href).pathname) !== '/')
+  .filter((tab) => currentPath.startsWith(`${normalizePath(new URL(tab.href, window.location.href).pathname)}/`))
+  .sort((a, b) => b.href.length - a.href.length)[0]
+  || [...domainTabs].find((tab) => normalizePath(new URL(tab.href, window.location.href).pathname) === '/');
+domainTab?.setAttribute('aria-current', 'page');
+
+const domainRoute = [
+  ['business', '/business/'],
+  ['education', '/education/'],
+  ['legal', '/legal/'],
+  ['medical', '/medical/'],
+].find(([, path]) => currentPath === path.slice(0, -1) || currentPath.startsWith(path));
+if (domainRoute) document.body.classList.add(`domain-${domainRoute[0]}`);
 
 const assetList = document.querySelector('[data-asset-list]');
 
