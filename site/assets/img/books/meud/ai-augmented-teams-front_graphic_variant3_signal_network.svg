@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" fill="none">
+  <defs>
+    <linearGradient id="hexGrad" x1="300" y1="300" x2="900" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#53A8FF"/>
+      <stop offset="55%" stop-color="#8DC7FF"/>
+      <stop offset="100%" stop-color="#F4C56E"/>
+    </linearGradient>
+    <linearGradient id="connGrad" x1="350" y1="350" x2="850" y2="850" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#53A8FF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F4C56E" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3F74D9" stop-opacity="0.35"/>
+      <stop offset="45%" stop-color="#1D3565" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0B1020" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="centerFill" cx="50%" cy="48%" r="58%">
+      <stop offset="0%" stop-color="#FFF6D8" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#8EC9FF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#2A447A" stop-opacity="0.01"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="tightGlow" x="0%" y="0%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="activeGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="15.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="activeSoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="activeNodeGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4.2" result="blur"/>
+      <feOffset in="blur" dx="0" dy="0" result="offsetBlur"/>
+      <feFlood flood-color="#F4C56E" flood-opacity="0.28" result="flood"/>
+      <feComposite in="flood" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="18" result="blur"/>
+      <feOffset in="blur" dx="0" dy="12" result="offsetBlur"/>
+      <feFlood flood-color="#0C1733" flood-opacity="0.5" result="flood"/>
+      <feComposite in="flood" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .hex { stroke:url(#hexGrad); stroke-width:6.5; stroke-linejoin:round; fill:none; opacity:0.4; }
+      .hex2 { stroke:url(#hexGrad); stroke-width:2.8; stroke-linejoin:round; fill:none; opacity:0.25; }
+      .activeHex { stroke:url(#hexGrad); stroke-width:7.0; stroke-linejoin:round; opacity:0.62; fill:url(#centerFill); fill-opacity:0.22; }
+      .activeHex2 { stroke:url(#hexGrad); stroke-width:3.0; stroke-linejoin:round; opacity:0.44; fill:url(#centerFill); fill-opacity:0.12; }
+      .centerHex { stroke:url(#hexGrad); stroke-width:9.5; stroke-linejoin:round; opacity:1; }
+      .centerHex2 { stroke:url(#hexGrad); stroke-width:4.1; stroke-linejoin:round; opacity:0.95; }
+      .conn { stroke:url(#connGrad); stroke-width:4; stroke-linecap:round; opacity:0.05; }
+      .connThin { stroke:url(#connGrad); stroke-width:2.3; stroke-linecap:round; opacity:0.13; }
+      .activeLineGlow { stroke:url(#connGrad); stroke-width:10.4; stroke-linecap:round; opacity:0.7; filter:url(#softGlow); }
+      .activeLine { stroke:#FFE2A3; stroke-width:5.4; stroke-linecap:round; opacity:0.82; }
+      .mesh { stroke:#76B6FF; stroke-width:1.6; stroke-linecap:round; opacity:0.22; }
+    </style>
+  </defs>
+
+  <ellipse cx="600" cy="630" rx="360" ry="360" fill="url(#coreGlow)"/>
+  <g filter="url(#shadow)">
+    <path d="M291.648,798.02 Q482.7,552.2 600.0,362.0" class="connThin"/>
+    <path d="M291.648,798.02 Q586.0,595.8 908.352,441.98" class="connThin"/>
+    <path d="M376.56,491.0 Q600.0,484.5 908.352,441.98" class="connThin"/>
+    <path d="M376.56,491.0 Q614.0,595.8 823.44,749.0" class="connThin"/>
+    <path d="M600.0,362.0 Q717.3,552.2 823.44,749.0" class="connThin"/>
+    <path d="M600.0,362.0 Q628.0,620.0 600.0,878.0" class="connThin"/>
+    <path d="M908.352,441.98 Q717.3,687.8 600.0,878.0" class="connThin"/>
+    <path d="M908.352,441.98 Q614.0,644.2 291.648,798.02" class="connThin"/>
+    <path d="M823.44,749.0 Q600.0,755.5 291.648,798.02" class="connThin"/>
+    <path d="M823.44,749.0 Q586.0,644.2 376.56,491.0" class="connThin"/>
+    <path d="M600.0,878.0 Q482.7,687.8 376.56,491.0" class="connThin"/>
+    <path d="M600.0,878.0 Q572.0,620.0 600.0,362.0" class="connThin"/>
+    <path d="M291.648,798.02 Q506.9,566.2 600.0,362.0" class="connThin"/>
+    <path d="M291.648,798.02 Q600.0,620.0 908.352,441.98" class="connThin"/>
+    <path d="M376.56,491.0 Q600.0,491.0 908.352,441.98" class="connThin"/>
+    <path d="M376.56,491.0 Q600.0,620.0 823.44,749.0" class="connThin"/>
+    <path d="M600.0,362.0 Q693.1,566.2 823.44,749.0" class="connThin"/>
+    <path d="M600.0,362.0 Q600.0,620.0 600.0,878.0" class="connThin"/>
+    <path d="M908.352,441.98 Q693.1,673.8 600.0,878.0" class="connThin"/>
+    <path d="M908.352,441.98 Q600.0,620.0 291.648,798.02" class="connThin"/>
+    <path d="M823.44,749.0 Q600.0,749.0 291.648,798.02" class="connThin"/>
+    <path d="M823.44,749.0 Q600.0,620.0 376.56,491.0" class="connThin"/>
+    <path d="M600.0,878.0 Q506.9,673.8 376.56,491.0" class="connThin"/>
+    <path d="M600.0,878.0 Q600.0,620.0 600.0,362.0" class="connThin"/>
+    <path d="M291.648,798.02 Q531.2,580.2 600.0,362.0" class="connThin"/>
+    <path d="M291.648,798.02 Q614.0,644.2 908.352,441.98" class="connThin"/>
+    <path d="M376.56,491.0 Q600.0,540.5 908.352,441.98" class="connThin"/>
+    <path d="M376.56,491.0 Q586.0,644.2 823.44,749.0" class="connThin"/>
+    <path d="M600.0,362.0 Q668.8,580.2 823.44,749.0" class="connThin"/>
+    <path d="M600.0,362.0 Q572.0,620.0 600.0,878.0" class="connThin"/>
+    <path d="M908.352,441.98 Q668.8,659.8 600.0,878.0" class="connThin"/>
+    <path d="M908.352,441.98 Q586.0,595.8 291.648,798.02" class="connThin"/>
+    <path d="M823.44,749.0 Q600.0,699.5 291.648,798.02" class="connThin"/>
+    <path d="M823.44,749.0 Q614.0,595.8 376.56,491.0" class="connThin"/>
+    <path d="M600.0,878.0 Q531.2,659.8 376.56,491.0" class="connThin"/>
+    <path d="M600.0,878.0 Q628.0,620.0 600.0,362.0" class="connThin"/>
+    <line x1="600.0" y1="620.0" x2="600.0" y2="362.0" class="conn"/>
+    <line x1="600.0" y1="620.0" x2="908.352" y2="441.98" class="conn"/>
+    <line x1="600.0" y1="620.0" x2="823.44" y2="749.0" class="conn"/>
+    <line x1="600.0" y1="620.0" x2="600.0" y2="878.0" class="conn"/>
+    <line x1="600.0" y1="620.0" x2="291.648" y2="798.02" class="conn"/>
+    <line x1="600.0" y1="620.0" x2="376.56" y2="491.0" class="conn"/>
+    <g filter="url(#activeNodeGlow)">
+      <g transform="translate(600.0 620.0) scale(1.12) translate(-600.0 -620.0)" filter="url(#softGlow)">
+        <polygon points="600.0,494.0 709.1,557.0 709.1,683.0 600.0,746.0 490.9,683.0 490.9,557.0" fill="url(#centerFill)"/>
+        <polygon points="600.0,494.0 709.1,557.0 709.1,683.0 600.0,746.0 490.9,683.0 490.9,557.0" class="centerHex"/>
+        <polygon points="600.0,521.7 685.1,570.9 685.1,669.1 600.0,718.3 514.9,669.1 514.9,570.9" class="centerHex2"/>
+      </g>
+    </g>
+    <g transform="translate(600.0 362.0) scale(0.9) translate(-600.0 -405.0)" filter="url(#activeNodeGlow)">
+      <polygon points="600.0,285.0 703.9,345.0 703.9,465.0 600.0,525.0 496.1,465.0 496.1,345.0" class="activeHex"/>
+      <polygon points="600.0,311.4 681.1,358.2 681.1,451.8 600.0,498.6 518.9,451.8 518.9,358.2" class="activeHex2"/>
+    </g>
+    <g transform="translate(908.352 441.98) scale(0.9) translate(-786.2 -512.5)" filter="url(#activeNodeGlow)">
+      <polygon points="786.2,392.5 890.1,452.5 890.1,572.5 786.2,632.5 682.3,572.5 682.3,452.5" class="activeHex"/>
+      <polygon points="786.2,418.9 867.3,465.7 867.3,559.3 786.2,606.1 705.1,559.3 705.1,465.7" class="activeHex2"/>
+    </g>
+    <g transform="translate(823.44 749.0) scale(0.9) translate(-786.2 -727.5)">
+      <polygon points="786.2,607.5 890.1,667.5 890.1,787.5 786.2,847.5 682.3,787.5 682.3,667.5" class="hex"/>
+      <polygon points="786.2,633.9 867.3,680.7 867.3,774.3 786.2,821.1 705.1,774.3 705.1,680.7" class="hex2"/>
+    </g>
+    <g transform="translate(600.0 878.0) scale(0.9) translate(-600.0 -835.0)" filter="url(#activeNodeGlow)">
+      <polygon points="600.0,715.0 703.9,775.0 703.9,895.0 600.0,955.0 496.1,895.0 496.1,775.0" class="activeHex"/>
+      <polygon points="600.0,741.4 681.1,788.2 681.1,881.8 600.0,928.6 518.9,881.8 518.9,788.2" class="activeHex2"/>
+    </g>
+    <g transform="translate(291.648 798.02) scale(0.9) translate(-413.8 -727.5)">
+      <polygon points="413.8,607.5 517.7,667.5 517.7,787.5 413.8,847.5 309.9,787.5 309.9,667.5" class="hex"/>
+      <polygon points="413.8,633.9 494.9,680.7 494.9,774.3 413.8,821.1 332.7,774.3 332.7,680.7" class="hex2"/>
+    </g>
+    <g transform="translate(376.56 491.0) scale(0.9) translate(-413.8 -512.5)">
+      <polygon points="413.8,392.5 517.7,452.5 517.7,572.5 413.8,632.5 309.9,572.5 309.9,452.5" class="hex"/>
+      <polygon points="413.8,418.9 494.9,465.7 494.9,559.3 413.8,606.1 332.7,559.3 332.7,465.7" class="hex2"/>
+    </g>
+    <circle cx="600.0" cy="620.0" r="8" fill="#F4C56E" opacity="0.9" filter="url(#tightGlow)"/>
+    <circle cx="600.0" cy="362.0" r="8" fill="#F4C56E" opacity="0.9" filter="url(#tightGlow)"/>
+    <circle cx="600.0" cy="878.0" r="8" fill="#F4C56E" opacity="0.9" filter="url(#tightGlow)"/>
+    <circle cx="908.352" cy="441.98" r="8" fill="#F4C56E" opacity="0.9" filter="url(#tightGlow)"/>
+    <line x1="600.0" y1="620.0" x2="908.352" y2="441.98" class="activeLineGlow"/>
+    <line x1="600.0" y1="620.0" x2="600.0" y2="362.0" class="activeLineGlow"/>
+    <line x1="600.0" y1="620.0" x2="600.0" y2="878.0" class="activeLineGlow"/>
+    <line x1="600.0" y1="620.0" x2="908.352" y2="441.98" class="activeLine"/>
+    <line x1="600.0" y1="620.0" x2="600.0" y2="362.0" class="activeLine"/>
+    <line x1="600.0" y1="620.0" x2="600.0" y2="878.0" class="activeLine"/>
+  </g>
+</svg>
+
+

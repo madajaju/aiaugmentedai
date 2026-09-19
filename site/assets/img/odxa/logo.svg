@@ -1,0 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">ODXA logo</title>
+<desc id="desc">A segmented navy hexagon surrounding a centered O.</desc>
+<style>
+
+  .segment1 { fill: #A0AEC0; }
+  .segment2 { fill: #123B66; }
+  .letter {
+  fill: #123B66;
+  }
+</style>
+
+  <polygon class="segment1" points="272,55 433,153 386,180 272,109"/>
+  <polygon class="segment1" points="433,153 433,358 386,331 386,179"/>
+  <polygon class="segment1" points="433,358 272,457 272,402 386,330"/>
+
+  <polygon class="segment2" points="239,457 78,358 125,330 239,401"/>
+  <polygon class="segment2" points="78,358 78,153 125,179 125,331"/>
+  <polygon class="segment2" points="78,153 239,55 239,109 125,180"/>
+  <g transform="translate(-175, 185)">
+  <!-- O -->
+  <path class="letter" d="M505.86,71.31c0,38.96-23.47,71.55-70.65,71.55s-68.72-32.38-68.72-71.36S391.06,0,437.29,0c43.41,0,68.58,30.11,68.58,71.31ZM408.12,70.9c0,25.29,8.4,42.88,28.37,42.88,20.99,0,27.9-18.67,27.9-42.14,0-25.13-7.34-42.56-28.43-42.56-19.61,0-27.84,16.18-27.84,41.82Z"/>
+  </g>
+</svg>
