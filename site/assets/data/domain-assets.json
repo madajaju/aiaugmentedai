@@ -1,1 +1,58 @@
-{}
+{
+  "business": {
+    "individual": {
+      "learn": [
+        {
+          "title": "Becoming AI-Augmented - The Integrity Packet",
+          "url": "https://paidar.ai/resources/ai-augmented-organizations/individual/workshop-becoming-ai-augmented-integrity-packet/",
+          "description": "A 45 minute IUC breakout where participants use workflows, prompting strategies, and governance practices to produce AI assisted work that is accurate, transparent, and defensible.",
+          "offeringId": "ai-augmented:workshop:becoming-ai-augmented-integrity-packet"
+        }
+      ],
+      "apply": [
+        {
+          "title": "Becoming AI-Augmented - The Integrity Packet",
+          "url": "https://paidar.ai/resources/ai-augmented-organizations/individual/workshop-becoming-ai-augmented-integrity-packet/",
+          "description": "A 45 minute IUC breakout where participants use workflows, prompting strategies, and governance practices to produce AI assisted work that is accurate, transparent, and defensible.",
+          "offeringId": "ai-augmented:workshop:becoming-ai-augmented-integrity-packet"
+        }
+      ]
+    },
+    "team": {
+      "learn": [
+        {
+          "title": "Becoming AI-Augmented - The Integrity Packet",
+          "url": "https://paidar.ai/resources/ai-augmented-organizations/individual/workshop-becoming-ai-augmented-integrity-packet/",
+          "description": "A 45 minute IUC breakout where participants use workflows, prompting strategies, and governance practices to produce AI assisted work that is accurate, transparent, and defensible.",
+          "offeringId": "ai-augmented:workshop:becoming-ai-augmented-integrity-packet"
+        }
+      ],
+      "apply": [
+        {
+          "title": "Becoming AI-Augmented - The Integrity Packet",
+          "url": "https://paidar.ai/resources/ai-augmented-organizations/individual/workshop-becoming-ai-augmented-integrity-packet/",
+          "description": "A 45 minute IUC breakout where participants use workflows, prompting strategies, and governance practices to produce AI assisted work that is accurate, transparent, and defensible.",
+          "offeringId": "ai-augmented:workshop:becoming-ai-augmented-integrity-packet"
+        }
+      ]
+    },
+    "organization": {
+      "learn": [
+        {
+          "title": "Becoming AI-Augmented - The Integrity Packet",
+          "url": "https://paidar.ai/resources/ai-augmented-organizations/individual/workshop-becoming-ai-augmented-integrity-packet/",
+          "description": "A 45 minute IUC breakout where participants use workflows, prompting strategies, and governance practices to produce AI assisted work that is accurate, transparent, and defensible.",
+          "offeringId": "ai-augmented:workshop:becoming-ai-augmented-integrity-packet"
+        }
+      ],
+      "apply": [
+        {
+          "title": "Becoming AI-Augmented - The Integrity Packet",
+          "url": "https://paidar.ai/resources/ai-augmented-organizations/individual/workshop-becoming-ai-augmented-integrity-packet/",
+          "description": "A 45 minute IUC breakout where participants use workflows, prompting strategies, and governance practices to produce AI assisted work that is accurate, transparent, and defensible.",
+          "offeringId": "ai-augmented:workshop:becoming-ai-augmented-integrity-packet"
+        }
+      ]
+    }
+  }
+}
