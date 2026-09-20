@@ -214,6 +214,22 @@ nav a { text-decoration:none; }
 
 :where(a, button, input, select, textarea):focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 main .prose a:not(.button), main .card a:not(.button) { text-decoration:underline; text-underline-offset:.15em; }
+.lens-stage-explorer { max-width: var(--content-wide); }
+.lens-stage-tabs { display:flex; gap:.45rem; overflow-x:auto; margin:1.25rem 0 1.5rem; padding-bottom:.35rem; }
+.lens-stage-tab { flex:1 0 auto; border:1px solid var(--border); border-radius:var(--radius); background:var(--surface); color:var(--ink); cursor:pointer; padding:.7rem .85rem; font:inherit; font-weight:600; text-align:center; }
+.lens-stage-tab[aria-selected="true"] { border-color:var(--purple); background:var(--purple-soft); color:var(--purple); }
+.lens-stage-tab:hover, .lens-stage-tab:focus-visible { border-color:var(--blue); }
+.lens-stage-panel { border-top:3px solid var(--purple); padding-top:1.25rem; }
+.lens-stage-panel h3 { margin:.2rem 0 .45rem; }
+.lens-stage-panel h4 { margin:0 0 .45rem; font-size:1rem; }
+.lens-stage-detail-grid { margin-top:1.25rem; }
+.lens-stage-detail-grid .card { min-height:100%; }
+.lens-stage-detail-grid ul { margin:.25rem 0 0; padding-left:1.15rem; }
+.lens-stage-detail-grid li { margin:.3rem 0; }
+.lens-stage-action-grid { margin-top:1rem; }
+.lens-stage-action-grid .card { min-height:100%; }
+.lens-stage-action-grid ul { margin:.25rem 0 0; padding-left:1.15rem; }
+.lens-stage-action-grid li { margin:.3rem 0; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior:auto !important; transition-duration:0.01ms !important; animation-duration:0.01ms !important; animation-iteration-count:1 !important; }
 }
