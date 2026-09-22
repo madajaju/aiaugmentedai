@@ -3,6 +3,12 @@
     "individual": {
       "learn": [
         {
+          "title": "AI Execution Starter Toolkit for Individuals",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
+          "description": "AI Execution Starter Toolkit for Individuals",
+          "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
+        },
+        {
           "title": "Validation and Grounding Kit",
           "url": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
           "description": "Validation and Grounding Kit",
@@ -55,12 +61,6 @@
           "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
           "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
           "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
-        },
-        {
-          "title": "AI Execution Starter Toolkit for Individuals",
-          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
-          "description": "AI Execution Starter Toolkit for Individuals",
-          "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
         },
         {
           "title": "Becoming AI-Augmented - The Integrity Packet",
@@ -71,6 +71,12 @@
       ],
       "apply": [
         {
+          "title": "AI Execution Starter Toolkit for Individuals",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
+          "description": "AI Execution Starter Toolkit for Individuals",
+          "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
+        },
+        {
           "title": "Validation and Grounding Kit",
           "url": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
           "description": "Validation and Grounding Kit",
@@ -123,12 +129,6 @@
           "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
           "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
           "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
-        },
-        {
-          "title": "AI Execution Starter Toolkit for Individuals",
-          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
-          "description": "AI Execution Starter Toolkit for Individuals",
-          "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
         },
         {
           "title": "Becoming AI-Augmented - The Integrity Packet",
@@ -139,6 +139,12 @@
       ],
       "augment": [
         {
+          "title": "AI Execution Starter Toolkit for Individuals",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
+          "description": "AI Execution Starter Toolkit for Individuals",
+          "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
+        },
+        {
           "title": "Validation and Grounding Kit",
           "url": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
           "description": "Validation and Grounding Kit",
@@ -191,12 +197,6 @@
           "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
           "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
           "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
-        },
-        {
-          "title": "AI Execution Starter Toolkit for Individuals",
-          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
-          "description": "AI Execution Starter Toolkit for Individuals",
-          "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
         }
       ]
     },
