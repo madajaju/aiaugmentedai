@@ -3,6 +3,12 @@
     "individual": {
       "learn": [
         {
+          "title": "AI Workflow Builder Kit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
+          "description": "AI Workflow Builder Kit",
+          "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
+        },
+        {
           "title": "AI-Augmented Professional Toolkit",
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
           "description": "AI-Augmented Professional Toolkit",
@@ -55,12 +61,6 @@
           "url": "https://paidar.ai/resources/business/individual/toolkit-integrity-packet/",
           "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
           "offeringId": "ai-augmented:toolkit:integrity-packet"
-        },
-        {
-          "title": "AI Workflow Builder Kit",
-          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
-          "description": "AI Workflow Builder Kit",
-          "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
         },
         {
           "title": "Becoming AI-Augmented - The Integrity Packet",
@@ -71,6 +71,12 @@
       ],
       "apply": [
         {
+          "title": "AI Workflow Builder Kit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
+          "description": "AI Workflow Builder Kit",
+          "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
+        },
+        {
           "title": "AI-Augmented Professional Toolkit",
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
           "description": "AI-Augmented Professional Toolkit",
@@ -123,12 +129,6 @@
           "url": "https://paidar.ai/resources/business/individual/toolkit-integrity-packet/",
           "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
           "offeringId": "ai-augmented:toolkit:integrity-packet"
-        },
-        {
-          "title": "AI Workflow Builder Kit",
-          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
-          "description": "AI Workflow Builder Kit",
-          "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
         },
         {
           "title": "Becoming AI-Augmented - The Integrity Packet",
@@ -139,6 +139,12 @@
       ],
       "augment": [
         {
+          "title": "AI Workflow Builder Kit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
+          "description": "AI Workflow Builder Kit",
+          "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
+        },
+        {
           "title": "AI-Augmented Professional Toolkit",
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
           "description": "AI-Augmented Professional Toolkit",
@@ -191,12 +197,6 @@
           "url": "https://paidar.ai/resources/business/individual/toolkit-integrity-packet/",
           "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
           "offeringId": "ai-augmented:toolkit:integrity-packet"
-        },
-        {
-          "title": "AI Workflow Builder Kit",
-          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
-          "description": "AI Workflow Builder Kit",
-          "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
         }
       ]
     },
