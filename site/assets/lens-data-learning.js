@@ -75,6 +75,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI Execution Starter Toolkit for Individuals",
+              "title": "AI Execution Starter Toolkit for Individuals",
+              "description": "AI Execution Starter Toolkit for Individuals",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
+            },
+            {
               "label": "Becoming AI-Augmented - The Integrity Packet",
               "title": "Becoming AI-Augmented - The Integrity Packet",
               "description": "A 45 minute IUC breakout where participants use workflows, prompting strategies, and governance practices to produce AI assisted work that is accurate, transparent, and defensible.",
@@ -223,6 +237,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI Execution Starter Toolkit for Individuals",
+              "title": "AI Execution Starter Toolkit for Individuals",
+              "description": "AI Execution Starter Toolkit for Individuals",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
+            },
+            {
               "label": "Becoming AI-Augmented - The Integrity Packet",
               "title": "Becoming AI-Augmented - The Integrity Packet",
               "description": "A 45 minute IUC breakout where participants use workflows, prompting strategies, and governance practices to produce AI assisted work that is accurate, transparent, and defensible.",
@@ -359,6 +387,20 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "AI Execution Starter Toolkit for Individuals",
+              "title": "AI Execution Starter Toolkit for Individuals",
+              "description": "AI Execution Starter Toolkit for Individuals",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
+            },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
               "title": "Becoming AI-Augmented - The Integrity Packet",
@@ -502,6 +544,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI Execution Starter Toolkit for Individuals",
+              "title": "AI Execution Starter Toolkit for Individuals",
+              "description": "AI Execution Starter Toolkit for Individuals",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
+            },
+            {
               "label": "Becoming AI-Augmented - The Integrity Packet",
               "title": "Becoming AI-Augmented - The Integrity Packet",
               "description": "A 45 minute IUC breakout where participants use workflows, prompting strategies, and governance practices to produce AI assisted work that is accurate, transparent, and defensible.",
@@ -633,6 +689,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI Execution Starter Toolkit for Individuals",
+              "title": "AI Execution Starter Toolkit for Individuals",
+              "description": "AI Execution Starter Toolkit for Individuals",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
+            },
+            {
               "label": "Becoming AI-Augmented - The Integrity Packet",
               "title": "Becoming AI-Augmented - The Integrity Packet",
               "description": "A 45 minute IUC breakout where participants use workflows, prompting strategies, and governance practices to produce AI assisted work that is accurate, transparent, and defensible.",
@@ -763,6 +833,20 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "AI Execution Starter Toolkit for Individuals",
+              "title": "AI Execution Starter Toolkit for Individuals",
+              "description": "AI Execution Starter Toolkit for Individuals",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
+            },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
               "title": "Becoming AI-Augmented - The Integrity Packet",

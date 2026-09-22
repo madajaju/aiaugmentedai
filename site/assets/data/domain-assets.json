@@ -3,6 +3,12 @@
     "individual": {
       "learn": [
         {
+          "title": "AI Execution Starter Toolkit for Individuals",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
+          "description": "AI Execution Starter Toolkit for Individuals",
+          "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
+        },
+        {
           "title": "Becoming AI-Augmented - The Integrity Packet",
           "url": "https://paidar.ai/resources/ai-augmented-organizations/individual/workshop-becoming-ai-augmented-integrity-packet/",
           "description": "A 45 minute IUC breakout where participants use workflows, prompting strategies, and governance practices to produce AI assisted work that is accurate, transparent, and defensible.",
@@ -11,10 +17,24 @@
       ],
       "apply": [
         {
+          "title": "AI Execution Starter Toolkit for Individuals",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
+          "description": "AI Execution Starter Toolkit for Individuals",
+          "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
+        },
+        {
           "title": "Becoming AI-Augmented - The Integrity Packet",
           "url": "https://paidar.ai/resources/ai-augmented-organizations/individual/workshop-becoming-ai-augmented-integrity-packet/",
           "description": "A 45 minute IUC breakout where participants use workflows, prompting strategies, and governance practices to produce AI assisted work that is accurate, transparent, and defensible.",
           "offeringId": "ai-augmented:workshop:becoming-ai-augmented-integrity-packet"
+        }
+      ],
+      "augment": [
+        {
+          "title": "AI Execution Starter Toolkit for Individuals",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
+          "description": "AI Execution Starter Toolkit for Individuals",
+          "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
         }
       ]
     },
