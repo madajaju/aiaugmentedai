@@ -3,6 +3,12 @@
     "individual": {
       "learn": [
         {
+          "title": "Becoming AI-Augmented Companion Hub",
+          "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-companion-hub-free/",
+          "description": "Becoming AI-Augmented Companion Hub",
+          "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
+        },
+        {
           "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
           "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
           "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
@@ -55,12 +61,6 @@
           "url": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
           "description": "Individual AI Operating System Bundle",
           "offeringId": "paidar:product:individual-ai-operating-system-bundle"
-        },
-        {
-          "title": "Becoming AI-Augmented Companion Hub",
-          "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-companion-hub-free/",
-          "description": "Becoming AI-Augmented Companion Hub",
-          "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
         },
         {
           "title": "Becoming AI-Augmented - The Integrity Packet",
@@ -71,6 +71,12 @@
       ],
       "apply": [
         {
+          "title": "Becoming AI-Augmented Companion Hub",
+          "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-companion-hub-free/",
+          "description": "Becoming AI-Augmented Companion Hub",
+          "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
+        },
+        {
           "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
           "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
           "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
@@ -123,12 +129,6 @@
           "url": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
           "description": "Individual AI Operating System Bundle",
           "offeringId": "paidar:product:individual-ai-operating-system-bundle"
-        },
-        {
-          "title": "Becoming AI-Augmented Companion Hub",
-          "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-companion-hub-free/",
-          "description": "Becoming AI-Augmented Companion Hub",
-          "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
         },
         {
           "title": "Becoming AI-Augmented - The Integrity Packet",
@@ -139,6 +139,12 @@
       ],
       "augment": [
         {
+          "title": "Becoming AI-Augmented Companion Hub",
+          "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-companion-hub-free/",
+          "description": "Becoming AI-Augmented Companion Hub",
+          "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
+        },
+        {
           "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
           "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
           "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
@@ -191,12 +197,6 @@
           "url": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
           "description": "Individual AI Operating System Bundle",
           "offeringId": "paidar:product:individual-ai-operating-system-bundle"
-        },
-        {
-          "title": "Becoming AI-Augmented Companion Hub",
-          "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-companion-hub-free/",
-          "description": "Becoming AI-Augmented Companion Hub",
-          "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
         }
       ]
     },
