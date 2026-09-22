@@ -75,6 +75,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Individual AI Operating System Bundle",
+              "title": "Individual AI Operating System Bundle",
+              "description": "Individual AI Operating System Bundle",
+              "href": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:individual-ai-operating-system-bundle"
+            },
+            {
               "label": "Becoming AI-Augmented Companion Hub",
               "title": "Becoming AI-Augmented Companion Hub",
               "description": "Becoming AI-Augmented Companion Hub",
@@ -199,20 +213,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
-            },
-            {
-              "label": "Individual AI Operating System Bundle",
-              "title": "Individual AI Operating System Bundle",
-              "description": "Individual AI Operating System Bundle",
-              "href": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:product:individual-ai-operating-system-bundle"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -363,6 +363,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Individual AI Operating System Bundle",
+              "title": "Individual AI Operating System Bundle",
+              "description": "Individual AI Operating System Bundle",
+              "href": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:individual-ai-operating-system-bundle"
+            },
+            {
               "label": "Becoming AI-Augmented Companion Hub",
               "title": "Becoming AI-Augmented Companion Hub",
               "description": "Becoming AI-Augmented Companion Hub",
@@ -487,20 +501,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
-            },
-            {
-              "label": "Individual AI Operating System Bundle",
-              "title": "Individual AI Operating System Bundle",
-              "description": "Individual AI Operating System Bundle",
-              "href": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:product:individual-ai-operating-system-bundle"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -640,6 +640,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Individual AI Operating System Bundle",
+              "title": "Individual AI Operating System Bundle",
+              "description": "Individual AI Operating System Bundle",
+              "href": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:individual-ai-operating-system-bundle"
+            },
+            {
               "label": "Becoming AI-Augmented Companion Hub",
               "title": "Becoming AI-Augmented Companion Hub",
               "description": "Becoming AI-Augmented Companion Hub",
@@ -764,20 +778,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
-            },
-            {
-              "label": "Individual AI Operating System Bundle",
-              "title": "Individual AI Operating System Bundle",
-              "description": "Individual AI Operating System Bundle",
-              "href": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:product:individual-ai-operating-system-bundle"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -922,6 +922,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Individual AI Operating System Bundle",
+              "title": "Individual AI Operating System Bundle",
+              "description": "Individual AI Operating System Bundle",
+              "href": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:individual-ai-operating-system-bundle"
+            },
+            {
               "label": "Becoming AI-Augmented Companion Hub",
               "title": "Becoming AI-Augmented Companion Hub",
               "description": "Becoming AI-Augmented Companion Hub",
@@ -1046,20 +1060,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
-            },
-            {
-              "label": "Individual AI Operating System Bundle",
-              "title": "Individual AI Operating System Bundle",
-              "description": "Individual AI Operating System Bundle",
-              "href": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:product:individual-ai-operating-system-bundle"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -1193,6 +1193,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Individual AI Operating System Bundle",
+              "title": "Individual AI Operating System Bundle",
+              "description": "Individual AI Operating System Bundle",
+              "href": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:individual-ai-operating-system-bundle"
+            },
+            {
               "label": "Becoming AI-Augmented Companion Hub",
               "title": "Becoming AI-Augmented Companion Hub",
               "description": "Becoming AI-Augmented Companion Hub",
@@ -1317,20 +1331,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
-            },
-            {
-              "label": "Individual AI Operating System Bundle",
-              "title": "Individual AI Operating System Bundle",
-              "description": "Individual AI Operating System Bundle",
-              "href": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:product:individual-ai-operating-system-bundle"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -1464,6 +1464,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Individual AI Operating System Bundle",
+              "title": "Individual AI Operating System Bundle",
+              "description": "Individual AI Operating System Bundle",
+              "href": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:individual-ai-operating-system-bundle"
+            },
+            {
               "label": "Becoming AI-Augmented Companion Hub",
               "title": "Becoming AI-Augmented Companion Hub",
               "description": "Becoming AI-Augmented Companion Hub",
@@ -1588,20 +1602,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
-            },
-            {
-              "label": "Individual AI Operating System Bundle",
-              "title": "Individual AI Operating System Bundle",
-              "description": "Individual AI Operating System Bundle",
-              "href": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:product:individual-ai-operating-system-bundle"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
