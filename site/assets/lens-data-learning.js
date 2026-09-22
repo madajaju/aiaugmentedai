@@ -75,6 +75,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
+            },
+            {
               "label": "AI Execution Starter Toolkit for Individuals",
               "title": "AI Execution Starter Toolkit for Individuals",
               "description": "AI Execution Starter Toolkit for Individuals",
@@ -199,20 +213,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
-            },
-            {
-              "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -363,6 +363,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
+            },
+            {
               "label": "AI Execution Starter Toolkit for Individuals",
               "title": "AI Execution Starter Toolkit for Individuals",
               "description": "AI Execution Starter Toolkit for Individuals",
@@ -487,20 +501,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
-            },
-            {
-              "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -640,6 +640,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
+            },
+            {
               "label": "AI Execution Starter Toolkit for Individuals",
               "title": "AI Execution Starter Toolkit for Individuals",
               "description": "AI Execution Starter Toolkit for Individuals",
@@ -764,20 +778,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
-            },
-            {
-              "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -922,6 +922,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
+            },
+            {
               "label": "AI Execution Starter Toolkit for Individuals",
               "title": "AI Execution Starter Toolkit for Individuals",
               "description": "AI Execution Starter Toolkit for Individuals",
@@ -1046,20 +1060,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
-            },
-            {
-              "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -1193,6 +1193,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
+            },
+            {
               "label": "AI Execution Starter Toolkit for Individuals",
               "title": "AI Execution Starter Toolkit for Individuals",
               "description": "AI Execution Starter Toolkit for Individuals",
@@ -1317,20 +1331,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
-            },
-            {
-              "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -1464,6 +1464,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
+              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
+            },
+            {
               "label": "AI Execution Starter Toolkit for Individuals",
               "title": "AI Execution Starter Toolkit for Individuals",
               "description": "AI Execution Starter Toolkit for Individuals",
@@ -1588,20 +1602,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
-            },
-            {
-              "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
-              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
