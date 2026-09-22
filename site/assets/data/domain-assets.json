@@ -3,6 +3,12 @@
     "individual": {
       "learn": [
         {
+          "title": "AI Workflow Builder Kit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
+          "description": "AI Workflow Builder Kit",
+          "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
+        },
+        {
           "title": "AI-Augmented Professional Toolkit",
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
           "description": "AI-Augmented Professional Toolkit",
@@ -47,6 +53,12 @@
       ],
       "apply": [
         {
+          "title": "AI Workflow Builder Kit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
+          "description": "AI Workflow Builder Kit",
+          "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
+        },
+        {
           "title": "AI-Augmented Professional Toolkit",
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
           "description": "AI-Augmented Professional Toolkit",
@@ -90,6 +102,12 @@
         }
       ],
       "augment": [
+        {
+          "title": "AI Workflow Builder Kit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
+          "description": "AI Workflow Builder Kit",
+          "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
+        },
         {
           "title": "AI-Augmented Professional Toolkit",
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",

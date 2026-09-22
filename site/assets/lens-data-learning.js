@@ -75,6 +75,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI Workflow Builder Kit",
+              "title": "AI Workflow Builder Kit",
+              "description": "AI Workflow Builder Kit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
+            },
+            {
               "label": "AI-Augmented Professional Toolkit",
               "title": "AI-Augmented Professional Toolkit",
               "description": "AI-Augmented Professional Toolkit",
@@ -307,6 +321,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI Workflow Builder Kit",
+              "title": "AI Workflow Builder Kit",
+              "description": "AI Workflow Builder Kit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
+            },
+            {
               "label": "AI-Augmented Professional Toolkit",
               "title": "AI-Augmented Professional Toolkit",
               "description": "AI-Augmented Professional Toolkit",
@@ -527,6 +555,20 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "AI Workflow Builder Kit",
+              "title": "AI Workflow Builder Kit",
+              "description": "AI Workflow Builder Kit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
+            },
             {
               "label": "AI-Augmented Professional Toolkit",
               "title": "AI-Augmented Professional Toolkit",
@@ -754,6 +796,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI Workflow Builder Kit",
+              "title": "AI Workflow Builder Kit",
+              "description": "AI Workflow Builder Kit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
+            },
+            {
               "label": "AI-Augmented Professional Toolkit",
               "title": "AI-Augmented Professional Toolkit",
               "description": "AI-Augmented Professional Toolkit",
@@ -969,6 +1025,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI Workflow Builder Kit",
+              "title": "AI Workflow Builder Kit",
+              "description": "AI Workflow Builder Kit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
+            },
+            {
               "label": "AI-Augmented Professional Toolkit",
               "title": "AI-Augmented Professional Toolkit",
               "description": "AI-Augmented Professional Toolkit",
@@ -1183,6 +1253,20 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "AI Workflow Builder Kit",
+              "title": "AI Workflow Builder Kit",
+              "description": "AI Workflow Builder Kit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
+            },
             {
               "label": "AI-Augmented Professional Toolkit",
               "title": "AI-Augmented Professional Toolkit",
