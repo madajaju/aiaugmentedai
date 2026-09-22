@@ -75,6 +75,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Validation and Grounding Kit",
+              "title": "Validation and Grounding Kit",
+              "description": "Validation and Grounding Kit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:validation-and-grounding-kit"
+            },
+            {
               "label": "Prompt Practice Pack",
               "title": "Prompt Practice Pack",
               "description": "Prompt Practice Pack",
@@ -349,6 +363,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Validation and Grounding Kit",
+              "title": "Validation and Grounding Kit",
+              "description": "Validation and Grounding Kit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:validation-and-grounding-kit"
+            },
+            {
               "label": "Prompt Practice Pack",
               "title": "Prompt Practice Pack",
               "description": "Prompt Practice Pack",
@@ -611,6 +639,20 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "Validation and Grounding Kit",
+              "title": "Validation and Grounding Kit",
+              "description": "Validation and Grounding Kit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:validation-and-grounding-kit"
+            },
             {
               "label": "Prompt Practice Pack",
               "title": "Prompt Practice Pack",
@@ -880,6 +922,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Validation and Grounding Kit",
+              "title": "Validation and Grounding Kit",
+              "description": "Validation and Grounding Kit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:validation-and-grounding-kit"
+            },
+            {
               "label": "Prompt Practice Pack",
               "title": "Prompt Practice Pack",
               "description": "Prompt Practice Pack",
@@ -1137,6 +1193,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Validation and Grounding Kit",
+              "title": "Validation and Grounding Kit",
+              "description": "Validation and Grounding Kit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:validation-and-grounding-kit"
+            },
+            {
               "label": "Prompt Practice Pack",
               "title": "Prompt Practice Pack",
               "description": "Prompt Practice Pack",
@@ -1393,6 +1463,20 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "Validation and Grounding Kit",
+              "title": "Validation and Grounding Kit",
+              "description": "Validation and Grounding Kit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:validation-and-grounding-kit"
+            },
             {
               "label": "Prompt Practice Pack",
               "title": "Prompt Practice Pack",

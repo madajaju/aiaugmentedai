@@ -3,6 +3,12 @@
     "individual": {
       "learn": [
         {
+          "title": "Validation and Grounding Kit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
+          "description": "Validation and Grounding Kit",
+          "offeringId": "paidar:toolkit:validation-and-grounding-kit"
+        },
+        {
           "title": "Prompt Practice Pack",
           "url": "https://paidar.ai/resources/general/individual/toolkit-prompt-practice-pack/",
           "description": "Prompt Practice Pack",
@@ -65,6 +71,12 @@
       ],
       "apply": [
         {
+          "title": "Validation and Grounding Kit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
+          "description": "Validation and Grounding Kit",
+          "offeringId": "paidar:toolkit:validation-and-grounding-kit"
+        },
+        {
           "title": "Prompt Practice Pack",
           "url": "https://paidar.ai/resources/general/individual/toolkit-prompt-practice-pack/",
           "description": "Prompt Practice Pack",
@@ -126,6 +138,12 @@
         }
       ],
       "augment": [
+        {
+          "title": "Validation and Grounding Kit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
+          "description": "Validation and Grounding Kit",
+          "offeringId": "paidar:toolkit:validation-and-grounding-kit"
+        },
         {
           "title": "Prompt Practice Pack",
           "url": "https://paidar.ai/resources/general/individual/toolkit-prompt-practice-pack/",
