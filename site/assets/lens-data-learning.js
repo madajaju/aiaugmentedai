@@ -75,6 +75,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Integrity Packet",
+              "title": "Integrity Packet",
+              "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+              "href": "https://paidar.ai/resources/business/individual/toolkit-integrity-packet/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "ai-augmented:toolkit:integrity-packet"
+            },
+            {
               "label": "AI Workflow Builder Kit",
               "title": "AI Workflow Builder Kit",
               "description": "AI Workflow Builder Kit",
@@ -321,6 +335,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Integrity Packet",
+              "title": "Integrity Packet",
+              "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+              "href": "https://paidar.ai/resources/business/individual/toolkit-integrity-packet/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "ai-augmented:toolkit:integrity-packet"
+            },
+            {
               "label": "AI Workflow Builder Kit",
               "title": "AI Workflow Builder Kit",
               "description": "AI Workflow Builder Kit",
@@ -555,6 +583,20 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "Integrity Packet",
+              "title": "Integrity Packet",
+              "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+              "href": "https://paidar.ai/resources/business/individual/toolkit-integrity-packet/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "ai-augmented:toolkit:integrity-packet"
+            },
             {
               "label": "AI Workflow Builder Kit",
               "title": "AI Workflow Builder Kit",
@@ -796,6 +838,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Integrity Packet",
+              "title": "Integrity Packet",
+              "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+              "href": "https://paidar.ai/resources/business/individual/toolkit-integrity-packet/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "ai-augmented:toolkit:integrity-packet"
+            },
+            {
               "label": "AI Workflow Builder Kit",
               "title": "AI Workflow Builder Kit",
               "description": "AI Workflow Builder Kit",
@@ -1025,6 +1081,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Integrity Packet",
+              "title": "Integrity Packet",
+              "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+              "href": "https://paidar.ai/resources/business/individual/toolkit-integrity-packet/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "ai-augmented:toolkit:integrity-packet"
+            },
+            {
               "label": "AI Workflow Builder Kit",
               "title": "AI Workflow Builder Kit",
               "description": "AI Workflow Builder Kit",
@@ -1253,6 +1323,20 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "Integrity Packet",
+              "title": "Integrity Packet",
+              "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+              "href": "https://paidar.ai/resources/business/individual/toolkit-integrity-packet/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "ai-augmented:toolkit:integrity-packet"
+            },
             {
               "label": "AI Workflow Builder Kit",
               "title": "AI Workflow Builder Kit",
