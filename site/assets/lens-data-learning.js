@@ -75,6 +75,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Workbook",
+              "title": "Becoming AI-Augmented Workbook",
+              "description": "Becoming AI-Augmented Workbook",
+              "href": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
+            },
+            {
               "label": "Individual AI Operating System Bundle",
               "title": "Individual AI Operating System Bundle",
               "description": "Individual AI Operating System Bundle",
@@ -199,20 +213,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
-            },
-            {
-              "label": "Becoming AI-Augmented Workbook",
-              "title": "Becoming AI-Augmented Workbook",
-              "description": "Becoming AI-Augmented Workbook",
-              "href": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -363,6 +363,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Workbook",
+              "title": "Becoming AI-Augmented Workbook",
+              "description": "Becoming AI-Augmented Workbook",
+              "href": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
+            },
+            {
               "label": "Individual AI Operating System Bundle",
               "title": "Individual AI Operating System Bundle",
               "description": "Individual AI Operating System Bundle",
@@ -487,20 +501,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
-            },
-            {
-              "label": "Becoming AI-Augmented Workbook",
-              "title": "Becoming AI-Augmented Workbook",
-              "description": "Becoming AI-Augmented Workbook",
-              "href": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -640,6 +640,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Workbook",
+              "title": "Becoming AI-Augmented Workbook",
+              "description": "Becoming AI-Augmented Workbook",
+              "href": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
+            },
+            {
               "label": "Individual AI Operating System Bundle",
               "title": "Individual AI Operating System Bundle",
               "description": "Individual AI Operating System Bundle",
@@ -764,20 +778,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
-            },
-            {
-              "label": "Becoming AI-Augmented Workbook",
-              "title": "Becoming AI-Augmented Workbook",
-              "description": "Becoming AI-Augmented Workbook",
-              "href": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -922,6 +922,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Workbook",
+              "title": "Becoming AI-Augmented Workbook",
+              "description": "Becoming AI-Augmented Workbook",
+              "href": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
+            },
+            {
               "label": "Individual AI Operating System Bundle",
               "title": "Individual AI Operating System Bundle",
               "description": "Individual AI Operating System Bundle",
@@ -1046,20 +1060,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
-            },
-            {
-              "label": "Becoming AI-Augmented Workbook",
-              "title": "Becoming AI-Augmented Workbook",
-              "description": "Becoming AI-Augmented Workbook",
-              "href": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -1193,6 +1193,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Workbook",
+              "title": "Becoming AI-Augmented Workbook",
+              "description": "Becoming AI-Augmented Workbook",
+              "href": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
+            },
+            {
               "label": "Individual AI Operating System Bundle",
               "title": "Individual AI Operating System Bundle",
               "description": "Individual AI Operating System Bundle",
@@ -1317,20 +1331,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
-            },
-            {
-              "label": "Becoming AI-Augmented Workbook",
-              "title": "Becoming AI-Augmented Workbook",
-              "description": "Becoming AI-Augmented Workbook",
-              "href": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
@@ -1464,6 +1464,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Workbook",
+              "title": "Becoming AI-Augmented Workbook",
+              "description": "Becoming AI-Augmented Workbook",
+              "href": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
+            },
+            {
               "label": "Individual AI Operating System Bundle",
               "title": "Individual AI Operating System Bundle",
               "description": "Individual AI Operating System Bundle",
@@ -1588,20 +1602,6 @@ window.AA_LENS_DATA = {
               },
               "status": "Available",
               "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
-            },
-            {
-              "label": "Becoming AI-Augmented Workbook",
-              "title": "Becoming AI-Augmented Workbook",
-              "description": "Becoming AI-Augmented Workbook",
-              "href": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
-              "action": {
-                "type": "purchase",
-                "label": "Choose a Stage",
-                "provider": "shopify",
-                "url": null
-              },
-              "status": "Available",
-              "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
             },
             {
               "label": "Becoming AI-Augmented - The Integrity Packet",
