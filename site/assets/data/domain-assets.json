@@ -3,6 +3,12 @@
     "individual": {
       "learn": [
         {
+          "title": "Prompt Practice Pack",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-prompt-practice-pack/",
+          "description": "Prompt Practice Pack",
+          "offeringId": "paidar:toolkit:prompt-practice-pack"
+        },
+        {
           "title": "Integrity Packet",
           "url": "https://paidar.ai/resources/business/individual/toolkit-integrity-packet/",
           "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
@@ -59,6 +65,12 @@
       ],
       "apply": [
         {
+          "title": "Prompt Practice Pack",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-prompt-practice-pack/",
+          "description": "Prompt Practice Pack",
+          "offeringId": "paidar:toolkit:prompt-practice-pack"
+        },
+        {
           "title": "Integrity Packet",
           "url": "https://paidar.ai/resources/business/individual/toolkit-integrity-packet/",
           "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
@@ -114,6 +126,12 @@
         }
       ],
       "augment": [
+        {
+          "title": "Prompt Practice Pack",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-prompt-practice-pack/",
+          "description": "Prompt Practice Pack",
+          "offeringId": "paidar:toolkit:prompt-practice-pack"
+        },
         {
           "title": "Integrity Packet",
           "url": "https://paidar.ai/resources/business/individual/toolkit-integrity-packet/",
