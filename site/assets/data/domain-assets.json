@@ -3,6 +3,12 @@
     "individual": {
       "learn": [
         {
+          "title": "AI-Augmented Professional Toolkit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
+          "description": "AI-Augmented Professional Toolkit",
+          "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
+        },
+        {
           "title": "Becoming AI-Augmented Workbook",
           "url": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
           "description": "Becoming AI-Augmented Workbook",
@@ -55,12 +61,6 @@
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
           "description": "AI Workflow Builder Kit",
           "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
-        },
-        {
-          "title": "AI-Augmented Professional Toolkit",
-          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
-          "description": "AI-Augmented Professional Toolkit",
-          "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
         },
         {
           "title": "Becoming AI-Augmented - The Integrity Packet",
@@ -71,6 +71,12 @@
       ],
       "apply": [
         {
+          "title": "AI-Augmented Professional Toolkit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
+          "description": "AI-Augmented Professional Toolkit",
+          "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
+        },
+        {
           "title": "Becoming AI-Augmented Workbook",
           "url": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
           "description": "Becoming AI-Augmented Workbook",
@@ -123,12 +129,6 @@
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
           "description": "AI Workflow Builder Kit",
           "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
-        },
-        {
-          "title": "AI-Augmented Professional Toolkit",
-          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
-          "description": "AI-Augmented Professional Toolkit",
-          "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
         },
         {
           "title": "Becoming AI-Augmented - The Integrity Packet",
@@ -139,6 +139,12 @@
       ],
       "augment": [
         {
+          "title": "AI-Augmented Professional Toolkit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
+          "description": "AI-Augmented Professional Toolkit",
+          "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
+        },
+        {
           "title": "Becoming AI-Augmented Workbook",
           "url": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
           "description": "Becoming AI-Augmented Workbook",
@@ -191,12 +197,6 @@
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-workflow-builder-kit/",
           "description": "AI Workflow Builder Kit",
           "offeringId": "paidar:toolkit:ai-workflow-builder-kit"
-        },
-        {
-          "title": "AI-Augmented Professional Toolkit",
-          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
-          "description": "AI-Augmented Professional Toolkit",
-          "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
         }
       ]
     },
