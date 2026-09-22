@@ -75,6 +75,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI-Augmented Professional Toolkit",
+              "title": "AI-Augmented Professional Toolkit",
+              "description": "AI-Augmented Professional Toolkit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
+            },
+            {
               "label": "Becoming AI-Augmented Workbook",
               "title": "Becoming AI-Augmented Workbook",
               "description": "Becoming AI-Augmented Workbook",
@@ -293,6 +307,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI-Augmented Professional Toolkit",
+              "title": "AI-Augmented Professional Toolkit",
+              "description": "AI-Augmented Professional Toolkit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
+            },
+            {
               "label": "Becoming AI-Augmented Workbook",
               "title": "Becoming AI-Augmented Workbook",
               "description": "Becoming AI-Augmented Workbook",
@@ -499,6 +527,20 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "AI-Augmented Professional Toolkit",
+              "title": "AI-Augmented Professional Toolkit",
+              "description": "AI-Augmented Professional Toolkit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
+            },
             {
               "label": "Becoming AI-Augmented Workbook",
               "title": "Becoming AI-Augmented Workbook",
@@ -712,6 +754,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI-Augmented Professional Toolkit",
+              "title": "AI-Augmented Professional Toolkit",
+              "description": "AI-Augmented Professional Toolkit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
+            },
+            {
               "label": "Becoming AI-Augmented Workbook",
               "title": "Becoming AI-Augmented Workbook",
               "description": "Becoming AI-Augmented Workbook",
@@ -913,6 +969,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI-Augmented Professional Toolkit",
+              "title": "AI-Augmented Professional Toolkit",
+              "description": "AI-Augmented Professional Toolkit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
+            },
+            {
               "label": "Becoming AI-Augmented Workbook",
               "title": "Becoming AI-Augmented Workbook",
               "description": "Becoming AI-Augmented Workbook",
@@ -1113,6 +1183,20 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "AI-Augmented Professional Toolkit",
+              "title": "AI-Augmented Professional Toolkit",
+              "description": "AI-Augmented Professional Toolkit",
+              "href": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
+            },
             {
               "label": "Becoming AI-Augmented Workbook",
               "title": "Becoming AI-Augmented Workbook",

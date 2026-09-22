@@ -3,6 +3,12 @@
     "individual": {
       "learn": [
         {
+          "title": "AI-Augmented Professional Toolkit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
+          "description": "AI-Augmented Professional Toolkit",
+          "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
+        },
+        {
           "title": "Becoming AI-Augmented Workbook",
           "url": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
           "description": "Becoming AI-Augmented Workbook",
@@ -41,6 +47,12 @@
       ],
       "apply": [
         {
+          "title": "AI-Augmented Professional Toolkit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
+          "description": "AI-Augmented Professional Toolkit",
+          "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
+        },
+        {
           "title": "Becoming AI-Augmented Workbook",
           "url": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
           "description": "Becoming AI-Augmented Workbook",
@@ -78,6 +90,12 @@
         }
       ],
       "augment": [
+        {
+          "title": "AI-Augmented Professional Toolkit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-ai-augmented-professional-toolkit/",
+          "description": "AI-Augmented Professional Toolkit",
+          "offeringId": "paidar:toolkit:ai-augmented-professional-toolkit"
+        },
         {
           "title": "Becoming AI-Augmented Workbook",
           "url": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
