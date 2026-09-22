@@ -3,6 +3,12 @@
     "individual": {
       "learn": [
         {
+          "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
+          "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
+          "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
+          "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
+        },
+        {
           "title": "AI Execution Starter Toolkit for Individuals",
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
           "description": "AI Execution Starter Toolkit for Individuals",
@@ -17,6 +23,12 @@
       ],
       "apply": [
         {
+          "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
+          "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
+          "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
+          "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
+        },
+        {
           "title": "AI Execution Starter Toolkit for Individuals",
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
           "description": "AI Execution Starter Toolkit for Individuals",
@@ -30,6 +42,12 @@
         }
       ],
       "augment": [
+        {
+          "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
+          "url": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-book-reader-upgrade-pack/",
+          "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
+          "offeringId": "paidar:product:becoming-ai-augmented-book-reader-upgrade-pack"
+        },
         {
           "title": "AI Execution Starter Toolkit for Individuals",
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
