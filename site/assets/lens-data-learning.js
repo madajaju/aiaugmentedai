@@ -75,6 +75,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Companion Hub",
+              "title": "Becoming AI-Augmented Companion Hub",
+              "description": "Becoming AI-Augmented Companion Hub",
+              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-companion-hub-free/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
+            },
+            {
               "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
               "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
               "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
@@ -251,6 +265,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Companion Hub",
+              "title": "Becoming AI-Augmented Companion Hub",
+              "description": "Becoming AI-Augmented Companion Hub",
+              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-companion-hub-free/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
+            },
+            {
               "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
               "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
               "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
@@ -415,6 +443,20 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "Becoming AI-Augmented Companion Hub",
+              "title": "Becoming AI-Augmented Companion Hub",
+              "description": "Becoming AI-Augmented Companion Hub",
+              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-companion-hub-free/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
+            },
             {
               "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
               "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
@@ -586,6 +628,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Companion Hub",
+              "title": "Becoming AI-Augmented Companion Hub",
+              "description": "Becoming AI-Augmented Companion Hub",
+              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-companion-hub-free/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
+            },
+            {
               "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
               "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
               "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
@@ -745,6 +801,20 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Becoming AI-Augmented Companion Hub",
+              "title": "Becoming AI-Augmented Companion Hub",
+              "description": "Becoming AI-Augmented Companion Hub",
+              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-companion-hub-free/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
+            },
+            {
               "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
               "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
               "description": "Becoming AI-Augmented Book Reader Upgrade Pack",
@@ -903,6 +973,20 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "Becoming AI-Augmented Companion Hub",
+              "title": "Becoming AI-Augmented Companion Hub",
+              "description": "Becoming AI-Augmented Companion Hub",
+              "href": "https://paidar.ai/resources/general/individual/product-becoming-ai-augmented-companion-hub-free/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:product:becoming-ai-augmented-companion-hub-free"
+            },
             {
               "label": "Becoming AI-Augmented Book Reader Upgrade Pack",
               "title": "Becoming AI-Augmented Book Reader Upgrade Pack",
