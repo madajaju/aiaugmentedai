@@ -3,6 +3,12 @@
     "individual": {
       "learn": [
         {
+          "title": "Validation and Grounding Kit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
+          "description": "Validation and Grounding Kit",
+          "offeringId": "paidar:toolkit:validation-and-grounding-kit"
+        },
+        {
           "title": "Prompt Practice Pack",
           "url": "https://paidar.ai/resources/general/individual/toolkit-prompt-practice-pack/",
           "description": "Prompt Practice Pack",
@@ -55,12 +61,6 @@
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
           "description": "AI Execution Starter Toolkit for Individuals",
           "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
-        },
-        {
-          "title": "Validation and Grounding Kit",
-          "url": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
-          "description": "Validation and Grounding Kit",
-          "offeringId": "paidar:toolkit:validation-and-grounding-kit"
         },
         {
           "title": "Becoming AI-Augmented - The Integrity Packet",
@@ -71,6 +71,12 @@
       ],
       "apply": [
         {
+          "title": "Validation and Grounding Kit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
+          "description": "Validation and Grounding Kit",
+          "offeringId": "paidar:toolkit:validation-and-grounding-kit"
+        },
+        {
           "title": "Prompt Practice Pack",
           "url": "https://paidar.ai/resources/general/individual/toolkit-prompt-practice-pack/",
           "description": "Prompt Practice Pack",
@@ -123,12 +129,6 @@
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
           "description": "AI Execution Starter Toolkit for Individuals",
           "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
-        },
-        {
-          "title": "Validation and Grounding Kit",
-          "url": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
-          "description": "Validation and Grounding Kit",
-          "offeringId": "paidar:toolkit:validation-and-grounding-kit"
         },
         {
           "title": "Becoming AI-Augmented - The Integrity Packet",
@@ -139,6 +139,12 @@
       ],
       "augment": [
         {
+          "title": "Validation and Grounding Kit",
+          "url": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
+          "description": "Validation and Grounding Kit",
+          "offeringId": "paidar:toolkit:validation-and-grounding-kit"
+        },
+        {
           "title": "Prompt Practice Pack",
           "url": "https://paidar.ai/resources/general/individual/toolkit-prompt-practice-pack/",
           "description": "Prompt Practice Pack",
@@ -191,12 +197,6 @@
           "url": "https://paidar.ai/resources/general/individual/toolkit-ai-execution-starter-toolkit/",
           "description": "AI Execution Starter Toolkit for Individuals",
           "offeringId": "paidar:toolkit:ai-execution-starter-toolkit"
-        },
-        {
-          "title": "Validation and Grounding Kit",
-          "url": "https://paidar.ai/resources/general/individual/toolkit-validation-and-grounding-kit/",
-          "description": "Validation and Grounding Kit",
-          "offeringId": "paidar:toolkit:validation-and-grounding-kit"
         }
       ]
     },
