@@ -3,6 +3,12 @@
     "individual": {
       "learn": [
         {
+          "title": "Becoming AI-Augmented Workbook",
+          "url": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
+          "description": "Becoming AI-Augmented Workbook",
+          "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
+        },
+        {
           "title": "Individual AI Operating System Bundle",
           "url": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
           "description": "Individual AI Operating System Bundle",
@@ -35,6 +41,12 @@
       ],
       "apply": [
         {
+          "title": "Becoming AI-Augmented Workbook",
+          "url": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
+          "description": "Becoming AI-Augmented Workbook",
+          "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
+        },
+        {
           "title": "Individual AI Operating System Bundle",
           "url": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
           "description": "Individual AI Operating System Bundle",
@@ -66,6 +78,12 @@
         }
       ],
       "augment": [
+        {
+          "title": "Becoming AI-Augmented Workbook",
+          "url": "https://paidar.ai/resources/general/individual/workbook-becoming-ai-augmented-workbook/",
+          "description": "Becoming AI-Augmented Workbook",
+          "offeringId": "paidar:workbook:becoming-ai-augmented-workbook"
+        },
         {
           "title": "Individual AI Operating System Bundle",
           "url": "https://paidar.ai/resources/general/individual/product-individual-ai-operating-system-bundle/",
