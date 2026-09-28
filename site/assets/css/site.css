@@ -185,6 +185,17 @@ nav a { text-decoration:none; }
 .assessment-form label,.assessment-email label { font-weight:700; color:var(--ink); }
 .assessment-form select,.assessment-email input,.starter-kit-form input { min-height:2.75rem; padding:.65rem .75rem; border:1px solid var(--border-color); border-radius:8px; background:var(--surface); color:var(--ink); font:inherit; }
 .assessment-form .button,.assessment-email .button { justify-self:start; margin-top:.5rem; }
+.assessment-shell { display:grid; gap:1.5rem; }
+.assessment-quiz { gap:1.25rem; }
+.assessment-group { display:grid; gap:1rem; margin:0; padding:1.25rem; border:1px solid var(--border-color); border-radius:var(--radius); background:var(--surface); }
+.assessment-group legend { padding:0 .35rem; font-weight:800; color:var(--ink); }
+.assessment-question { display:grid; gap:.6rem; }
+.assessment-question p { margin:0; color:var(--ink); }
+.assessment-scale { display:flex; flex-wrap:wrap; gap:.4rem; }
+.assessment-scale label { display:inline-flex; align-items:center; gap:.3rem; cursor:pointer; }
+.assessment-scale input { position:absolute; opacity:0; pointer-events:none; }
+.assessment-scale span { display:grid; place-items:center; width:2.2rem; height:2.2rem; border:1px solid var(--border-color); border-radius:50%; color:var(--muted); font-weight:700; }
+.assessment-scale input:checked + span { border-color:var(--accent); background:var(--purple-soft); color:var(--accent); }
 .breadcrumb { font-size:.9rem; color:var(--muted); margin:1rem 0 0; }
 .meta { padding:1rem; background:var(--surface); border-radius:var(--radius); }
 .asset-list-section[hidden] { display:none; }

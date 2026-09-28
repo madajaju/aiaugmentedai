@@ -544,6 +544,7 @@
         emitMeasurement('aa_apply_to_augment', { href, label });
       }
       if (/shop\.paidar\.ai/i.test(href)) emitMeasurement('aa_shop_click', { engagement, href, label });
+      if (/paidar\.ai/i.test(href)) emitMeasurement('aa_paidar_click', { engagement, href, label });
       if (/drdarrenspeaks|paidar\.ai\/(services|workshops|educators)/i.test(href)) emitMeasurement('aa_augment_click', { href, label });
     });
 

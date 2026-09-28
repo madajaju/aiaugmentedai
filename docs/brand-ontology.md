@@ -12,7 +12,7 @@ Use the term to describe a capability, practice, person, team, organization, or 
 
 The AI-Augmented Movement is the community and body of practice focused on helping people and organizations build reliable capability with AI.
 
-The movement website is the canonical home for the idea, framework, assessments, progression, resources, and community pathways.
+The movement website is the canonical home for the idea, framework, assessment explanations, progression, resources, and community pathways. Paidar.ai is the execution and commercial home for interactive assessments, result delivery, paid assessment services, and membership.
 
 ## AI-Augmented Framework
 
