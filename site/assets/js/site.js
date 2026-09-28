@@ -1,5 +1,38 @@
 document.documentElement.classList.add('js');
 
+// Keep campaign events available to any analytics provider added later.
+window.AI_AUGMENTED_ANALYTICS = window.AI_AUGMENTED_ANALYTICS || [];
+const campaignParams = Object.fromEntries(new URLSearchParams(window.location.search).entries());
+const trackEvent = (name, details = {}) => {
+  const event = {
+    event: name,
+    path: window.location.pathname,
+    ...Object.fromEntries(Object.entries(campaignParams).filter(([key]) => key.startsWith('utm_'))),
+    ...details,
+    timestamp: new Date().toISOString(),
+  };
+  window.AI_AUGMENTED_ANALYTICS.push(event);
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push(event);
+  window.dispatchEvent(new CustomEvent('aa:analytics', { detail: event }));
+};
+window.AI_AUGMENTED_TRACK = trackEvent;
+const bookPage = document.body?.dataset.bookPage;
+if (bookPage) trackEvent('book_view', { book: bookPage });
+
+document.addEventListener('click', (event) => {
+  const link = event.target.closest('[data-event], a[href*="paidar.ai"]');
+  if (!link) return;
+  const details = { href: link.href, book: link.dataset.book || undefined };
+  if (link.dataset.event) trackEvent(link.dataset.event, details);
+  if (link.href.includes('paidar.ai')) trackEvent('paidar_click', details);
+});
+
+document.addEventListener('submit', (event) => {
+  const form = event.target.closest('[data-event-form]');
+  if (form) trackEvent(form.dataset.eventForm, { form: form.getAttribute('name') || undefined });
+});
+
 const domainTabs = document.querySelectorAll('.domain-tab');
 const normalizePath = (path) => {
   const siteMarker = path.lastIndexOf('/sitenew/');

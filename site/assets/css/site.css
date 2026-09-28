@@ -181,6 +181,10 @@ nav a { text-decoration:none; }
 .button.augment { border-color:var(--gold); background:var(--gold); color:var(--ink); }
 .button.augment:hover { border-color:var(--ink); background:var(--ink); color:var(--surface); }
 .button:disabled, .button[aria-disabled="true"] { cursor:not-allowed; opacity:.55; pointer-events:none; }
+.assessment-form,.assessment-email { display:grid; gap:.65rem; max-width:38rem; margin-top:1.25rem; }
+.assessment-form label,.assessment-email label { font-weight:700; color:var(--ink); }
+.assessment-form select,.assessment-email input,.starter-kit-form input { min-height:2.75rem; padding:.65rem .75rem; border:1px solid var(--border-color); border-radius:8px; background:var(--surface); color:var(--ink); font:inherit; }
+.assessment-form .button,.assessment-email .button { justify-self:start; margin-top:.5rem; }
 .breadcrumb { font-size:.9rem; color:var(--muted); margin:1rem 0 0; }
 .meta { padding:1rem; background:var(--surface); border-radius:var(--radius); }
 .asset-list-section[hidden] { display:none; }
