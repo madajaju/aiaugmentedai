@@ -75,6 +75,73 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI-Augmented Starter Kit",
+              "title": "AI-Augmented Starter Kit",
+              "description": "A practical starting system for moving from occasional AI assistance to AI-augmented work. It combines a maturity check, the Individual/Team/Organization model, an Integrity Packet, and a guided path for starting one bounded workflow.",
+              "href": "https://paidar.ai/resources/general/individual/ai-augmented-starter-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:ai-augmented-starter-kit",
+              "offeringType": "product",
+              "domains": [
+                "general",
+                "ai-augmented-organizations"
+              ],
+              "lenses": [
+                "individual",
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "individual professionals",
+                "team leaders",
+                "managers",
+                "organization leaders"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "paidar:asset:aaos",
+                  "version": null,
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                },
+                {
+                  "id": "paidar:asset:integrity-packet",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                },
+                {
+                  "id": "paidar:asset:assessment:individual-maturity",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "assessment",
+                  "required": true
+                }
+              ],
+              "stage": "Aware"
+            },
+            {
               "label": "Validation and Grounding Kit",
               "title": "Validation and Grounding Kit",
               "description": "Validation and Grounding Kit",
@@ -363,6 +430,73 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI-Augmented Starter Kit",
+              "title": "AI-Augmented Starter Kit",
+              "description": "A practical starting system for moving from occasional AI assistance to AI-augmented work. It combines a maturity check, the Individual/Team/Organization model, an Integrity Packet, and a guided path for starting one bounded workflow.",
+              "href": "https://paidar.ai/resources/general/individual/ai-augmented-starter-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:ai-augmented-starter-kit",
+              "offeringType": "product",
+              "domains": [
+                "general",
+                "ai-augmented-organizations"
+              ],
+              "lenses": [
+                "individual",
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "individual professionals",
+                "team leaders",
+                "managers",
+                "organization leaders"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "paidar:asset:aaos",
+                  "version": null,
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                },
+                {
+                  "id": "paidar:asset:integrity-packet",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                },
+                {
+                  "id": "paidar:asset:assessment:individual-maturity",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "assessment",
+                  "required": true
+                }
+              ],
+              "stage": "Exploring"
+            },
+            {
               "label": "Validation and Grounding Kit",
               "title": "Validation and Grounding Kit",
               "description": "Validation and Grounding Kit",
@@ -639,6 +773,73 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "AI-Augmented Starter Kit",
+              "title": "AI-Augmented Starter Kit",
+              "description": "A practical starting system for moving from occasional AI assistance to AI-augmented work. It combines a maturity check, the Individual/Team/Organization model, an Integrity Packet, and a guided path for starting one bounded workflow.",
+              "href": "https://paidar.ai/resources/general/individual/ai-augmented-starter-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:ai-augmented-starter-kit",
+              "offeringType": "product",
+              "domains": [
+                "general",
+                "ai-augmented-organizations"
+              ],
+              "lenses": [
+                "individual",
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "individual professionals",
+                "team leaders",
+                "managers",
+                "organization leaders"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "paidar:asset:aaos",
+                  "version": null,
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                },
+                {
+                  "id": "paidar:asset:integrity-packet",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                },
+                {
+                  "id": "paidar:asset:assessment:individual-maturity",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "assessment",
+                  "required": true
+                }
+              ],
+              "stage": "Experimenting"
+            },
             {
               "label": "Validation and Grounding Kit",
               "title": "Validation and Grounding Kit",
@@ -922,6 +1123,73 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI-Augmented Starter Kit",
+              "title": "AI-Augmented Starter Kit",
+              "description": "A practical starting system for moving from occasional AI assistance to AI-augmented work. It combines a maturity check, the Individual/Team/Organization model, an Integrity Packet, and a guided path for starting one bounded workflow.",
+              "href": "https://paidar.ai/resources/general/individual/ai-augmented-starter-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:ai-augmented-starter-kit",
+              "offeringType": "product",
+              "domains": [
+                "general",
+                "ai-augmented-organizations"
+              ],
+              "lenses": [
+                "individual",
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "individual professionals",
+                "team leaders",
+                "managers",
+                "organization leaders"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "paidar:asset:aaos",
+                  "version": null,
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                },
+                {
+                  "id": "paidar:asset:integrity-packet",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                },
+                {
+                  "id": "paidar:asset:assessment:individual-maturity",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "assessment",
+                  "required": true
+                }
+              ],
+              "stage": "Integrating"
+            },
+            {
               "label": "Validation and Grounding Kit",
               "title": "Validation and Grounding Kit",
               "description": "Validation and Grounding Kit",
@@ -1193,6 +1461,73 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI-Augmented Starter Kit",
+              "title": "AI-Augmented Starter Kit",
+              "description": "A practical starting system for moving from occasional AI assistance to AI-augmented work. It combines a maturity check, the Individual/Team/Organization model, an Integrity Packet, and a guided path for starting one bounded workflow.",
+              "href": "https://paidar.ai/resources/general/individual/ai-augmented-starter-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:ai-augmented-starter-kit",
+              "offeringType": "product",
+              "domains": [
+                "general",
+                "ai-augmented-organizations"
+              ],
+              "lenses": [
+                "individual",
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "individual professionals",
+                "team leaders",
+                "managers",
+                "organization leaders"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "paidar:asset:aaos",
+                  "version": null,
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                },
+                {
+                  "id": "paidar:asset:integrity-packet",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                },
+                {
+                  "id": "paidar:asset:assessment:individual-maturity",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "assessment",
+                  "required": true
+                }
+              ],
+              "stage": "Leading"
+            },
+            {
               "label": "Validation and Grounding Kit",
               "title": "Validation and Grounding Kit",
               "description": "Validation and Grounding Kit",
@@ -1463,6 +1798,73 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "AI-Augmented Starter Kit",
+              "title": "AI-Augmented Starter Kit",
+              "description": "A practical starting system for moving from occasional AI assistance to AI-augmented work. It combines a maturity check, the Individual/Team/Organization model, an Integrity Packet, and a guided path for starting one bounded workflow.",
+              "href": "https://paidar.ai/resources/general/individual/ai-augmented-starter-kit/",
+              "action": {
+                "type": "purchase",
+                "label": "Buy Now",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:ai-augmented-starter-kit",
+              "offeringType": "product",
+              "domains": [
+                "general",
+                "ai-augmented-organizations"
+              ],
+              "lenses": [
+                "individual",
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "individual professionals",
+                "team leaders",
+                "managers",
+                "organization leaders"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "paidar:asset:aaos",
+                  "version": null,
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                },
+                {
+                  "id": "paidar:asset:integrity-packet",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                },
+                {
+                  "id": "paidar:asset:assessment:individual-maturity",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "assessment",
+                  "required": true
+                }
+              ],
+              "stage": "Augmenting"
+            },
             {
               "label": "Validation and Grounding Kit",
               "title": "Validation and Grounding Kit",
