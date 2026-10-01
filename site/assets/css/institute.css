@@ -1,0 +1,29 @@
+/* Supplemental styles for AI-Augmented Institute pages. Load after site.css. */
+.institute-page .eyebrow,.institute-page .framework-label{letter-spacing:.08em;text-transform:uppercase;font-weight:700;font-size:.85rem}
+.institute-page .hero-note{margin-top:1rem;font-size:.95rem;opacity:.78}
+.institute-page .institute-hero .hero-visual img,.institute-page .sector-hero .hero-visual img{width:min(150%,540px);height:auto;display:block}
+.institute-page .section-kicker{font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;opacity:.7;margin-bottom:.5rem}
+.institute-page .grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem}
+.institute-page .grid-4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.25rem}
+.institute-page .grid-5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1rem}
+.institute-page .mini-card{padding:1.35rem;border:1px solid rgba(40,40,65,.12);border-radius:18px;background:#fff}
+.institute-page .mini-card h3{margin-top:.35rem}
+.institute-page .learning-loop{display:flex;align-items:center;justify-content:space-between;gap:.65rem;flex-wrap:wrap;margin-top:1.5rem}
+.institute-page .learning-loop span{padding:.8rem 1rem;border-radius:999px;background:#fff;border:1px solid rgba(40,40,65,.12);font-weight:700}
+.institute-page .learning-loop b{opacity:.45}
+.institute-page .bok-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;margin-top:1.5rem}
+.institute-page .bok-item{padding:1.15rem;border-radius:16px;background:rgba(255,255,255,.78);border:1px solid rgba(40,40,65,.1)}
+.institute-page .capability-table{width:100%;border-collapse:collapse;margin-top:1.5rem;background:#fff;border-radius:18px;overflow:hidden}
+.institute-page .capability-table th,.institute-page .capability-table td{padding:1rem;border:1px solid rgba(40,40,65,.1);vertical-align:top}
+.institute-page .capability-table th{font-weight:700;text-align:left}
+.institute-page .path-card{display:flex;flex-direction:column;gap:.75rem}
+.institute-page .path-card a{margin-top:auto;font-weight:700}
+.institute-page .steps{counter-reset:step;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1rem;margin-top:1.5rem}
+.institute-page .step{position:relative;padding:1.25rem;border-radius:18px;background:#fff;border:1px solid rgba(40,40,65,.12)}
+.institute-page .curriculum-callout{padding:1.5rem;border-radius:22px;background:linear-gradient(135deg,rgba(124,77,255,.10),rgba(47,111,237,.08));border:1px solid rgba(124,77,255,.18)}
+.institute-page .list-clean{margin:0;padding-left:1.1rem}
+.institute-page .list-clean li{margin:.45rem 0}
+.institute-page .sector-hero .hero-grid{align-items:center}
+.institute-page .quote-band{font-size:1.35rem;line-height:1.5;max-width:900px}
+@media(max-width:900px){.institute-page .grid-4,.institute-page .bok-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.institute-page .grid-5,.institute-page .steps{grid-template-columns:1fr 1fr}.institute-page .grid-2{grid-template-columns:1fr}.institute-page .capability-table{font-size:.9rem}}
+@media(max-width:620px){.institute-page .institute-hero .hero-visual img,.institute-page .sector-hero .hero-visual img{width:100%}.institute-page .grid-4,.institute-page .bok-grid,.institute-page .grid-5,.institute-page .steps{grid-template-columns:1fr}.institute-page .learning-loop{display:grid;grid-template-columns:1fr}.institute-page .learning-loop b{display:none}.institute-page .capability-table{display:block;overflow-x:auto;white-space:normal}}
