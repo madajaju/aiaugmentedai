@@ -221,6 +221,12 @@
     "team": {
       "learn": [
         {
+          "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+          "url": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+          "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+          "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook"
+        },
+        {
           "title": "AI-Augmented Starter Kit",
           "url": "https://paidar.ai/resources/general/individual/ai-augmented-starter-kit/",
           "description": "A practical starting system for moving from occasional AI assistance to AI-augmented work. It combines a maturity check, the Individual/Team/Organization model, an Integrity Packet, and a guided path for starting one bounded workflow.",
@@ -235,6 +241,12 @@
       ],
       "apply": [
         {
+          "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+          "url": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+          "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+          "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook"
+        },
+        {
           "title": "AI-Augmented Starter Kit",
           "url": "https://paidar.ai/resources/general/individual/ai-augmented-starter-kit/",
           "description": "A practical starting system for moving from occasional AI assistance to AI-augmented work. It combines a maturity check, the Individual/Team/Organization model, an Integrity Packet, and a guided path for starting one bounded workflow.",
@@ -248,6 +260,12 @@
         }
       ],
       "augment": [
+        {
+          "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+          "url": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+          "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+          "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook"
+        },
         {
           "title": "AI-Augmented Starter Kit",
           "url": "https://paidar.ai/resources/general/individual/ai-augmented-starter-kit/",
@@ -259,6 +277,12 @@
     "organization": {
       "learn": [
         {
+          "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+          "url": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+          "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+          "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook"
+        },
+        {
           "title": "AI-Augmented Starter Kit",
           "url": "https://paidar.ai/resources/general/individual/ai-augmented-starter-kit/",
           "description": "A practical starting system for moving from occasional AI assistance to AI-augmented work. It combines a maturity check, the Individual/Team/Organization model, an Integrity Packet, and a guided path for starting one bounded workflow.",
@@ -279,6 +303,12 @@
       ],
       "apply": [
         {
+          "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+          "url": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+          "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+          "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook"
+        },
+        {
           "title": "AI-Augmented Starter Kit",
           "url": "https://paidar.ai/resources/general/individual/ai-augmented-starter-kit/",
           "description": "A practical starting system for moving from occasional AI assistance to AI-augmented work. It combines a maturity check, the Individual/Team/Organization model, an Integrity Packet, and a guided path for starting one bounded workflow.",
@@ -298,6 +328,12 @@
         }
       ],
       "augment": [
+        {
+          "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+          "url": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+          "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+          "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook"
+        },
         {
           "title": "AI-Augmented Starter Kit",
           "url": "https://paidar.ai/resources/general/individual/ai-augmented-starter-kit/",
