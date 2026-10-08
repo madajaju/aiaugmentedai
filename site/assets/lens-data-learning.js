@@ -75,6 +75,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Aware"
+            },
+            {
               "label": "AI-Augmented Starter Kit",
               "title": "AI-Augmented Starter Kit",
               "description": "A practical starting system for moving from occasional AI assistance to AI-augmented work. It combines a maturity check, the Individual/Team/Organization model, an Integrity Packet, and a guided path for starting one bounded workflow.",
@@ -430,6 +464,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Exploring"
+            },
+            {
               "label": "AI-Augmented Starter Kit",
               "title": "AI-Augmented Starter Kit",
               "description": "A practical starting system for moving from occasional AI assistance to AI-augmented work. It combines a maturity check, the Individual/Team/Organization model, an Integrity Packet, and a guided path for starting one bounded workflow.",
@@ -773,6 +841,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Experimenting"
+            },
             {
               "label": "AI-Augmented Starter Kit",
               "title": "AI-Augmented Starter Kit",
@@ -1123,6 +1225,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Integrating"
+            },
+            {
               "label": "AI-Augmented Starter Kit",
               "title": "AI-Augmented Starter Kit",
               "description": "A practical starting system for moving from occasional AI assistance to AI-augmented work. It combines a maturity check, the Individual/Team/Organization model, an Integrity Packet, and a guided path for starting one bounded workflow.",
@@ -1461,6 +1597,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Leading"
+            },
+            {
               "label": "AI-Augmented Starter Kit",
               "title": "AI-Augmented Starter Kit",
               "description": "A practical starting system for moving from occasional AI assistance to AI-augmented work. It combines a maturity check, the Individual/Team/Organization model, an Integrity Packet, and a guided path for starting one bounded workflow.",
@@ -1798,6 +1968,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Augmenting"
+            },
             {
               "label": "AI-Augmented Starter Kit",
               "title": "AI-Augmented Starter Kit",
@@ -2212,6 +2416,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Aware"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -2334,6 +2572,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Exploring"
+            },
             {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
@@ -2458,6 +2730,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Experimenting"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -2580,6 +2886,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Integrating"
+            },
             {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
@@ -2704,6 +3044,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Leading"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -2826,6 +3200,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Augmenting"
+            },
             {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
@@ -3025,6 +3433,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Aware"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -3154,6 +3596,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Exploring"
+            },
             {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
@@ -3285,6 +3761,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Experimenting"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -3414,6 +3924,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Integrating"
+            },
             {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
@@ -3545,6 +4089,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Leading"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -3674,6 +4252,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Augmenting"
+            },
             {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
@@ -3879,6 +4491,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Aware"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -4002,6 +4648,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Exploring"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -4116,6 +4796,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Experimenting"
+            },
             {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
@@ -4232,6 +4946,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Integrating"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -4347,6 +5095,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Leading"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -4461,6 +5243,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Augmenting"
+            },
             {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
@@ -4660,6 +5476,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Aware"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -4783,6 +5633,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Exploring"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -4897,6 +5781,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Experimenting"
+            },
             {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
@@ -5013,6 +5931,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Integrating"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -5128,6 +6080,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Leading"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -5242,6 +6228,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Augmenting"
+            },
             {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
@@ -5425,6 +6445,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Aware"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -5539,6 +6593,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Exploring"
+            },
             {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
@@ -5655,6 +6743,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Experimenting"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -5769,6 +6891,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Integrating"
+            },
             {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
@@ -5885,6 +7041,40 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Leading"
+            },
+            {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
               "description": "Confirm the stage and lens before choosing the next action."
@@ -5999,6 +7189,40 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "title": "The Right Model. The Right Place. The Right Cost. Workbook",
+              "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
+              "href": "https://paidar.ai/resources/general/team/right-model-right-place-right-cost-workbook/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:right-model-right-place-right-cost-workbook",
+              "offeringType": "workbook",
+              "domains": [
+                "general",
+                "government",
+                "technology"
+              ],
+              "lenses": [
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "technology leaders",
+                "enterprise architects",
+                "mission leaders",
+                "data and AI leaders",
+                "transformation teams"
+              ],
+              "verticals": [],
+              "components": [],
+              "stage": "Augmenting"
+            },
             {
               "label": "Take the AI-Augmented Assessment",
               "href": "/assessment/",
