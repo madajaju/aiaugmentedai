@@ -75,6 +75,51 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI-Augmented Organization Intensive",
+              "title": "AI-Augmented Organization Intensive",
+              "description": "A two-day engagement combining executive alignment with tactical application to produce prioritized use cases, AI-Augmented workflows, governance requirements, pilot candidates, measures, and a 30/60/90-day action plan.",
+              "href": "https://paidar.ai/resources/business/individual/ai-augmented-organization-intensive/",
+              "action": {
+                "type": "booking",
+                "label": "Book the Workshop",
+                "provider": "paidar",
+                "url": "https://paidar.ai/workshops/executive-ai-organization/"
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:ai-augmented-organization-intensive",
+              "offeringType": "workshop",
+              "domains": [
+                "business"
+              ],
+              "lenses": [
+                "individual",
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "executive leadership",
+                "cross-functional leaders",
+                "tactical working teams",
+                "program and operations leaders",
+                "technology data and governance leaders"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "odxa:workshop:ai-augmented-organization-intensive",
+                  "version": "0.1.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                }
+              ],
+              "stage": "Aware"
+            },
+            {
               "label": "The Right Model. The Right Place. The Right Cost. Workbook",
               "title": "The Right Model. The Right Place. The Right Cost. Workbook",
               "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
@@ -464,6 +509,51 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI-Augmented Organization Intensive",
+              "title": "AI-Augmented Organization Intensive",
+              "description": "A two-day engagement combining executive alignment with tactical application to produce prioritized use cases, AI-Augmented workflows, governance requirements, pilot candidates, measures, and a 30/60/90-day action plan.",
+              "href": "https://paidar.ai/resources/business/individual/ai-augmented-organization-intensive/",
+              "action": {
+                "type": "booking",
+                "label": "Book the Workshop",
+                "provider": "paidar",
+                "url": "https://paidar.ai/workshops/executive-ai-organization/"
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:ai-augmented-organization-intensive",
+              "offeringType": "workshop",
+              "domains": [
+                "business"
+              ],
+              "lenses": [
+                "individual",
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "executive leadership",
+                "cross-functional leaders",
+                "tactical working teams",
+                "program and operations leaders",
+                "technology data and governance leaders"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "odxa:workshop:ai-augmented-organization-intensive",
+                  "version": "0.1.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                }
+              ],
+              "stage": "Exploring"
+            },
+            {
               "label": "The Right Model. The Right Place. The Right Cost. Workbook",
               "title": "The Right Model. The Right Place. The Right Cost. Workbook",
               "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
@@ -841,6 +931,51 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "AI-Augmented Organization Intensive",
+              "title": "AI-Augmented Organization Intensive",
+              "description": "A two-day engagement combining executive alignment with tactical application to produce prioritized use cases, AI-Augmented workflows, governance requirements, pilot candidates, measures, and a 30/60/90-day action plan.",
+              "href": "https://paidar.ai/resources/business/individual/ai-augmented-organization-intensive/",
+              "action": {
+                "type": "booking",
+                "label": "Book the Workshop",
+                "provider": "paidar",
+                "url": "https://paidar.ai/workshops/executive-ai-organization/"
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:ai-augmented-organization-intensive",
+              "offeringType": "workshop",
+              "domains": [
+                "business"
+              ],
+              "lenses": [
+                "individual",
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "executive leadership",
+                "cross-functional leaders",
+                "tactical working teams",
+                "program and operations leaders",
+                "technology data and governance leaders"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "odxa:workshop:ai-augmented-organization-intensive",
+                  "version": "0.1.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                }
+              ],
+              "stage": "Experimenting"
+            },
             {
               "label": "The Right Model. The Right Place. The Right Cost. Workbook",
               "title": "The Right Model. The Right Place. The Right Cost. Workbook",
@@ -1225,6 +1360,51 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI-Augmented Organization Intensive",
+              "title": "AI-Augmented Organization Intensive",
+              "description": "A two-day engagement combining executive alignment with tactical application to produce prioritized use cases, AI-Augmented workflows, governance requirements, pilot candidates, measures, and a 30/60/90-day action plan.",
+              "href": "https://paidar.ai/resources/business/individual/ai-augmented-organization-intensive/",
+              "action": {
+                "type": "booking",
+                "label": "Book the Workshop",
+                "provider": "paidar",
+                "url": "https://paidar.ai/workshops/executive-ai-organization/"
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:ai-augmented-organization-intensive",
+              "offeringType": "workshop",
+              "domains": [
+                "business"
+              ],
+              "lenses": [
+                "individual",
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "executive leadership",
+                "cross-functional leaders",
+                "tactical working teams",
+                "program and operations leaders",
+                "technology data and governance leaders"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "odxa:workshop:ai-augmented-organization-intensive",
+                  "version": "0.1.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                }
+              ],
+              "stage": "Integrating"
+            },
+            {
               "label": "The Right Model. The Right Place. The Right Cost. Workbook",
               "title": "The Right Model. The Right Place. The Right Cost. Workbook",
               "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
@@ -1597,6 +1777,51 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "AI-Augmented Organization Intensive",
+              "title": "AI-Augmented Organization Intensive",
+              "description": "A two-day engagement combining executive alignment with tactical application to produce prioritized use cases, AI-Augmented workflows, governance requirements, pilot candidates, measures, and a 30/60/90-day action plan.",
+              "href": "https://paidar.ai/resources/business/individual/ai-augmented-organization-intensive/",
+              "action": {
+                "type": "booking",
+                "label": "Book the Workshop",
+                "provider": "paidar",
+                "url": "https://paidar.ai/workshops/executive-ai-organization/"
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:ai-augmented-organization-intensive",
+              "offeringType": "workshop",
+              "domains": [
+                "business"
+              ],
+              "lenses": [
+                "individual",
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "executive leadership",
+                "cross-functional leaders",
+                "tactical working teams",
+                "program and operations leaders",
+                "technology data and governance leaders"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "odxa:workshop:ai-augmented-organization-intensive",
+                  "version": "0.1.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                }
+              ],
+              "stage": "Leading"
+            },
+            {
               "label": "The Right Model. The Right Place. The Right Cost. Workbook",
               "title": "The Right Model. The Right Place. The Right Cost. Workbook",
               "description": "A practical workbook for selecting the model, deployment location, controls, and cost structure that fit a real workload and its intended outcome.",
@@ -1968,6 +2193,51 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "AI-Augmented Organization Intensive",
+              "title": "AI-Augmented Organization Intensive",
+              "description": "A two-day engagement combining executive alignment with tactical application to produce prioritized use cases, AI-Augmented workflows, governance requirements, pilot candidates, measures, and a 30/60/90-day action plan.",
+              "href": "https://paidar.ai/resources/business/individual/ai-augmented-organization-intensive/",
+              "action": {
+                "type": "booking",
+                "label": "Book the Workshop",
+                "provider": "paidar",
+                "url": "https://paidar.ai/workshops/executive-ai-organization/"
+              },
+              "status": "Available",
+              "offeringId": "paidar:offering:ai-augmented-organization-intensive",
+              "offeringType": "workshop",
+              "domains": [
+                "business"
+              ],
+              "lenses": [
+                "individual",
+                "team",
+                "organization"
+              ],
+              "audiences": [
+                "executive leadership",
+                "cross-functional leaders",
+                "tactical working teams",
+                "program and operations leaders",
+                "technology data and governance leaders"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "odxa:workshop:ai-augmented-organization-intensive",
+                  "version": "0.1.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                }
+              ],
+              "stage": "Augmenting"
+            },
             {
               "label": "The Right Model. The Right Place. The Right Cost. Workbook",
               "title": "The Right Model. The Right Place. The Right Cost. Workbook",
