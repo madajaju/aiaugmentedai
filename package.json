@@ -14,7 +14,8 @@
     "check:links": "node scripts/check-links.mjs",
     "check:site": "node scripts/check-site.mjs",
     "check:plan": "node scripts/audit-site-plan.mjs",
-    "check:content": "node scripts/audit-content-sufficiency.mjs"
+    "check:content": "node scripts/audit-content-sufficiency.mjs",
+    "check:offerings": "node scripts/check-offering-pages.mjs"
   },
   "author": "",
   "license": "ISC"
