@@ -3,465 +3,1134 @@
   "offerings": [
     {
       "id": "paidar:offering:aaos-assessment-suite",
-      "name": "Aaos Assessment Suite",
+      "name": "AAOS Assessment Suite",
       "url": "https://ai-augmented.ai/o/paidar/offering/aaos-assessment-suite/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "Assess AI posture across teams, data boundaries, and compliance exposure using coordinated worksheets and an interactive heatmap.",
+      "audiences": [
+        "Governance leads",
+        "Program owners",
+        "Vendor risk reviewers"
+      ],
+      "benefits": [
+        "Compare team AI adoption",
+        "Clarify public versus private AI data use",
+        "Surface compliance exposure"
+      ]
     },
     {
       "id": "paidar:offering:executive-ai-readiness-assessment",
-      "name": "Executive Ai Readiness Assessment",
+      "name": "Executive AI Readiness Assessment",
       "url": "https://ai-augmented.ai/o/paidar/offering/executive-ai-readiness-assessment/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "An executive screening and interpretation toolkit for examining organizational readiness to adopt AI with evidence and accountability.",
+      "audiences": [
+        "Executives",
+        "AI sponsors"
+      ],
+      "benefits": [
+        "Identify readiness gaps",
+        "Give leaders a common assessment language",
+        "Prioritize follow-up questions"
+      ]
     },
     {
       "id": "paidar:offering:aaos-readiness-assessment",
-      "name": "Aaos Readiness Assessment",
+      "name": "AAOS Readiness Assessment",
       "url": "https://ai-augmented.ai/o/paidar/offering/aaos-readiness-assessment/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "An AAOS-based assessment conversation for examining AI maturity, operating controls, and priority improvements.",
+      "audiences": [
+        "Executive sponsors",
+        "Transformation leaders"
+      ],
+      "benefits": [
+        "Establish a baseline",
+        "Identify gaps needing deeper study",
+        "Guide next-step planning"
+      ]
     },
     {
       "id": "paidar:offering:individual-ai-operating-system-bundle",
-      "name": "Individual Ai Operating System Bundle",
+      "name": "Individual AI Operating System Bundle",
       "url": "https://ai-augmented.ai/o/paidar/offering/individual-ai-operating-system-bundle/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A coordinated personal AI working approach for moving beyond isolated prompts toward repeatable tasks and review.",
+      "audiences": [
+        "Knowledge workers",
+        "Independent professionals"
+      ],
+      "benefits": [
+        "Organize repeatable practices",
+        "Document evidence and decisions",
+        "Improve personal workflow consistency"
+      ]
     },
     {
       "id": "paidar:offering:integrity-packet",
       "name": "Integrity Packet",
       "url": "https://ai-augmented.ai/o/paidar/offering/integrity-packet/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A six-part evidence record for making AI-assisted work understandable, reviewable, transferable, and defensible.",
+      "audiences": [
+        "Individual professionals",
+        "Team leaders",
+        "Governance practitioners"
+      ],
+      "benefits": [
+        "Capture assumptions and evidence",
+        "Make validation and ownership visible",
+        "Strengthen review and handoff"
+      ]
     },
     {
       "id": "paidar:offering:aaos-keynote",
-      "name": "Aaos Keynote",
+      "name": "AAOS Keynote",
       "url": "https://ai-augmented.ai/o/paidar/offering/aaos-keynote/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A keynote introducing the AI-Augmented Operating System as a practical path from experiments to accountable AI-enabled workflows.",
+      "audiences": [
+        "Executives",
+        "Conference audiences",
+        "Transformation leaders"
+      ],
+      "benefits": [
+        "Understand AAOS principles",
+        "Connect AI to operating outcomes",
+        "Identify governance questions"
+      ]
     },
     {
       "id": "paidar:offering:becoming-ai-augmented-keynote",
-      "name": "Becoming Ai Augmented Keynote",
+      "name": "Becoming AI Augmented Keynote",
       "url": "https://ai-augmented.ai/o/paidar/offering/becoming-ai-augmented-keynote/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A keynote on the shift from occasional AI assistance toward purposeful augmentation of work and judgment.",
+      "audiences": [
+        "Professionals",
+        "Educators",
+        "Conference audiences"
+      ],
+      "benefits": [
+        "Understand augmentation",
+        "Recognize practical work opportunities",
+        "Keep accountability central"
+      ]
     },
     {
       "id": "paidar:offering:from-experiments-to-systems-keynote",
       "name": "From Experiments To Systems Keynote",
       "url": "https://ai-augmented.ai/o/paidar/offering/from-experiments-to-systems-keynote/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "An executive keynote on turning promising AI experiments into repeatable, measurable, governed operating systems.",
+      "audiences": [
+        "Executives",
+        "Technology strategists"
+      ],
+      "benefits": [
+        "Recognize pilot-to-scale barriers",
+        "Connect controls to operations",
+        "Focus on measurable outcomes"
+      ]
     },
     {
       "id": "paidar:offering:becoming-ai-augmented-companion-hub-free",
-      "name": "Becoming Ai Augmented Companion Hub Free",
+      "name": "Becoming AI Augmented Companion Hub Free",
       "url": "https://ai-augmented.ai/o/paidar/offering/becoming-ai-augmented-companion-hub-free/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A planned companion destination connecting Becoming AI-Augmented readers to practical supporting resources.",
+      "audiences": [
+        "Book readers",
+        "Self-directed learners"
+      ],
+      "benefits": [
+        "Extend book concepts into practice",
+        "Find related learning resources",
+        "Follow new resources as released"
+      ]
     },
     {
       "id": "paidar:offering:aaos-platform",
-      "name": "Aaos Platform",
+      "name": "AAOS Platform",
       "url": "https://ai-augmented.ai/o/paidar/offering/aaos-platform/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "An AAOS platform service concept for coordinating readiness, workflow governance, and operational visibility.",
+      "audiences": [
+        "AI sponsors",
+        "Program managers"
+      ],
+      "benefits": [
+        "Explore platform-enabled AAOS support",
+        "Clarify operating requirements",
+        "Consider workflow visibility"
+      ]
     },
     {
       "id": "paidar:offering:advisory",
       "name": "Advisory",
       "url": "https://ai-augmented.ai/o/paidar/offering/advisory/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "Advisory support for selecting AI opportunities, defining boundaries, and building responsible AI-augmented operating approaches.",
+      "audiences": [
+        "Executives",
+        "CIOs",
+        "Governance sponsors"
+      ],
+      "benefits": [
+        "Align opportunities with outcomes",
+        "Clarify accountability",
+        "Plan responsible next steps"
+      ]
     },
     {
       "id": "paidar:offering:enterprise-transformation",
       "name": "Enterprise Transformation",
       "url": "https://ai-augmented.ai/o/paidar/offering/enterprise-transformation/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "Enterprise AI transformation support spanning leadership alignment, capability planning, operating models, and governance.",
+      "audiences": [
+        "Enterprise executives",
+        "Transformation sponsors"
+      ],
+      "benefits": [
+        "Connect strategy to execution",
+        "Coordinate governance and capability",
+        "Sequence enterprise adoption"
+      ]
     },
     {
       "id": "paidar:offering:aaos-platform-software",
-      "name": "Aaos Platform Software",
+      "name": "AAOS Platform Software",
       "url": "https://ai-augmented.ai/o/paidar/offering/aaos-platform-software/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A planned software concept for AAOS readiness profiles, workflow tracking, and operating analytics.",
+      "audiences": [
+        "AI program managers",
+        "Operations teams"
+      ],
+      "benefits": [
+        "Explore readiness tracking",
+        "Identify useful workflow metrics",
+        "Define platform requirements"
+      ]
     },
     {
       "id": "paidar:offering:aaos-capability-and-expert-extraction-toolkit",
-      "name": "Aaos Capability And Expert Extraction Toolkit",
+      "name": "AAOS Capability And Expert Extraction Toolkit",
       "url": "https://ai-augmented.ai/o/paidar/offering/aaos-capability-and-expert-extraction-toolkit/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A toolkit for mapping concentrated expertise and translating expert judgment into reusable rules, examples, and capability plans.",
+      "audiences": [
+        "Function leaders",
+        "Learning and development teams"
+      ],
+      "benefits": [
+        "Find knowledge bottlenecks",
+        "Structure expert extraction",
+        "Plan role capability growth"
+      ]
     },
     {
       "id": "paidar:offering:aaos-enterprise-launch-kit",
-      "name": "Aaos Enterprise Launch Kit",
+      "name": "AAOS Enterprise Launch Kit",
       "url": "https://ai-augmented.ai/o/paidar/offering/aaos-enterprise-launch-kit/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "Enterprise launch templates covering strategic AI intent, use-case intake, exceptions, escalation, and approved tools.",
+      "audiences": [
+        "Chief AI officers",
+        "COOs",
+        "Governance leads"
+      ],
+      "benefits": [
+        "Frame an AI thesis",
+        "Structure intake decisions",
+        "Prepare governance foundations"
+      ]
     },
     {
       "id": "paidar:offering:aaos-policy-and-decision-template-pack",
-      "name": "Aaos Policy And Decision Template Pack",
+      "name": "AAOS Policy And Decision Template Pack",
       "url": "https://ai-augmented.ai/o/paidar/offering/aaos-policy-and-decision-template-pack/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "Coordinated templates for acceptable AI use, data and IP risk, decision rights, and evidence-based scaling.",
+      "audiences": [
+        "Governance leads",
+        "Legal and compliance teams"
+      ],
+      "benefits": [
+        "Define operating boundaries",
+        "Document decision authority",
+        "Link scaling to evidence"
+      ]
     },
     {
       "id": "paidar:offering:aaos-rollout-and-intervention-playbook",
-      "name": "Aaos Rollout And Intervention Playbook",
+      "name": "AAOS Rollout And Intervention Playbook",
       "url": "https://ai-augmented.ai/o/paidar/offering/aaos-rollout-and-intervention-playbook/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "An evidence-gated AAOS rollout guide combining phased planning, regulated-pilot checks, and team-maturity interventions.",
+      "audiences": [
+        "Implementation owners",
+        "Pilot teams"
+      ],
+      "benefits": [
+        "Sequence rollout work",
+        "Identify pilot safeguards",
+        "Adjust to team maturity"
+      ]
     },
     {
       "id": "paidar:offering:ai-augmented-professional-toolkit",
-      "name": "Ai Augmented Professional Toolkit",
+      "name": "AI Augmented Professional Toolkit",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-professional-toolkit/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A planned toolkit for professionals making AI-supported research, decision preparation, and recurring work more consistent.",
+      "audiences": [
+        "Professionals",
+        "Consultants"
+      ],
+      "benefits": [
+        "Structure repeatable AI work",
+        "Improve validation habits",
+        "Reuse effective work patterns"
+      ]
     },
     {
       "id": "paidar:offering:ai-augmented-starter-kit",
-      "name": "Ai Augmented Starter Kit",
+      "name": "AI Augmented Starter Kit",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-starter-kit/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A guided first step into AI augmentation using a maturity check, the Integrity Packet, and a bounded workflow.",
+      "audiences": [
+        "Individual professionals",
+        "AI beginners"
+      ],
+      "benefits": [
+        "Establish a starting point",
+        "Practice evidence-based AI use",
+        "Choose a manageable first workflow"
+      ]
     },
     {
       "id": "paidar:offering:ai-execution-starter-toolkit",
-      "name": "Ai Execution Starter Toolkit",
+      "name": "AI Execution Starter Toolkit",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-execution-starter-toolkit/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A planned starter toolkit for framing individual AI-supported tasks with defined outcomes, checks, and next actions.",
+      "audiences": [
+        "Knowledge workers",
+        "Independent professionals"
+      ],
+      "benefits": [
+        "Define bounded tasks",
+        "Separate drafting from approval",
+        "Review execution results"
+      ]
     },
     {
       "id": "paidar:offering:ai-workflow-builder-kit",
-      "name": "Ai Workflow Builder Kit",
+      "name": "AI Workflow Builder Kit",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-workflow-builder-kit/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A planned toolkit for mapping AI-supported workflows with clear steps, sources, responsibilities, and control points.",
+      "audiences": [
+        "Workflow designers",
+        "Professionals"
+      ],
+      "benefits": [
+        "Describe work before automating",
+        "Locate useful AI roles",
+        "Add evidence checkpoints"
+      ]
     },
     {
       "id": "paidar:offering:avhs-field-report-case-packet",
-      "name": "Avhs Field Report Case Packet",
+      "name": "AVHS Field Report Case Packet",
       "url": "https://ai-augmented.ai/o/paidar/offering/avhs-field-report-case-packet/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "Nine applied AAOS cases with discussion questions, facilitation guidance, and a shared assessment rubric.",
+      "audiences": [
+        "AAOS practitioners",
+        "Instructors",
+        "Transformation leaders"
+      ],
+      "benefits": [
+        "Explore realistic AAOS decisions",
+        "Compare cases systematically",
+        "Support evidence-led discussion"
+      ]
     },
     {
       "id": "paidar:offering:becoming-ai-augmented-book-reader-upgrade-pack",
-      "name": "Becoming Ai Augmented Book Reader Upgrade Pack",
+      "name": "Becoming AI Augmented Book Reader Upgrade Pack",
       "url": "https://ai-augmented.ai/o/paidar/offering/becoming-ai-augmented-book-reader-upgrade-pack/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A planned companion pack connecting Becoming AI-Augmented book concepts to practical activities.",
+      "audiences": [
+        "Book readers",
+        "Professionals"
+      ],
+      "benefits": [
+        "Apply concepts beyond the book",
+        "Organize exercises",
+        "Build continuity with workplace practice"
+      ]
     },
     {
       "id": "paidar:offering:classroom-starter",
       "name": "Classroom Starter",
       "url": "https://ai-augmented.ai/o/paidar/offering/classroom-starter/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A planned educator toolkit for experimenting with AI-augmented teaching while keeping learning outcomes and oversight central.",
+      "audiences": [
+        "Educators",
+        "Instructional leaders"
+      ],
+      "benefits": [
+        "Explore teaching applications",
+        "Keep learning evidence visible",
+        "Plan responsible classroom trials"
+      ]
     },
     {
       "id": "paidar:offering:enterprise-ai-dashboard-observability-guide",
-      "name": "Enterprise Ai Dashboard Observability Guide",
+      "name": "Enterprise AI Dashboard Observability Guide",
       "url": "https://ai-augmented.ai/o/paidar/offering/enterprise-ai-dashboard-observability-guide/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A guide to AI operating dashboards with an eight-indicator metric dictionary, five-layer design, and executive review record.",
+      "audiences": [
+        "Executives",
+        "Dashboard builders"
+      ],
+      "benefits": [
+        "Choose consistent indicators",
+        "Interpret operational signals",
+        "Record executive follow-up"
+      ]
     },
     {
       "id": "paidar:offering:enterprise-neutral-aaos-pack",
-      "name": "Enterprise Neutral Aaos Pack",
+      "name": "Enterprise Neutral AAOS Pack",
       "url": "https://ai-augmented.ai/o/paidar/offering/enterprise-neutral-aaos-pack/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "An industry-neutral AAOS implementation pack intended for adaptation across enterprise functions.",
+      "audiences": [
+        "Enterprise leaders",
+        "AAOS practitioners"
+      ],
+      "benefits": [
+        "Use a common operating vocabulary",
+        "Adapt practices across functions",
+        "Identify needed local controls"
+      ]
     },
     {
       "id": "paidar:offering:execution-assurance-record",
       "name": "Execution Assurance Record",
       "url": "https://ai-augmented.ai/o/paidar/offering/execution-assurance-record/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A before-and-after record of redesigned workflows, control checks, exceptions, and downstream repairs.",
+      "audiences": [
+        "Workflow owners",
+        "Assurance teams"
+      ],
+      "benefits": [
+        "Compare process evidence",
+        "Capture exceptions",
+        "Support go-forward decisions"
+      ]
     },
     {
       "id": "paidar:offering:executive-operating-standard",
       "name": "Executive Operating Standard",
       "url": "https://ai-augmented.ai/o/paidar/offering/executive-operating-standard/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A recurring executive review structure for operating evidence, ownership, funding, exceptions, and scale decisions.",
+      "audiences": [
+        "Executives",
+        "Portfolio leaders"
+      ],
+      "benefits": [
+        "Standardize review cadence",
+        "Clarify decision ownership",
+        "Connect investment to evidence"
+      ]
     },
     {
       "id": "paidar:offering:free-starter-kit",
       "name": "Free Starter Kit",
       "url": "https://ai-augmented.ai/o/paidar/offering/free-starter-kit/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "An introductory team resource for establishing shared expectations around AI-supported work.",
+      "audiences": [
+        "Team managers",
+        "Project teams"
+      ],
+      "benefits": [
+        "Start a common discussion",
+        "Choose a shared workflow",
+        "Set basic review expectations"
+      ]
     },
     {
       "id": "paidar:offering:governance-review-packet",
       "name": "Governance Review Packet",
       "url": "https://ai-augmented.ai/o/paidar/offering/governance-review-packet/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A decision-ready record combining workflow evidence, control condition, unresolved issues, and proposed scope.",
+      "audiences": [
+        "Governance boards",
+        "Executive reviewers"
+      ],
+      "benefits": [
+        "Present decision evidence",
+        "Expose control gaps",
+        "Record proceed or pause decisions"
+      ]
     },
     {
       "id": "paidar:offering:healthcare-aaos-pack",
-      "name": "Healthcare Aaos Pack",
+      "name": "Healthcare AAOS Pack",
       "url": "https://ai-augmented.ai/o/paidar/offering/healthcare-aaos-pack/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A proposed healthcare adaptation of AAOS that will require sector-specific control and regulatory review before release.",
+      "audiences": [
+        "Healthcare technology leaders",
+        "Clinical operations leaders"
+      ],
+      "benefits": [
+        "Frame healthcare governance questions",
+        "Identify specialist review requirements",
+        "Shape future implementation scope"
+      ]
     },
     {
       "id": "paidar:offering:integrity-validation-boundary-guide",
       "name": "Integrity Validation Boundary Guide",
       "url": "https://ai-augmented.ai/o/paidar/offering/integrity-validation-boundary-guide/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "Eight governance templates connecting operating intent, work classification, evidence, validation, delegation, and scale.",
+      "audiences": [
+        "Governance teams",
+        "Control-stage owners"
+      ],
+      "benefits": [
+        "Translate principles into records",
+        "Match validation to risk",
+        "Document boundaries and approvals"
+      ]
     },
     {
       "id": "paidar:offering:launch-system",
       "name": "Launch System",
       "url": "https://ai-augmented.ai/o/paidar/offering/launch-system/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A planned 90-day system for aligning teams, improving workflows, and reviewing initial AI-augmentation results.",
+      "audiences": [
+        "Team leaders",
+        "Transformation facilitators"
+      ],
+      "benefits": [
+        "Sequence team changes",
+        "Connect practices with evidence",
+        "Review measurable progress"
+      ]
     },
     {
       "id": "paidar:offering:operating-intent-template",
       "name": "Operating Intent Template",
       "url": "https://ai-augmented.ai/o/paidar/offering/operating-intent-template/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A concise format connecting mission and outcomes to authorized AI use, boundaries, measures, and ownership.",
+      "audiences": [
+        "Workflow sponsors",
+        "Governance teams"
+      ],
+      "benefits": [
+        "Clarify purpose and authority",
+        "Set operating boundaries",
+        "Guide subsequent workflow design"
+      ]
     },
     {
       "id": "paidar:offering:prompt-practice-pack",
       "name": "Prompt Practice Pack",
       "url": "https://ai-augmented.ai/o/paidar/offering/prompt-practice-pack/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "Planned exercises for framing clearer AI requests and improving source checking and review habits.",
+      "audiences": [
+        "AI users",
+        "Knowledge workers"
+      ],
+      "benefits": [
+        "Practice task framing",
+        "Check outputs against evidence",
+        "Improve repeatability"
+      ]
     },
     {
       "id": "paidar:offering:quickstart-7-day",
       "name": "Quickstart 7 Day",
       "url": "https://ai-augmented.ai/o/paidar/offering/quickstart-7-day/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A planned seven-day introduction to coordinated AI practices for teams.",
+      "audiences": [
+        "Team managers",
+        "Project teams"
+      ],
+      "benefits": [
+        "Choose a small workflow",
+        "Set working agreements",
+        "Review lessons after one week"
+      ]
     },
     {
       "id": "paidar:offering:thirty-sixty-ninety-plan",
       "name": "Thirty Sixty Ninety Plan",
       "url": "https://ai-augmented.ai/o/paidar/offering/thirty-sixty-ninety-plan/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A phased AAOS action-plan template from diagnosis through controlled application, measurement, and review.",
+      "audiences": [
+        "Program owners",
+        "Transformation leaders"
+      ],
+      "benefits": [
+        "Sequence practical priorities",
+        "Assign checkpoints",
+        "Track progress and risk"
+      ]
     },
     {
       "id": "paidar:offering:validation-and-grounding-kit",
       "name": "Validation And Grounding Kit",
       "url": "https://ai-augmented.ai/o/paidar/offering/validation-and-grounding-kit/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A planned kit for assessing AI-generated claims against reliable sources, constraints, and review criteria.",
+      "audiences": [
+        "Analysts",
+        "Researchers",
+        "Creators"
+      ],
+      "benefits": [
+        "Ground outputs in sources",
+        "Document uncertainty",
+        "Repeat validation checks"
+      ]
     },
     {
       "id": "paidar:offering:work-classification-consequence-worksheet",
       "name": "Work Classification Consequence Worksheet",
       "url": "https://ai-augmented.ai/o/paidar/offering/work-classification-consequence-worksheet/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A worksheet for matching AI use, review depth, and authority to the consequences of a workflow.",
+      "audiences": [
+        "Workflow owners",
+        "Governance teams"
+      ],
+      "benefits": [
+        "Classify consequence levels",
+        "Choose proportionate controls",
+        "Identify approval requirements"
+      ]
     },
     {
       "id": "paidar:offering:workflow-evidence-packet",
       "name": "Workflow Evidence Packet",
       "url": "https://ai-augmented.ai/o/paidar/offering/workflow-evidence-packet/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A repeatable record linking workflow outcome, execution evidence, validation, handoff, and reassessment.",
+      "audiences": [
+        "Operations managers",
+        "Workflow owners"
+      ],
+      "benefits": [
+        "Make evidence transferable",
+        "Record review decisions",
+        "Enable reassessment"
+      ]
     },
     {
       "id": "paidar:offering:aaos-practitioner-workbook",
-      "name": "Aaos Practitioner Workbook",
+      "name": "AAOS Practitioner Workbook",
       "url": "https://ai-augmented.ai/o/paidar/offering/aaos-practitioner-workbook/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "Editable worksheets, registers, and facilitation aids for applying all six AAOS stages to real work.",
+      "audiences": [
+        "AAOS practitioners",
+        "Workflow owners"
+      ],
+      "benefits": [
+        "Apply six-stage concepts",
+        "Capture implementation decisions",
+        "Support structured reviews"
+      ]
     },
     {
       "id": "paidar:offering:becoming-ai-augmented-workbook",
-      "name": "Becoming Ai Augmented Workbook",
+      "name": "Becoming AI Augmented Workbook",
       "url": "https://ai-augmented.ai/o/paidar/offering/becoming-ai-augmented-workbook/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A planned practical workbook for readers who want to apply Becoming AI-Augmented to their work habits.",
+      "audiences": [
+        "Readers",
+        "Working professionals"
+      ],
+      "benefits": [
+        "Reflect on current practices",
+        "Complete structured exercises",
+        "Track personal improvements"
+      ]
     },
     {
       "id": "paidar:offering:right-model-right-place-right-cost-workbook",
       "name": "Right Model Right Place Right Cost Workbook",
       "url": "https://ai-augmented.ai/o/paidar/offering/right-model-right-place-right-cost-workbook/",
       "status": "approved",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A practical workbook for matching AI model choice, deployment location, governance, and economics to a workload.",
+      "audiences": [
+        "Enterprise architects",
+        "AI technology leaders"
+      ],
+      "benefits": [
+        "Compare placement options",
+        "Assess controls and cost tradeoffs",
+        "Focus decisions on outcomes"
+      ]
     },
     {
       "id": "paidar:offering:ai-augmented-education-leaders",
-      "name": "Ai Augmented Education Leaders",
+      "name": "AI Augmented Education Leaders",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-education-leaders/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A workshop helping education leaders coordinate institutional AI practice beyond isolated pilots.",
+      "audiences": [
+        "Academic leaders",
+        "Education administrators"
+      ],
+      "benefits": [
+        "Align AI with educational goals",
+        "Identify governance gaps",
+        "Prioritize institutional next steps"
+      ]
     },
     {
       "id": "paidar:offering:ai-augmented-leadership",
-      "name": "Ai Augmented Leadership",
+      "name": "AI Augmented Leadership",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-leadership/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A leadership workshop on responsible AI-driven organizational change and accountable decision-making.",
+      "audiences": [
+        "Executives",
+        "Senior managers"
+      ],
+      "benefits": [
+        "Define leadership responsibilities",
+        "Identify adoption risks",
+        "Plan credible change actions"
+      ]
     },
     {
       "id": "paidar:offering:ai-augmented-operating-model",
-      "name": "Ai Augmented Operating Model",
+      "name": "AI Augmented Operating Model",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-operating-model/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A workshop designing how people, technology, processes, governance, evidence, and investment operate together.",
+      "audiences": [
+        "Senior leaders",
+        "CIOs",
+        "Operations leaders"
+      ],
+      "benefits": [
+        "Connect AI to the operating model",
+        "Clarify decision rights",
+        "Identify scale prerequisites"
+      ]
     },
     {
       "id": "paidar:offering:ai-augmented-organization-intensive",
-      "name": "Ai Augmented Organization Intensive",
+      "name": "AI Augmented Organization Intensive",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-organization-intensive/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A two-day executive and tactical engagement prioritizing AI use cases, workflow designs, governance, pilots, and a 30/60/90-day plan.",
+      "audiences": [
+        "Executive teams",
+        "Cross-functional working groups"
+      ],
+      "benefits": [
+        "Align strategy and practice",
+        "Develop pilot candidates",
+        "Structure a near-term action plan"
+      ]
     },
     {
       "id": "paidar:offering:ai-augmented-organizations-cio",
-      "name": "Ai Augmented Organizations Cio",
+      "name": "AI Augmented Organizations CIO",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-organizations-cio/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A vendor-neutral 90-minute AAOS workshop for CIO decisions about posture, controls, capability, measurement, and scale.",
+      "audiences": [
+        "CIOs",
+        "Technology executives"
+      ],
+      "benefits": [
+        "Assess operating posture",
+        "Compare governance needs",
+        "Identify next CIO decisions"
+      ]
     },
     {
       "id": "paidar:offering:ai-augmented-organizations",
-      "name": "Ai Augmented Organizations",
+      "name": "AI Augmented Organizations",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-organizations/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A one-day workshop for assessing organizational AI maturity, aligning leadership, and prioritizing scalable operating changes.",
+      "audiences": [
+        "Executives",
+        "Transformation leaders"
+      ],
+      "benefits": [
+        "Establish shared readiness view",
+        "Prioritize AI opportunities",
+        "Outline governance conditions"
+      ]
     },
     {
       "id": "paidar:offering:ai-augmented-teams",
-      "name": "Ai Augmented Teams",
+      "name": "AI Augmented Teams",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-teams/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A workshop for defining team AI practices, handoffs, responsibilities, review standards, and measurable results.",
+      "audiences": [
+        "Team leaders",
+        "Knowledge-work teams"
+      ],
+      "benefits": [
+        "Align working agreements",
+        "Clarify review roles",
+        "Measure team improvements"
+      ]
     },
     {
       "id": "paidar:offering:ai-augmented-workflows",
-      "name": "Ai Augmented Workflows",
+      "name": "AI Augmented Workflows",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-workflows/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A hands-on workshop redesigning real work around professional expertise, AI assistance, controls, evidence, and outcomes.",
+      "audiences": [
+        "Process owners",
+        "Operations teams"
+      ],
+      "benefits": [
+        "Map workflow friction",
+        "Design AI roles and checks",
+        "Plan measurable changes"
+      ]
     },
     {
       "id": "paidar:offering:ai-governance-for-leaders",
-      "name": "Ai Governance For Leaders",
+      "name": "AI Governance For Leaders",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-governance-for-leaders/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A leadership workshop translating AI governance into proportionate guardrails, accountability, and validation practices.",
+      "audiences": [
+        "Executives",
+        "Policy leaders"
+      ],
+      "benefits": [
+        "Clarify approval authority",
+        "Match controls to risk",
+        "Support responsible innovation"
+      ]
     },
     {
       "id": "paidar:offering:ai-opportunity-prioritization",
-      "name": "Ai Opportunity Prioritization",
+      "name": "AI Opportunity Prioritization",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-opportunity-prioritization/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A facilitated workshop ranking AI opportunities by mission value, feasibility, workforce impact, risk, and readiness.",
+      "audiences": [
+        "Portfolio leaders",
+        "Innovation teams"
+      ],
+      "benefits": [
+        "Compare opportunities fairly",
+        "Surface risk constraints",
+        "Prioritize a defensible shortlist"
+      ]
     },
     {
       "id": "paidar:offering:becoming-ai-augmented-integrity-packet",
-      "name": "Becoming Ai Augmented Integrity Packet",
+      "name": "Becoming AI Augmented Integrity Packet",
       "url": "https://ai-augmented.ai/o/paidar/offering/becoming-ai-augmented-integrity-packet/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A focused session using Integrity Packets to make AI-assisted results more accurate, transparent, and reviewable.",
+      "audiences": [
+        "Faculty",
+        "Academic administrators"
+      ],
+      "benefits": [
+        "Structure AI work",
+        "Make evidence visible",
+        "Improve accountability and handoffs"
+      ]
     },
     {
       "id": "paidar:offering:becoming-ai-augmented",
-      "name": "Becoming Ai Augmented",
+      "name": "Becoming AI Augmented",
       "url": "https://ai-augmented.ai/o/paidar/offering/becoming-ai-augmented/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "An introductory workshop on AI augmentation, current posture, and practical opportunities to improve work responsibly.",
+      "audiences": [
+        "Professionals",
+        "Managers"
+      ],
+      "benefits": [
+        "Understand augmentation",
+        "Evaluate current habits",
+        "Select a first improvement"
+      ]
     },
     {
       "id": "paidar:offering:ai-governance-validation",
-      "name": "Ai Governance Validation",
+      "name": "AI Governance Validation",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-governance-validation/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A workshop introducing AI validation practices, decision boundaries, source checking, and review accountability.",
+      "audiences": [
+        "Governance leaders",
+        "Risk teams"
+      ],
+      "benefits": [
+        "Define validation criteria",
+        "Clarify approval roles",
+        "Identify pilot controls"
+      ]
     },
     {
       "id": "paidar:offering:ai-workflow-engineering",
-      "name": "Ai Workflow Engineering",
+      "name": "AI Workflow Engineering",
       "url": "https://ai-augmented.ai/o/paidar/offering/ai-workflow-engineering/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A practical workshop for designing AI-enabled processes with explicit inputs, controls, evidence, and performance measures.",
+      "audiences": [
+        "Workflow designers",
+        "Operations teams"
+      ],
+      "benefits": [
+        "Break work into steps",
+        "Define AI boundaries",
+        "Integrate reviews and metrics"
+      ]
     },
     {
       "id": "paidar:offering:enterprise-transformation-package",
       "name": "Enterprise Transformation Package",
       "url": "https://ai-augmented.ai/o/paidar/offering/enterprise-transformation-package/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "An enterprise-level AAOS engagement concept connecting leadership, governance, operational changes, and phased implementation.",
+      "audiences": [
+        "Enterprise executives",
+        "Transformation sponsors"
+      ],
+      "benefits": [
+        "Align enterprise priorities",
+        "Address governance and capabilities",
+        "Plan stages of adoption"
+      ]
     },
     {
       "id": "paidar:offering:starter-package",
       "name": "Starter Package",
       "url": "https://ai-augmented.ai/o/paidar/offering/starter-package/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "An introductory AAOS engagement for framing readiness, identifying opportunities, and selecting a starting point.",
+      "audiences": [
+        "Executive sponsors",
+        "Transformation teams"
+      ],
+      "benefits": [
+        "Start within a bounded scope",
+        "Clarify initial risks",
+        "Prepare follow-on decisions"
+      ]
     },
     {
       "id": "paidar:offering:team-transformation-package",
       "name": "Team Transformation Package",
       "url": "https://ai-augmented.ai/o/paidar/offering/team-transformation-package/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "An AAOS engagement concept aligning teams and leadership around shared workflows, controls, and improvement.",
+      "audiences": [
+        "Department leaders",
+        "Teams"
+      ],
+      "benefits": [
+        "Align priorities",
+        "Agree on workflow standards",
+        "Identify coordination improvements"
+      ]
     },
     {
       "id": "paidar:offering:education:integrity-packet",
       "name": "Education Integrity Packet",
       "url": "https://ai-augmented.ai/o/paidar/offering/education/integrity-packet/",
       "status": "development",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "An education-specific Integrity Packet for documenting AI-assisted academic and institutional work.",
+      "audiences": [
+        "Educators",
+        "Academic administrators"
+      ],
+      "benefits": [
+        "Capture academic work evidence",
+        "Clarify responsibility and validation",
+        "Support defensible decisions"
+      ]
     },
     {
       "id": "paidar:offering:legal-ai-ethics-cle",
-      "name": "Legal Ai Ethics Cle",
+      "name": "Legal AI Ethics CLE",
       "url": "https://ai-augmented.ai/o/paidar/offering/legal-ai-ethics-cle/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A continuing legal education offering exploring professional duties and governance questions arising from AI-assisted legal work.",
+      "audiences": [
+        "Attorneys",
+        "Legal educators"
+      ],
+      "benefits": [
+        "Examine professional responsibility issues",
+        "Discuss confidentiality and validation",
+        "Identify practice safeguards"
+      ]
     },
     {
       "id": "paidar:offering:legal-court-clerk-workshop",
       "name": "Legal Court Clerk Workshop",
       "url": "https://ai-augmented.ai/o/paidar/offering/legal-court-clerk-workshop/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A workshop exploring AI use in court administration with attention to record quality, confidentiality, and public trust.",
+      "audiences": [
+        "Court clerks",
+        "Court administrators"
+      ],
+      "benefits": [
+        "Identify administrative use cases",
+        "Define information boundaries",
+        "Plan accountable review"
+      ]
     },
     {
       "id": "paidar:offering:legal-solo-practitioner-workshop",
       "name": "Legal Solo Practitioner Workshop",
       "url": "https://ai-augmented.ai/o/paidar/offering/legal-solo-practitioner-workshop/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A workshop for solo attorneys evaluating AI assistance while preserving independent judgment and professional responsibilities.",
+      "audiences": [
+        "Solo attorneys",
+        "Small-firm lawyers"
+      ],
+      "benefits": [
+        "Identify practical AI tasks",
+        "Consider client confidentiality",
+        "Set review rules"
+      ]
     },
     {
       "id": "paidar:offering:legal-court-ai-governance",
-      "name": "Legal Court Ai Governance",
+      "name": "Legal Court AI Governance",
       "url": "https://ai-augmented.ai/o/paidar/offering/legal-court-ai-governance/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A court AI governance package concept for defining authorized uses, decision rights, review, and control boundaries.",
+      "audiences": [
+        "Court administrators",
+        "Judicial technology leaders"
+      ],
+      "benefits": [
+        "Clarify authority",
+        "Identify workflow safeguards",
+        "Prepare institutional governance decisions"
+      ]
     },
     {
       "id": "paidar:offering:legal-solo-ai-governance",
-      "name": "Legal Solo Ai Governance",
+      "name": "Legal Solo AI Governance",
       "url": "https://ai-augmented.ai/o/paidar/offering/legal-solo-ai-governance/",
       "status": "active",
-      "availability": "unverified-or-unavailable"
+      "availability": "unverified-or-unavailable",
+      "summary": "A governance package concept for solo practices addressing confidentiality, validation, responsibility, and repeatable AI controls.",
+      "audiences": [
+        "Solo attorneys",
+        "Independent law practices"
+      ],
+      "benefits": [
+        "Plan proportionate safeguards",
+        "Record client-data boundaries",
+        "Maintain defensible workflows"
+      ]
     }
   ]
 }
