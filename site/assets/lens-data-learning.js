@@ -85,7 +85,7 @@ window.AA_LENS_DATA = {
                 "provider": "shopify",
                 "url": null
               },
-              "status": "Coming soon",
+              "status": "Available",
               "offeringId": "paidar:offering:integrity-packet",
               "offeringType": "bundle",
               "domains": [
@@ -563,7 +563,7 @@ window.AA_LENS_DATA = {
                 "provider": "shopify",
                 "url": null
               },
-              "status": "Coming soon",
+              "status": "Available",
               "offeringId": "paidar:offering:integrity-packet",
               "offeringType": "bundle",
               "domains": [
@@ -1030,7 +1030,7 @@ window.AA_LENS_DATA = {
                 "provider": "shopify",
                 "url": null
               },
-              "status": "Coming soon",
+              "status": "Available",
               "offeringId": "paidar:offering:integrity-packet",
               "offeringType": "bundle",
               "domains": [
@@ -1502,7 +1502,7 @@ window.AA_LENS_DATA = {
                 "provider": "shopify",
                 "url": null
               },
-              "status": "Coming soon",
+              "status": "Available",
               "offeringId": "paidar:offering:integrity-packet",
               "offeringType": "bundle",
               "domains": [
@@ -1963,7 +1963,7 @@ window.AA_LENS_DATA = {
                 "provider": "shopify",
                 "url": null
               },
-              "status": "Coming soon",
+              "status": "Available",
               "offeringId": "paidar:offering:integrity-packet",
               "offeringType": "bundle",
               "domains": [
@@ -2424,7 +2424,7 @@ window.AA_LENS_DATA = {
                 "provider": "shopify",
                 "url": null
               },
-              "status": "Coming soon",
+              "status": "Available",
               "offeringId": "paidar:offering:integrity-packet",
               "offeringType": "bundle",
               "domains": [
