@@ -75,6 +75,50 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Integrity Packet",
+              "title": "Integrity Packet",
+              "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+              "href": "https://ai-augmented.ai/o/paidar/offering/integrity-packet/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Coming soon",
+              "offeringId": "paidar:offering:integrity-packet",
+              "offeringType": "bundle",
+              "domains": [
+                "business",
+                "ai-augmented-organizations"
+              ],
+              "lenses": [
+                "individual",
+                "organization"
+              ],
+              "audiences": [
+                "individual professionals",
+                "team leaders",
+                "governance leaders",
+                "AI-Augmented practitioners"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "paidar:asset:integrity-packet",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                }
+              ],
+              "stage": "Aware"
+            },
+            {
               "label": "AI-Augmented Organization Intensive",
               "title": "AI-Augmented Organization Intensive",
               "description": "A two-day engagement combining executive alignment with tactical application to produce prioritized use cases, AI-Augmented workflows, governance requirements, pilot candidates, measures, and a 30/60/90-day action plan.",
@@ -509,6 +553,50 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Integrity Packet",
+              "title": "Integrity Packet",
+              "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+              "href": "https://ai-augmented.ai/o/paidar/offering/integrity-packet/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Coming soon",
+              "offeringId": "paidar:offering:integrity-packet",
+              "offeringType": "bundle",
+              "domains": [
+                "business",
+                "ai-augmented-organizations"
+              ],
+              "lenses": [
+                "individual",
+                "organization"
+              ],
+              "audiences": [
+                "individual professionals",
+                "team leaders",
+                "governance leaders",
+                "AI-Augmented practitioners"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "paidar:asset:integrity-packet",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                }
+              ],
+              "stage": "Exploring"
+            },
+            {
               "label": "AI-Augmented Organization Intensive",
               "title": "AI-Augmented Organization Intensive",
               "description": "A two-day engagement combining executive alignment with tactical application to produce prioritized use cases, AI-Augmented workflows, governance requirements, pilot candidates, measures, and a 30/60/90-day action plan.",
@@ -931,6 +1019,50 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "Integrity Packet",
+              "title": "Integrity Packet",
+              "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+              "href": "https://ai-augmented.ai/o/paidar/offering/integrity-packet/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Coming soon",
+              "offeringId": "paidar:offering:integrity-packet",
+              "offeringType": "bundle",
+              "domains": [
+                "business",
+                "ai-augmented-organizations"
+              ],
+              "lenses": [
+                "individual",
+                "organization"
+              ],
+              "audiences": [
+                "individual professionals",
+                "team leaders",
+                "governance leaders",
+                "AI-Augmented practitioners"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "paidar:asset:integrity-packet",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                }
+              ],
+              "stage": "Experimenting"
+            },
             {
               "label": "AI-Augmented Organization Intensive",
               "title": "AI-Augmented Organization Intensive",
@@ -1360,6 +1492,50 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Integrity Packet",
+              "title": "Integrity Packet",
+              "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+              "href": "https://ai-augmented.ai/o/paidar/offering/integrity-packet/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Coming soon",
+              "offeringId": "paidar:offering:integrity-packet",
+              "offeringType": "bundle",
+              "domains": [
+                "business",
+                "ai-augmented-organizations"
+              ],
+              "lenses": [
+                "individual",
+                "organization"
+              ],
+              "audiences": [
+                "individual professionals",
+                "team leaders",
+                "governance leaders",
+                "AI-Augmented practitioners"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "paidar:asset:integrity-packet",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                }
+              ],
+              "stage": "Integrating"
+            },
+            {
               "label": "AI-Augmented Organization Intensive",
               "title": "AI-Augmented Organization Intensive",
               "description": "A two-day engagement combining executive alignment with tactical application to produce prioritized use cases, AI-Augmented workflows, governance requirements, pilot candidates, measures, and a 30/60/90-day action plan.",
@@ -1777,6 +1953,50 @@ window.AA_LENS_DATA = {
         "resources": {
           "available": [
             {
+              "label": "Integrity Packet",
+              "title": "Integrity Packet",
+              "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+              "href": "https://ai-augmented.ai/o/paidar/offering/integrity-packet/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Coming soon",
+              "offeringId": "paidar:offering:integrity-packet",
+              "offeringType": "bundle",
+              "domains": [
+                "business",
+                "ai-augmented-organizations"
+              ],
+              "lenses": [
+                "individual",
+                "organization"
+              ],
+              "audiences": [
+                "individual professionals",
+                "team leaders",
+                "governance leaders",
+                "AI-Augmented practitioners"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "paidar:asset:integrity-packet",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                }
+              ],
+              "stage": "Leading"
+            },
+            {
               "label": "AI-Augmented Organization Intensive",
               "title": "AI-Augmented Organization Intensive",
               "description": "A two-day engagement combining executive alignment with tactical application to produce prioritized use cases, AI-Augmented workflows, governance requirements, pilot candidates, measures, and a 30/60/90-day action plan.",
@@ -2193,6 +2413,50 @@ window.AA_LENS_DATA = {
         ],
         "resources": {
           "available": [
+            {
+              "label": "Integrity Packet",
+              "title": "Integrity Packet",
+              "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+              "href": "https://ai-augmented.ai/o/paidar/offering/integrity-packet/",
+              "action": {
+                "type": "purchase",
+                "label": "Choose a Stage",
+                "provider": "shopify",
+                "url": null
+              },
+              "status": "Coming soon",
+              "offeringId": "paidar:offering:integrity-packet",
+              "offeringType": "bundle",
+              "domains": [
+                "business",
+                "ai-augmented-organizations"
+              ],
+              "lenses": [
+                "individual",
+                "organization"
+              ],
+              "audiences": [
+                "individual professionals",
+                "team leaders",
+                "governance leaders",
+                "AI-Augmented practitioners"
+              ],
+              "verticals": [],
+              "components": [
+                {
+                  "id": "paidar:asset:integrity-packet",
+                  "version": "1.0.0",
+                  "stages": [
+                    "learn",
+                    "apply",
+                    "augment"
+                  ],
+                  "role": "core",
+                  "required": true
+                }
+              ],
+              "stage": "Augmenting"
+            },
             {
               "label": "AI-Augmented Organization Intensive",
               "title": "AI-Augmented Organization Intensive",

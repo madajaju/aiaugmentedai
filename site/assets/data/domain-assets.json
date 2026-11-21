@@ -3,6 +3,12 @@
     "individual": {
       "learn": [
         {
+          "title": "Integrity Packet",
+          "url": "https://ai-augmented.ai/o/paidar/offering/integrity-packet/",
+          "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+          "offeringId": "paidar:offering:integrity-packet"
+        },
+        {
           "title": "AI-Augmented Organization Intensive",
           "url": "https://paidar.ai/resources/business/individual/ai-augmented-organization-intensive/",
           "description": "A two-day engagement combining executive alignment with tactical application to produce prioritized use cases, AI-Augmented workflows, governance requirements, pilot candidates, measures, and a 30/60/90-day action plan.",
@@ -83,6 +89,12 @@
       ],
       "apply": [
         {
+          "title": "Integrity Packet",
+          "url": "https://ai-augmented.ai/o/paidar/offering/integrity-packet/",
+          "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+          "offeringId": "paidar:offering:integrity-packet"
+        },
+        {
           "title": "AI-Augmented Organization Intensive",
           "url": "https://paidar.ai/resources/business/individual/ai-augmented-organization-intensive/",
           "description": "A two-day engagement combining executive alignment with tactical application to produce prioritized use cases, AI-Augmented workflows, governance requirements, pilot candidates, measures, and a 30/60/90-day action plan.",
@@ -162,6 +174,12 @@
         }
       ],
       "augment": [
+        {
+          "title": "Integrity Packet",
+          "url": "https://ai-augmented.ai/o/paidar/offering/integrity-packet/",
+          "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+          "offeringId": "paidar:offering:integrity-packet"
+        },
         {
           "title": "AI-Augmented Organization Intensive",
           "url": "https://paidar.ai/resources/business/individual/ai-augmented-organization-intensive/",
@@ -313,6 +331,12 @@
     "organization": {
       "learn": [
         {
+          "title": "Integrity Packet",
+          "url": "https://ai-augmented.ai/o/paidar/offering/integrity-packet/",
+          "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+          "offeringId": "paidar:offering:integrity-packet"
+        },
+        {
           "title": "AI-Augmented Organization Intensive",
           "url": "https://paidar.ai/resources/business/individual/ai-augmented-organization-intensive/",
           "description": "A two-day engagement combining executive alignment with tactical application to produce prioritized use cases, AI-Augmented workflows, governance requirements, pilot candidates, measures, and a 30/60/90-day action plan.",
@@ -345,6 +369,12 @@
       ],
       "apply": [
         {
+          "title": "Integrity Packet",
+          "url": "https://ai-augmented.ai/o/paidar/offering/integrity-packet/",
+          "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+          "offeringId": "paidar:offering:integrity-packet"
+        },
+        {
           "title": "AI-Augmented Organization Intensive",
           "url": "https://paidar.ai/resources/business/individual/ai-augmented-organization-intensive/",
           "description": "A two-day engagement combining executive alignment with tactical application to produce prioritized use cases, AI-Augmented workflows, governance requirements, pilot candidates, measures, and a 30/60/90-day action plan.",
@@ -376,6 +406,12 @@
         }
       ],
       "augment": [
+        {
+          "title": "Integrity Packet",
+          "url": "https://ai-augmented.ai/o/paidar/offering/integrity-packet/",
+          "description": "A six-part transfer artifact for making AI-assisted work understandable, reviewable, and safe to use: Outcome, Visible Assumptions, Evidence and Traceability, Validation, Ownership, and Risk.",
+          "offeringId": "paidar:offering:integrity-packet"
+        },
         {
           "title": "AI-Augmented Organization Intensive",
           "url": "https://paidar.ai/resources/business/individual/ai-augmented-organization-intensive/",
