@@ -27,6 +27,7 @@ jobs:
           node offering-source/scripts/generate-offering-public-pages.js "$GITHUB_WORKSPACE/site"
           node scripts/generate-sitemap.mjs
           node scripts/check-site.mjs
+          node scripts/check-offering-pages.mjs
       - name: Remove source checkout before committing
         run: rm -rf offering-source
       - name: Open review PR for public offering pages
