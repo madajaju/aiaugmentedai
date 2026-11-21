@@ -1,0 +1,467 @@
+{
+  "schemaVersion": "1.0.0",
+  "offerings": [
+    {
+      "id": "paidar:offering:aaos-assessment-suite",
+      "name": "Aaos Assessment Suite",
+      "url": "https://ai-augmented.ai/o/paidar/offering/aaos-assessment-suite/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:executive-ai-readiness-assessment",
+      "name": "Executive Ai Readiness Assessment",
+      "url": "https://ai-augmented.ai/o/paidar/offering/executive-ai-readiness-assessment/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:aaos-readiness-assessment",
+      "name": "Aaos Readiness Assessment",
+      "url": "https://ai-augmented.ai/o/paidar/offering/aaos-readiness-assessment/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:individual-ai-operating-system-bundle",
+      "name": "Individual Ai Operating System Bundle",
+      "url": "https://ai-augmented.ai/o/paidar/offering/individual-ai-operating-system-bundle/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:integrity-packet",
+      "name": "Integrity Packet",
+      "url": "https://ai-augmented.ai/o/paidar/offering/integrity-packet/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:aaos-keynote",
+      "name": "Aaos Keynote",
+      "url": "https://ai-augmented.ai/o/paidar/offering/aaos-keynote/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:becoming-ai-augmented-keynote",
+      "name": "Becoming Ai Augmented Keynote",
+      "url": "https://ai-augmented.ai/o/paidar/offering/becoming-ai-augmented-keynote/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:from-experiments-to-systems-keynote",
+      "name": "From Experiments To Systems Keynote",
+      "url": "https://ai-augmented.ai/o/paidar/offering/from-experiments-to-systems-keynote/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:becoming-ai-augmented-companion-hub-free",
+      "name": "Becoming Ai Augmented Companion Hub Free",
+      "url": "https://ai-augmented.ai/o/paidar/offering/becoming-ai-augmented-companion-hub-free/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:aaos-platform",
+      "name": "Aaos Platform",
+      "url": "https://ai-augmented.ai/o/paidar/offering/aaos-platform/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:advisory",
+      "name": "Advisory",
+      "url": "https://ai-augmented.ai/o/paidar/offering/advisory/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:enterprise-transformation",
+      "name": "Enterprise Transformation",
+      "url": "https://ai-augmented.ai/o/paidar/offering/enterprise-transformation/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:aaos-platform-software",
+      "name": "Aaos Platform Software",
+      "url": "https://ai-augmented.ai/o/paidar/offering/aaos-platform-software/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:aaos-capability-and-expert-extraction-toolkit",
+      "name": "Aaos Capability And Expert Extraction Toolkit",
+      "url": "https://ai-augmented.ai/o/paidar/offering/aaos-capability-and-expert-extraction-toolkit/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:aaos-enterprise-launch-kit",
+      "name": "Aaos Enterprise Launch Kit",
+      "url": "https://ai-augmented.ai/o/paidar/offering/aaos-enterprise-launch-kit/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:aaos-policy-and-decision-template-pack",
+      "name": "Aaos Policy And Decision Template Pack",
+      "url": "https://ai-augmented.ai/o/paidar/offering/aaos-policy-and-decision-template-pack/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:aaos-rollout-and-intervention-playbook",
+      "name": "Aaos Rollout And Intervention Playbook",
+      "url": "https://ai-augmented.ai/o/paidar/offering/aaos-rollout-and-intervention-playbook/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-augmented-professional-toolkit",
+      "name": "Ai Augmented Professional Toolkit",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-professional-toolkit/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-augmented-starter-kit",
+      "name": "Ai Augmented Starter Kit",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-starter-kit/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-execution-starter-toolkit",
+      "name": "Ai Execution Starter Toolkit",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-execution-starter-toolkit/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-workflow-builder-kit",
+      "name": "Ai Workflow Builder Kit",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-workflow-builder-kit/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:avhs-field-report-case-packet",
+      "name": "Avhs Field Report Case Packet",
+      "url": "https://ai-augmented.ai/o/paidar/offering/avhs-field-report-case-packet/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:becoming-ai-augmented-book-reader-upgrade-pack",
+      "name": "Becoming Ai Augmented Book Reader Upgrade Pack",
+      "url": "https://ai-augmented.ai/o/paidar/offering/becoming-ai-augmented-book-reader-upgrade-pack/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:classroom-starter",
+      "name": "Classroom Starter",
+      "url": "https://ai-augmented.ai/o/paidar/offering/classroom-starter/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:enterprise-ai-dashboard-observability-guide",
+      "name": "Enterprise Ai Dashboard Observability Guide",
+      "url": "https://ai-augmented.ai/o/paidar/offering/enterprise-ai-dashboard-observability-guide/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:enterprise-neutral-aaos-pack",
+      "name": "Enterprise Neutral Aaos Pack",
+      "url": "https://ai-augmented.ai/o/paidar/offering/enterprise-neutral-aaos-pack/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:execution-assurance-record",
+      "name": "Execution Assurance Record",
+      "url": "https://ai-augmented.ai/o/paidar/offering/execution-assurance-record/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:executive-operating-standard",
+      "name": "Executive Operating Standard",
+      "url": "https://ai-augmented.ai/o/paidar/offering/executive-operating-standard/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:free-starter-kit",
+      "name": "Free Starter Kit",
+      "url": "https://ai-augmented.ai/o/paidar/offering/free-starter-kit/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:governance-review-packet",
+      "name": "Governance Review Packet",
+      "url": "https://ai-augmented.ai/o/paidar/offering/governance-review-packet/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:healthcare-aaos-pack",
+      "name": "Healthcare Aaos Pack",
+      "url": "https://ai-augmented.ai/o/paidar/offering/healthcare-aaos-pack/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:integrity-validation-boundary-guide",
+      "name": "Integrity Validation Boundary Guide",
+      "url": "https://ai-augmented.ai/o/paidar/offering/integrity-validation-boundary-guide/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:launch-system",
+      "name": "Launch System",
+      "url": "https://ai-augmented.ai/o/paidar/offering/launch-system/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:operating-intent-template",
+      "name": "Operating Intent Template",
+      "url": "https://ai-augmented.ai/o/paidar/offering/operating-intent-template/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:prompt-practice-pack",
+      "name": "Prompt Practice Pack",
+      "url": "https://ai-augmented.ai/o/paidar/offering/prompt-practice-pack/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:quickstart-7-day",
+      "name": "Quickstart 7 Day",
+      "url": "https://ai-augmented.ai/o/paidar/offering/quickstart-7-day/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:thirty-sixty-ninety-plan",
+      "name": "Thirty Sixty Ninety Plan",
+      "url": "https://ai-augmented.ai/o/paidar/offering/thirty-sixty-ninety-plan/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:validation-and-grounding-kit",
+      "name": "Validation And Grounding Kit",
+      "url": "https://ai-augmented.ai/o/paidar/offering/validation-and-grounding-kit/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:work-classification-consequence-worksheet",
+      "name": "Work Classification Consequence Worksheet",
+      "url": "https://ai-augmented.ai/o/paidar/offering/work-classification-consequence-worksheet/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:workflow-evidence-packet",
+      "name": "Workflow Evidence Packet",
+      "url": "https://ai-augmented.ai/o/paidar/offering/workflow-evidence-packet/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:aaos-practitioner-workbook",
+      "name": "Aaos Practitioner Workbook",
+      "url": "https://ai-augmented.ai/o/paidar/offering/aaos-practitioner-workbook/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:becoming-ai-augmented-workbook",
+      "name": "Becoming Ai Augmented Workbook",
+      "url": "https://ai-augmented.ai/o/paidar/offering/becoming-ai-augmented-workbook/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:right-model-right-place-right-cost-workbook",
+      "name": "Right Model Right Place Right Cost Workbook",
+      "url": "https://ai-augmented.ai/o/paidar/offering/right-model-right-place-right-cost-workbook/",
+      "status": "approved",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-augmented-education-leaders",
+      "name": "Ai Augmented Education Leaders",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-education-leaders/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-augmented-leadership",
+      "name": "Ai Augmented Leadership",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-leadership/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-augmented-operating-model",
+      "name": "Ai Augmented Operating Model",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-operating-model/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-augmented-organization-intensive",
+      "name": "Ai Augmented Organization Intensive",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-organization-intensive/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-augmented-organizations-cio",
+      "name": "Ai Augmented Organizations Cio",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-organizations-cio/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-augmented-organizations",
+      "name": "Ai Augmented Organizations",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-organizations/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-augmented-teams",
+      "name": "Ai Augmented Teams",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-teams/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-augmented-workflows",
+      "name": "Ai Augmented Workflows",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-augmented-workflows/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-governance-for-leaders",
+      "name": "Ai Governance For Leaders",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-governance-for-leaders/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-opportunity-prioritization",
+      "name": "Ai Opportunity Prioritization",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-opportunity-prioritization/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:becoming-ai-augmented-integrity-packet",
+      "name": "Becoming Ai Augmented Integrity Packet",
+      "url": "https://ai-augmented.ai/o/paidar/offering/becoming-ai-augmented-integrity-packet/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:becoming-ai-augmented",
+      "name": "Becoming Ai Augmented",
+      "url": "https://ai-augmented.ai/o/paidar/offering/becoming-ai-augmented/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-governance-validation",
+      "name": "Ai Governance Validation",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-governance-validation/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:ai-workflow-engineering",
+      "name": "Ai Workflow Engineering",
+      "url": "https://ai-augmented.ai/o/paidar/offering/ai-workflow-engineering/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:enterprise-transformation-package",
+      "name": "Enterprise Transformation Package",
+      "url": "https://ai-augmented.ai/o/paidar/offering/enterprise-transformation-package/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:starter-package",
+      "name": "Starter Package",
+      "url": "https://ai-augmented.ai/o/paidar/offering/starter-package/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:team-transformation-package",
+      "name": "Team Transformation Package",
+      "url": "https://ai-augmented.ai/o/paidar/offering/team-transformation-package/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:education:integrity-packet",
+      "name": "Education Integrity Packet",
+      "url": "https://ai-augmented.ai/o/paidar/offering/education/integrity-packet/",
+      "status": "development",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:legal-ai-ethics-cle",
+      "name": "Legal Ai Ethics Cle",
+      "url": "https://ai-augmented.ai/o/paidar/offering/legal-ai-ethics-cle/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:legal-court-clerk-workshop",
+      "name": "Legal Court Clerk Workshop",
+      "url": "https://ai-augmented.ai/o/paidar/offering/legal-court-clerk-workshop/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:legal-solo-practitioner-workshop",
+      "name": "Legal Solo Practitioner Workshop",
+      "url": "https://ai-augmented.ai/o/paidar/offering/legal-solo-practitioner-workshop/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:legal-court-ai-governance",
+      "name": "Legal Court Ai Governance",
+      "url": "https://ai-augmented.ai/o/paidar/offering/legal-court-ai-governance/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    },
+    {
+      "id": "paidar:offering:legal-solo-ai-governance",
+      "name": "Legal Solo Ai Governance",
+      "url": "https://ai-augmented.ai/o/paidar/offering/legal-solo-ai-governance/",
+      "status": "active",
+      "availability": "unverified-or-unavailable"
+    }
+  ]
+}
